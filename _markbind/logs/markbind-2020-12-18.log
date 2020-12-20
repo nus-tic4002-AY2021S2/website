@@ -1,0 +1,195 @@
+2020-12-17T16:04:06.377Z - info: [12:04:06 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyAdminTopics.mbdf
+2020-12-17T16:04:07.405Z - info: Rebuilding 1 pages
+2020-12-17T16:04:08.810Z - info: Site data built
+2020-12-17T16:04:08.810Z - info: Pages rebuilt
+2020-12-17T16:04:08.810Z - info: Website regeneration complete! Total build time: 1.41s
+2020-12-17T16:04:13.825Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-w2 as some of its dependencies were changed since the last visit
+2020-12-17T16:04:14.138Z - info: Site data built
+2020-12-17T16:04:14.138Z - info: Lazy website regeneration complete! Total build time: 0.314s
+2020-12-17T16:06:04.029Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-w4 as some of its dependencies were changed since the last visit
+2020-12-17T16:06:04.867Z - info: Site data built
+2020-12-17T16:06:04.868Z - info: Lazy website regeneration complete! Total build time: 0.839s
+2020-12-17T16:06:48.505Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-w5 as some of its dependencies were changed since the last visit
+2020-12-17T16:06:50.343Z - info: Site data built
+2020-12-17T16:06:50.344Z - info: Lazy website regeneration complete! Total build time: 1.841s
+2020-12-17T16:08:01.308Z - info: [12:08:01 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-tasks.mbdf
+2020-12-17T16:08:02.315Z - info: Rebuilding 1 pages
+2020-12-17T16:08:04.129Z - info: Site data built
+2020-12-17T16:08:04.129Z - info: Pages rebuilt
+2020-12-17T16:08:04.129Z - info: Website regeneration complete! Total build time: 1.817s
+2020-12-17T16:09:15.027Z - info: [12:09:15 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\variables.md
+2020-12-17T16:09:16.054Z - info: Assets built
+2020-12-17T16:10:49.244Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-w6 as some of its dependencies were changed since the last visit
+2020-12-17T16:10:51.562Z - info: Site data built
+2020-12-17T16:10:51.564Z - info: Lazy website regeneration complete! Total build time: 2.32s
+2020-12-17T16:11:27.214Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-w7 as some of its dependencies were changed since the last visit
+2020-12-17T16:11:28.609Z - info: Site data built
+2020-12-17T16:11:28.609Z - info: Lazy website regeneration complete! Total build time: 1.397s
+2020-12-17T16:11:55.206Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-w8 as some of its dependencies were changed since the last visit
+2020-12-17T16:11:55.902Z - info: Site data built
+2020-12-17T16:11:55.902Z - info: Lazy website regeneration complete! Total build time: 0.697s
+2020-12-17T16:19:07.959Z - info: [12:19:07 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-tasks.mbdf
+2020-12-17T16:19:08.968Z - info: Rebuilding 1 pages
+2020-12-17T16:19:10.506Z - info: Site data built
+2020-12-17T16:19:10.507Z - info: Pages rebuilt
+2020-12-17T16:19:10.507Z - info: Website regeneration complete! Total build time: 1.542s
+2020-12-17T16:22:51.809Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-w9 as some of its dependencies were changed since the last visit
+2020-12-17T16:22:53.023Z - info: Site data built
+2020-12-17T16:22:53.023Z - info: Lazy website regeneration complete! Total build time: 1.214s
+2020-12-17T16:25:31.786Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-w10 as some of its dependencies were changed since the last visit
+2020-12-17T16:25:33.525Z - info: Site data built
+2020-12-17T16:25:33.526Z - info: Lazy website regeneration complete! Total build time: 1.741s
+2020-12-17T16:27:42.133Z - info: [12:27:42 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-tasks.mbdf
+2020-12-17T16:27:43.139Z - info: Rebuilding 1 pages
+2020-12-17T16:27:44.666Z - info: Site data built
+2020-12-17T16:27:44.666Z - info: Pages rebuilt
+2020-12-17T16:27:44.666Z - info: Website regeneration complete! Total build time: 1.528s
+2020-12-17T16:27:55.126Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-w11 as some of its dependencies were changed since the last visit
+2020-12-17T16:27:56.379Z - info: Site data built
+2020-12-17T16:27:56.379Z - info: Lazy website regeneration complete! Total build time: 1.254s
+2020-12-17T16:28:25.283Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-w12 as some of its dependencies were changed since the last visit
+2020-12-17T16:28:26.629Z - info: Site data built
+2020-12-17T16:28:26.629Z - info: Lazy website regeneration complete! Total build time: 1.346s
+2020-12-17T16:29:06.325Z - info: [12:29:06 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTpTasks.mbdf
+2020-12-17T16:29:07.336Z - info: Rebuilding 1 pages
+2020-12-17T16:29:08.207Z - info: Site data built
+2020-12-17T16:29:08.207Z - info: Pages rebuilt
+2020-12-17T16:29:08.207Z - info: Website regeneration complete! Total build time: 0.872s
+2020-12-17T16:33:18.259Z - info: [12:33:18 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-tasks.mbdf
+2020-12-17T16:33:18.285Z - info: [12:33:18 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTpTasks.mbdf
+2020-12-17T16:33:19.269Z - info: Rebuilding 1 pages
+2020-12-17T16:33:20.244Z - info: Site data built
+2020-12-17T16:33:20.245Z - info: Pages rebuilt
+2020-12-17T16:33:20.245Z - info: Website regeneration complete! Total build time: 0.98s
+2020-12-17T16:33:28.764Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-w13 as some of its dependencies were changed since the last visit
+2020-12-17T16:33:30.616Z - info: Site data built
+2020-12-17T16:33:30.617Z - info: Lazy website regeneration complete! Total build time: 1.854s
+2020-12-17T16:41:16.917Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-deliverables as some of its dependencies were changed since the last visit
+2020-12-17T16:41:17.805Z - info: Site data built
+2020-12-17T16:41:17.805Z - info: Lazy website regeneration complete! Total build time: 0.89s
+2020-12-17T16:59:15.079Z - info: [12:59:15 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-deliverables-dg.mbdf
+2020-12-17T16:59:15.106Z - info: [12:59:15 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-deliverables-website.mbdf
+2020-12-17T16:59:16.149Z - info: Rebuilding 1 pages
+2020-12-17T16:59:17.177Z - info: Site data built
+2020-12-17T16:59:17.178Z - info: Pages rebuilt
+2020-12-17T16:59:17.178Z - info: Website regeneration complete! Total build time: 1.059s
+2020-12-17T17:02:15.644Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe as some of its dependencies were changed since the last visit
+2020-12-17T17:02:17.473Z - info: Site data built
+2020-12-17T17:02:17.473Z - info: Lazy website regeneration complete! Total build time: 1.83s
+2020-12-17T17:02:26.138Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-grading as some of its dependencies were changed since the last visit
+2020-12-17T17:02:26.534Z - info: Site data built
+2020-12-17T17:02:26.534Z - info: Lazy website regeneration complete! Total build time: 0.397s
+2020-12-17T17:02:51.745Z - info: [1:02:51 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-grading.md
+2020-12-17T17:02:52.760Z - info: Rebuilding 1 pages
+2020-12-17T17:02:53.488Z - info: Site data built
+2020-12-17T17:02:53.488Z - info: Pages rebuilt
+2020-12-17T17:02:53.488Z - info: Website regeneration complete! Total build time: 0.73s
+2020-12-17T17:03:20.899Z - info: [1:03:20 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-grading.md
+2020-12-17T17:03:21.932Z - info: Rebuilding 1 pages
+2020-12-17T17:03:22.477Z - info: Site data built
+2020-12-17T17:03:22.477Z - info: Pages rebuilt
+2020-12-17T17:03:22.477Z - info: Website regeneration complete! Total build time: 0.548s
+2020-12-17T17:04:19.907Z - info: [1:04:19 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-grading.md
+2020-12-17T17:04:20.917Z - info: Rebuilding 1 pages
+2020-12-17T17:04:21.691Z - info: Site data built
+2020-12-17T17:04:21.691Z - info: Pages rebuilt
+2020-12-17T17:04:21.691Z - info: Website regeneration complete! Total build time: 0.775s
+2020-12-17T17:04:58.633Z - info: [1:04:58 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-grading.md
+2020-12-17T17:04:59.648Z - info: Rebuilding 1 pages
+2020-12-17T17:05:00.200Z - info: Site data built
+2020-12-17T17:05:00.200Z - info: Pages rebuilt
+2020-12-17T17:05:00.200Z - info: Website regeneration complete! Total build time: 0.555s
+2020-12-17T17:05:18.264Z - info: [1:05:18 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-grading.md
+2020-12-17T17:05:19.268Z - info: Rebuilding 1 pages
+2020-12-17T17:05:19.893Z - info: Site data built
+2020-12-17T17:05:19.893Z - info: Pages rebuilt
+2020-12-17T17:05:19.893Z - info: Website regeneration complete! Total build time: 0.628s
+2020-12-17T17:05:56.223Z - info: [1:05:56 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-grading.md
+2020-12-17T17:05:57.238Z - info: Rebuilding 1 pages
+2020-12-17T17:05:57.958Z - info: Site data built
+2020-12-17T17:05:57.959Z - info: Pages rebuilt
+2020-12-17T17:05:57.959Z - info: Website regeneration complete! Total build time: 0.723s
+2020-12-17T17:06:57.068Z - info: [1:06:57 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-grading.md
+2020-12-17T17:06:58.085Z - info: Rebuilding 1 pages
+2020-12-17T17:06:58.739Z - info: Site data built
+2020-12-17T17:06:58.739Z - info: Pages rebuilt
+2020-12-17T17:06:58.739Z - info: Website regeneration complete! Total build time: 0.658s
+2020-12-17T17:07:21.233Z - info: [1:07:21 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-grading.md
+2020-12-17T17:07:22.253Z - info: Rebuilding 1 pages
+2020-12-17T17:07:22.806Z - info: Site data built
+2020-12-17T17:07:22.807Z - info: Pages rebuilt
+2020-12-17T17:07:22.807Z - info: Website regeneration complete! Total build time: 0.56s
+2020-12-17T17:07:49.713Z - info: [1:07:49 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-grading.md
+2020-12-17T17:07:50.719Z - info: Rebuilding 1 pages
+2020-12-17T17:07:51.310Z - info: Site data built
+2020-12-17T17:07:51.311Z - info: Pages rebuilt
+2020-12-17T17:07:51.311Z - info: Website regeneration complete! Total build time: 0.595s
+2020-12-17T17:08:42.508Z - info: [1:08:42 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-grading.md
+2020-12-17T17:08:43.514Z - info: Rebuilding 1 pages
+2020-12-17T17:08:44.348Z - info: Site data built
+2020-12-17T17:08:44.349Z - info: Pages rebuilt
+2020-12-17T17:08:44.349Z - info: Website regeneration complete! Total build time: 0.836s
+2020-12-17T17:09:26.279Z - info: [1:09:26 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-grading.md
+2020-12-17T17:09:27.291Z - info: Rebuilding 1 pages
+2020-12-17T17:09:27.934Z - info: Site data built
+2020-12-17T17:09:27.935Z - info: Pages rebuilt
+2020-12-17T17:09:27.935Z - info: Website regeneration complete! Total build time: 0.649s
+2020-12-17T17:09:42.154Z - info: [1:09:42 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-grading.md
+2020-12-17T17:09:43.173Z - info: Rebuilding 1 pages
+2020-12-17T17:09:43.714Z - info: Site data built
+2020-12-17T17:09:43.715Z - info: Pages rebuilt
+2020-12-17T17:09:43.715Z - info: Website regeneration complete! Total build time: 0.55s
+2020-12-17T17:10:46.245Z - info: [1:10:46 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-grading.md
+2020-12-17T17:10:47.274Z - info: Rebuilding 1 pages
+2020-12-17T17:10:47.355Z - error:  Template render error: (unknown path) [Line 212, Column 79]
+  expected variable end
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:358:19)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderPage (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:448:17)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:878:57
+2020-12-17T17:10:47.358Z - warn:  Error: Error while generating undefined
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:1043:18
+2020-12-17T17:11:00.118Z - info: [1:11:00 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-grading.md
+2020-12-17T17:11:01.136Z - info: Rebuilding 1 pages
+2020-12-17T17:11:01.192Z - error:  Template render error: (unknown path) [Line 212, Column 79]
+  expected variable end
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:358:19)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderPage (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:448:17)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:878:57
+2020-12-17T17:11:01.193Z - warn:  Error: Error while generating undefined
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:1043:18
+2020-12-17T17:11:18.759Z - info: [1:11:18 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-grading.md
+2020-12-17T17:11:19.763Z - info: Rebuilding 1 pages
+2020-12-17T17:11:20.575Z - info: Site data built
+2020-12-17T17:11:20.576Z - info: Pages rebuilt
+2020-12-17T17:11:20.576Z - info: Website regeneration complete! Total build time: 0.814s
+2020-12-17T17:14:04.507Z - info: [1:14:04 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-grading.md
+2020-12-17T17:14:05.513Z - info: Rebuilding 1 pages
+2020-12-17T17:14:06.117Z - info: Site data built
+2020-12-17T17:14:06.118Z - info: Pages rebuilt
+2020-12-17T17:14:06.118Z - info: Website regeneration complete! Total build time: 0.607s
+2020-12-17T17:14:11.768Z - info: [1:14:11 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-grading.md
+2020-12-17T17:14:12.772Z - info: Rebuilding 1 pages
+2020-12-17T17:14:13.254Z - info: Site data built
+2020-12-17T17:14:13.254Z - info: Pages rebuilt
+2020-12-17T17:14:13.254Z - info: Website regeneration complete! Total build time: 0.484s
+2020-12-17T17:14:48.526Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-supervision as some of its dependencies were changed since the last visit
+2020-12-17T17:14:48.894Z - info: Site data built
+2020-12-17T17:14:48.894Z - info: Lazy website regeneration complete! Total build time: 0.369s
+2020-12-17T17:15:31.410Z - info: [1:15:31 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-supervision.md
+2020-12-17T17:15:32.425Z - info: Rebuilding 1 pages
+2020-12-17T17:15:32.809Z - info: Site data built
+2020-12-17T17:15:32.809Z - info: Pages rebuilt
+2020-12-17T17:15:32.809Z - info: Website regeneration complete! Total build time: 0.388s
+2020-12-17T17:18:27.278Z - info: [1:18:27 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-supervision.md
+2020-12-17T17:18:28.288Z - info: Rebuilding 1 pages
+2020-12-17T17:18:28.791Z - info: Site data built
+2020-12-17T17:18:28.792Z - info: Pages rebuilt
+2020-12-17T17:18:28.792Z - info: Website regeneration complete! Total build time: 0.505s

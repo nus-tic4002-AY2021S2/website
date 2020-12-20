@@ -1,0 +1,591 @@
+{% from "common/admin.njk" import show_admin_page, show_project_summary_lead with context %}
+{% from "common/topics.njk" import panopto with context %}
+{% from "common/macros.njk" import button, embed_topic, get_date, step, thumb, timing_badge with context %}
+{% from "_module-" + module + "/weeklyIpTasks.mbdf" import weekly_ip_tasks with context %}
+
+{#====================================================================================================================
+ # Common text segments
+ #====================================================================================================================#}
+
+<span id="order">
+
+* Implement the following <tooltip content="in this context, an _increment_ is a Duke _level_ or a Duke _extension_">increments</tooltip> ==in the given order==.
+</span>
+<span id="commit">
+
+* From this point onward, commit code at important points. ==Minimally, commit after completing each increment==.
+</span>
+<span id="tag-push">
+
+* From this point onward, after completing each increment,
+  * **`git tag`** the commit with the exact increment ID e.g., `Level-2`, `A-TextUiTesting`
+  * **`git push`** the code to your fork ({{ icon_tip }} git doesn't push tags unless you specifically ask it to)
+</span>
+<span id="volatile-requirements">
+
+<box type="info" dismissible>
+
+The iP (and the tP) undergoes changes after each semester. As such, teething issues are a possibility. If you encounter any problem while doing the iP/tP, please post in the [forum]({{ url_forum }}) so that we can take necessary actions.
+</box>
+</span>
+<span id="no-jumping-ahead">
+
+<box dismissible>
+
+{{ icon_important_big_red }} We discourage you from doing project tasks allocated to future weeks. Reasons: In order to help you gain <tooltip content="the ability to apply knowledge or do tasks effortlessly as if you have been doing them for a long time">_fluency_</tooltip> (and also to better simulate real projects), **we want the project work to be <tooltip content="done at multiple times with time gaps in between">_spaced_</tooltip> and spread over a longer period**, rather than to be done as a short burst.
+
+Reminder: as per iP grading criteria, _some_ increments need to to be done in each week for you to get full marks.
+</box>
+</span>
+<span id="follow-instructions">
+
+<box dismissible>
+
+{{ icon_important_big_red }} Please follow instructions carefully. Any deviations can cause our grading scripts to miss your work (and result in you not getting credit for the work).
+
+</box>
+</span>
+
+{#====================================================================================================================
+ # CS2103 Weekly Intros
+ #====================================================================================================================#}
+<span id="cs2103-week2-intro">
+
+<include src="ip-tasks.mbdf#volatile-requirements" />
+<include src="ip-tasks.mbdf#no-jumping-ahead" />
+<include src="ip-tasks.mbdf#follow-instructions" />
+
+<box dismissible>
+
+**:fas-clock: Deadline:**
+
+Note the typical deadline weekly project tasks:
+{{ embed_topic("weeklySchedule.md#deadline-definition", "Admin " + icon_embedding + " Weekly schedule → **Deadline for weekly tasks**", "1") }}
+<p/>
+
+But ==as there are no tutorials this week, you have until {{ get_date(date_w2_start, 6) }}== to finish this week's iP tasks.
+</box>
+</span>
+<span id="cs2103-week3-intro">
+
+**:fas-clock: Reminder about the deadline for the weekly project tasks:**
+{{ embed_topic("weeklySchedule.md#deadline-definition", "Admin " + icon_embedding + " Weekly schedule → **Deadline for weekly tasks**", "1", indent=1) }}
+<p/>
+
+</span>
+{#====================================================================================================================
+ # CS2113 Weekly Intros
+ #====================================================================================================================#}
+<span id="cs2113-week2-intro">
+
+<include src="ip-tasks.mbdf#volatile-requirements" />
+<include src="ip-tasks.mbdf#no-jumping-ahead" />
+<include src="ip-tasks.mbdf#follow-instructions" />
+
+<box dismissible>
+
+**:fas-clock: Deadline:**
+
+Note the typical deadline weekly project tasks:
+{{ embed_topic("weeklySchedule.md#deadline-definition", "Admin " + icon_embedding + " Weekly schedule → **Deadline for weekly tasks**", "1") }}
+<p/>
+
+But ==as there are no tutorials this week, you have until {{ get_date(date_w2_start, 6) }}== to finish this week's iP tasks.
+</box>
+</span>
+<span id="cs2113-week3-intro">
+
+**:fas-clock: Reminder about the deadline for the weekly project tasks:**
+{{ embed_topic("weeklySchedule.md#deadline-definition", "Admin " + icon_embedding + " Weekly schedule → **Deadline for weekly tasks**", "1", indent=1) }}
+<p/>
+
+</span>
+
+{#====================================================================================================================#}
+{# Steps
+{#====================================================================================================================#}
+<span id="heading_learn_about_the_project">Learn about the project</span>
+<span id="desc_learn_about_the_project">
+* **Read the following two sections**, if you haven't done so already:
+
+{{ embed_topic("ip-overview.md#main", "Admin " + icon_embedding + " **iP - Overview**", "3", indent="2") }}
+{{ embed_topic("ip-grading.md#main", "Admin " + icon_embedding + " **iP - Grading**", "1", indent="2") }}
+</span>
+{#====================================================================================================================#}
+<span id="heading_set_up_prerequisites">Set up prerequisites</span>
+<span id="desc_set_up_prerequisites">
+* **Ensure you have followed the <span class="pr-1 pl-1" style="color:purple; border: 0.5px solid lightgrey">:fas-hard-hat: Preparation</span> sections of the following module tools:**
+
+{{ embed_topic("programmingLanguages.md#main", "Admin " + icon_embedding + " **Programming Language**", "2", indent="2") }}
+{{ embed_topic("tools.md#rcs", "Admin " + icon_embedding + " **Tools → Git**", "2", indent="2") }}
+{{ embed_topic("tools.md#github", "Admin " + icon_embedding + " Tools → **GitHub**", "2", indent="2") }}
+{{ embed_topic("tools.md#ide", "Admin " + icon_embedding + " Tools → **Intellij IDEA**", "2", indent="2") }}
+</span>
+{#====================================================================================================================#}
+<span tags="m--cs2113 m--tic4001" id="extra_Level-0">
+<include src="ip-tasks.mbdf#commit" />
+</span>
+<span id="extra_Level-1">
+<include src="ip-tasks.mbdf#order" />
+{% if cs2103 %}<include src="ip-tasks.mbdf#commit" />{% endif %}
+<include src="ip-tasks.mbdf#tag-push" />
+</span>
+{#====================================================================================================================#}
+<span id="heading_set_up_project">Set up the project in your computer</span>
+<span id="desc_set_up_project">
+
+* Read through this week's topics before starting the project.
+
+1. Fork [{{ url_module_org }}/{{ ip_repo_name }}]({{ url_module_org }}/{{ ip_repo_name }}).
+1. ==Enable the issue tracker of your fork== (Go to `Settings` of your fork, scroll to the `Features` section, and tick the `Issues` checkbox). %%Reason: at times we post feedback on your issue tracker.%%<br>
+   {{ icon_tip }} If the issue tracker is enabled, you should be able to visit the following URL `https://github.com/{your_user_name}/{{ ip_repo_name }}/issues` e.g., `https://github.com/johnDoe/{{ ip_repo_name }}/issues`
+1. Clone the fork onto your computer.
+1. Set up the project in your IDE as explained in [the README file]({{ url_module_org }}/{{ ip_repo_name }}/blob/master/README.md).<br>
+</span>
+{#====================================================================================================================#}
+<span id="heading_finish_leftover_tasks">Do any leftover iP tasks from the previous week</span>
+<span id="desc_finish_leftover_tasks">
+* Remember to do any leftover increments from the past weeks before starting on the current week's increments. This guideline applies to future weeks too.
+</span>
+{#====================================================================================================================#}
+<span id="heading_create_pr_to_upstream">Create a PR to the upstream repo</span>
+<span id="desc_create_pr_to_upstream">
+* Create a <trigger trigger="click" for="modal:ipTasks-createPr">pull request (PR)</trigger> from your fork to the upstream repo. Note the following:
+  * Create the PR from the `master` branch of your fork to the `master` branch of the upstream repo ({{ url_module_org }}/{{ ip_repo_name }})
+  * Set the PR name as `[{Your name}] iP` e.g., `[John Doe] iP` %%If you are reluctant to give full name, you may give the first half of your name only%%.<br>
+   You may leave the description as empty.
+  * Steps for creating a PR is given in this textbook topic (==steps 5 onwards==):
+
+{{ embed_topic("../book/gitAndGithub/createPRs/text.md#body", "Textbook " + icon_embedding + " Git & GitHub → **Creating PRs**", "1", indent=4) }}
+
+<div class="indented-level2">
+
+<box type="info" light>
+
+The PR will update automatically to reflect your latest code every time you push code to your fork. As a result, it provides a convenient way for us to access the current state of all your iP code from one location.
+
+</box>
+
+</div>
+
+<modal large header="Pull Request (PR)" id="modal:ipTasks-createPr">
+
+_Pull Requests_ is a mechanism for offering code to a repository e.g., a bug fix or a new feature. PRs allow developers to review, discuss, and refine proposed code changes before incorporating (i.e., _merging_) the new code to the repository.
+
+Resources:
+* [GitHub Help page on PRs](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
+</modal>
+</span>
+{#====================================================================================================================#}
+<span id="extra_Level-5">
+<span tags="m--cs2113 m--tic4001">
+
+* Do each increment as a Git branch. Here is an example:
+  * Start a branch named `branch-{increment ID}` (e.g. `branch-Level-5`). You are recommended to have multiple commits in that branch. Follow the branch naming convention exactly or else our gradings scripts might miss your branch.
+  * After the increment is ready, merge the `branch-Level-5` back on to `master`, ==without a _fast-forward_== so that git creates a separate commit for the merge. `git tag` that merge commit as `Level-5`.
+  * Push the branch to your fork so that the bot can detect it. As before, push the tag as well.
+  * {{ icon_important_big_red }} Advanced git users: do not delete the branch after merging.
+</span>
+</span>
+<span id="extra_A-Packages">
+<span tags="m--cs2113 m--tic4001">
+
+* Recommended: if you are new to git, do this as a separate branch too (for additional practice), similar to how you did `Level-5` (branch name `branch-A-Packages`).
+</span>
+</span>
+<span id="extra_Level-6">
+<span tags="m--cs2113">
+
+* Practice using parallel git branches, as explained below:
+  1. First, do Level-6 in a branch named `branch-Level-6`, but do not merge it.
+  1. Then, go back to the `master` branch and implement Level-7 in a separate branch named `branch-Level-7`.
+  1. Now, go back to the `master` branch and merge the two branches one after the other.<br>
+     If there are merge conflicts, you'll have to resolve them first.
+  1. As before, tag the commit (in the `master` branch, after merging) that achieves the respective deliverable, and push to your fork.
+* As before,
+ {{ icon_tip }} Merge without a _fast-forward_ so that git creates a separate commit for the merge.<br>
+ {{ icon_important_big_red }} Advanced git users: do not delete the branch after merging.
+</span>
+<span tags="m--tic4001">
+<p/>
+
+* Create a new branch `branch-Level-6`.
+* Implement the increment in the new branch.
+* Push the branch to your fork.
+* Create a PR in your fork, from the new branch to the `master` branch.  Steps for creating a PR is given in this textbook topic (==steps 5 onwards==):
+
+{{ embed_topic("../book/gitAndGithub/createPRs/text.md#body", "Textbook " + icon_embedding + " Git & GitHub → **Creating PRs**", "1", indent=2) }}
+
+* Merge the PR using GitHub. Note how to merge PRs:
+
+{{ embed_topic("../book/gitAndGithub/managePRs/text.md#body", "Textbook " + icon_embedding + " Git & GitHub → **Merging PRs**", "1", indent=2) }}
+
+* Pull the `master` branch from the fork to your local repo.
+
+</span>
+</span>
+<span id="extra_A-Jar">
+<span tags="m--cs2113 m--tic4001">
+
+* In case this increment does not require any code changes, you may tag the commit at which this was achieved as `A-Jar` (even if that commit has another tag already).
+* Upload the jar file to your fork as explained in the panel below.
+</span>
+</span>
+<span id="extra_Level-7">
+
+<p/>
+
+* Do Level 7 in a branch named `branch-Level-7`. Without merging that branch, go back to the `master` branch and implement the other increment in a separate branch named similar to the first (i.e., `branch-{increment ID}`). Now, go back to the `master` branch and merge the two branches one after the other. As before, tag the commit (in the `master` branch, after merging) that achieves the respective deliverable, and push to your fork.<br>
+ {{ icon_important_big_red }} Remember to push the branches to your fork so that the bot can detect them.<br>
+ {{ icon_important_big_red }} Only _merged_ branches are detected by the script. After merging a branch `b1` to the `master` branch, you need to push both the `master` and the `b1` branches to the fork. Pushing the `master` branch does not automatically take the `b1` branch along with it just because it is already merged to the `master` branch.<br>
+ {{ icon_important_big_red }} Advanced git users: do not delete the branch after merging.<br>
+ {{ icon_tip }} Merge without a _fast-forward_ so that git creates a separate commit for the merge.
+
+</span>
+<span id="extra_Level-8">
+<span tags="m--cs2113 m--tic4001" id="as-parallel-prs">
+
+* **Note how to merge PRs**:
+
+{{ embed_topic("../book/gitAndGithub/managePRs/text.md#body", "Textbook " + icon_embedding + " Git & GitHub → **Merging PRs**", "1", indent=2) }}
+
+* **Practice using parallel git branches _and_ PRs**, as explained below:
+1. First, do each increment as a parallel branch (follow the branch naming convention you followed earlier `branch-Level-8` etc.), but do not merge any.
+1. Then, push each branch to your fork, and create a PR ++within your fork++ (i.e., from the increment branch to the `master` branch). ==Be careful not to create a PR to [the upstream repo]({{ url_module_org }}/ip).== %%If you did create such a PR by mistake, no worries, just close it yourself.%%
+
+{{ embed_topic("../book/gitAndGithub/createPRs/text.md#body", "Textbook " + icon_embedding + " Git & GitHub → **Creating PRs**", "1", indent=2) }}
+
+3. Now, merge one of the PRs and update the remaining PRs accordingly, as given below:
+   1. Merge one of the PRs on GitHub e.g., Level-8. Remember to choose the `Create merge commit` option when merging.
+   1. Pull the updated `master` branch from your fork to your Computer.
+   1. Note how the remaining un-merged branches are no longer in sync with the latest `master`. To rectify, merge the `master` branch to each of them. Resolve merge conflicts, if any.
+   1. Push the updated branches to your fork. The PRs will update automatically to reflect the updated branch.
+   1. As before, tag the merge commit in the master branch and push the tag to your fork.
+1. Merge the remaining PRs using a procedure similar to the above.
+</span>
+</span>
+<span id="extra_A-Assertions">
+<span tags="m--cs2103">
+<include src="ip-tasks.mbdf#as-parallel-prs" />
+</span>
+</span>
+<span id="extra_A-MoreOOP">
+
+* As in the previous week, commit, tag, and push, as you do the following increments in the `master` branch (no need to use separate branches).
+
+</span>
+<span id="extra_A-JavaDoc">
+
+* As in the step 1 above, implement these three increments as three parallel branches first (branch names: `branch-A-JavaDoc`, `branch-A-CodingStandard`, `branch-Level-9`), and then merge them one-by-one. Hopefully, you will encounter some merge conflicts so that you get to practice de-conflicting branches.
+* The Java and Git standards to follow (for `A-CodingStandard`) are given in [this page](standardsAndConventions.html).
+</span>
+{#====================================================================================================================#}
+<span id="heading_prepare_for_pr_reviews">Get ready to review PRs</span>
+<span id="desc_prepare_for_pr_reviews">
+
+* **Do the following to prepare for the PR review exercise** you will be doing in the coming tutorial.
+  * Learn how to review PRs:
+
+{{ embed_topic("../book/gitAndGithub/reviewPRs/text.md#body", "Textbook " + icon_embedding + " Git & GitHub → **Reviewing PRs**", "1", indent=2) }}
+
+  * Read the [_Best practices for reviewing PRs_ @SE-EDU/guides](https://se-education.org/guides/guidelines/PRs-reviewing.html). You are ==expected to follow all of them==.
+</span>
+{#====================================================================================================================#}
+<span id="heading_review_two_prs">Review some peer PRs</span>
+<span id="desc_review_two_prs">
+
+<div tags="m--cs2103 m--tic4001">
+
+<box type="wrong" add-class="ml-4" icon=":fas-hand-paper:" icon-size="2x" seamless>
+
+**Please wait till {{ date_w4_start | date(format_normal, 3) }}** to start this task, to give others a few extra days to create the PR if they haven't done so yet.
+</box>
+</div>
+
+<box type="info" add-class="ml-4">
+
+This task is worth `2x2=4` participtaion points.
+</box>
+
+* **Learn _how_ you should review PRs in this task**:
+
+{{ panopto('c001244c-01b5-4471-ab9d-ac1b0098110a') }}
+
+{{ embed_topic("../book/gitAndGithub/reviewPRs/text.md#body", "Textbook " + icon_embedding + " Git & GitHub → **Reviewing PRs**", "1", indent=2) }}
+
+* {{ step(1) }} **Note these additional guidelines**:
+  * Read the [_Best practices for reviewing PRs_ @SE-EDU/guides](https://se-education.org/guides/guidelines/PRs-reviewing.html). You are ==expected to follow all of them==.
+  * If the PR has received some review comments already, feel free to confirm/complement/question those comments in your review. Also, look for things the previous reviewers may have missed.
+  * At the end of the review, choose `Comment` (i.e., not `Approve` or `Request changes`)
+
+* {{ step(2) }} **Do the first PR review** as follows.
+  * Comment on ==[coding standard]({{ url_java_coding_standard }}) violations only==.
+  * The review allocation is given in the panel below.
+
+<div class="indented-level4">
+
+<include src="common-tutorials.mbdf#show-ip-peer-review-allocation-1" />
+</div>
+
+* {{ step(3) }} **Do the second PR review** as follows.
+  * Comment on ==other code quality guidelines== (see the <span tags="m--cs2103">section _Naming_</span><span tags="m--cs2113 m--tic4001">sections on _Naming_ and _Readability_</span> in [this textbook chapter](../se-book-adapted/chapters/codeQuality.html)) you have learned so far. It's optional to comment on coding standard violations in this PR review.
+  * The review allocation is given in the panel below.
+
+<div class="indented-level4">
+
+<include src="common-tutorials.mbdf#show-ip-peer-review-allocation-2" />
+</div>
+
+* {{ step(4) }} **[When you receive reviews for your own PR] Respond to comments received**. You are recommended to (but not obliged to) respond to comments received from peers, especially if the PR reviewer asked you for more info. As mentioned in [these guidelines](https://se-education.org/guides/guidelines/PRs-reviewing.html), do not get into arguments with PR reviewers/authors.
+
+</span>
+{#====================================================================================================================#}
+
+<span id="heading_learn_from_others">Learn from others (optional)</span>
+<span id="desc_learn_from_others">
+
+* **You can use the [iP Code Dashboard]({{ url_ip_dashboard }}) to view others' iP code**, using the `Links → iP Code Dashboard` item in the top navigation menu. Click on the <span class="badge badge-light"><md>%%**</>**%%</md></span>&nbsp;icon corresponding to a student name to see the code written by that person. We encourage you to read others’ code and learn from them. If you adopt solutions from others (also encouraged), please follow our reuse policy. 
+
+{{ embed_topic("appendixB-policies.md#policy-reuse", "Admin " + icon_embedding + " **Module Policies → Policy on Reuse**", "1", indent=2) }}
+
+</span>
+{#====================================================================================================================#}
+
+<span id="heading_evaluate_peer_ips">Evaluate two peer iPs</span>
+<span id="desc_evaluate_peer_ips">
+
+<div class="indented-level2">
+
+<box type="info">
+
+This activity is worth `2x2=4` participation points.
+</box>
+
+</div>
+
+1. {% if cs2113 %}**The allocation will be in the LumiNUS gradebook**, by Monday 2359.{% else %}**Wait for the email notifying you which iPs are allocated for you to evaluate**. When the email is sent out, it will also be announced via module announcements.{% endif %}
+1. **Download the _latest_ JAR file** of the first iP by following the link provided.
+1. **Locate the User Guide** of the app by following the link provided.
+1. **Open the LumiNUS survey** (the one named `iP Peer Evaluation 1`) that you will be using to submit your evaluation and take note of the things you need to evaluate.
+1. **Do a light testing of the app** (not more than 10 minutes) to ensure the claimed features actually exist.<br>
+   {{ icon_important_big_red }} Make sure you are using Java 11 to run the jar file (use `java -version` command to confirm).<br>
+   {{ icon_tip }} If double-clicking the jar file doesn't work, use the `java -jar {file_name}` command to open it.
+1. **Do a quick examination of the code** (~ 5 minutes) by following the provided link.
+1. **Submit your evaluation** using the survey.
+1. **Repeat the above steps for the 2nd iP** allocated to you (use the survey `iP Peer Evaluation 2`).
+</span>
+{#====================================================================================================================#}
+<span id="extra_A-Gradle">
+
+* **Do each enhancement in a separate branch and merge to the `master` branch only when ready** (if you push incomplete features into the `master` branch, it can confuse others reviewing your PR). There is no need to do the increments as _parallel_ branches though %%i.e., you can do one increment and merge that branch before starting on the next one%%.
+<br>
+{{ icon_tip }} If you have completed any of them in previous weeks, just add the corresponding tag (no need to create a branch).
+</span>
+{#====================================================================================================================#}
+<span id="post_Level-10">
+
+<div class="indented-level2">
+
+* Note that you no longer need to keep the text-based UI after adding a GUI. Similarly, there is no need to use the I/O redirection style automated testing anymore (that technique is suited for text UIs only).
+</div>
+</span>
+{#====================================================================================================================#}
+<span id="heading_generate_new_jar">Generate a new jar file</span>
+<span id="desc_generate_new_jar">
+* We recommend that you re-generate a new jar file again and ensure it works. Note that you might have to use Gradle to generate the jar file this time as you need to bundle the JavaFX third-party library into the jar file. Refer to the [_Gradle tutorial_ @SE-EDU/guides](https://se-education.org/guides/tutorials/gradle.html#creating-a-jar-file) to find how.<br>
+==If the `.jar`  file is smaller than 10MB==, most likely JavaFX libraries are not inside it.
+* There is no need to create a release in GitHub with this jar file (although you are welcome to).
+</span>
+{#====================================================================================================================#}
+<span id="extra_A-Assertion">
+
+* Add the following increments, doing each in the following manner:
+1. add the extension in a separate branch
+1. push the branch to your fork
+1. create PR within your fork (i.e., from the new branch, to the `master` branch)
+1. merge the PR; you can try various merge options such as `Squash and Merge`, `Rebase and Merge`
+1. sync your local clone with the fork
+</span>
+{#====================================================================================================================#}
+<span id="extra_A-CI">
+
+* We recommend that ==at least one member== of the team attempt the following.
+</span>
+{#====================================================================================================================#}
+<span id="heading_finalize_features">Finalize the features</span>
+<span id="desc_finalize_features">
+* You may give the product any name, but do not rename the repo.
+* Reminder: you can give the chatbot any personality (there is no need to follow the exact command/response formats given)
+* {{ icon_important_big_red }} Remember to give credit to any code you reused or solutions you adopted from others. Reuse without giving credit is plagiarism and **will be reported to the university for disciplinary action**.
+
+{{ embed_topic("appendixB-policies.md#policy-reuse", "Admin " + icon_embedding + " **Module Policies → Policy on Reuse**", "1", indent="2") }}
+</span>
+{#====================================================================================================================#}
+<span id="heading_set_up_website">Set up a product website</span>
+<span id="desc_set_up_website">
+
+<span  tags="m--cs2103">
+
+* **Add a representative screenshot** of the product to the `docs` folder.
+  * ==The file name should be in the `docs` folder and named `Ui.png` exactly== (even if the file format is not `png`, name it `png`)
+  * Ideally, the product name is visible in the screenshot e.g., in the title bar of the Window
+
+{{ embed_topic("tp-deliverables-website.mbdf#tips-for-product-screenshot", "Admin " + icon_embedding + " Team Project (tP) → Tips for Product Screenshots", "3", indent="2") }}
+</span>
+
+* **Add a brief User Guide (UG)**
+
+<div class="indented">
+
+<include src="dukeFragment.md" boilerplate var-header="**`A-UserGuide`: User Guide**" var-fragment="extensions.mbdf#A-UserGuide" />
+</div>
+<p/>
+
+<span  tags="m--cs2103">
+
+* {{ icon_tip }} If you added the `Ui.png` correctly and set up the product website correctly, ==you should be able to **see your screenshot in the [iP Showcase](ip-showcase.html) page**== %%(a link to the iP Showcase page is also available in the top navigation menu → Links)%%.
+</span>
+</span>
+{#====================================================================================================================#}
+<span id="heading_submit_the_final_version">Submit the final version</span>
+<span id="desc_submit_the_final_version">
+{% if not tic4001 %}
+* {{ icon_deadline }} **Soft deadline**: midnight before the tutorial
+{% endif %}
+* **Create a new jar file**
+  * Create the JAR file in one of these ways:
+    * If you have added a GUI or using third-party libraries: [use Gradle](https://se-education.org/guides/tutorials/gradle.html).
+    * Else: you can use Intellij.
+  * The JAR file should be ==cross-platform and should work in a computer that has Java 11==.
+* **Do the following [_smoke tests_](https://en.wikipedia.org/wiki/Smoke_testing_(software))** to ensure the jar file works %%(reason: a similar flow will be used when grading your iP)%%.<br>
+  1. Copy the jar file to an empty folder and test it from there. This should surface issues with hard-coded file paths.
+  1. Pass the jar file to team members and ask them to do a test drive. Assuming some of your team members' OS differ from yours, this should verify if the app is cross-platform.
+* **Create a new release on GitHub** (e.g., `v0.2`) and upload the JAR file.
+  * Recommended to refrain from uploading multiple JAR files as this can cause extra work for the evaluators.
+
+<div class="indented">
+
+<include src="dukeFragment.md" boilerplate var-header="**`A-Release`: Release**" var-fragment="extensions.mbdf#A-Release" />
+</div>
+<p/>
+</span>
+{#====================================================================================================================#}
+<span id="heading_get_more_out_of_the_ip">[Optional] Get more out of the iP</span>
+<span id="desc_get_more_out_of_the_ip">
+<div class="indented">
+
+**If you wish to cite the iP in your resume**, you can do more to make it look more impressive to a potential employer. These improvements are not considered for grading and can be done after the semester is over. Some ideas:
+* **Improve the GUI**: Make the UI look nicer, unique, and memorable. You can get inspiration from [what others have done](ip-showcase.html) (but remember to give credit if you reuse any code from them).
+* **Add a demo** video or an animated gif to your user guide to show how the app works.
+* **Improve code quality**: iP is the right size to cite as an example of your code quality. You can use the RepoSense link (<span class="badge badge-light badge-pill text-monospace">**</>**</span>) in the [iP showcase page](ip-showcase.html) to point to your iP code.
+* **Add more features.**
+
+{{ icon_tip }} On a somewhat related note, you can also **create similar product websites for your other projects** (projects from other modules, pet projects).
+
+
+</div>
+
+</span>
+{#====================================================================================================================#}
+<span id="heading_add_an_extension">Add an extension</span>
+<span id="desc_add_an_extension">
+
+* Add at least one extension of your choice, selected from [category B, C, or D](../se-book-adapted/projectDuke/index.html#extensions-category-b) i.e., pick just one item from one category e.g., `B-DoWithinPeriodTasks` or `C-Sort` or `D-Places`
+* Recommended to add the extension via a branch (branch name is up to you). Optional to add it via a PR.
+* Add a tag named `BCD-Extension` to the corresponding commit.
+
+<div class="indented-level2">
+
+{{ icon_important_big_red }} Discuss with your team members to ensure that each member picks a different extension.
+
+
+{{ icon_tip }} You may want to pick an extension that is relevant to your tP so that the code can be reused in the tP later.
+</div>
+</span>
+{#====================================================================================================================#}
+
+{% macro get_id_list(increments) -%}
+{% set id_list = [] %}
+{% for i in increments %} {% set id_list = (id_list.push('`' + i.id + '`'), id_list) %} {% endfor %}
+{{ id_list | join(", ") }}
+{%- endmacro %}
+{#====================================================================================================================#}
+
+{% macro get_xp_step_heading(step, tasks_file, is_summary=false) -%}
+{% set deadline_type = step.deadline_type if step.deadline_type else 'danger' %}
+{% set deadline_badge = timing_badge(step.deadline, deadline_type if is_summary else 'secondary') if step.deadline else ''  %}
+{% set grading_badge = (' ' + icon_graded) if step.graded else ''  %}
+{% if step.id == 'add_increments' %}
+{% set prefix = "Add Increment" + ("" if (step.increments | length) == 1 else "s") %}
+{{ prefix }}{{ step.suffix }}: {{ (get_id_list(step.increments) | trim)}} {{ deadline_badge }}
+{% else %}
+<include src="{{ tasks_file }}#heading_{{ step.id }}" trim inline /> {{ deadline_badge }}{{ grading_badge }}
+{% endif %}
+{%- endmacro %}
+{#====================================================================================================================#}
+
+{% macro show_xp_step(number, step, tasks_file) %}
+
+#### {{ thumb(number) }} {{ get_xp_step_heading(step, tasks_file) | trim }}
+
+{% if step.id == 'add_increments' %}
+  {% if step.pre != '' %}
+<include src="{{ tasks_file }}#extra_{{ step.increments[0].id }}" optional />
+  {% endif %}
+  {% for i in step.increments %}
+    {% set file = 'text.md' if i.id[0] == 'L' else 'extensions.mbdf' %}
+    {% set tag = ('var-tag=' + i.tag) if i.tag else '' %}
+<include src="{{ tasks_file }}#pre_{{ i.id }}" optional />
+<include src="dukeFragment.md" boilerplate var-header="**`{{ i.id }}`: {{ i.title }}**" {{ tag }} var-fragment="{{ file }}#{{ i.id }}" />
+<include src="{{ tasks_file }}#post_{{ i.id }}" optional />
+  {% endfor %}
+{% else %}
+<include src="{{ tasks_file }}#desc_{{ step.id }}" />
+{% endif %}
+<p/>
+{% endmacro %}
+
+{#====================================================================================================================#}
+
+{% macro show_xp_steps(steps, tasks_file) %}
+{% for step in steps %}
+{{ show_xp_step(loop.index, step, tasks_file) }}
+{% endfor %}
+{% endmacro %}
+{#====================================================================================================================#}
+
+{% macro show_xp_steps_summary(steps, tasks_file) %}
+{% call show_project_summary_lead()%}
+{% for step in steps %}1. {{ get_xp_step_heading(step, tasks_file, is_summary=true) | trim }}
+{% endfor %}
+{% endcall %}
+{% endmacro %}
+{#====================================================================================================================#}
+
+{% macro show_xp_page(week_num, steps, tasks_file) %}
+<div id="main">
+
+{{ show_xp_steps_summary(steps, tasks_file) }}
+
+<div id="body">
+
+<include src="{{ tasks_file }}#{{ module | lower }}-week{{ week_num }}-intro" optional/>
+<p/>
+
+{{ show_xp_steps(steps, tasks_file) }}
+
+</div>
+</div>
+{% endmacro %}
+{#====================================================================================================================#}
+
+{% macro show_ip_page(week_num) %}
+{{ show_xp_page(week_num, weekly_ip_tasks['week' + week_num], 'ip-tasks.mbdf') }}
+{% endmacro %}
+{#====================================================================================================================#}
+
+{% macro show_admin_ip_page(week_num) %}
+{% call show_admin_page("ip-w" + week_num) %}
+{{ show_ip_page(week_num) }}
+{% endcall %}
+{% endmacro %}

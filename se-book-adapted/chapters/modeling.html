@@ -39,10 +39,23 @@
 <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Fri, Apr 9th] </span></a></li></dropdown>
   <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
   <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-  
-  <div class="nav-link temp-dropdown-placeholder">**Project Links**</div>
-  <div class="nav-link temp-dropdown-placeholder">**Other Links**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Other Links</strong></template>
+  <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://nus-tic4002-ay2021s2.github.io/dashboards" target="_blank" class="nav-link"><span><strong>Dashboards</strong></span></a></li>
+  <div class="nav-link temp-dropdown-placeholder">**Project Links**</div><dropdown tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Project Links</strong></template>
+    <span><strong> Individual Project (iP):</strong></span>
+    <li><a href="/website/admin/ip-overview.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Individual Project Info</span></a></li>
+    <li><a href="https://github.com/nus-tic4002-AY2021S2/ip" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> iP Upstream Repo</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/ip-dashboard/#sort=groupTitle&groupSelect=groupByAuthors" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> iP Code Dashboard</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/ip-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> iP Progress Dashboard</span></a></li>
+    <hr>
+    <span><strong> Team Project (tP):</strong></span>
+    <li><a href="/website/admin/tp-expectations.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Team Project Info</span></a></li>
+    <li tags="m--cs2103 m--tic4002"><a href="https://github.com/nus-tic4002-AY2021S2/tp2" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</span></a></li>
     
+    <li><a href="/website/admin/teamList.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team List</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/tp-dashboard/#breakdown=true" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> tP Progress Dashboard</span></a></li></dropdown>
+  <div class="nav-link temp-dropdown-placeholder">**Other Links**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Other Links</strong></template>
+    <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://github.com/nus-tic4002-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
     <li><a href="https://github.com/nus-tic4002-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
     
     <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span> Instructors</span></a></li>
@@ -51,9 +64,9 @@
     
     
     
-    
-    
-    
+    <li tags="m--cs2103 m--cs2113 m--tic2002 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/java/basic.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+    <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-git-square"></span> Git Conventions</span></a></li>
+    <li tags="m--cs2103 m--cs2113 m--tic4002"><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/forum-activities.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-trophy"></span> Forum Activities Dashboard</span></a></li>
     <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/participation.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> Participation Dashboard</span></a></li>
     
     </dropdown>
@@ -140,7 +153,7 @@
 <panel type="seamless" expanded id="what"><template slot="header"><h4 id="what"><span id="what" class="anchor"></span>What<a class="fa fa-anchor" href="#what" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain models</span></span></span></span><p></p>
   <div>
 <p><strong>A <em>model</em> is a representation of something else.</strong></p>
@@ -192,7 +205,7 @@
 <panel type="seamless" expanded id="how"><template slot="header"><h4 id="how"><span id="how" class="anchor"></span>How<a class="fa fa-anchor" href="#how" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain how models are used</span></span></span></span><p></p>
   <div>
 <p><strong>In software development, models are useful in several ways:</strong></p>
@@ -268,7 +281,7 @@
 <panel type="seamless" expanded id="uml-models"><template slot="header"><h4 id="uml-models"><span id="uml-models" class="anchor"></span>UML Models<a class="fa fa-anchor" href="#uml-models" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can identify UML models</span></span></span></span><p></p>
   <div>
 <p>The following diagram uses the class diagram notation to show the different types of <trigger trigger="click" for="modal:umlModels-uml">UML</trigger> diagrams.</p>
@@ -284,7 +297,7 @@
 <panel type="seamless" expanded id="oo-structures"><template slot="header"><h4 id="oo-structures"><span id="oo-structures" class="anchor"></span>OO Structures<a class="fa fa-anchor" href="#oo-structures" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain structure modeling of OO solutions</span></span></span></span><p></p>
   <div>
 <p>An OO solution is basically a network of objects interacting with each other. Therefore, <strong>it is useful to be able to model how the relevant objects are 'networked' together</strong> inside a software <span class="dimmed">i.e. how the objects are connected together</span>.</p>
@@ -309,7 +322,7 @@
 <panel type="seamless" expanded id="class-diagrams-basics"><template slot="header"><h4 id="class-diagrams-basics"><span id="class-diagrams-basics" class="anchor"></span>Class Diagrams (Basics)<a class="fa fa-anchor" href="#class-diagrams-basics" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use basic-level class diagrams</span></span></span></span><p></p>
   <div>
 <p><span class="dimmed"><small><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Contents of the panels given below belong to a different chapter; they have been embedded here for convenience and are collapsed by default to avoid content duplication in the printed version.</small></span></p>
@@ -384,7 +397,7 @@
 <panel type="seamless" expanded id="adding-more-info-to-uml-models"><template slot="header"><h4 id="adding-more-info-to-uml-models"><span id="adding-more-info-to-uml-models" class="anchor"></span>Adding More Info to UML Models<a class="fa fa-anchor" href="#adding-more-info-to-uml-models" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can add more info to UML models</span></span></span></span><p></p>
   <div>
 <p><strong>UML notes can be used to add more info to any UML model.</strong></p>
@@ -393,7 +406,7 @@
 <panel type="seamless" expanded id="class-diagrams-intermediate"><template slot="header"><h4 id="class-diagrams-intermediate"><span id="class-diagrams-intermediate" class="anchor"></span>Class Diagrams - Intermediate<a class="fa fa-anchor" href="#class-diagrams-intermediate" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use intermediate-level class diagrams</span></span></span></span><p></p>
   <div>
 <p><strong>A class diagram can also show different types of relationships between classes: inheritance, compositions, aggregations, dependencies.</strong></p>
@@ -520,7 +533,7 @@ i.e., <code class="hljs inline java" v-pre><span class="hljs-keyword">new</span>
 <panel type="seamless" expanded id="class-diagrams-advanced"><template slot="header"><h4 id="class-diagrams-advanced"><span id="class-diagrams-advanced" class="anchor"></span>Class Diagrams - Advanced<a class="fa fa-anchor" href="#class-diagrams-advanced" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font></span></span></span>
+  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use advanced class diagrams</span></span></span></span><p></p>
   <div>
 <p><strong>A class diagram can show association classes too.</strong></p>
@@ -584,7 +597,7 @@ ii. A <code class="hljs inline no-lang" v-pre>Human</code> object can <em>train<
 <panel type="seamless" expanded id="object-diagrams"><template slot="header"><h4 id="object-diagrams"><span id="object-diagrams" class="anchor"></span>Object Diagrams<a class="fa fa-anchor" href="#object-diagrams" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use basic object diagrams</span></span></span></span><p></p>
   <div>
 <p><panel type="seamless" src="/website/book/uml/objectDiagrams/introduction/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML → Object Diagrams → Introduction</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> Object Diagrams</p></template></panel></p>
@@ -624,7 +637,7 @@ ii. A <code class="hljs inline no-lang" v-pre>Human</code> object can <em>train<
 <panel type="seamless" expanded id="object-oriented-domain-models"><template slot="header"><h4 id="object-oriented-domain-models"><span id="object-oriented-domain-models" class="anchor"></span>Object Oriented Domain Models<a class="fa fa-anchor" href="#object-oriented-domain-models" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain object oriented domain models</span></span></span></span><p></p>
   <div>
 <blockquote>
@@ -671,7 +684,7 @@ ii. A <code class="hljs inline no-lang" v-pre>Human</code> object can <em>train<
 <panel type="seamless" expanded id="deployment-diagrams"><template slot="header"><h4 id="deployment-diagrams"><span id="deployment-diagrams" class="anchor"></span>Deployment Diagrams<a class="fa fa-anchor" href="#deployment-diagrams" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain deployment diagrams</span></span></span></span><p></p>
   <div>
 <p><strong>A <em>deployment diagram</em> shows a system's physical layout, revealing which pieces of software run on which pieces of hardware.</strong></p>
@@ -684,7 +697,7 @@ ii. A <code class="hljs inline no-lang" v-pre>Human</code> object can <em>train<
 <panel type="seamless" expanded id="component-diagrams"><template slot="header"><h4 id="component-diagrams"><span id="component-diagrams" class="anchor"></span>Component Diagrams<a class="fa fa-anchor" href="#component-diagrams" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain component diagrams</span></span></span></span><p></p>
   <div>
 <p><strong>A <em>component diagram</em> is used to show how a system is divided into components and how they are connected to each other through interfaces.</strong></p>
@@ -696,7 +709,7 @@ ii. A <code class="hljs inline no-lang" v-pre>Human</code> object can <em>train<
 <panel type="seamless" expanded id="package-diagrams"><template slot="header"><h4 id="package-diagrams"><span id="package-diagrams" class="anchor"></span>Package Diagrams<a class="fa fa-anchor" href="#package-diagrams" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain package diagrams</span></span></span></span><p></p>
   <div>
 <p><strong>A <em>package diagram</em> shows packages and their dependencies.</strong> A package is a grouping construct for grouping UML elements (classes, use cases, etc.).</p>
@@ -708,7 +721,7 @@ ii. A <code class="hljs inline no-lang" v-pre>Human</code> object can <em>train<
 <panel type="seamless" expanded id="composite-structure-diagrams"><template slot="header"><h4 id="composite-structure-diagrams"><span id="composite-structure-diagrams" class="anchor"></span>Composite Structure Diagrams<a class="fa fa-anchor" href="#composite-structure-diagrams" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain composite structure diagrams</span></span></span></span><p></p>
   <div>
 <p><strong>A <em>composite structure diagram</em> hierarchically decomposes a class into its internal structure.</strong></p>
@@ -778,7 +791,7 @@ Understanding such workflows is important for the success of the software projec
 <panel type="seamless" expanded id="sequence-diagrams-basic"><template slot="header"><h4 id="sequence-diagrams-basic"><span id="sequence-diagrams-basic" class="anchor"></span>Sequence Diagrams - Basic<a class="fa fa-anchor" href="#sequence-diagrams-basic" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can draw basic sequence diagrams</span></span></span></span><p></p>
   <div>
 <p><panel type="seamless" src="/website/book/uml/sequenceDiagrams/introduction/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Introduction</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SequenceDiagrams</p></template></panel></p>
@@ -839,7 +852,7 @@ Understanding such workflows is important for the success of the software projec
 <panel type="seamless" expanded id="sequence-diagrams-intermediate"><template slot="header"><h4 id="sequence-diagrams-intermediate"><span id="sequence-diagrams-intermediate" class="anchor"></span>Sequence Diagrams - Intermediate<a class="fa fa-anchor" href="#sequence-diagrams-intermediate" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can draw intermediate-level sequence diagrams</span></span></span></span><p></p>
   <div>
 <p><panel type="seamless" src="/website/book/uml/sequenceDiagrams/objectDeletion/unit-inElsewhere-asFlat._include_.html#main" fragment="main" class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Sequence Diagrams → Object Deletion</p></template><template slot="_alt"><p><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> UML/SD/Deletion</p></template></panel>
@@ -915,7 +928,7 @@ Understanding such workflows is important for the success of the software projec
 <panel type="seamless" expanded id="use-case-diagrams"><template slot="header"><h4 id="use-case-diagrams"><span id="use-case-diagrams" class="anchor"></span>Use Case Diagrams<a class="fa fa-anchor" href="#use-case-diagrams" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain use case diagrams</span></span></span></span><p></p>
   <div>
 <p><strong>Use case diagrams model the mapping between features of a system and its user roles.</strong></p>
@@ -926,7 +939,7 @@ Understanding such workflows is important for the success of the software projec
 <panel type="seamless" expanded id="timing-diagrams"><template slot="header"><h4 id="timing-diagrams"><span id="timing-diagrams" class="anchor"></span>Timing Diagrams<a class="fa fa-anchor" href="#timing-diagrams" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain timing diagrams</span></span></span></span><p></p>
   <div>
 <p><strong>A <em>timing diagram</em> focuses on timing constraints.</strong></p>
@@ -939,7 +952,7 @@ Understanding such workflows is important for the success of the software projec
 <panel type="seamless" expanded id="interaction-overview-diagrams"><template slot="header"><h4 id="interaction-overview-diagrams"><span id="interaction-overview-diagrams" class="anchor"></span>Interaction Overview Diagrams<a class="fa fa-anchor" href="#interaction-overview-diagrams" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain interaction overview diagrams</span></span></span></span><p></p>
   <div>
 <p><strong><em>Interaction overview</em> diagrams are a combination of activity diagrams and sequence diagrams</strong>.</p>
@@ -952,7 +965,7 @@ Understanding such workflows is important for the success of the software projec
 <panel type="seamless" expanded id="communication-diagrams"><template slot="header"><h4 id="communication-diagrams"><span id="communication-diagrams" class="anchor"></span>Communication Diagrams<a class="fa fa-anchor" href="#communication-diagrams" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain communication diagrams</span></span></span></span><p></p>
   <div>
 <p><strong><em>Communication diagrams</em> are like sequence diagrams but emphasize the data links between the various participants in the interaction rather than the sequence of interactions.</strong></p>
@@ -965,7 +978,7 @@ Understanding such workflows is important for the success of the software projec
 <panel type="seamless" expanded id="state-machine-diagrams"><template slot="header"><h4 id="state-machine-diagrams"><span id="state-machine-diagrams" class="anchor"></span>State Machine Diagrams<a class="fa fa-anchor" href="#state-machine-diagrams" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain state machine diagrams</span></span></span></span><p></p>
   <div>
 <p><strong>A <em>State Machine Diagram</em> models state-dependent behavior.</strong></p>
@@ -986,211 +999,6 @@ Understanding such workflows is important for the success of the software projec
 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> An SMD for the Minesweeper game.</p>
 <img src="/website/book/modeling/modelingBehaviors/stateMachineDiagrams/images/minesweeper.png" height="200">
 <p></p></box></div>
-  <div></div></div></panel></panel>
-<panel type="seamless" expanded id="modeling-a-solution">
-  <span slot="header" class="card-title"><div><h2 id="modeling-a-solution"><span id="modeling-a-solution" class="anchor"></span><span>Modeling a solution</span><a class="fa fa-anchor" href="#modeling-a-solution" onclick="event.stopPropagation()"></a></h2></div></span>
-<panel type="seamless" expanded id="introduction-2"><template slot="header"><h4 id="introduction-2"><span id="introduction-2" class="anchor"></span>Introduction<a class="fa fa-anchor" href="#introduction-2" onclick="event.stopPropagation()"></a></h4></template>
-  <div class="indented">
-  <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
-  <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain how modeling can be used before implementation</span></span></span></span><p></p>
-  <div>
-<p><strong>You can use models to analyze and design software before you start coding.</strong></p>
-<p>Suppose you are planning to implement a simple minesweeper game that has a text based UI and a GUI. Given below is a possible OOP design for the game.</p>
-<img src="/website/book/modeling/modelingASolution/introduction/images/textLogicMinefieldCell.png" height="50">
-<p></p>
-<p>Before jumping into coding, you may want to find out things such as,</p>
-<ul>
-<li>Is this class structure able to produce the behavior you want?</li>
-<li>What API should each class have?</li>
-<li>Do you need more classes?</li></ul>
-<p>To answer these questions, you can analyze how the objects of these classes will interact with each other to produce the behavior you want.</p></div>
-  <div></div></div></panel>
-<panel type="seamless" expanded id="basic"><template slot="header"><h4 id="basic"><span id="basic" class="anchor"></span>Basic<a class="fa fa-anchor" href="#basic" onclick="event.stopPropagation()"></a></h4></template>
-  <div class="indented">
-  <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
-  <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use simple class diagrams and sequence diagrams to model an OO solution</span></span></span></span><p></p>
-  <div>
-<p>As mentioned in [<trigger trigger="click" for="modal:basicModelling-modelingIntro">Design → Modeling → Modeling a Solution → Introduction</trigger>], this is the Minesweeper design you have come up with so far. Our objective is to analyze, evaluate, and refine that design.</p>
-<b-modal id="modal:basicModelling-modelingIntro" hide-footer size="lg" modal-class="mb-zoom" ref="modal:basicModelling-modelingIntro" class="algolia-no-index"><template slot="modal-title">Textbook <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span></template>
-  <div>
-<div></div><p></p>
-<p><span class="dimmed"><strong><span>Design → Modeling → Modeling a Solution →
-</span></strong></span></p>
-<div id="title-and-body">
-<div><h4 id="introduction-3"><span id="introduction-3" class="anchor"></span><span>Introduction</span><a class="fa fa-anchor" href="#introduction-3" onclick="event.stopPropagation()"></a></h4></div>
-<div id="main">
-<div>
-<p><strong>You can use models to analyze and design software before you start coding.</strong></p>
-<p>Suppose you are planning to implement a simple minesweeper game that has a text based UI and a GUI. Given below is a possible OOP design for the game.</p>
-<img src="/website/book/modeling/modelingASolution/introduction/images/textLogicMinefieldCell.png" height="50">
-<p></p>
-<p>Before jumping into coding, you may want to find out things such as,</p>
-<ul>
-<li>Is this class structure able to produce the behavior you want?</li>
-<li>What API should each class have?</li>
-<li>Do you need more classes?</li></ul>
-<p>To answer these questions, you can analyze how the objects of these classes will interact with each other to produce the behavior you want.</p></div>
-<div></div></div></div></div></b-modal>
-<img src="/website/book/modeling/modelingASolution/introduction/images/textLogicMinefieldCell.png" height="50">
-<p></p>
-<p>Let us start by modeling a sample interaction between the person playing the game and the <code class="hljs inline no-lang" v-pre>TextUi</code> object.</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/basic/images/playerText.png" height="300">
-<p></p>
-<p><code class="hljs inline no-lang" v-pre>newgame</code> and <code class="hljs inline no-lang" v-pre>clear x y</code> represent commands typed by the <code class="hljs inline no-lang" v-pre>Player</code> on the <code class="hljs inline no-lang" v-pre>TextUi</code>.</p></box>
-<p>How does the <code class="hljs inline no-lang" v-pre>TextUi</code> object carry out the requests it has received from the player? It would need to interact with other objects of the system. Because the <code class="hljs inline no-lang" v-pre>Logic</code> class is the one that controls the game logic, the <code class="hljs inline no-lang" v-pre>TextUi</code> needs to collaborate with <code class="hljs inline no-lang" v-pre>Logic</code> to fulfill the <code class="hljs inline no-lang" v-pre>newgame</code> request. Let us extend the model to capture that interaction.</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/basic/images/playerTextLogic.png" height="280">
-<p></p>
-<p><code class="hljs inline no-lang" v-pre>W</code> = Width of the minefield; <code class="hljs inline no-lang" v-pre>H</code> =  Height of the minefield</p></box>
-<p>The above diagram assumes that <code class="hljs inline no-lang" v-pre>W</code> and <code class="hljs inline no-lang" v-pre>H</code> are the only information <code class="hljs inline no-lang" v-pre>TextUi</code> requires to display the minefield to the <code class="hljs inline no-lang" v-pre>Player</code>. Note that there could be other ways of doing this.</p>
-<p>The <code class="hljs inline no-lang" v-pre>Logic</code> methods you conceptualized in our modeling so far are:</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/basic/images/textLogicMinefieldCell.png" height="115"></box>
-<p>Now, let us look at what other objects and interactions are needed to support the <code class="hljs inline no-lang" v-pre>newGame()</code> operation.  It is likely that a new <code class="hljs inline no-lang" v-pre>Minefield</code> object is created when the <code class="hljs inline no-lang" v-pre>newGame()</code> method is called.</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/basic/images/logicMinefield.png" height="150"></box>
-<p>Note that the behavior of the <code class="hljs inline no-lang" v-pre>Minefield</code> constructor has been abstracted away. It can be designed at a later stage.</p>
-<p>Given below are the interactions between the player and the <code class="hljs inline no-lang" v-pre>TextUi</code> for the whole game.</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/basic/images/playerTextLoop.png" height="300">
-<p></p>
-<p></p></box><p></p>
-<box>
-<p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Note that <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">using sequence diagrams</span>a similar technique</span> can be used when discovering/defining the architecture-level APIs.</p>
-<div v-closeable alt="Tic-Tac-Toe Video" class="non-printable">
-<p><span><span aria-hidden="true" class="glyphicon glyphicon-facetime-video"></span></span> Defining the architecture-level APIs for a small Tic-Tac-Toe game:</p>
-<div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/Un80XoRT1ME" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div></box>
-<p></p></div>
-  <div></div></div></panel>
-<panel type="seamless" expanded id="intermediate"><template slot="header"><h4 id="intermediate"><span id="intermediate" class="anchor"></span>Intermediate<a class="fa fa-anchor" href="#intermediate" onclick="event.stopPropagation()"></a></h4></template>
-  <div class="indented">
-  <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font></span></span></span>
-  <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use intermediate class diagram and sequence diagram concepts to model an OO design</span></span></span></span><p></p>
-  <div>
-<p>Continuing with the example in [<trigger trigger="click" for="modal:conceptualingIntermediate-basic">Design → Modeling → Modeling a Solution → Basic</trigger>], next let us model how the <code class="hljs inline no-lang" v-pre>TextUi</code> interacts with the <code class="hljs inline no-lang" v-pre>Logic</code> to support the mark and clear operations until the game is won or lost.</p>
-<b-modal id="modal:conceptualingIntermediate-basic" hide-footer size="lg" modal-class="mb-zoom" ref="modal:conceptualingIntermediate-basic" class="algolia-no-index"><template slot="modal-title"></template>
-  <div>
-<div>
-<p><panel src="/website/book/modeling/modelingBehaviors/sequenceDiagramsBasic/unit-inElsewhere-asFlat._include_.html" popup-url="/website/book/modeling/modelingBehaviors/sequenceDiagramsBasic" class="algolia-no-index"><template slot="header"><p><span class="dimmed"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> Design → Modeling → Modeling Behaviors → Sequence Diagrams → Basic</span></p></template></panel>
-<panel src="/website/book/modeling/modelingStructures/classDiagramsBasic/unit-inElsewhere-asFlat._include_.html" popup-url="/website/book/modeling/modelingStructures/classDiagramsBasic" class="algolia-no-index"><template slot="header"><p><span class="dimmed"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> Design → Modeling → Modeling Structures → Class Diagrams → Basic</span></p></template></panel></p></div><p></p>
-<p><span class="dimmed"><strong><span>Design → Modeling → Modeling a Solution →
-</span></strong></span></p>
-<div id="title-and-body">
-<div><h4 id="basic-2"><span id="basic-2" class="anchor"></span><span>Basic</span><a class="fa fa-anchor" href="#basic-2" onclick="event.stopPropagation()"></a></h4></div>
-<div id="main">
-<div>
-<p>As mentioned in [<trigger trigger="click" for="modal:basicModelling-modelingIntro">Design → Modeling → Modeling a Solution → Introduction</trigger>], this is the Minesweeper design you have come up with so far. Our objective is to analyze, evaluate, and refine that design.</p>
-<b-modal id="modal:basicModelling-modelingIntro" hide-footer size="lg" modal-class="mb-zoom" ref="modal:basicModelling-modelingIntro" class="algolia-no-index"><template slot="modal-title">Textbook <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span></template>
-  <div>
-<div></div><p></p>
-<p><span class="dimmed"><strong><span>Design → Modeling → Modeling a Solution →
-</span></strong></span></p>
-<div id="title-and-body">
-<div><h4 id="introduction-4"><span id="introduction-4" class="anchor"></span><span>Introduction</span><a class="fa fa-anchor" href="#introduction-4" onclick="event.stopPropagation()"></a></h4></div>
-<div id="main">
-<div>
-<p><strong>You can use models to analyze and design software before you start coding.</strong></p>
-<p>Suppose you are planning to implement a simple minesweeper game that has a text based UI and a GUI. Given below is a possible OOP design for the game.</p>
-<img src="/website/book/modeling/modelingASolution/introduction/images/textLogicMinefieldCell.png" height="50">
-<p></p>
-<p>Before jumping into coding, you may want to find out things such as,</p>
-<ul>
-<li>Is this class structure able to produce the behavior you want?</li>
-<li>What API should each class have?</li>
-<li>Do you need more classes?</li></ul>
-<p>To answer these questions, you can analyze how the objects of these classes will interact with each other to produce the behavior you want.</p></div>
-<div></div></div></div></div></b-modal>
-<img src="/website/book/modeling/modelingASolution/introduction/images/textLogicMinefieldCell.png" height="50">
-<p></p>
-<p>Let us start by modeling a sample interaction between the person playing the game and the <code class="hljs inline no-lang" v-pre>TextUi</code> object.</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/basic/images/playerText.png" height="300">
-<p></p>
-<p><code class="hljs inline no-lang" v-pre>newgame</code> and <code class="hljs inline no-lang" v-pre>clear x y</code> represent commands typed by the <code class="hljs inline no-lang" v-pre>Player</code> on the <code class="hljs inline no-lang" v-pre>TextUi</code>.</p></box>
-<p>How does the <code class="hljs inline no-lang" v-pre>TextUi</code> object carry out the requests it has received from the player? It would need to interact with other objects of the system. Because the <code class="hljs inline no-lang" v-pre>Logic</code> class is the one that controls the game logic, the <code class="hljs inline no-lang" v-pre>TextUi</code> needs to collaborate with <code class="hljs inline no-lang" v-pre>Logic</code> to fulfill the <code class="hljs inline no-lang" v-pre>newgame</code> request. Let us extend the model to capture that interaction.</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/basic/images/playerTextLogic.png" height="280">
-<p></p>
-<p><code class="hljs inline no-lang" v-pre>W</code> = Width of the minefield; <code class="hljs inline no-lang" v-pre>H</code> =  Height of the minefield</p></box>
-<p>The above diagram assumes that <code class="hljs inline no-lang" v-pre>W</code> and <code class="hljs inline no-lang" v-pre>H</code> are the only information <code class="hljs inline no-lang" v-pre>TextUi</code> requires to display the minefield to the <code class="hljs inline no-lang" v-pre>Player</code>. Note that there could be other ways of doing this.</p>
-<p>The <code class="hljs inline no-lang" v-pre>Logic</code> methods you conceptualized in our modeling so far are:</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/basic/images/textLogicMinefieldCell.png" height="115"></box>
-<p>Now, let us look at what other objects and interactions are needed to support the <code class="hljs inline no-lang" v-pre>newGame()</code> operation.  It is likely that a new <code class="hljs inline no-lang" v-pre>Minefield</code> object is created when the <code class="hljs inline no-lang" v-pre>newGame()</code> method is called.</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/basic/images/logicMinefield.png" height="150"></box>
-<p>Note that the behavior of the <code class="hljs inline no-lang" v-pre>Minefield</code> constructor has been abstracted away. It can be designed at a later stage.</p>
-<p>Given below are the interactions between the player and the <code class="hljs inline no-lang" v-pre>TextUi</code> for the whole game.</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/basic/images/playerTextLoop.png" height="300">
-<p></p>
-<p></p></box><p></p>
-<box>
-<p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Note that <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">using sequence diagrams</span>a similar technique</span> can be used when discovering/defining the architecture-level APIs.</p>
-<div v-closeable alt="Tic-Tac-Toe Video" class="non-printable">
-<p><span><span aria-hidden="true" class="glyphicon glyphicon-facetime-video"></span></span> Defining the architecture-level APIs for a small Tic-Tac-Toe game:</p>
-<div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/Un80XoRT1ME" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div></box>
-<p></p></div>
-<div></div></div></div></div></b-modal>
-<box>
-<img src="/website/book/modeling/modelingASolution/intermediate/images/playerTextLogicRef.png" height="250">
-<p></p>
-<img src="/website/book/modeling/modelingASolution/intermediate/images/textLogicSd.png" height="210"></box>
-<p>This interaction adds the following methods to the <code class="hljs inline no-lang" v-pre>Logic</code> class:</p>
-<ul>
-<li><code class="hljs inline no-lang" v-pre>clearCellAt(int x, int y)</code></li>
-<li><code class="hljs inline no-lang" v-pre>markCellAt(int x, int y)</code></li>
-<li><code class="hljs inline no-lang" v-pre>getGameState(): GAME_STATE (GAME_STATE: READY, IN_PLAY, WON, LOST, …)</code></li></ul>
-<p>And it adds the following operation to Logic API:</p>
-<ul>
-<li><code class="hljs inline no-lang" v-pre>getAppearanceOfCellAt(int,int): CELL_APPEARANCE (CELL_APPEARANCE: HIDDEN, ZERO, ONE, TWO, THREE, …, MARKED, INCORRECTLY_MARKED, INCORRECTLY_CLEARED)</code></li></ul>
-<p>In the above design, <code class="hljs inline no-lang" v-pre>TextUi</code> does not access <code class="hljs inline no-lang" v-pre>Cell</code> objects directly. Instead, it gets values of type <code class="hljs inline no-lang" v-pre>CELL_APPEARANCE</code> from <code class="hljs inline no-lang" v-pre>Logic</code> to be displayed as a minefield to the player. Alternatively, each cell or the entire minefield can be passed directly to <code class="hljs inline no-lang" v-pre>TextUi</code>.</p>
-<p>Here is the updated class diagram:</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/intermediate/images/textLogicMinefieldCell.png" height="200"></box>
-<p>The above is for the case when Actor <code class="hljs inline no-lang" v-pre>Player</code> interacts with the system using a text UI. Additional operations (if any) required for the GUI can be discovered similarly.
-Suppose <code class="hljs inline no-lang" v-pre>Logic</code> supports a <code class="hljs inline no-lang" v-pre>reset()</code> operation. You can model it like this:</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/intermediate/images/logicMinefieldReset.png" height="100"></box>
-<p>Our current model assumes that the <code class="hljs inline no-lang" v-pre>Minefield</code> object has enough information (i.e. H, W, and mine locations) to create itself.</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/intermediate/images/logicMinefieldNewGame.png" height="85">
-<p></p></box>
-<p>An alternative is to have a <code class="hljs inline no-lang" v-pre>ConfigGenerator</code> object that generates a string containing the minefield information as shown below.</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/intermediate/images/logicConfigGenerator.png" height="170">
-<p></p></box>
-<p>In addition, <code class="hljs inline no-lang" v-pre>getWidth()</code>, <code class="hljs inline no-lang" v-pre>getHeight()</code>, <code class="hljs inline no-lang" v-pre>markCellAt(x,y)</code> and <code class="hljs inline no-lang" v-pre>clearCellAt(x,y)</code> can be handled like this.</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/intermediate/images/logicMinefieldFunctions.png" height="180"></box>
-<p>The updated class diagram:</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/intermediate/images/textLogicMinefieldCellConfigGenerator.png" height="250"></box>
-<p>How is the <code class="hljs inline no-lang" v-pre>getGameState()</code> operation supported? Given below are two ways (there could be other ways):</p>
-<ol>
-<li>The <code class="hljs inline no-lang" v-pre>Minefield</code> class knows the state of the game at any time. The <code class="hljs inline no-lang" v-pre>Logic</code> class retrieves it from the <code class="hljs inline no-lang" v-pre>Minefield</code> class as and when required.</li>
-<li>The <code class="hljs inline no-lang" v-pre>Logic</code> class maintains the state of the game at all times.</li></ol>
-<p>Here’s the SD for option 1.</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/intermediate/images/logicMinefieldGetGameState.png" height="180"></box>
-<p>Here’s the SD for option 2. Assume that the game state is updated after every mark/clear action.</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/intermediate/images/logicMinefieldUpdateState.png" height="250"></box>
-<p>It is now time to explore what happens inside the <code class="hljs inline no-lang" v-pre>Minefield</code> constructor. One way is to design it as follows.</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/intermediate/images/minefieldCellAlt.png" height="200"></box>
-<p>Now let us assume that <code class="hljs inline no-lang" v-pre>Minesweeper</code> supports a ‘timing’ feature.</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/intermediate/images/logicTimerOpt.png" height="130"></box>
-<p>Updated class diagram:</p>
-<box>
-<img src="/website/book/modeling/modelingASolution/intermediate/images/fullClassDiagram.png" height="250"></box>
-<box>
-<p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When designing components, it is not necessary to draw elaborate UML diagrams capturing all details of the design. They can be done as rough sketches. For example, draw sequence diagrams only when you are not sure which operations are required by each class, or when you want to verify that your class structure can indeed support the required operations.</p></box></div>
   <div></div></div></panel></panel></div>
 <p><i class="fa fa-arrow-circle-up fa-lg" id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true"></i></p></div>
         <nav id="page-nav" class="navbar navbar-light bg-transparent">
@@ -1231,12 +1039,6 @@ Suppose <code class="hljs inline no-lang" v-pre>Logic</code> supports a <code cl
 <a class="nav-link py-1" href="#communication-diagrams">Communication Diagrams&#x200E;</a>
 <a class="nav-link py-1" href="#state-machine-diagrams">State Machine Diagrams&#x200E;</a>
 </nav>
-<a class="nav-link py-1" href="#modeling-a-solution">Modeling a solution&#x200E;</a>
-<nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
-<a class="nav-link py-1" href="#introduction-2">Introduction&#x200E;</a>
-<a class="nav-link py-1" href="#basic">Basic&#x200E;</a>
-<a class="nav-link py-1" href="#intermediate">Intermediate&#x200E;</a>
-</nav>
 </nav>
 
 </nav>
@@ -1246,7 +1048,7 @@ Suppose <code class="hljs inline no-lang" v-pre>Logic</code> supports a <code cl
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Sun, 20 Dec 2020, 16:08:09 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Fri, 25 Dec 2020, 1:44:56 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>

@@ -127,7 +127,7 @@
 {% set priority = 5 %}
 {% for entry in entries %}
   {% set entry_priority = get_unit_priority(entry) | trim | int %}
-  {% if entry_priority != 0 and entry_priority < priority %}
+  {% if entry_priority not in [0, -1] and entry_priority < priority %}
     {% set priority = entry_priority %}
   {% endif %}
 {% endfor %}
@@ -181,7 +181,7 @@
 
 {{ commentary(slugify(params.topic.heading)) }}
 
-<panel type="seamless" no-close {{ panel_decorations }} expandable="{{ panel_expandable }}" expanded >
+<panel type="seamless" no-close {{ panel_decorations }} expandable="{{ panel_expandable }}" {{ "" if params.topic.collapsed else "expanded" }} >
 <span slot="header" class="card-title"><markdown>## %%[{{ prefix | trim }}]%% **{{ params.topic.heading }}** <small><small>{{ show_stars(priority) }}</small></small></markdown> </span>
 {{ panopto(params.topic.panopto) if params.topic.panopto }}
 <div class="indented-level1">

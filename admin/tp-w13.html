@@ -40,10 +40,23 @@
 <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Fri, Apr 9th] </span></a></li></dropdown>
   <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
   <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-  
-  <div class="nav-link temp-dropdown-placeholder">**Project Links**</div>
-  <div class="nav-link temp-dropdown-placeholder">**Other Links**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Other Links</strong></template>
+  <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://nus-tic4002-ay2021s2.github.io/dashboards" target="_blank" class="nav-link"><span><strong>Dashboards</strong></span></a></li>
+  <div class="nav-link temp-dropdown-placeholder">**Project Links**</div><dropdown tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Project Links</strong></template>
+    <span><strong> Individual Project (iP):</strong></span>
+    <li><a href="/website/admin/ip-overview.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Individual Project Info</span></a></li>
+    <li><a href="https://github.com/nus-tic4002-AY2021S2/ip" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> iP Upstream Repo</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/ip-dashboard/#sort=groupTitle&groupSelect=groupByAuthors" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> iP Code Dashboard</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/ip-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> iP Progress Dashboard</span></a></li>
+    <hr>
+    <span><strong> Team Project (tP):</strong></span>
+    <li><a href="/website/admin/tp-expectations.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Team Project Info</span></a></li>
+    <li tags="m--cs2103 m--tic4002"><a href="https://github.com/nus-tic4002-AY2021S2/tp2" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</span></a></li>
     
+    <li><a href="/website/admin/teamList.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team List</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/tp-dashboard/#breakdown=true" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> tP Progress Dashboard</span></a></li></dropdown>
+  <div class="nav-link temp-dropdown-placeholder">**Other Links**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Other Links</strong></template>
+    <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://github.com/nus-tic4002-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
     <li><a href="https://github.com/nus-tic4002-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
     
     <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span> Instructors</span></a></li>
@@ -52,9 +65,9 @@
     
     
     
-    
-    
-    
+    <li tags="m--cs2103 m--cs2113 m--tic2002 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/java/basic.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+    <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-git-square"></span> Git Conventions</span></a></li>
+    <li tags="m--cs2103 m--cs2113 m--tic4002"><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/forum-activities.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-trophy"></span> Forum Activities Dashboard</span></a></li>
     <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/participation.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> Participation Dashboard</span></a></li>
     
     </dropdown>
@@ -85,8 +98,6 @@
 <li><div class="site-nav-default-list-item site-nav-list-item-1" onclick="handleSiteNavClick(this)"><a href="/website/admin/ip-w4.html"><small>iP: Week 4</small></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></div></li>
 <li><div class="site-nav-default-list-item site-nav-list-item-1" onclick="handleSiteNavClick(this)"><a href="/website/admin/ip-w5.html"><small>iP: Week 5</small></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></div></li>
 <li><div class="site-nav-default-list-item site-nav-list-item-1" onclick="handleSiteNavClick(this)"><a href="/website/admin/ip-w6.html"><small>iP: Week 6</small></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span aria-hidden="true" class="fas fa-star"></span></span></span></div></li>
-<li><div class="site-nav-default-list-item site-nav-list-item-1" onclick="handleSiteNavClick(this)"><a href="/website/admin/ip-w7.html"><small>iP: Week 7</small></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span aria-hidden="true" class="fas fa-star"></span></span></span></div></li>
-<li><div class="site-nav-default-list-item site-nav-list-item-1" onclick="handleSiteNavClick(this)"><a href="/website/admin/ip-w8.html"><small>iP: Week 8</small></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span aria-hidden="true" class="fas fa-star"></span></span></span></div></li>
 <li><div class="site-nav-default-list-item site-nav-list-item-1" onclick="handleSiteNavClick(this)"><a href="/website/admin/ip-grading.html"><small>iP: Grading</small></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></div></li></ul></li>
 <li><div class="site-nav-default-list-item site-nav-list-item-0" onclick="handleSiteNavClick(this)">Team Project (tP)
 <i class="site-nav-dropdown-btn-icon site-nav-rotate-icon" onclick="handleSiteNavClick(this.parentNode, false); event.stopPropagation();">
@@ -168,17 +179,17 @@ Penalty for delays beyond 24 hours is determined on a case by case basis.</p>
 <p><strong>Do not update the code during the 14 days after the deadline.</strong> Get our permission first if you need to update the code in the repo during that <em>freeze</em> period.</p>
 <ul>
 <li>You can update issues/milestones/PRs even during the <em>freeze</em> period.</li>
-<li>[TIC4002T only] You can update the source code of the docs (but not functional/test code) if your CS2101 submission deadline is later than our submission deadline. However, a freeze period of 1-2 days is still recommended, so that there is a clear gap between the tP submission and subsequent docs updates.</li>
 <li>You can update the code during the freeze period if the change is related to a late submission approved by us.</li>
 <li>You can continue to evolve your repo after the freeze period.</li></ul></li></ul>
 <div class="indented">
 <p><big><strong>Submissions:</strong></big></p></div>
-<div class="indented-level2" id="tip-how-to-convert-to-pdf">
+<div class="indented">
+<div id="tip-how-to-convert-to-pdf">
 <box type="important" seamless>
 <p><strong>To convert the UG/DG/PPP into PDF format</strong>, go to the generated page in your project's <a href="http://github.io">github.io</a> site and use <a href="https://se-education.org/guides/tutorials/savingPdf.html">this technique</a> to save as a pdf file. <mark>Using other techniques can result in poor quality resolution (will be considered a bug) and unnecessarily large files.</mark></p>
 <p><strong>Ensure hyperlinks in the pdf files work</strong>. Your UG/DG/PPP will be evaluated using PDF files during the PE. <mark>Broken/non-working hyperlinks in the PDF files will be considered as bugs</mark> and will count against your project score. Again, use the conversion technique given above to ensure links in the PDF files work.</p>
 <p><strong>Try the PDF conversion early</strong>. If you do it at the last minute, you may not have time to fix any problems in the generated PDF files (such problems are more common than you think).
-</p></box><p></p>
+</p></box><p></p></div>
 <box type="info" seamless>
 <p><strong>The icon <span><span aria-hidden="true" class="fas fa-users"></span></span> indicates team submissions.</strong> Only one person need to submit on behalf of the team but we recommend that others help verify the submission is in order <br>
 <mark>We will not accept requests to limit late penalties of team submissions to one person</mark> even if the delay was one person's fault. That is, the responsibility (and the penalty) for team submissions are to be shared by the whole team rather than burden one person with it.</p>
@@ -295,6 +306,7 @@ If you use PlantUML diagrams, commit the diagrams as <code class="hljs inline no
 <ul>
 <li><strong>Aim to showcase your documentation skills.</strong> The stated objective of the DG is to explain the implementation to a future developer, but a secondary objective is to serve as evidence of your ability to document deeply-technical content using prose, examples, diagrams, code snippets, etc. appropriately. To that end, you may also describe features that you plan to implement in the future, even beyond v1.4 (hypothetically).<br>
 For an example, see <a href="https://se-education.org/addressbook-level3/DeveloperGuide.html#proposed-undoredo-feature">the description of the undo/redo feature implementation in the AddressBook-Level3 developer guide</a>.</li>
+<li><strong>Use multiple UML diagram types.</strong> Following from the point above, try to include UML diagrams of multiple types to showcase your ability to use different UML diagrams.</li>
 <li><strong>Diagramming tools</strong>:
 <ul>
 <li>
@@ -303,12 +315,11 @@ For an example, see <a href="https://se-education.org/addressbook-level3/Develop
 <p>You may use any other tool too (e.g., PowerPoint). But if you do, note the following:<br>
 <mark>Choose a diagramming tool that has some 'source' format that can be version-controlled using git and updated incrementally</mark> <span class="dimmed">(reason: because diagrams need to evolve with the code that is already being version controlled using git)</span>. For example, if you use PowerPoint to draw diagrams, also commit the source PowerPoint files so that they can be reused when updating diagrams later.</p></li>
 <li>
-<p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Can <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., automatically reverse engineered from the Java code</span>IDE-generated</span> UML diagrams be used in project submissions? Not a good idea. Given are three reasons each of which can be reported by evaluators as 'bugs' in your diagrams, costing you marks:</p>
+<p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Can <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., automatically reverse engineered from the Java code</span>IDE-generated</span> UML diagrams be used in project submissions? Not a good idea. Given below are three reasons each of which can be reported by evaluators as 'bugs' in your diagrams, costing you marks:</p>
 <ul>
 <li>They often don't follow the standard UML notation (e.g., they add extra icons).</li>
 <li>They tend to include <em>every</em> little detail whereas we want to limit UML diagrams to important details only, to improve readability.</li>
 <li>Diagrams reverse-engineered by an IDE might not represent the actual design as some design concepts cannot be deterministically identified from the code. e.g., differentiating between multiplicities <code class="hljs inline no-lang" v-pre>0..1</code> vs <code class="hljs inline no-lang" v-pre>1</code>, composition vs aggregation</li></ul></li></ul></li>
-<li><strong>Use multiple UML diagram types.</strong> Following from the point above, try to include UML diagrams of multiple types to showcase your ability to use different UML diagrams.</li>
 <li><strong>Keep diagrams simple.</strong> The aim is to make diagrams <mark><em>comprehensible</em>, not necessarily <em>comprehensive</em></mark>.<br>
 Ways to simplify diagrams:
 <ul>
@@ -317,7 +328,7 @@ Ways to simplify diagrams:
 <li>a class diagram can omit minor utility classes, private/unimportant members; some less-important associations can be shown as attributes instead.</li>
 <li>a sequence diagram can omit less important interactions, self-calls.</li></ul></li>
 <li><strong>Omit repetitive details</strong> e.g., a class diagram can show only a few representative ones in place of many similar classes (note how the <trigger trigger="click" for="modal:ipWeek10-logicClassDiagram">AB3 Logic class diagram</trigger> shows concrete <code class="hljs inline no-lang" v-pre>*Command</code> classes using a placeholder <code class="hljs inline no-lang" v-pre>XYZCommand</code>).</li>
-<li><strong>Limit the scope of a diagram.</strong> Decide the purpose of the diagram (i.e., what does it help to explain?) and omit details not related to it.</li>
+<li><strong>Limit the scope of a diagram.</strong> Decide the purpose of the diagram (i.e., what does it help to explain?) and omit details not related to it.<span tags="m--cs2103 m--tic4002"> In particular, avoid showing lower-level details of multiple components in the same diagram unless strictly necessary e.g., note how the <trigger trigger="click" for="modal:ipWeek10-deleteSd">this sequence diagram</trigger> shows only the detailed interactions within the Logic component i.e., does not show detailed interactions within the model component.</span></li>
 <li><strong>Break diagrams into smaller fragments</strong> when possible.
 <ul>
 <li>If a component has a lot of classes, consider further dividing into sub-components (e.g., a Parser sub-component inside the Logic component). After that, sub-components can be shown as black-boxes in the main diagram and their details can be shown as separate diagrams.</li>
@@ -405,8 +416,8 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <p>Keep in mind that evaluators will use the PPP to estimate your project effort. We recommend that you mention things that will earn you a fair score <span class="dimmed">e.g., explain how deep the enhancement is, why it is <em>complete</em>, how hard it was to implement etc.</span>.
 </p></box><p></p></div>
 <ul>
-<li><strong>[Optional] Contributions to the Developer Guide (Extracts)</strong>: Reproduce the parts in the Developer Guide that you wrote. Alternatively, you can show the various diagrams you contributed.</li>
-<li><strong>[Optional] Contributions to the User Guide (Extracts)</strong>: Reproduce the parts in the User Guide that you wrote.</li></ul>
+<li><strong><span class="badge badge-pill badge-success">OPTIONAL</span> Contributions to the Developer Guide (Extracts)</strong>: Reproduce the parts in the Developer Guide that you wrote. Alternatively, you can show the various diagrams you contributed.</li>
+<li><strong><span class="badge badge-pill badge-success">OPTIONAL</span> Contributions to the User Guide (Extracts)</strong>: Reproduce the parts in the User Guide that you wrote.</li></ul>
 <h4 id="ppp-format"><span id="ppp-format" class="anchor"></span><span class="badge badge-info">PPP</span> <span class="text-info">Format</span><a class="fa fa-anchor" href="#ppp-format" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li>File name (i.e., in the repo): <code class="hljs inline no-lang" v-pre>docs/team/githbub_username_in_lower_case.md</code> e.g., <code class="hljs inline no-lang" v-pre>docs/team/goodcoder123.md</code></li>
@@ -417,11 +428,7 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <p><strong>To convert the UG/DG/PPP into PDF format</strong>, go to the generated page in your project's <a href="http://github.io">github.io</a> site and use <a href="https://se-education.org/guides/tutorials/savingPdf.html">this technique</a> to save as a pdf file. <mark>Using other techniques can result in poor quality resolution (will be considered a bug) and unnecessarily large files.</mark></p>
 <p><strong>Ensure hyperlinks in the pdf files work</strong>. Your UG/DG/PPP will be evaluated using PDF files during the PE. <mark>Broken/non-working hyperlinks in the PDF files will be considered as bugs</mark> and will count against your project score. Again, use the conversion technique given above to ensure links in the PDF files work.</p>
 <p><strong>Try the PDF conversion early</strong>. If you do it at the last minute, you may not have time to fix any problems in the generated PDF files (such problems are more common than you think).
-</p></box><p></p>
-<box type="info" seamless>
-<p><strong>The icon <span><span aria-hidden="true" class="fas fa-users"></span></span> indicates team submissions.</strong> Only one person need to submit on behalf of the team but we recommend that others help verify the submission is in order <br>
-<mark>We will not accept requests to limit late penalties of team submissions to one person</mark> even if the delay was one person's fault. That is, the responsibility (and the penalty) for team submissions are to be shared by the whole team rather than burden one person with it.</p>
-<p><strong>The icon <span><span aria-hidden="true" class="fas fa-user"></span></span> indicates individual submissions.</strong> When uploading files to LumiNUS, please <mark>upload your individual files yourself</mark>. <span class="dimmed">Reason: Penalties related to submission time/format are calculated automatically based on the uploader's identity.</span></p></box></div></div>
+</p></box><p></p></div></div>
 <h4 id="ppp-page-limit"><span id="ppp-page-limit" class="anchor"></span><span class="badge badge-info">PPP</span> <span class="text-info">Page Limit</span><a class="fa fa-anchor" href="#ppp-page-limit" onclick="event.stopPropagation()"></a></h4>
 <div class="indented-level2">
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
@@ -588,7 +595,8 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <li>The primary objective of the PE is to <mark>increase the rigor of project grading</mark>. Assessing most aspects of the project involves an element subjectivity. As the project counts for a large percentage of the final grade, it is not prudent to rely on evaluations of tutors alone as there can be significant variations between how different tutors assess projects. That is why we collect more data points via the PE so as to minimize the chance of your project being affected by evaluator-bias.</li>
 <li>PE is also <mark>used to evaluate your manual testing skills, product evaluation skills, effort estimation skills</mark> etc.</li>
 <li>Note that significant project components are <mark>not graded solely based on peer ratings</mark>. Rather, PE data are cross-validated with tutors' grades to identify cases that need further investigation. When peer inputs are used for grading, they are usually combined with tutors' grades with appropriate weight for each. In some cases ratings from team members are given a higher weight compared to ratings from other peers, if that is appropriate.</li>
-<li>PE is <mark>not a means of <em>pitting you against each other</em></mark>. Developers and testers play for the same side; they need to push each other to improve the quality of their work -- not bring down each other.</li></ul>
+<li>PE is <mark>not a means of <em>getting you to bring down each other</em></mark> because <em>bringing down</em> anyone is not the goal; it's just a means of identifying as many bugs as possible. No one <em>can</em> sabotage another person or <em>inject</em> bugs into others' products. All anyone <em>can</em> do is to point out potential problems. If those are false positives, no real harm done.<br>
+Having said that, <em>none of us</em> likes it when others point out problems of our work. <strong>We just have to learn not to take bug reports personally</strong>. Another important lesson is to learn how to report bugs in a way that doesn't feel like you are <em>attacking</em> or trying to <em>sabotage</em> the dev team.</li></ul>
 <p><strong>Grading</strong>:</p>
 <ul>
 <li>Your performance in the practical exam will affect your final grade and your peers', as explained in <a href="/website/admin/tp-grading.html"><em>Admin: Project Grading</em></a> section.</li>
@@ -655,7 +663,7 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <li>
 <p><strong>Have a good screen grab tool</strong> with annotation features so that you can quickly take a screenshot of a bug, annotate it, and post in the issue tracker.</p>
 <ul>
-<li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use <kbd>Ctrl</kbd>+<kbd>V</kbd> to paste a picture from the clipboard into a text box in bug report.</li></ul></li>
+<li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use <kbd>Ctrl</kbd>+<kbd>V</kbd> to paste a picture from the clipboard into a text box in a bug report.</li></ul></li>
 <li>
 <p><strong><span class="text-danger">Download the product to be tested</span></strong>.</p></li></ul>
 <tabs active="1" add-class="ml-4">
@@ -683,7 +691,8 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <li>The primary objective of the PE is to <mark>increase the rigor of project grading</mark>. Assessing most aspects of the project involves an element subjectivity. As the project counts for a large percentage of the final grade, it is not prudent to rely on evaluations of tutors alone as there can be significant variations between how different tutors assess projects. That is why we collect more data points via the PE so as to minimize the chance of your project being affected by evaluator-bias.</li>
 <li>PE is also <mark>used to evaluate your manual testing skills, product evaluation skills, effort estimation skills</mark> etc.</li>
 <li>Note that significant project components are <mark>not graded solely based on peer ratings</mark>. Rather, PE data are cross-validated with tutors' grades to identify cases that need further investigation. When peer inputs are used for grading, they are usually combined with tutors' grades with appropriate weight for each. In some cases ratings from team members are given a higher weight compared to ratings from other peers, if that is appropriate.</li>
-<li>PE is <mark>not a means of <em>pitting you against each other</em></mark>. Developers and testers play for the same side; they need to push each other to improve the quality of their work -- not bring down each other.</li></ul>
+<li>PE is <mark>not a means of <em>getting you to bring down each other</em></mark> because <em>bringing down</em> anyone is not the goal; it's just a means of identifying as many bugs as possible. No one <em>can</em> sabotage another person or <em>inject</em> bugs into others' products. All anyone <em>can</em> do is to point out potential problems. If those are false positives, no real harm done.<br>
+Having said that, <em>none of us</em> likes it when others point out problems of our work. <strong>We just have to learn not to take bug reports personally</strong>. Another important lesson is to learn how to report bugs in a way that doesn't feel like you are <em>attacking</em> or trying to <em>sabotage</em> the dev team.</li></ul>
 <p><strong>Grading</strong>:</p>
 <ul>
 <li>Your performance in the practical exam will affect your final grade and your peers', as explained in <a href="/website/admin/tp-grading.html"><em>Admin: Project Grading</em></a> section.</li>
@@ -753,7 +762,7 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <li>
 <p><strong>Have a good screen grab tool</strong> with annotation features so that you can quickly take a screenshot of a bug, annotate it, and post in the issue tracker.</p>
 <ul>
-<li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use <kbd>Ctrl</kbd>+<kbd>V</kbd> to paste a picture from the clipboard into a text box in bug report.</li></ul></li>
+<li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use <kbd>Ctrl</kbd>+<kbd>V</kbd> to paste a picture from the clipboard into a text box in a bug report.</li></ul></li>
 <li>
 <p><strong><span class="text-danger">Download the product to be tested</span></strong>.</p></li></ul>
 <tabs active="1" add-class="ml-4">
@@ -805,7 +814,7 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <h5 id="pe-phase-1-part-i-product-testing-60-minutes"><span id="pe-phase-1-part-i-product-testing-60-minutes" class="anchor"></span><span class="badge badge-success">PE Phase 1 - Part I</span> <span class="text-success">Product Testing [60 minutes]</span><a class="fa fa-anchor" href="#pe-phase-1-part-i-product-testing-60-minutes" onclick="event.stopPropagation()"></a></h5>
 <box type="tip" seamless>
 <p><strong class="text-success">Bonus marks for high accuracy rates!</strong></p>
-<p>You will receive bonus marks if a high percentage (e.g., &gt;70%) of your bugs are <em><strong>accepted as reported</strong></em> (i.e., the eventual <code class="hljs inline no-lang" v-pre>type.*</code> and <code class="hljs inline no-lang" v-pre>severity.*</code> of the bug match the values you chose initially).
+<p>You will receive bonus marks if a high percentage (e.g., &gt;70%) of your bugs are <em><strong>accepted as reported</strong></em> (i.e., the eventual <code class="hljs inline no-lang" v-pre>type.*</code> and <code class="hljs inline no-lang" v-pre>severity.*</code> of the bug match the values you chose initially and the bug is accepted by the team).
 </p></box><p></p>
 <p><strong>Test the product and report bugs</strong> as described below. You may report both product bugs and documentation bugs during this period.</p>
 <div>
@@ -825,18 +834,18 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <li>Unzip the inner zip file. This will give you the jar file and other PDF files needed for the PE. <mark>Warning: do not run the jar file while it is still inside the zip file</mark>.</li></ul></tab></tabs>
 <p></p>
 <ul>
-<li>Put the downloaded jar file <mark>in an empty folder</mark> in which the app is allowed to create files <span class="dimmed">(i.e., do not use write-protected folder)</span>.</li>
+<li>Put the downloaded jar file <mark>in an empty folder</mark> in which the app is allowed to create files <span class="dimmed">(i.e., do not use a write-protected folder)</span>.</li>
 <li>Open a command window. Run the <code class="hljs inline no-lang" v-pre>java -version</code> command to ensure you are using Java 11.</li>
 <li>Check the UG to see if there are extra things you need to do before launching the JAR file <span class="dimmed">e.g., download another file from somewhere</span><br>
 <span><span aria-hidden="true" class="fas fa-info-circle"></span></span> You may visit the team's <em>releases</em> page on GitHub if they have provided some extra files you need to download.</li>
-<li>Launch the jar file <mark>using the <code class="hljs inline no-lang" v-pre>java -jar</code> command</mark> (do not use double-clicking).<br>
+<li>Launch the jar file <mark>using the <code class="hljs inline no-lang" v-pre>java -jar</code> command</mark> rather than double-clicking <span class="dimmed">(reason: to ensure the jar file is using the same java version that you verified above)</span>. Use double-clicking as a last resort.<br>
 If you are on Windows, use the DOS prompt or the PowerShell (not the WSL terminal) to run the JAR file.</li>
 <li><strong>If the product doesn't work at all:</strong> If the product fails catastrophically <span class="dimmed">e.g., cannot even launch, or even the basic commands crash the app</span>, contact the invigilator (via MS Teams, and failing that, via Zoom chat) to receive a <em>fallback</em> team to test.</li></ul>
 <h6 id="b-what-to-test"><span id="b-what-to-test" class="anchor"></span><div class="text-white bg-secondary p-1">b) What to test</div><a class="fa fa-anchor" href="#b-what-to-test" onclick="event.stopPropagation()"></a></h6>
 <tabs active="1">
 <tab><template slot="_header">PE Dry Run (at <strong>v1.3</strong>)</template>
 <ul>
-<li>Test the product <mark>based on the User Guide</mark> available from their GitHub website <code class="hljs inline no-lang" v-pre>https://{team-id}.github.io/tp/UserGuide.html</code>.</li>
+<li>Test the product <mark>based on the User Guide</mark> available from their GitHub website <code class="hljs inline no-lang" v-pre>https://{team-id}.github.io/tp2/UserGuide.html</code>.</li>
 <li>Do <mark><em>system</em> testing first</mark> <span class="dimmed">i.e., does the product work as specified by the documentation?</span>. If there is time left, you can <mark>do <em>acceptance</em> testing as well</mark> <span class="dimmed">i.e., does the product solve the problem it claims to solve?</span>.</li></ul></tab>
 <tab class="algolia-no-index"><template slot="_header">PE (at <strong>v1.4</strong>)</template>
 <ul>
@@ -1082,7 +1091,14 @@ If you are on Windows, use the DOS prompt or the PowerShell (not the WSL termina
 <li>broken links, other inaccuracies, typos, etc.</li>
 <li>hard to read/understand</li>
 <li>unnecessary repetitions <span class="dimmed">(i.e., hard to see what's similar and what's different)</span></li></ul></span></div></div></panel>
-
+<span tags="m--cs2103 m--tic4002" id="architectureDiagramBugs">
+<p><span aria-hidden="true" class="fas fa-bug"></span> Architecture:</p>
+<ul>
+<li>Symbols used are not intuitive</li>
+<li>Indiscriminate use of double-headed arrows</li>
+<li><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">e.g., the sequence diagram showing interactions between main components</span><em>architecture-level</em></span> diagrams contain lower-level details</li>
+<li>Description given are not sufficiently high-level
+</li></ul></span>
 <span id="umlDiagramBugs">
 
 <p><span aria-hidden="true" class="fas fa-bug"></span> UML diagrams:</p>
@@ -1096,7 +1112,7 @@ If you are on Windows, use the DOS prompt or the PowerShell (not the WSL termina
 
 <p><span aria-hidden="true" class="fas fa-bug"></span> Code snippets:</p>
 <ul>
-<li>Excessive use of code e.g., a large chunk of code is cited when a smaller extract of would have sufficed.
+<li>Excessive use of code e.g., a large chunk of code is cited when a smaller extract would have sufficed.
 </li></ul></span>
 <span id="userStoryBugs">
 
@@ -1107,7 +1123,16 @@ If you are on Windows, use the DOS prompt or the PowerShell (not the WSL termina
 <li>The three parts do not match with each other</li>
 <li>Important user stories missing
 </li></ul></span>
+<span tags="m--cs2103 m--tic4002" id="useCaseBugs">
 
+<p><span aria-hidden="true" class="fas fa-bug"></span> Problems in Use Cases. Examples:</p>
+<ul>
+<li>Formatting/notational errors</li>
+<li>Incorrect step numbering</li>
+<li>Unnecessary UI details mentioned</li>
+<li>Missing/unnecessary steps</li>
+<li>Missing extensions
+</li></ul></span>
 <span id="nfrBugs">
 
 <p><span aria-hidden="true" class="fas fa-bug"></span> Problems in NFRs. Examples:</p>
@@ -1188,7 +1213,12 @@ For reference, the AB3 DG is <a href="https://se-education.org/addressbook-level
 <li class="radio-list-item"><label><input class="radio-list-input" name="068c5" type="radio">  Higher</label></li></ul></div>
 <p></p>
 <div id="projectGrading-effort-instructions">
-
+<div tags="m--cs2103 m--tic4002">
+<p><thumbnail circle background="#28a745" font-color="white" size="25"><strong>Q</strong></thumbnail> <strong>If the implementation effort required to create AB3 from scratch is 10, the estimated implementation effort of this team is,</strong> [<code class="hljs inline no-lang" v-pre>0</code>..<code class="hljs inline no-lang" v-pre>20</code>] e.g., if you give <code class="hljs inline no-lang" v-pre>8</code>, that means the team's effort is about 80% of that spent on creating AB3. We expect most typical teams to score near to <code class="hljs inline no-lang" v-pre>10</code>.</p>
+<ul>
+<li>Do read the DG appendix named <code class="hljs inline no-lang" v-pre>Effort</code>, if any.</li>
+<li><mark>Consider implementation work only (i.e., exclude testing, documentation, project management etc.)</mark></li>
+<li>Do not give a high value just <em>to be nice</em>. <mark>Your responses will be used to evaluate your effort estimation skills.</mark></li></ul></div>
 </div>
 <p><thumbnail circle background="#28a745" font-color="white" size="25"><strong>Q</strong></thumbnail> <strong>[Optional] Concerns or any noteworthy observations about the product you evaluated</strong></p></box></div>
 <h4 id="pe-phase-2-developer-response"><span id="pe-phase-2-developer-response" class="anchor"></span><span class="badge badge-success">PE</span> <span class="text-success">Phase 2: Developer Response</span><a class="fa fa-anchor" href="#pe-phase-2-developer-response" onclick="event.stopPropagation()"></a></h4>
@@ -1196,7 +1226,7 @@ For reference, the AB3 DG is <a href="https://se-education.org/addressbook-level
 <p>This phase is for you to respond to the bug reports you received.</p>
 <box type="tip" seamless>
 <p><strong class="text-success">Bonus marks for high accuracy rates!</strong></p>
-<p>You will receive bonus marks if a high percentage (e.g., &gt;80%) of bugs are <em><strong>accepted as triaged</strong></em> (i.e., the eventual <code class="hljs inline no-lang" v-pre>type.*</code> and <code class="hljs inline no-lang" v-pre>severity.*</code> of the bug matches the one you chose).
+<p>You will receive bonus marks if a high percentage (e.g., &gt;80%) of bugs are <em><strong>accepted as triaged</strong></em> (i.e., the eventual <code class="hljs inline no-lang" v-pre>type.*</code>, <code class="hljs inline no-lang" v-pre>severity.*</code>, and <code class="hljs inline no-lang" v-pre>response.*</code> of the bug match the ones you chose).
 </p></box><p></p>
 <p>Duration: The review period will start around 1 day after the PE and will last for 2-3 days (exact times will be announced later). However, you are recommended to finish this task ASAP, to minimize cutting into your exam preparation work.</p>
 <p>Bug reviewing is recommended to be done as a team as some of the decisions need team consensus.</p>
@@ -1339,8 +1369,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <li>not accepted</li>
 <li>severity downgraded</li>
 <li>bug type changed</li>
-<li>bug flagged as duplicate <span class="dimmed">(Note that you still get the credit bugs flagged as duplicates, unless you reported both bugs yourself. Nevertheless, it is in your interest to object to bugs being flagged incorrectly as duplicates because when a bug is reported by more testers, it will be considered an 'obvious' bug and will earn slightly less credit than otherwise)</span></li></ul></li>
-<li>As before, consider carefully before you object to a dev team's response. <mark><span class="text-danger">If many of your objections were overruled by the teaching team later</span></mark>, you will lose marks for not being able to evaluate a bug report properly.</li>
+<li>bug flagged as duplicate <span class="dimmed">(Note that you still get credit for bugs flagged as duplicates, unless you reported both bugs yourself. Nevertheless, it is in your interest to object to bugs being flagged incorrectly as duplicates because when a bug is reported by more testers, it will be considered an 'obvious' bug and will earn slightly less credit than otherwise)</span></li></ul></li>
 <li>If you disagree with the team's decision but would like to revise your own initial type/severity/response as well, you can state that in your explanation <span class="dimmed">e.g., you rated the bug <code class="hljs inline no-lang" v-pre>severity.High</code> and the team changed it to <code class="hljs inline no-lang" v-pre>severity.Low</code> but now you think it should be <code class="hljs inline no-lang" v-pre>severity.Medium</code></span>.</li>
 <li>You can also refer to the below guidelines:</li></ul>
 <div class="indented-level2">
@@ -1436,7 +1465,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Sun, 20 Dec 2020, 16:08:09 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Fri, 25 Dec 2020, 1:44:56 GMT+8]</small></div></footer></div>
 </body>
 <script src="../markbind/js/bootstrap-utility.min.js"></script>
 <script>

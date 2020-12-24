@@ -39,10 +39,23 @@
 <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Fri, Apr 9th] </span></a></li></dropdown>
   <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
   <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-  
-  <div class="nav-link temp-dropdown-placeholder">**Project Links**</div>
-  <div class="nav-link temp-dropdown-placeholder">**Other Links**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Other Links</strong></template>
+  <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://nus-tic4002-ay2021s2.github.io/dashboards" target="_blank" class="nav-link"><span><strong>Dashboards</strong></span></a></li>
+  <div class="nav-link temp-dropdown-placeholder">**Project Links**</div><dropdown tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Project Links</strong></template>
+    <span><strong> Individual Project (iP):</strong></span>
+    <li><a href="/website/admin/ip-overview.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Individual Project Info</span></a></li>
+    <li><a href="https://github.com/nus-tic4002-AY2021S2/ip" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> iP Upstream Repo</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/ip-dashboard/#sort=groupTitle&groupSelect=groupByAuthors" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> iP Code Dashboard</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/ip-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> iP Progress Dashboard</span></a></li>
+    <hr>
+    <span><strong> Team Project (tP):</strong></span>
+    <li><a href="/website/admin/tp-expectations.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Team Project Info</span></a></li>
+    <li tags="m--cs2103 m--tic4002"><a href="https://github.com/nus-tic4002-AY2021S2/tp2" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</span></a></li>
     
+    <li><a href="/website/admin/teamList.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team List</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/tp-dashboard/#breakdown=true" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> tP Progress Dashboard</span></a></li></dropdown>
+  <div class="nav-link temp-dropdown-placeholder">**Other Links**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Other Links</strong></template>
+    <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://github.com/nus-tic4002-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
     <li><a href="https://github.com/nus-tic4002-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
     
     <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span> Instructors</span></a></li>
@@ -51,9 +64,9 @@
     
     
     
-    
-    
-    
+    <li tags="m--cs2103 m--cs2113 m--tic2002 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/java/basic.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+    <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-git-square"></span> Git Conventions</span></a></li>
+    <li tags="m--cs2103 m--cs2113 m--tic4002"><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/forum-activities.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-trophy"></span> Forum Activities Dashboard</span></a></li>
     <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/participation.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> Participation Dashboard</span></a></li>
     
     </dropdown>
@@ -140,7 +153,7 @@
 <panel type="seamless" expanded id="what"><template slot="header"><h4 id="what"><span id="what" class="anchor"></span>What<a class="fa fa-anchor" href="#what" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain design patterns</span></span></span></span><p></p>
   <div>
 <box type="definition" seamless>
@@ -178,7 +191,7 @@
 <panel type="seamless" expanded id="format"><template slot="header"><h4 id="format"><span id="format" class="anchor"></span>Format<a class="fa fa-anchor" href="#format" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain design patterns format</span></span></span></span><p></p>
   <div>
 <p>The common format to describe a pattern consists of the following components:</p>
@@ -207,7 +220,7 @@
 <panel type="seamless" expanded id="what-2"><template slot="header"><h4 id="what-2"><span id="what-2" class="anchor"></span>What<a class="fa fa-anchor" href="#what-2" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the Singleton design pattern</span></span></span></span><p></p>
   <div>
 <p><strong>Context</strong></p>
@@ -237,7 +250,7 @@
 <panel type="seamless" expanded id="implementation"><template slot="header"><h4 id="implementation"><span id="implementation" class="anchor"></span>Implementation<a class="fa fa-anchor" href="#implementation" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can apply the Singleton design pattern</span></span></span></span><p></p>
   <div>
 <p>Here is the typical implementation of how the Singleton pattern is applied to a class:</p>
@@ -269,7 +282,7 @@
 <panel type="seamless" expanded id="evaluation"><template slot="header"><h4 id="evaluation"><span id="evaluation" class="anchor"></span>Evaluation<a class="fa fa-anchor" href="#evaluation" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can decide when to apply Singleton design pattern</span></span></span></span><p></p>
   <div>
 <p><strong>Pros:</strong></p>
@@ -284,91 +297,12 @@
 <li>In testing, singleton objects carry data from one test to another even when you want each test to be independent of the others.</li></ul>
 <p>Given that there are some significant cons, it is recommended that you apply the Singleton pattern when, in addition to requiring only one instance of a class, there is a risk of creating multiple objects by mistake, and creating such multiple objects has real negative consequences.</p></div>
   <div></div></div></panel></panel>
-<panel type="seamless" expanded id="abstraction-occurrence-pattern">
-  <span slot="header" class="card-title"><div><h2 id="abstraction-occurrence-pattern"><span id="abstraction-occurrence-pattern" class="anchor"></span><span>Abstraction occurrence pattern</span><a class="fa fa-anchor" href="#abstraction-occurrence-pattern" onclick="event.stopPropagation()"></a></h2></div></span>
+<panel type="seamless" expanded id="facade-pattern">
+  <span slot="header" class="card-title"><div><h2 id="facade-pattern"><span id="facade-pattern" class="anchor"></span><span>Facade pattern</span><a class="fa fa-anchor" href="#facade-pattern" onclick="event.stopPropagation()"></a></h2></div></span>
 <panel type="seamless" expanded id="what-3"><template slot="header"><h4 id="what-3"><span id="what-3" class="anchor"></span>What<a class="fa fa-anchor" href="#what-3" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font></span></span></span>
-  <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the Abstraction Occurrence design pattern</span></span></span></span><p></p>
-  <div>
-<p><strong>Context</strong></p>
-<p>There is a group of similar entities that appear to be ‘occurrences’ (or ‘copies’) of the same thing, sharing lots of common information, but also differing in significant ways.</p>
-<box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In a library, there can be multiple copies of the same book title. Each copy shares common information such as book title, author, ISBN, etc. However, there are also significant differences like purchase date and barcode number (assumed to be unique for each copy of the book).</p>
-<p>Other examples:</p>
-<ul>
-<li>Episodes of the same TV series</li>
-<li>Stock items of the same product model (e.g. TV sets of the same model)</li></ul></box>
-<p><strong>Problem</strong></p>
-<p>Representing the objects mentioned previously as a single class would be problematic because it results in duplication of data which can lead to inconsistencies in data (if some of the duplicates are not updated consistently).</p>
-<box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Take for example the problem of representing books in a library. Assume that there could be multiple copies of the same title, bearing the same ISBN number, but different serial numbers.</p>
-<img src="/website/book/designPatterns/abstractionOccurrence/what/images/book.png" height="200">
-<p></p>
-<p>The above solution requires common information to be duplicated by all instances. This will not only waste storage space, but also creates a consistency problem. Suppose that after creating several copies of the same title, the librarian realized that the author name was wrongly spelt. To correct this mistake, the system needs to go through every copy of the same title to make the correction. Also, if a new copy of the title is added later on, the librarian (or the system) has to make sure that all information entered is the same as the existing copies to avoid inconsistency.</p></box>
-<p><strong>Anti-pattern</strong></p>
-<box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Refer to the same Library example given above.</p>
-<img src="/website/book/designPatterns/abstractionOccurrence/what/images/bookFriends.png" height="240">
-<p></p>
-<p>The design above segregates the common and unique information into a class hierarchy. Each book title is represented by a separate class with common data (i.e. Name, Author, ISBN) hard-coded in the class itself. This solution is problematic because each book title is represented as a class, resulting in thousands of classes (one for each title). Every time the library buys new books, the source code of the system will have to be updated with new classes.</p></box>
-<p><strong>Solution</strong></p>
-<p>Let a copy of an entity (e.g. a copy of a book) be represented by two objects instead of one, separating the common and unique information into two classes to avoid duplication.</p>
-<box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Given below is how the pattern is applied to the Library example:</p>
-<img src="/website/book/designPatterns/abstractionOccurrence/what/images/bookTitleBookCopy.png" height="260">
-<p></p>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here's a more generic example:</p>
-<img src="/website/book/designPatterns/abstractionOccurrence/what/images/beforeAfter.png" height="370">
-<p></p></box>
-<p>The general solution:</p>
-<img src="/website/book/designPatterns/abstractionOccurrence/what/images/abstractionOccurrence.png" height="40">
-<p></p>
-<p>The <code class="hljs inline no-lang" v-pre>&lt;&lt;Abstraction&gt;&gt;</code> class should hold all common information, and the unique information should be kept by the <code class="hljs inline no-lang" v-pre>&lt;&lt;Occurrence&gt;&gt;</code> class. Note that ‘Abstraction’ and ‘Occurrence’ are not class names, but roles played by each class. Think of this diagram as a <em>meta-model</em> (i.e. a ‘model of a model’) of the <code class="hljs inline no-lang" v-pre>BookTitle-BookCopy</code> class diagram given above.</p></div>
-  <div>
-<div>
-<panel expandable class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
-  <div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Which situations match the pattern?</p></template>
-<question has-input="true">
-<p>Which pairs of classes are likely to be the <code class="hljs inline no-lang" v-pre>&lt;&lt;Abstraction&gt;&gt;</code> and the <code class="hljs inline no-lang" v-pre>&lt;&lt;Occurrence&gt;&gt;</code> of the abstraction occurrence pattern?</p>
-<ol>
-<li>CarModel, Car (Here, CarModel represents a particular model of a car produced by the car manufacturer. E.g. BMW R4300)</li>
-<li>Car, Wheel</li>
-<li>Club, Member</li>
-<li>TeamLeader, TeamMember</li>
-<li>Magazine (E.g. ReadersDigest, PCWorld), MagazineIssue</li></ol>
-<div slot="answer" class="algolia-no-index">
-<p>One of the key things to keep in mind is that the <code class="hljs inline no-lang" v-pre>&lt;&lt;Abstraction&gt;&gt;</code> does not represent a real entity. Rather, it represents some information common to a set of objects. A single real entity is represented by an object of <code class="hljs inline no-lang" v-pre>&lt;&lt;Abstraction&gt;&gt;</code> type and <code class="hljs inline no-lang" v-pre>&lt;&lt;Occurrence&gt;&gt;</code> type.</p>
-<p>Before applying the pattern, some attributes have the same values for multiple objects. For example, w.r.t. the BookTitle-BookCopy example given in this handout, values of attributes such as <code class="hljs inline no-lang" v-pre>bookTitle</code>, <code class="hljs inline no-lang" v-pre>ISBN</code> are exactly the same for copies of the same book.</p>
-<p>After applying the pattern, the <code class="hljs inline no-lang" v-pre>Abstraction</code> and the <code class="hljs inline no-lang" v-pre>Occurrence</code> classes together represent one entity. It is as if one class has been split into two. For example, a <code class="hljs inline no-lang" v-pre>BookTitle</code> object and a <code class="hljs inline no-lang" v-pre>BookCopy</code> object combine to represent an actual <code class="hljs inline no-lang" v-pre>Book</code>.</p>
-<ol>
-<li>CarModel, Car: <strong>Yes</strong></li>
-<li>Car, Wheel: <strong>No. Wheel is a ‘part of’ Car. A wheel is not an occurrence of Car.</strong></li>
-<li>Club, Member: <strong>No. This is a ‘part of’ relationship.</strong></li>
-<li>TeamLeader, TeamMember: <strong>No. A TeamMember is not an occurrence of a TeamLeader or vice versa.</strong></li>
-<li>Magazine, MagazineIssue: <strong>Yes.</strong></li></ol></div></question></panel></div>
-  <div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Apply pattern?</p></template>
-<question>
-<p>Which one of these is most suited for an application of the Abstraction Occurrence pattern?</p>
-<ul radio-group="56836" class="radio-list">
-<li class="radio-list-item"><label><input class="radio-list-input" name="56836" type="radio"> a. Stagings of a stage drama at various theatres</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="56836" type="radio"> b. Teachers and their students</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="56836" type="radio"> c. Modules and exams/assignments given by those modules</label></li></ul>
-<div slot="answer" class="algolia-no-index">
-<p>(a)</p>
-<p>Explanation:</p>
-<p>(a) Stagings of a drama are ‘occurrences’ of the drama. They have many common attributes (e.g., Drama name, producer, cast, etc.) but some attributes are different (e.g., venue, time).</p>
-<p>(b) Students are not occurrences of a Teacher or vice versa.</p>
-<p>(c) Module, Exam, and Assignment are distinct entities with associations among them, but none of them can be considered an occurrence of another.</p></div></question></panel></div></panel></div></div></div></panel></panel>
-<panel type="seamless" expanded id="facade-pattern">
-  <span slot="header" class="card-title"><div><h2 id="facade-pattern"><span id="facade-pattern" class="anchor"></span><span>Facade pattern</span><a class="fa fa-anchor" href="#facade-pattern" onclick="event.stopPropagation()"></a></h2></div></span>
-<panel type="seamless" expanded id="what-4"><template slot="header"><h4 id="what-4"><span id="what-4" class="anchor"></span>What<a class="fa fa-anchor" href="#what-4" onclick="event.stopPropagation()"></a></h4></template>
-  <div class="indented">
-  <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the Facade design pattern</span></span></span></span><p></p>
   <div>
 <p><strong>Context</strong></p>
@@ -402,7 +336,7 @@
 <p>Facade is clearly visible (Storage is the <code class="hljs inline no-lang" v-pre>&lt;&lt;Facade&gt;&gt;</code> class).</p></div></question></panel></div></panel></div></div></div></panel></panel>
 <panel type="seamless" expanded id="command-pattern">
   <span slot="header" class="card-title"><div><h2 id="command-pattern"><span id="command-pattern" class="anchor"></span><span>Command pattern</span><a class="fa fa-anchor" href="#command-pattern" onclick="event.stopPropagation()"></a></h2></div></span>
-<panel type="seamless" expanded id="what-5"><template slot="header"><h4 id="what-5"><span id="what-5" class="anchor"></span>What<a class="fa fa-anchor" href="#what-5" onclick="event.stopPropagation()"></a></h4></template>
+<panel type="seamless" expanded id="what-4"><template slot="header"><h4 id="what-4"><span id="what-4" class="anchor"></span>What<a class="fa fa-anchor" href="#what-4" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
   <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
@@ -426,7 +360,7 @@
   <div></div></div></panel></panel>
 <panel type="seamless" expanded id="model-view-controller-mvc-pattern">
   <span slot="header" class="card-title"><div><h2 id="model-view-controller-mvc-pattern"><span id="model-view-controller-mvc-pattern" class="anchor"></span><span>Model view controller (MVC) pattern</span><a class="fa fa-anchor" href="#model-view-controller-mvc-pattern" onclick="event.stopPropagation()"></a></h2></div></span>
-<panel type="seamless" expanded id="what-6"><template slot="header"><h4 id="what-6"><span id="what-6" class="anchor"></span>What<a class="fa fa-anchor" href="#what-6" onclick="event.stopPropagation()"></a></h4></template>
+<panel type="seamless" expanded id="what-5"><template slot="header"><h4 id="what-5"><span id="what-5" class="anchor"></span>What<a class="fa fa-anchor" href="#what-5" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
   <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
@@ -455,7 +389,7 @@
   <div></div></div></panel></panel>
 <panel type="seamless" expanded id="observer-pattern">
   <span slot="header" class="card-title"><div><h2 id="observer-pattern"><span id="observer-pattern" class="anchor"></span><span>Observer pattern</span><a class="fa fa-anchor" href="#observer-pattern" onclick="event.stopPropagation()"></a></h2></div></span>
-<panel type="seamless" expanded id="what-7"><template slot="header"><h4 id="what-7"><span id="what-7" class="anchor"></span>What<a class="fa fa-anchor" href="#what-7" onclick="event.stopPropagation()"></a></h4></template>
+<panel type="seamless" expanded id="what-6"><template slot="header"><h4 id="what-6"><span id="what-6" class="anchor"></span>What<a class="fa fa-anchor" href="#what-6" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
   <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
@@ -689,25 +623,21 @@ room is much more “comfortable”.</p></blockquote>
 <a class="nav-link py-1" href="#implementation">Implementation&#x200E;</a>
 <a class="nav-link py-1" href="#evaluation">Evaluation&#x200E;</a>
 </nav>
-<a class="nav-link py-1" href="#abstraction-occurrence-pattern">Abstraction occurrence pattern&#x200E;</a>
+<a class="nav-link py-1" href="#facade-pattern">Facade pattern&#x200E;</a>
 <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
 <a class="nav-link py-1" href="#what-3">What&#x200E;</a>
 </nav>
-<a class="nav-link py-1" href="#facade-pattern">Facade pattern&#x200E;</a>
+<a class="nav-link py-1" href="#command-pattern">Command pattern&#x200E;</a>
 <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
 <a class="nav-link py-1" href="#what-4">What&#x200E;</a>
 </nav>
-<a class="nav-link py-1" href="#command-pattern">Command pattern&#x200E;</a>
+<a class="nav-link py-1" href="#model-view-controller-mvc-pattern">Model view controller (MVC) pattern&#x200E;</a>
 <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
 <a class="nav-link py-1" href="#what-5">What&#x200E;</a>
 </nav>
-<a class="nav-link py-1" href="#model-view-controller-mvc-pattern">Model view controller (MVC) pattern&#x200E;</a>
-<nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
-<a class="nav-link py-1" href="#what-6">What&#x200E;</a>
-</nav>
 <a class="nav-link py-1" href="#observer-pattern">Observer pattern&#x200E;</a>
 <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
-<a class="nav-link py-1" href="#what-7">What&#x200E;</a>
+<a class="nav-link py-1" href="#what-6">What&#x200E;</a>
 </nav>
 <a class="nav-link py-1" href="#more">More&#x200E;</a>
 <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
@@ -726,7 +656,7 @@ room is much more “comfortable”.</p></blockquote>
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Sun, 20 Dec 2020, 16:08:09 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Fri, 25 Dec 2020, 1:44:56 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>

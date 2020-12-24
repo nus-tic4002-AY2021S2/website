@@ -56,7 +56,29 @@
 <box>
 <p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Fun fact: The language was initially called <em>Oak</em> after an oak tree that stood outside Gosling's office. Later the project went by the name <em>Green</em> and was finally renamed Java, from Java coffee. <small>--<a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Wikipedia</a></small></p></box><p></p>
 <p><strong>Oracle became the owner of Java in 2010</strong>, when it acquired Sun Microsystems.</p>
-<p>Java has remained the <strong>most popular language in the world</strong> for several years now (as at July 2018), according to the <a href="https://www.tiobe.com/tiobe-index/">TIOBE index</a>.</p></div></div></div></div>
+<p>Java has remained the <strong>most popular language in the world</strong> for several years now (as at July 2018), according to the <a href="https://www.tiobe.com/tiobe-index/">TIOBE index</a>.</p></div></div></div>
+<div class="indented-less">
+<h4 id="how-java-works"><span id="how-java-works" class="anchor"></span>How Java Works <span class="badge badge-light"><small><small><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#how-java-works" onclick="event.stopPropagation()"></a></h4>
+<div class="indented-less">
+<div>
+<p><strong>Java is both <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">generates machine code from source code before executing the program</span><em>compiled</em></span> and <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">the interpreter executes the program directly, one statement at a time</span><em>interpreted</em></span>.</strong> Instead of translating programs directly into machine language, the Java compiler generates <em>byte code</em>. Byte code is <em>portable</em>, so it is possible to compile a Java program on one machine, transfer the byte code to another machine, and run the byte code on the other machine. That’s why Java is considered a <em>platform independent technology</em>, aka <em>WORA</em> (Write Once Run Anywhere). The interpreter that runs byte code is called a “Java Virtual Machine” (JVM).</p>
+<blockquote>
+<p><strong>Java technology is both a <em>programming language</em> and a <em>platform</em>.</strong> The Java programming language is a high-level object-oriented language that has a particular syntax and style. A Java platform is a particular environment in which Java programming language applications run. <small>--<a href="https://docs.oracle.com/javaee/6/firstcup/doc/gkhoy.html">Oracle</a></small></p></blockquote></div></div></div>
+<div class="indented-less">
+<h4 id="java-editions"><span id="java-editions" class="anchor"></span>Java Editions <span class="badge badge-light"><small><small><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#java-editions" onclick="event.stopPropagation()"></a></h4>
+<div class="indented-less">
+<div>
+<p>According to the <a href="https://docs.oracle.com/javaee/6/firstcup/doc/gkhoy.html">Official Java documentation</a>, there are four platforms of the Java programming language:</p>
+<ul>
+<li>
+<p><strong>Java Platform, Standard Edition (Java SE)</strong>: Contains the core functionality of the Java programming language.</p></li>
+<li>
+<p><strong>Java Platform, Enterprise Edition (Java EE)</strong>: For developing and running large-scale enterprise applications. Built on top of Java SE.</p></li>
+<li>
+<p><strong>Java Platform, Micro Edition (Java ME)</strong>: For Java programming language applications meant for small devices, like mobile phones. A subset of Java SE.</p></li>
+<li>
+<p><strong>JavaFX</strong>: For creating applications with graphical user interfaces. Can work with the other three above.</p></li></ul>
+<p>This book chapter uses the Java SE edition unless stated otherwise.</p></div></div></div></div>
 <p><div><h2 id="getting-started"><span id="getting-started" class="anchor"></span><span>Getting started</span><a class="fa fa-anchor" href="#getting-started" onclick="event.stopPropagation()"></a></h2></div></p>
 <div class="indented-less">
 <div class="indented-less">
@@ -2193,7 +2215,7 @@ The syntax for calling a superclass constructor is <code class="hljs inline no-l
 <p><div><h2 id="junit"><span id="junit" class="anchor"></span><span>JUnit</span><a class="fa fa-anchor" href="#junit" onclick="event.stopPropagation()"></a></h2></div></p>
 <div class="indented-less">
 <div class="indented-less">
-<h4 id="junit-basic"><span id="junit-basic" class="anchor"></span>JUnit: Basic <span class="badge badge-light"><small><small><font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#junit-basic" onclick="event.stopPropagation()"></a></h4>
+<h4 id="junit-basic"><span id="junit-basic" class="anchor"></span>JUnit: Basic <span class="badge badge-light"><small><small><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#junit-basic" onclick="event.stopPropagation()"></a></h4>
 <div class="indented-less">
 <div>
 <p>When writing JUnit tests for a class <code class="hljs inline no-lang" v-pre>Foo</code>, the common practice is to create a <code class="hljs inline no-lang" v-pre>FooTest</code> class, which will contain various test methods.</p>
@@ -2264,7 +2286,7 @@ The syntax for calling a superclass constructor is <code class="hljs inline no-l
 <p><strong><span><span aria-hidden="true" class="glyphicon glyphicon-facetime-video"></span></span> Adding JUnit 5 to your IntelliJ Project</strong> <sub>-- by Kevintroko@YouTube</sub></p>
 <div class="block-embed block-embed-service-youtube"><iframe type="text/html" src="//www.youtube.com/embed/Z8V7rnvDeB4" frameborder="0" width="640" height="390" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></box></div></div></div></div>
 <div class="indented-less">
-<h4 id="junit-intermediate"><span id="junit-intermediate" class="anchor"></span>JUnit: Intermediate <span class="badge badge-light"><small><small><font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#junit-intermediate" onclick="event.stopPropagation()"></a></h4>
+<h4 id="junit-intermediate"><span id="junit-intermediate" class="anchor"></span>JUnit: Intermediate <span class="badge badge-light"><small><small><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#junit-intermediate" onclick="event.stopPropagation()"></a></h4>
 <div class="indented-less">
 <div>
 <p>Skim through the <a href="https://junit.org/junit5/docs/current/user-guide/">JUnit 5 User Guide</a> to see what advanced techniques are available. If applicable, feel free to adopt them.</p></div></div></div></div>
@@ -2662,40 +2684,13 @@ The syntax for calling a superclass constructor is <code class="hljs inline no-l
 <p><strong>Java applications are typically delivered as JAR (short for <em>Java Archive</em>) files.</strong> A JAR contains Java classes and other resources (icons, media files, etc.).</p>
 <p>An executable JAR file can be launched using the <code class="hljs inline no-lang" v-pre>java -jar</code> command e.g., <code class="hljs inline no-lang" v-pre>java -jar foo.jar</code> launches the <code class="hljs inline no-lang" v-pre>foo.jar</code> file.</p>
 <p>The IDE or build tools such as Gradle can help you to package your application as a JAR file.</p>
-<p>See the tutorial <a href="https://se-education.org/guides/tutorials/jar.html"><em>Working with JAR files</em> @se-edu/guides</a> to learn how to create and use JAR files.</p></div></div></div>
-<div class="indented-less">
-<h4 id="varargs"><span id="varargs" class="anchor"></span>Varargs <span class="badge badge-light"><small><small><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#varargs" onclick="event.stopPropagation()"></a></h4>
-<div class="indented-less">
-<div>
-<p>Variable Arguments (Varargs) is a <em>syntactic sugar</em> type feature that allows writing a method that can take a variable number of arguments.</p>
-<box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> The <code class="hljs inline no-lang" v-pre>search</code> method below can be called as <code class="hljs inline no-lang" v-pre>search()</code>, <code class="hljs inline no-lang" v-pre>search(&quot;book&quot;)</code>, <code class="hljs inline no-lang" v-pre>search(&quot;book&quot;, &quot;paper&quot;)</code>, etc.</p>
-<pre><code class="hljs java" v-pre><span><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">search</span><span class="hljs-params">(String ... keywords)</span></span>{
-</span><span>   <span class="hljs-comment">// method body</span>
-</span><span>}
-</span></code></pre></box>
-<p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> Resources:</p>
-<ul>
-<li><a href="http://docs.oracle.com/javase/1.5.0/docs/guide/language/varargs.html">Java Varargs feature (from Oracle.com)</a></li>
-<li><a href="https://www.javatpoint.com/varargs">Java Varargs tutorial (for javaTpoint.com)</a></li></ul></div></div></div>
-<div class="indented-less">
-<h4 id="streams"><span id="streams" class="anchor"></span>Streams <span class="badge badge-light"><small><small><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#streams" onclick="event.stopPropagation()"></a></h4>
-<div class="indented-less">
-<div>
-<p><strong>Java 8 introduced a number of new features (e.g. Lambdas, Streams)</strong> that are not trivial to learn but also extremely useful to know.</p>
-<p><a href="http://winterbe.com/posts/2014/03/16/java-8-tutorial/">Here</a> is an overview of new Java 8 features <span class="dimmed">(written by Benjamin Winterberg)</span>.</p></div></div></div>
-<div class="indented-less">
-<h4 id="javafx"><span id="javafx" class="anchor"></span>JavaFX <span class="badge badge-light"><small><small><font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#javafx" onclick="event.stopPropagation()"></a></h4>
-<div class="indented-less">
-<div>
-<p>JavaFX is a technology for building Java-based GUIs. Previously it was a part Java itself, but has become a third-party dependency since then. It is now being maintained by <a href="https://wiki.openjdk.java.net/display/OpenJFX">OpenJDK</a>.</p>
-<p>Refer to the <a href="https://se-education.org/guides/tutorials/javaFx.html"><em>JavaFX tutorial</em> @SE-EDU/guides</a> to learn how to get started with JavaFX.</p></div></div></div></div></div>
+<p>See the tutorial <a href="https://se-education.org/guides/tutorials/jar.html"><em>Working with JAR files</em> @se-edu/guides</a> to learn how to create and use JAR files.</p></div></div></div></div></div>
 <p><i class="fa fa-arrow-circle-up fa-lg" id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true"></i></p></div>
         </div>
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Sun, 20 Dec 2020, 16:08:09 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Fri, 25 Dec 2020, 1:44:56 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>

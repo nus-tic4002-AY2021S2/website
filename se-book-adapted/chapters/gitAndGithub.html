@@ -39,10 +39,23 @@
 <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Fri, Apr 9th] </span></a></li></dropdown>
   <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
   <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-  
-  <div class="nav-link temp-dropdown-placeholder">**Project Links**</div>
-  <div class="nav-link temp-dropdown-placeholder">**Other Links**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Other Links</strong></template>
+  <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://nus-tic4002-ay2021s2.github.io/dashboards" target="_blank" class="nav-link"><span><strong>Dashboards</strong></span></a></li>
+  <div class="nav-link temp-dropdown-placeholder">**Project Links**</div><dropdown tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Project Links</strong></template>
+    <span><strong> Individual Project (iP):</strong></span>
+    <li><a href="/website/admin/ip-overview.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Individual Project Info</span></a></li>
+    <li><a href="https://github.com/nus-tic4002-AY2021S2/ip" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> iP Upstream Repo</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/ip-dashboard/#sort=groupTitle&groupSelect=groupByAuthors" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> iP Code Dashboard</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/ip-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> iP Progress Dashboard</span></a></li>
+    <hr>
+    <span><strong> Team Project (tP):</strong></span>
+    <li><a href="/website/admin/tp-expectations.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Team Project Info</span></a></li>
+    <li tags="m--cs2103 m--tic4002"><a href="https://github.com/nus-tic4002-AY2021S2/tp2" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</span></a></li>
     
+    <li><a href="/website/admin/teamList.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team List</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/tp-dashboard/#breakdown=true" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> tP Progress Dashboard</span></a></li></dropdown>
+  <div class="nav-link temp-dropdown-placeholder">**Other Links**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Other Links</strong></template>
+    <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://github.com/nus-tic4002-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
     <li><a href="https://github.com/nus-tic4002-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
     
     <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span> Instructors</span></a></li>
@@ -51,9 +64,9 @@
     
     
     
-    
-    
-    
+    <li tags="m--cs2103 m--cs2113 m--tic2002 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/java/basic.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+    <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-git-square"></span> Git Conventions</span></a></li>
+    <li tags="m--cs2103 m--cs2113 m--tic4002"><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/forum-activities.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-trophy"></span> Forum Activities Dashboard</span></a></li>
     <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/participation.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> Participation Dashboard</span></a></li>
     
     </dropdown>
@@ -138,7 +151,7 @@
 <panel type="seamless" expanded id="init-getting-started"><template slot="header"><h4 id="init-getting-started"><span id="init-getting-started" class="anchor"></span><code class="hljs inline no-lang" v-pre>init</code>: Getting started<a class="fa fa-anchor" href="#init-getting-started" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can create a local Git repo</span></span></span></span><p></p>
   <div>
 <p>Let's take your first few steps in your Git (with GitHub) journey.</p>
@@ -187,7 +200,7 @@
 <panel type="seamless" expanded id="commit-saving-changes-to-history"><template slot="header"><h4 id="commit-saving-changes-to-history"><span id="commit-saving-changes-to-history" class="anchor"></span><code class="hljs inline no-lang" v-pre>commit</code>: Saving changes to history<a class="fa fa-anchor" href="#commit-saving-changes-to-history" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can commit using Git</span></span></span></span><p></p>
   <div>
 <p><strong>After initializing a repository, Git can help you with revision controlling files inside the <em>working directory</em>. However, it is not automatic.</strong> It is up to you to tell Git which of your changes (aka <em>revisions</em>) should be <em>committed</em> to its memory for later use. Saving changes into Git's memory in that way is often called <em>committing</em> and a change saved to the revision history is called a <em>commit</em>.</p>
@@ -298,7 +311,7 @@
 <panel type="seamless" expanded id="omitting-files-from-revision-control"><template slot="header"><h4 id="omitting-files-from-revision-control"><span id="omitting-files-from-revision-control" class="anchor"></span>Omitting files from revision control<a class="fa fa-anchor" href="#omitting-files-from-revision-control" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can set Git to ignore files</span></span></span></span><p></p>
   <div>
 <p>Often, there are files inside the Git working folder that you don't want to revision-control e.g., temporary log files. Follow the steps below to learn how to configure Git to ignore such files.</p>
@@ -331,7 +344,7 @@
 <panel type="seamless" expanded id="tag-naming-commits"><template slot="header"><h4 id="tag-naming-commits"><span id="tag-naming-commits" class="anchor"></span><code class="hljs inline no-lang" v-pre>tag</code>: Naming commits<a class="fa fa-anchor" href="#tag-naming-commits" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can tag commits using Git</span></span></span></span><p></p>
   <div>
 <p><strong>Each Git commit is uniquely identified by a hash</strong> e.g., <code class="hljs inline no-lang" v-pre>d670460b4b4aece5915caf5c68d12f560a9fe3e4</code>. As you can imagine, using such an identifier is not very convenient for our day-to-day use. As a solution, Git allows adding a more human-readable <em>tag</em> to a commit e.g., <code class="hljs inline no-lang" v-pre>v1.0-beta</code>.</p>
@@ -364,7 +377,7 @@
 <panel type="seamless" expanded id="diff-comparing-revisions"><template slot="header"><h4 id="diff-comparing-revisions"><span id="diff-comparing-revisions" class="anchor"></span><code class="hljs inline no-lang" v-pre>diff</code>: Comparing revisions<a class="fa fa-anchor" href="#diff-comparing-revisions" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can compare git revisions</span></span></span></span><p></p>
   <div>
 <p><strong>Git can show you what changed in each commit.</strong></p>
@@ -422,7 +435,7 @@
 <panel type="seamless" expanded id="checkout-retrieving-a-specific-revision"><template slot="header"><h4 id="checkout-retrieving-a-specific-revision"><span id="checkout-retrieving-a-specific-revision" class="anchor"></span><code class="hljs inline no-lang" v-pre>checkout</code>: Retrieving a specific revision<a class="fa fa-anchor" href="#checkout-retrieving-a-specific-revision" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can load a specific version of a Git repo</span></span></span></span><p></p>
   <div>
 <p><strong>Git can load a specific version of the history to the working directory.</strong> Note that if you have uncommitted changes in the working directory, you need to <trigger trigger="click" for="modal:checkout-stash">stash</trigger> them first to prevent them from being overwritten.</p>
@@ -466,7 +479,7 @@
 <panel type="seamless" expanded id="stash-shelving-changes-temporarily"><template slot="header"><h4 id="stash-shelving-changes-temporarily"><span id="stash-shelving-changes-temporarily" class="anchor"></span><code class="hljs inline no-lang" v-pre>stash</code>: Shelving changes temporarily<a class="fa fa-anchor" href="#stash-shelving-changes-temporarily" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font></span></span></span>
+  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Git to stash files</span></span></span></span><p></p>
   <div>
 <p><strong>You can use Git's <mark><em>stash</em></mark> feature to temporarily shelve (or stash) changes you've made to your working copy</strong> so that you can work on something else, and then come back and re-apply the stashed changes later on. <sub>-- adapted from <a href="https://www.atlassian.com/git/tutorials/git-stash">Atlassian</a></sub></p>
@@ -479,7 +492,7 @@
 <panel type="seamless" expanded id="clone-copying-a-repo"><template slot="header"><h4 id="clone-copying-a-repo"><span id="clone-copying-a-repo" class="anchor"></span><code class="hljs inline no-lang" v-pre>clone</code>: Copying a repo<a class="fa fa-anchor" href="#clone-copying-a-repo" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can clone a remote repo</span></span></span></span><p></p>
   <div>
 <p>Given below is an example scenario you can try yourself to learn Git <trigger trigger="click" for="modal:gitCloning-rcsCloning">cloning</trigger>.</p>
@@ -504,7 +517,7 @@ Git repo URL: <code class="hljs inline no-lang" v-pre>https://github.com/se-edu/
 <panel type="seamless" expanded id="pull-fetch-downloading-data-from-other-repos"><template slot="header"><h4 id="pull-fetch-downloading-data-from-other-repos"><span id="pull-fetch-downloading-data-from-other-repos" class="anchor"></span><code class="hljs inline no-lang" v-pre>pull</code>, <code class="hljs inline no-lang" v-pre>fetch</code>: Downloading data from other repos<a class="fa fa-anchor" href="#pull-fetch-downloading-data-from-other-repos" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can pull changes from a repo</span></span></span></span><p></p>
   <div>
 <p>Here's a scenario you can try in order to learn how to <trigger trigger="click" for="modal:githubPull-rcsPulling">pull</trigger> commits from another repo to yours.</p>
@@ -624,7 +637,7 @@ e.g., <code class="hljs inline no-lang" v-pre>git pull upstream1 master</code></
 <panel type="seamless" expanded id="fork-creating-a-remote-copy"><template slot="header"><h4 id="fork-creating-a-remote-copy"><span id="fork-creating-a-remote-copy" class="anchor"></span>Fork: Creating a remote copy<a class="fa fa-anchor" href="#fork-creating-a-remote-copy" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can fork a repo</span></span></span></span><p></p>
   <div>
 <p>Given below is a scenario you can try in order to learn how to <trigger trigger="click" for="modal:githubForking-rcsForking">fork</trigger> a repo:.</p>
@@ -639,7 +652,7 @@ e.g., <code class="hljs inline no-lang" v-pre>git pull upstream1 master</code></
 <panel type="seamless" expanded id="push-uploading-data-to-other-repos"><template slot="header"><h4 id="push-uploading-data-to-other-repos"><span id="push-uploading-data-to-other-repos" class="anchor"></span><code class="hljs inline no-lang" v-pre>push</code>: Uploading data to other repos<a class="fa fa-anchor" href="#push-uploading-data-to-other-repos" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can push to a remote repo</span></span></span></span><p></p>
   <div>
 <div id="simple-push">
@@ -790,7 +803,7 @@ e.g., <code class="hljs inline no-lang" v-pre>git push -u origin master</code></
 <panel type="seamless" expanded id="branch-doing-multiple-parallel-changes"><template slot="header"><h4 id="branch-doing-multiple-parallel-changes"><span id="branch-doing-multiple-parallel-changes" class="anchor"></span><code class="hljs inline no-lang" v-pre>branch</code>: Doing multiple parallel changes<a class="fa fa-anchor" href="#branch-doing-multiple-parallel-changes" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Git branching</span></span></span></span><p></p>
   <div>
 <p><strong>Git supports branching</strong>, which allows you to do multiple parallel changes to the content of a repository.</p>
@@ -931,7 +944,7 @@ e.g., <code class="hljs inline no-lang" v-pre>git push -u origin add-intro</code
 <panel type="seamless" expanded id="dealing-with-merge-conflicts"><template slot="header"><h4 id="dealing-with-merge-conflicts"><span id="dealing-with-merge-conflicts" class="anchor"></span>Dealing with merge conflicts<a class="fa fa-anchor" href="#dealing-with-merge-conflicts" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Git to resolve merge conflicts</span></span></span></span><p></p>
   <div>
 <p><strong>Merge conflicts happen when you try to combine two incompatible versions</strong> (e.g., merging a branch to another but each branch changed the same part of the code in a different way).</p>
@@ -982,7 +995,7 @@ e.g., <code class="hljs inline no-lang" v-pre>git push -u origin add-intro</code
 <panel type="seamless" expanded id="creating-prs"><template slot="header"><h4 id="creating-prs"><span id="creating-prs" class="anchor"></span>Creating PRs<a class="fa fa-anchor" href="#creating-prs" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can create PRs on GitHub</span></span></span></span><p></p>
   <div>
 <p>Suppose you want to propose some changes to a GitHub repo (e.g., <a href="https://github.com/se-edu/samplerepo-pr-practice">samplerepo-pr-practice</a>) as a <trigger trigger="click" for="modal:githubPullRequests-rcsPullRequests">pull request (PR)</trigger>. Here is a scenario you can try in order to learn how to create PRs:</p>
@@ -1066,7 +1079,7 @@ Description:</p>
 <panel type="seamless" expanded id="reviewing-prs"><template slot="header"><h4 id="reviewing-prs"><span id="reviewing-prs" class="anchor"></span>Reviewing PRs<a class="fa fa-anchor" href="#reviewing-prs" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can review PRs on GitHub</span></span></span></span><p></p>
   <div>
 <p>The <em>PR review</em> stage is a dialog between the PR author and members of the repo that received the PR, in order to refine and eventually merge the PR.</p>
@@ -1108,7 +1121,7 @@ Description:</p>
 <panel type="seamless" expanded id="merging-prs"><template slot="header"><h4 id="merging-prs"><span id="merging-prs" class="anchor"></span>Merging PRs<a class="fa fa-anchor" href="#merging-prs" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can review and merge PRs on GitHub</span></span></span></span><p></p>
   <div>
 <p>Let's look at the steps involved in merging a PR, assuming the PR has been reviewed, refined, and approved for merging already.</p>
@@ -1194,7 +1207,7 @@ If that option is not available, post a message in the PR requesting the PR auth
 <panel type="seamless" expanded id="forking-workflow"><template slot="header"><h4 id="forking-workflow"><span id="forking-workflow" class="anchor"></span>Forking Workflow<a class="fa fa-anchor" href="#forking-workflow" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can follow Forking Workflow</span></span></span></span><p></p>
   <div>
 <p>You can follow the steps in the simulation of a forking workflow given below to learn how to follow such a workflow.</p>
@@ -1286,7 +1299,7 @@ If that option is not available, post a message in the PR requesting the PR auth
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Sun, 20 Dec 2020, 16:08:09 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Fri, 25 Dec 2020, 1:44:56 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>

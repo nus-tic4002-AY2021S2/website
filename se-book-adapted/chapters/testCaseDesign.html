@@ -39,10 +39,23 @@
 <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Fri, Apr 9th] </span></a></li></dropdown>
   <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
   <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-  
-  <div class="nav-link temp-dropdown-placeholder">**Project Links**</div>
-  <div class="nav-link temp-dropdown-placeholder">**Other Links**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Other Links</strong></template>
+  <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://nus-tic4002-ay2021s2.github.io/dashboards" target="_blank" class="nav-link"><span><strong>Dashboards</strong></span></a></li>
+  <div class="nav-link temp-dropdown-placeholder">**Project Links**</div><dropdown tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Project Links</strong></template>
+    <span><strong> Individual Project (iP):</strong></span>
+    <li><a href="/website/admin/ip-overview.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Individual Project Info</span></a></li>
+    <li><a href="https://github.com/nus-tic4002-AY2021S2/ip" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> iP Upstream Repo</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/ip-dashboard/#sort=groupTitle&groupSelect=groupByAuthors" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> iP Code Dashboard</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/ip-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> iP Progress Dashboard</span></a></li>
+    <hr>
+    <span><strong> Team Project (tP):</strong></span>
+    <li><a href="/website/admin/tp-expectations.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Team Project Info</span></a></li>
+    <li tags="m--cs2103 m--tic4002"><a href="https://github.com/nus-tic4002-AY2021S2/tp2" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</span></a></li>
     
+    <li><a href="/website/admin/teamList.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team List</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/tp-dashboard/#breakdown=true" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> tP Progress Dashboard</span></a></li></dropdown>
+  <div class="nav-link temp-dropdown-placeholder">**Other Links**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Other Links</strong></template>
+    <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://github.com/nus-tic4002-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
     <li><a href="https://github.com/nus-tic4002-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
     
     <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span> Instructors</span></a></li>
@@ -51,9 +64,9 @@
     
     
     
-    
-    
-    
+    <li tags="m--cs2103 m--cs2113 m--tic2002 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/java/basic.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+    <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-git-square"></span> Git Conventions</span></a></li>
+    <li tags="m--cs2103 m--cs2113 m--tic4002"><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/forum-activities.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-trophy"></span> Forum Activities Dashboard</span></a></li>
     <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/participation.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> Participation Dashboard</span></a></li>
     
     </dropdown>
@@ -140,7 +153,7 @@
 <panel type="seamless" expanded id="what"><template slot="header"><h4 id="what"><span id="what" class="anchor"></span>What<a class="fa fa-anchor" href="#what" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the need for deliberate test case design</span></span></span></span><p></p>
   <div>
 <p><strong>Except for trivial <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">Software Under Test</span>SUTs</span>, <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">testing all possible cases</span>exhaustive testing</span> is not practical</strong> because such testing often requires a massive/infinite number of test cases.</p>
@@ -226,7 +239,7 @@
 <panel type="seamless" expanded id="positive-vs-negative-test-cases"><template slot="header"><h4 id="positive-vs-negative-test-cases"><span id="positive-vs-negative-test-cases" class="anchor"></span>Positive vs Negative Test Cases<a class="fa fa-anchor" href="#positive-vs-negative-test-cases" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain positive and negative test cases</span></span></span></span><p></p>
   <div>
 <p><strong>A <em>positive test case</em> is when the test is designed to produce an expected/valid behavior. On the other hand, a <em>negative test case</em> is designed to produce a behavior that indicates an invalid/unexpected situation, such as an error message.</strong></p>
@@ -239,7 +252,7 @@
 <panel type="seamless" expanded id="black-box-vs-glass-box"><template slot="header"><h4 id="black-box-vs-glass-box"><span id="black-box-vs-glass-box" class="anchor"></span>Black Box vs Glass Box<a class="fa fa-anchor" href="#black-box-vs-glass-box" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain black box and glass box test case design</span></span></span></span><p></p>
   <div>
 <p><strong>Test case design can be of three types, based on how much of the SUT's internal details are considered when designing test cases:</strong></p>
@@ -265,7 +278,7 @@
 <panel type="seamless" expanded id="what-2"><template slot="header"><h4 id="what-2"><span id="what-2" class="anchor"></span>What<a class="fa fa-anchor" href="#what-2" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain equivalence partitions</span></span></span></span><p></p>
   <div>
 <p>Consider the testing of the following operation.</p>
@@ -286,7 +299,7 @@
 <panel type="seamless" expanded id="basic"><template slot="header"><h4 id="basic"><span id="basic" class="anchor"></span>Basic<a class="fa fa-anchor" href="#basic" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can apply EP for pure functions</span></span></span></span><p></p>
   <div>
 <p><strong>Equivalence partitions (EPs) are usually derived from the specifications of the SUT.</strong></p>
@@ -378,7 +391,7 @@ Returns the square root of <code class="hljs inline no-lang" v-pre>s</code> if t
 <panel type="seamless" expanded id="intermediate"><template slot="header"><h4 id="intermediate"><span id="intermediate" class="anchor"></span>Intermediate<a class="fa fa-anchor" href="#intermediate" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can apply EP for OOP methods</span></span></span></span><p></p>
   <div>
 <p>When deciding EPs of OOP methods, you need to identify the EPs of all data participants that can potentially influence the behaviour of the method, such as,</p>
@@ -424,7 +437,7 @@ Returns the square root of <code class="hljs inline no-lang" v-pre>s</code> if t
 <panel type="seamless" expanded id="what-3"><template slot="header"><h4 id="what-3"><span id="what-3" class="anchor"></span>What<a class="fa fa-anchor" href="#what-3" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain boundary value analysis</span></span></span></span><p></p>
   <div>
 <p><strong><em>Boundary Value Analysis (BVA)</em> is a test case design heuristic that is based on the observation that bugs often result from incorrect handling of boundaries of equivalence partitions.</strong> This is not surprising, as the end points of boundaries are often used in branching instructions, etc., where the programmer can make mistakes.</p>
@@ -448,7 +461,7 @@ Returns the square root of <code class="hljs inline no-lang" v-pre>s</code> if t
 <panel type="seamless" expanded id="how"><template slot="header"><h4 id="how"><span id="how" class="anchor"></span>How<a class="fa fa-anchor" href="#how" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can apply boundary value analysis</span></span></span></span><p></p>
   <div>
 <p><strong>Typically, you should choose three values around the boundary to test: one value from the boundary, one value just below the boundary, and one value just above the boundary.</strong> The number of values to pick depends on other factors, such as the cost of each test case.</p>
@@ -497,7 +510,7 @@ No specific boundary</p></td></tr>
 <panel type="seamless" expanded id="why"><template slot="header"><h4 id="why"><span id="why" class="anchor"></span>Why<a class="fa fa-anchor" href="#why" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the need for strategies to combine test inputs</span></span></span></span><p></p>
   <div>
 <p><strong>An SUT can take multiple inputs.</strong> You can select values for each input (using equivalence partitioning, boundary value analysis, or some other technique).</p>
@@ -532,7 +545,7 @@ No specific boundary</p></td></tr>
 <panel type="seamless" expanded id="test-input-combination-strategies"><template slot="header"><h4 id="test-input-combination-strategies"><span id="test-input-combination-strategies" class="anchor"></span>Test Input Combination Strategies<a class="fa fa-anchor" href="#test-input-combination-strategies" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain some basic test input combination strategies</span></span></span></span><p></p>
   <div>
 <p>Given below are some basic strategies for generating a set of test cases by combining multiple test inputs.</p>
@@ -1278,322 +1291,7 @@ No specific boundary</p></td></tr>
 <td><ins>rock</ins></td>
 <td><ins>acid</ins></td></tr></tbody></table></div></box></question></panel></div></div></panel></div></div></div></panel></panel>
 <panel type="seamless" expanded id="more">
-  <span slot="header" class="card-title"><div><h2 id="more"><span id="more" class="anchor"></span><span>More</span><a class="fa fa-anchor" href="#more" onclick="event.stopPropagation()"></a></h2></div></span>
-<panel type="seamless" expanded id="testing-based-on-use-cases"><template slot="header"><h4 id="testing-based-on-use-cases"><span id="testing-based-on-use-cases" class="anchor"></span>Testing Based on Use Cases<a class="fa fa-anchor" href="#testing-based-on-use-cases" onclick="event.stopPropagation()"></a></h4></template>
-  <div class="indented">
-  <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
-  <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain test case design for use case based testing</span></span></span></span><p></p>
-  <div>
-<p><strong>Use cases can be used for system testing and acceptance testing</strong>. For example, the main success scenario can be one test case while each variation (due to extensions) can form another test case. However, note that use cases do not specify the exact data entered into the system. Instead, it might say something like <code class="hljs inline no-lang" v-pre>user enters his personal data into the system</code>. Therefore, the tester has to choose data by considering equivalence partitions and boundary values. The combinations of these could result in one use case producing many test cases.</p>
-<p>To increase the <trigger trigger="click" for="modal:usebaseBased-EandE">E&amp;E of testing</trigger>, high-priority use cases are given more attention. For example, a <trigger trigger="click" for="modal:usecaseBased-scripted">scripted approach</trigger> can be used to test high-priority test cases, while an exploratory approach is used to test other areas of concern that could emerge during testing.</p>
-<b-modal id="modal:usebaseBased-EandE" hide-footer size="lg" modal-class="mb-zoom" ref="modal:usebaseBased-EandE" class="algolia-no-index"><template slot="modal-title">Quality Assurance → Test Case Design → Introduction → (extract) E&amp;E of testing</template>
-  <div>
-<p><strong>Every test case adds to the cost of testing.</strong> In some systems, a single test case can cost thousands of dollars <span class="dimmed">e.g. on-field testing of flight-control software</span>. Therefore, <strong>test cases need to be designed to make the best use of testing resources.</strong>  In particular:</p>
-<ul>
-<li>
-<p><strong>Testing should be <em>effective</em></strong> i.e., it finds a high percentage of existing bugs <span class="dimmed">e.g., a set of test cases that finds 60 defects is more effective than a set that finds only 30 defects in the same system</span>.</p></li>
-<li>
-<p><strong>Testing should be <em>efficient</em></strong> i.e., it has a high rate of success (bugs found/test cases) <span class="dimmed">a set of 20 test cases that finds 8 defects is more efficient than another set of 40 test cases that finds the same 8 defects</span>.</p></li></ul>
-<p><strong>For testing to be <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">Efficient and Effective</span>E&amp;E</span>, each new test you add should be targeting a potential fault that is not already targeted by existing test cases.</strong> There are test case design techniques that can help us improve the E&amp;E of testing.</p></div></b-modal>
-<b-modal id="modal:usecaseBased-scripted" hide-footer size="lg" modal-class="mb-zoom" ref="modal:usecaseBased-scripted" class="algolia-no-index"><template slot="modal-title">Textbook <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span></template>
-  <div>
-<div></div><p></p>
-<p><span class="dimmed"><strong><span>Quality Assurance → Testing → Exploratory and Scripted Testing →
-</span></strong></span></p>
-<div id="title-and-body">
-<div><h4 id="what-4"><span id="what-4" class="anchor"></span><span>What</span><a class="fa fa-anchor" href="#what-4" onclick="event.stopPropagation()"></a></h4></div>
-<div id="main">
-<div>
-<p><strong>Here are two alternative approaches to testing a software: <em>Scripted</em> testing and <em>Exploratory</em> testing.</strong></p>
-<ol>
-<li>
-<p><strong>Scripted testing:</strong>  First write a set of test cases based on the expected behavior of the SUT, and then perform testing based on that set of test cases.</p></li>
-<li>
-<p><strong>Exploratory testing:</strong> Devise test cases on-the-fly, creating new test cases based on the results of the past test cases.</p></li></ol>
-<p>Exploratory testing is ‘the simultaneous learning, test design, and test execution’ <trigger trigger="click" for="modal:exploratoryWhat-bach-et-explained">[source: bach-et-explained]</trigger> whereby the nature of the follow-up test case is decided based on the behavior of the previous test cases. In other words, running the system and trying out various operations. It is called <em>exploratory testing</em> because testing is driven by observations during testing. Exploratory testing usually starts with areas identified as error-prone, based on the tester’s past experience with similar systems. One tends to conduct more tests for those operations where more faults are found.</p>
-<box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> Here is an example thought process behind a segment of an exploratory testing session:</p>
-<blockquote>
-<p>“Hmm... looks like feature x is broken. This usually means feature n and k could be broken too; you need to look at them soon.
-But before that, you should give a good test run to feature y because users can still use the product if feature y works, even if x doesn’t work. Now, if feature y doesn’t work 100%, you have a major problem and this has to be made known to the development team sooner rather than later...”</p></blockquote></box>
-<box>
-<p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>Exploratory testing is also known as <em>reactive testing, error guessing technique, attack-based testing,</em> and <em>bug hunting</em>.</strong></p></box>
-<b-modal id="modal:exploratoryWhat-bach-et-explained" hide-footer size modal-class="mb-zoom" ref="modal:exploratoryWhat-bach-et-explained" class="algolia-no-index"><template slot="modal-title">bach-et-explained <span><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span></span></template>
-  <div>
-<p><a href="http://www.satisfice.com/articles/et-article.pdf"><em><strong>Exploratory Testing Explained</strong></em></a>, an online article by <a href="http://www.satisfice.com/aboutjames.shtml">James Bach</a>  -- James Bach is an industry thought leader in software testing.</p></div></b-modal></div>
-<div>
-  <div>
-<panel expandable class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
-  <div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Statements about exploratory and scripted testing</p></template>
-<question>
-<p>Scripted testing requires tests to be written in a scripting language; manual testing is called exploratory testing.</p>
-<ul radio-group="1baea" class="radio-list">
-<li class="radio-list-item"><label><input class="radio-list-input" name="1baea" type="radio"> True</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="1baea" type="radio"> False</label></li></ul>
-<div slot="answer" class="algolia-no-index">
-<p>False</p>
-<p>Explanation: “Scripted” means test cases are predetermined. They need not be an executable script. However, exploratory testing is usually manual.</p></div></question></panel></div>
-  <div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Which testing technique is better?</p></template>
-<question>
-<p>Which testing technique is better?</p>
-<ul radio-group="ae1b1" class="radio-list">
-<li class="radio-list-item"><label><input class="radio-list-input" name="ae1b1" type="radio"> a. Error guessing</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="ae1b1" type="radio"> b. Bug hunting</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="ae1b1" type="radio"> c. Attack-based testing</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="ae1b1" type="radio"> d. Reactive testing</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="ae1b1" type="radio"> e. These are different names used to describe exploratory testing.</label></li></ul>
-<div slot="answer" class="algolia-no-index">
-<p>(e)</p></div></question></panel></div>
-  <div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Explain the concept of exploratory testing using Minesweeper as an example.</p></template>
-<question has-input="true">
-<p>Explain the concept of exploratory testing using Minesweeper as an example.</p>
-<div slot="answer" class="algolia-no-index">
-<p>When we test Minesweeper by simply playing it in various ways, especially trying out those that are likely to be buggy, that would be exploratory testing.</p></div></question></panel></div></panel></div></div></div></div></div></b-modal></div>
-  <div></div></div></panel></panel>
-<panel type="seamless" expanded id="recap">
-  <span slot="header" class="card-title"><div><h2 id="recap"><span id="recap" class="anchor"></span><span>Recap</span><a class="fa fa-anchor" href="#recap" onclick="event.stopPropagation()"></a></h2></div></span>
-<panel type="seamless" expanded id="exercises"><template slot="header"><h4 id="exercises"><span id="exercises" class="anchor"></span>Exercises<a class="fa fa-anchor" href="#exercises" onclick="event.stopPropagation()"></a></h4></template>
-  <div class="indented">
-  <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
-  <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can combine test case design techniques</span></span></span></span><p></p>
-  <div></div>
-  <div>
-  <div>
-<panel expandable class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
-  <div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Matric numbers</p></template>
-<question has-input="true">
-<p>Assume that students are given a matriculation number according to the following format:</p>
-<p>[Faculty Alphabet] [Gender Alphabet] [Serial Number] [Check Alphabet]</p>
-<p>E.g. CF1234X</p>
-<p>The valid value(s) for each part of the matriculation number is given below:</p>
-<p><strong>Faculty Alphabet:</strong></p>
-<ul>
-<li>Single capital alphabet</li>
-<li>Only 'C' to 'G' are valid</li></ul>
-<p><strong>Gender Alphabet:</strong></p>
-<ul>
-<li>Single capital alphabet</li>
-<li>Either 'F' or 'M' only</li></ul>
-<p><strong>Serial Number:</strong></p>
-<ul>
-<li>4-digits number</li>
-<li>From 1000 to 9999 only</li></ul>
-<p><strong>Check Alphabet:</strong></p>
-<ul>
-<li>Single capital alphabet</li>
-<li>Only 'K', 'H', 'S', 'X' and 'Z' are valid</li></ul>
-<p>Assume you are testing the operation <code class="hljs inline no-lang" v-pre>isValidMatric(String matric): boolean</code>. Identify equivalence partitions and boundary values for the matriculation number.</p>
-<div slot="answer" class="algolia-no-index">
-<p>String length: (less than 7 characters), (7 characters), (more than 7 characters)</p>
-<p>For those with 7 characters,</p>
-<ul>
-<li>[Faculty Alphabet]: (‘C’, ‘G’), (‘c’, ‘g’), (any other character)</li>
-<li>[Gender Alphabet]: (‘F’, ‘M’), (‘f’, ‘m’), (any other character)</li>
-<li>[Serial Number]: (1000-9999), (0000-0999), (any other 4-characters string)</li>
-<li>[Check Alphabet]: ('K', 'H', 'S', ‘X’, 'Z'), ('k', 'h', ’s’, ‘x’, 'z'), (any other character)</li></ul></div></question></panel></div>
-  <div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> isValidDate</p></template>
-<question has-input="true">
-<p>Identify a set of equivalence partitions for testing the <code class="hljs inline no-lang" v-pre>isValidDate(String date)</code> method. The method checks if the parameter <code class="hljs inline no-lang" v-pre>date</code> is a day that falls in the period 1880/01/01 to 2030/12/31 (both inclusive). The date is given in the format yyyy/mm/dd.</p>
-<div slot="answer" class="algolia-no-index">
-<p><strong>Initial partitions</strong>: [null] [10 characters long] [shorter than 10 characters] [longer than 10 characters]</p>
-<p>For 10-character strings:</p>
-<ul>
-<li>c1-c4: [not an integer] [less than 1880] [1880-2030 excluding leap years] [leap years within 1880-2030 period] [2030-9999]</li>
-<li>c5: [‘/’] [not ‘/’]</li>
-<li>c6-c7: [not an integer] [less than 1] [2] [31-day months: 1,3,5,7,8,10,12] [30-day months: 4,6,9,11] [13-99]</li>
-<li>c8: [‘/’] [ not ‘/’]</li>
-<li>c9-c10: [not an integer] [less than 1] [1-28] [29] [30] [31] [more than 31]</li></ul>
-<p>In practice, we often use ‘trusted’ library functions (e.g. those that come with the Java JDK or .NET framework) to convert strings into dates. In such cases, our testing need not be as thorough as those suggested by the above analysis. However, this kind of thorough testing is required if you are the person implementing such a trusted component.</p></div></question></panel></div>
-  <div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Dispatch resources</p></template>
-<question has-input="true">
-<p>Given below is the overview of the method <code class="hljs inline no-lang" v-pre>dispatch(Resource, Task)</code>, from an emergency management system (e.g. a system used by those who handle emergency calls from the public about incidents such as fires, possible burglaries, domestic disturbances, etc.). A task might need multiple resources of multiple types. For example, the task ‘fire at Clementi MRT’ might need two fire engines and one ambulance.</p>
-<ul>
-<li><code class="hljs inline no-lang" v-pre>dispatch(Resource r, Task t): void</code></li>
-<li>Overview: This method dispatches the Resource <code class="hljs inline no-lang" v-pre>r</code> to the Task <code class="hljs inline no-lang" v-pre>t</code>. Since this can dispatch only one resource, it needs to be used multiple times should the task need multiple resources.</li></ul>
-<p>Imagine you are designing test cases to test the method <code class="hljs inline no-lang" v-pre>dispatch(Resource, Task)</code>. Taking into account equivalence partitions and boundary values, which different inputs will you combine to test the method?</p>
-<div slot="answer" class="algolia-no-index">
-<table class="table">
-  <tr>
-    <th>Test input for r</th>
-    <th>Test input for t</th></tr>
-  <tr>
-    <td>
-      <ul>
-        <li>A resource required by the task</li>
-        <li>A resource not required by the task</li>
-        <li>A resource already dispatched for another task</li>
-        <li>null</li></ul></td>
-    <td>
-      <ul>
-        <li>A fully dispatched task</li>
-        <li>A task requiring one more resource</li>
-        <li>A task with no resources dispatched</li></ul>
-      Considering the resource types required
-      <ul>
-        <li>A task requiring only one type of resource</li>
-        <li>A task requiring multiple types of resources</li>
-        <li>null</li></ul></td></tr></table></div></question></panel></div>
-  <div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> transferTable</p></template>
-<question has-input="true">
-<p>Given below is an operation description taken from a restaurant booking system. Use equivalence partitions and the boundary value analysis technique to design a set of test cases for it.</p>
-<ul>
-<li><code class="hljs inline no-lang" v-pre>boolean transferTable(Booking b, Table t)</code></li>
-<li>Description: Used to transfer a Booking <code class="hljs inline no-lang" v-pre>b</code> to Table <code class="hljs inline no-lang" v-pre>t</code>, if <code class="hljs inline no-lang" v-pre>t</code> has enough room.</li>
-<li>Preconditions: <code class="hljs inline no-lang" v-pre>t</code> has room for <code class="hljs inline no-lang" v-pre>b</code>, <code class="hljs inline no-lang" v-pre>b.getTable() != t</code></li>
-<li>Postconditions: <code class="hljs inline no-lang" v-pre>b.getTable() == t</code></li></ul>
-<div slot="answer" class="algolia-no-index">
-<p><strong>Equivalence partitions</strong></p>
-<ul>
-<li>
-<p>Booking:</p>
-<ul>
-<li>Invalid: null, not null and <code class="hljs inline no-lang" v-pre>b.getTable == t</code></li>
-<li>Valid: not null and <code class="hljs inline no-lang" v-pre>b.getTable != t</code></li></ul></li>
-<li>
-<p>Table:</p>
-<ul>
-<li>Invalid: null, not vacant, vacant but doesn’t have enough room</li>
-<li>Valid: vacant and has enough room</li></ul></li></ul>
-<p><strong>Boundary values:</strong></p>
-<ul>
-<li>
-<p>Booking:</p>
-<ul>
-<li>Invalid: null, not null and <code class="hljs inline no-lang" v-pre>b.getTable == t</code></li>
-<li>Valid: not null and <code class="hljs inline no-lang" v-pre>b.getTable != t</code></li></ul></li>
-<li>
-<p>Table:</p>
-<ul>
-<li>Invalid: null, not vacant, (booking size == table size + 1)</li>
-<li>Valid: (booking size == table size), (booking size == table size-1)</li></ul></li></ul>
-<p><strong>Test cases:</strong></p>
-<div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
-<tr>
-<th style="text-align:center">Test case</th>
-<th style="text-align:center">Booking</th>
-<th style="text-align:center">Table</th></tr></thead>
-<tbody>
-<tr>
-<td style="text-align:center">1</td>
-<td style="text-align:center">null</td>
-<td style="text-align:center">Any valid</td></tr>
-<tr>
-<td style="text-align:center">2</td>
-<td style="text-align:center">not null and b.getTable==t</td>
-<td style="text-align:center">Any valid</td></tr>
-<tr>
-<td style="text-align:center">3</td>
-<td style="text-align:center">Any valid</td>
-<td style="text-align:center">null</td></tr>
-<tr>
-<td style="text-align:center">4</td>
-<td style="text-align:center">Any valid</td>
-<td style="text-align:center">not vacant</td></tr>
-<tr>
-<td style="text-align:center">5</td>
-<td style="text-align:center">Any valid</td>
-<td style="text-align:center">(booking size == table size + 1)</td></tr>
-<tr>
-<td style="text-align:center">6</td>
-<td style="text-align:center">Any valid</td>
-<td style="text-align:center">(booking size == table size)</td></tr>
-<tr>
-<td style="text-align:center">7</td>
-<td style="text-align:center">Any valid</td>
-<td style="text-align:center">(booking size == table size - 1)</td></tr></tbody></table></div><p>Note: We can use Bookings of different sizes for different test cases so that we increase the chance of finding bugs. If there is a minimum and maximum booking size, we should include them in those test cases.</p></div></question></panel></div>
-  <div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> add(Item)</p></template>
-<question has-input="true">
-<p>Assume you are testing the <code class="hljs inline no-lang" v-pre>add(Item)</code> method specified below.</p>
-<img src="/website/book/testCaseDesign/summary/exercises/images/itemList.png" height="100">
-<p></p>
-<p>Assume <code class="hljs inline no-lang" v-pre>i</code> to be the Item being added.</p>
-<p><strong>Preconditions:</strong></p>
-<ul>
-<li><code class="hljs inline no-lang" v-pre>i != null</code> [throws <code class="hljs inline no-lang" v-pre>InvalidItemException</code> if <code class="hljs inline no-lang" v-pre>i == null</code>]</li>
-<li><code class="hljs inline no-lang" v-pre>contains(i) == false</code> [throws <code class="hljs inline no-lang" v-pre>DuplicateItemException</code> if <code class="hljs inline no-lang" v-pre>contains(i) == true</code>]</li>
-<li><code class="hljs inline no-lang" v-pre>count() &lt; 10</code> [throws <code class="hljs inline no-lang" v-pre>ListFullException</code> if <code class="hljs inline no-lang" v-pre>count() == 10</code>]</li></ul>
-<p><strong>Postconditions:</strong></p>
-<ul>
-<li><code class="hljs inline no-lang" v-pre>contains(i) == true</code></li>
-<li><code class="hljs inline no-lang" v-pre>new count() == old count() + 1</code></li></ul>
-<p><strong>Invariants:</strong> (an “invariant” is true before and after the method invocation).</p>
-<ul>
-<li><code class="hljs inline no-lang" v-pre>0 &lt;= count() &lt;= 10</code></li></ul>
-<p>(a) What are the equivalence partitions relevant to testing the <code class="hljs inline no-lang" v-pre>add(Item)</code> method?</p>
-<p>(b) What are the boundary and non-boundary values you will use to test the <code class="hljs inline no-lang" v-pre>add(Item)</code> method?</p>
-<p>(c) Design a set of test cases to test the <code class="hljs inline no-lang" v-pre>add(Item)</code> method by considering the equivalence partitions and boundary values from your answers to (a) and (b) above.</p>
-<div slot="answer" class="algolia-no-index">
-<p>(a)</p>
-<p><code class="hljs inline no-lang" v-pre>i</code>: <code class="hljs inline no-lang" v-pre>i != null</code>, <code class="hljs inline no-lang" v-pre>i == null</code>
-<code class="hljs inline no-lang" v-pre>list</code>: <code class="hljs inline no-lang" v-pre>contains(i) == true</code>, <code class="hljs inline no-lang" v-pre>contains(i) == false</code>, <code class="hljs inline no-lang" v-pre>count() &lt; 10</code>, <code class="hljs inline no-lang" v-pre>count() == 10</code></p>
-<p><code class="hljs inline no-lang" v-pre>list == null</code> should NOT be considered.</p>
-<p>(b)</p>
-<p><code class="hljs inline no-lang" v-pre>list</code>: <code class="hljs inline no-lang" v-pre>count() == 0</code>, <code class="hljs inline no-lang" v-pre>count() == 9</code>, <code class="hljs inline no-lang" v-pre>count() == 10</code>; <code class="hljs inline no-lang" v-pre>count() == [1|2|3|4|5|6|7|8]</code> (1 preferred)</p>
-<p>(c)</p>
-<img src="/website/book/testCaseDesign/summary/exercises/images/count.png" height="250">
-<p></p></div></question></panel></div>
-  <div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> setWife</p></template>
-<question has-input="true">
-<p>Use equivalence partitions and boundary values to choose test inputs for testing the <code class="hljs inline no-lang" v-pre>setWife</code> operation in the <code class="hljs inline no-lang" v-pre>Man</code> class.</p>
-<img src="/website/book/testCaseDesign/summary/exercises/images/manWoman.png" height="90">
-<p></p>
-<div slot="answer" class="algolia-no-index">
-<img src="/website/book/testCaseDesign/summary/exercises/images/manWomanPartitions.png" height="300">
-<p></p>
-<p>Partitioning ‘married’ as ‘to the same woman’ and ‘to a different woman’ seems redundant at first. Arguments for having it:</p>
-<ul>
-<li>The behavior (e.g. the error message shown) may be different in those two situations.</li>
-<li>The ‘to the same woman’ partition has a risk of misunderstanding between developer and user. For example, the developer might think it is OK to ignore the request while the users might expect to see an error message.</li></ul></div></question></panel></div>
-  <div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Pre-Release Game</p></template>
-<question>
-<p>If you download a pre-release version of a new game (executable file) to do a test drive and submit bug reports, you would be doing</p>
-<ul class="contains-task-list">
-<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> a. white-box exploratory testing</li>
-<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> b. gray-box beta testing</li>
-<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> c. black-box exploratory testing</li>
-<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> d. black-box scripted testing</li></ul>
-<div slot="answer" class="algolia-no-index">
-<p>c</p>
-<p>Explanation: Since it is an executable only, you are unlikely to have knowledge of its internal workings. Therefore, your testing is most likely to be black-box testing. A ‘test drive’ sounds like exploratory testing rather than scripted testing.</p></div></question></panel></div>
-  <div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> True or False?</p></template>
-<question>
-<p>We can apply the equivalence partitioning technique in white-box fashion.</p>
-<ul radio-group="e3b2b" class="radio-list">
-<li class="radio-list-item"><label><input class="radio-list-input" name="e3b2b" type="radio"> True</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="e3b2b" type="radio"> False</label></li></ul>
-<div slot="answer" class="algolia-no-index">
-<p>True</p>
-<p>Explanation: In fact, when we know about how the SUT is implemented, we can make more informed decisions about partitioning test inputs into equivalence partitions. White-box equivalence partitioning is less speculative than black-box equivalence partitioning.</p></div></question></panel></div>
-  <div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> Design test cases for the <code class="hljs inline no-lang" v-pre>day</code> parameter</p></template>
-<question>
-<ol>
-<li>
-<p>What are the <em>equivalence partitions</em> for the parameter <code class="hljs inline no-lang" v-pre>day</code> of this method?</p>
-<pre><code class="hljs java" v-pre><span><span class="hljs-comment">/**</span>
-</span><span><span class="hljs-comment"> * Returns true if the three values represent a valid day</span>
-</span><span><span class="hljs-comment"> */</span>
-</span><span><span class="hljs-function"><span class="hljs-keyword">boolean</span> <span class="hljs-title">isValidDay</span><span class="hljs-params">(<span class="hljs-keyword">int</span> year, <span class="hljs-keyword">int</span> month, <span class="hljs-keyword">int</span> day)</span> </span>{
-</span><span>
-</span><span>} 
-</span></code></pre></li>
-<li>
-<p>What are the <em>boundary values</em> for the parameter <code class="hljs inline no-lang" v-pre>day</code> in the question above?</p></li>
-<li>
-<p>Give 10 test inputs you would use for the parameter <code class="hljs inline no-lang" v-pre>day</code> in the question above.</p></li></ol></question></panel></div></panel></div></div></div></panel></panel></div>
+  <span slot="header" class="card-title"><div><h2 id="more"><span id="more" class="anchor"></span><span>More</span><a class="fa fa-anchor" href="#more" onclick="event.stopPropagation()"></a></h2></div></span></panel></div>
 <p><i class="fa fa-arrow-circle-up fa-lg" id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true"></i></p></div>
         <nav id="page-nav" class="navbar navbar-light bg-transparent">
 <div class="border-left-grey nav-inner position-sticky slim-scroll">
@@ -1627,13 +1325,6 @@ But before that, you should give a good test run to feature y because users can 
 <a class="nav-link py-1" href="#mix">Mix&#x200E;</a>
 </nav>
 <a class="nav-link py-1" href="#more">More&#x200E;</a>
-<nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
-<a class="nav-link py-1" href="#testing-based-on-use-cases">Testing Based on Use Cases&#x200E;</a>
-</nav>
-<a class="nav-link py-1" href="#recap">Recap&#x200E;</a>
-<nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
-<a class="nav-link py-1" href="#exercises">Exercises&#x200E;</a>
-</nav>
 </nav>
 
 </nav>
@@ -1643,7 +1334,7 @@ But before that, you should give a good test run to feature y because users can 
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Sun, 20 Dec 2020, 16:08:09 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Fri, 25 Dec 2020, 1:44:56 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>

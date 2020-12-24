@@ -39,10 +39,23 @@
 <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Fri, Apr 9th] </span></a></li></dropdown>
   <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
   <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-  
-  <div class="nav-link temp-dropdown-placeholder">**Project Links**</div>
-  <div class="nav-link temp-dropdown-placeholder">**Other Links**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Other Links</strong></template>
+  <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://nus-tic4002-ay2021s2.github.io/dashboards" target="_blank" class="nav-link"><span><strong>Dashboards</strong></span></a></li>
+  <div class="nav-link temp-dropdown-placeholder">**Project Links**</div><dropdown tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Project Links</strong></template>
+    <span><strong> Individual Project (iP):</strong></span>
+    <li><a href="/website/admin/ip-overview.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Individual Project Info</span></a></li>
+    <li><a href="https://github.com/nus-tic4002-AY2021S2/ip" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> iP Upstream Repo</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/ip-dashboard/#sort=groupTitle&groupSelect=groupByAuthors" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> iP Code Dashboard</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/ip-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> iP Progress Dashboard</span></a></li>
+    <hr>
+    <span><strong> Team Project (tP):</strong></span>
+    <li><a href="/website/admin/tp-expectations.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Team Project Info</span></a></li>
+    <li tags="m--cs2103 m--tic4002"><a href="https://github.com/nus-tic4002-AY2021S2/tp2" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</span></a></li>
     
+    <li><a href="/website/admin/teamList.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team List</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/tp-dashboard/#breakdown=true" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> tP Progress Dashboard</span></a></li></dropdown>
+  <div class="nav-link temp-dropdown-placeholder">**Other Links**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Other Links</strong></template>
+    <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://github.com/nus-tic4002-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
     <li><a href="https://github.com/nus-tic4002-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
     
     <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span> Instructors</span></a></li>
@@ -51,9 +64,9 @@
     
     
     
-    
-    
-    
+    <li tags="m--cs2103 m--cs2113 m--tic2002 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/java/basic.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+    <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-git-square"></span> Git Conventions</span></a></li>
+    <li tags="m--cs2103 m--cs2113 m--tic4002"><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/forum-activities.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-trophy"></span> Forum Activities Dashboard</span></a></li>
     <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/participation.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> Participation Dashboard</span></a></li>
     
     </dropdown>
@@ -140,7 +153,7 @@
 <panel type="seamless" expanded id="basic"><template slot="header"><h4 id="basic"><span id="basic" class="anchor"></span>Basic<a class="fa fa-anchor" href="#basic" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the importance of code quality</span></span></span></span><p></p>
   <div>
 <blockquote>
@@ -156,7 +169,7 @@
 <panel type="seamless" expanded id="introduction-2"><template slot="header"><h4 id="introduction-2"><span id="introduction-2" class="anchor"></span>Introduction<a class="fa fa-anchor" href="#introduction-2" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="Crimson"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the importance of readability</span></span></span></span><p></p>
   <div>
 <blockquote>
@@ -243,7 +256,7 @@
 <panel type="seamless" expanded id="avoid-long-methods"><template slot="header"><h4 id="avoid-long-methods"><span id="avoid-long-methods" class="anchor"></span>Avoid Long Methods<a class="fa fa-anchor" href="#avoid-long-methods" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: avoid long methods </span></span></span></span><p></p>
   <div>
 <p>Be wary when a method is longer than the computer screen, and take corrective action when it goes beyond 30 LOC (lines of code). The bigger the haystack, the harder it is to find a needle.</p></div>
@@ -251,7 +264,7 @@
 <panel type="seamless" expanded id="avoid-deep-nesting"><template slot="header"><h4 id="avoid-deep-nesting"><span id="avoid-deep-nesting" class="anchor"></span>Avoid Deep Nesting<a class="fa fa-anchor" href="#avoid-deep-nesting" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: avoid deep nesting </span></span></span></span><p></p>
   <div>
 <blockquote>
@@ -338,7 +351,7 @@
 <panel type="seamless" expanded id="avoid-complicated-expressions"><template slot="header"><h4 id="avoid-complicated-expressions"><span id="avoid-complicated-expressions" class="anchor"></span>Avoid Complicated Expressions<a class="fa fa-anchor" href="#avoid-complicated-expressions" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: avoid complicated expressions </span></span></span></span><p></p>
   <div>
 <p>Avoid complicated expressions, especially those having many negations and nested parentheses. If you must evaluate complicated expressions, have it done in steps (i.e. calculate some intermediate values first and use them to calculate the final value).</p>
@@ -378,7 +391,7 @@
 <panel type="seamless" expanded id="avoid-magic-numbers"><template slot="header"><h4 id="avoid-magic-numbers"><span id="avoid-magic-numbers" class="anchor"></span>Avoid Magic Numbers<a class="fa fa-anchor" href="#avoid-magic-numbers" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: avoid magic numbers </span></span></span></span><p></p>
   <div>
 <p>When the code has a number that does not explain the meaning of the number, it is called a &quot;magic number&quot; (as in &quot;the number appears as if by magic&quot;). Using a <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">e.g., <code class="hljs inline no-lang" v-pre>PI</code></span><em>named constant</em></span> makes the code easier to understand because the name tells us more about the meaning of the number.</p>
@@ -439,7 +452,7 @@
 <panel type="seamless" expanded id="make-the-code-obvious"><template slot="header"><h4 id="make-the-code-obvious"><span id="make-the-code-obvious" class="anchor"></span>Make the Code Obvious<a class="fa fa-anchor" href="#make-the-code-obvious" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: make the code obvious </span></span></span></span><p></p>
   <div>
 <p>Make the code as explicit as possible, even if the language syntax allows them to be implicit. Here are some examples:</p>
@@ -457,7 +470,7 @@
 <panel type="seamless" expanded id="structure-code-logically"><template slot="header"><h4 id="structure-code-logically"><span id="structure-code-logically" class="anchor"></span>Structure Code Logically<a class="fa fa-anchor" href="#structure-code-logically" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: structure code logically </span></span></span></span><p></p>
   <div>
 <p>Lay out the code so that it adheres to the logical structure. The code should read like a story. Just like how you use section breaks, chapters and paragraphs to organize a story, use classes, methods, indentation and line spacing in your code to group related segments of the code.  For example, you can use blank lines to group related statements together.</p>
@@ -466,7 +479,7 @@
 <panel type="seamless" expanded id="do-not-trip-up-reader"><template slot="header"><h4 id="do-not-trip-up-reader"><span id="do-not-trip-up-reader" class="anchor"></span>Do Not 'Trip Up' Reader<a class="fa fa-anchor" href="#do-not-trip-up-reader" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: do not 'trip up' reader </span></span></span></span><p></p>
   <div>
 <p>Avoid things that would make the reader go ‘huh?’, such as,</p>
@@ -480,7 +493,7 @@
 <panel type="seamless" expanded id="practice-kissing"><template slot="header"><h4 id="practice-kissing"><span id="practice-kissing" class="anchor"></span>Practice KISSing<a class="fa fa-anchor" href="#practice-kissing" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: practice KISSing </span></span></span></span><p></p>
   <div>
 <p>As the old adage goes, <strong>&quot;keep it simple, stupid” (KISS). Do not try to write ‘clever’ code.</strong> For example, do not dismiss the brute-force yet simple solution in favor of a complicated one because of some ‘supposed benefits’ such as 'better reusability' unless you have a strong justification.</p>
@@ -492,7 +505,7 @@
 <panel type="seamless" expanded id="avoid-premature-optimizations"><template slot="header"><h4 id="avoid-premature-optimizations"><span id="avoid-premature-optimizations" class="anchor"></span>Avoid Premature Optimizations<a class="fa fa-anchor" href="#avoid-premature-optimizations" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: avoid premature optimizations </span></span></span></span><p></p>
   <div>
 <p><strong>Optimizing code prematurely has several drawbacks</strong>:</p>
@@ -508,7 +521,7 @@
 <panel type="seamless" expanded id="slap-hard"><template slot="header"><h4 id="slap-hard"><span id="slap-hard" class="anchor"></span>SLAP Hard<a class="fa fa-anchor" href="#slap-hard" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: SLAP hard </span></span></span></span><p></p>
   <div>
 <p>Avoid varying the level of <trigger trigger="click" for="modal:slap-abstraction">abstraction</trigger> within a code fragment.
@@ -562,7 +575,7 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <panel type="seamless" expanded id="make-the-happy-path-prominent"><template slot="header"><h4 id="make-the-happy-path-prominent"><span id="make-the-happy-path-prominent" class="anchor"></span>Make the Happy Path Prominent<a class="fa fa-anchor" href="#make-the-happy-path-prominent" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: make the happy path prominent </span></span></span></span><p></p>
   <div>
 <p>The happy path (i.e. the execution path taken when everything goes well) should be clear and prominent in your code. Restructure the code to make the happy path unindented as much as possible. It is the ‘unusual’ cases that should be indented. Someone reading the code should not get distracted by alternative paths taken when error conditions happen. One technique that could help in this regard is the use of <a href="http://wiki.c2.com/?GuardClause">guard clauses</a>.</p>
@@ -610,7 +623,7 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <panel type="seamless" expanded id="introduction-3"><template slot="header"><h4 id="introduction-3"><span id="introduction-3" class="anchor"></span>Introduction<a class="fa fa-anchor" href="#introduction-3" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the need for following a standard</span></span></span></span><p></p>
   <div>
 <p><strong>One essential way to improve code quality is to follow a consistent style. That is why software engineers follow a strict coding standard (aka <em>style guide</em>).</strong></p>
@@ -637,7 +650,7 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <panel type="seamless" expanded id="basic-3"><template slot="header"><h4 id="basic-3"><span id="basic-3" class="anchor"></span>Basic<a class="fa fa-anchor" href="#basic-3" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can follow simple mechanical style rules</span></span></span></span><p></p>
   <div>
 <div class="alt-java">
@@ -683,82 +696,13 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <li><code class="hljs inline no-lang" v-pre>descriptionPrefix</code> is a constant and should be named <code class="hljs inline no-lang" v-pre>DESCRIPTION_PREFIX</code></li>
 <li>method name <code class="hljs inline no-lang" v-pre>printingDescription()</code> should be named as <code class="hljs inline no-lang" v-pre>printDescription()</code></li>
 <li>boolean variable <code class="hljs inline no-lang" v-pre>important</code> should be named to sound boolean e.g., <code class="hljs inline no-lang" v-pre>isImportant</code></li></ul>
-<p>There are many more.</p></div></question></panel></div></div></panel></div></div></div></panel>
-<panel type="seamless" expanded id="intermediate-2"><template slot="header"><h4 id="intermediate-2"><span id="intermediate-2" class="anchor"></span>Intermediate<a class="fa fa-anchor" href="#intermediate-2" onclick="event.stopPropagation()"></a></h4></template>
-  <div class="indented">
-  <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font></span></span></span>
-  <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can follow intermediate style rules</span></span></span></span><p></p>
-  <div>
-<p>Go through the <a href="https://se-education.org/guides/conventions/java/intermediate.html">Java coding standard at @SE-EDU</a> and learn the <em>intermediate</em> style rules.</p></div>
-  <div>
-<div>
-<panel expanded><template slot="header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
-  <div>
-<div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Unsuitable variable name</p></template>
-<question>
-<p>According to the given Java coding standard, which one of these is not a good name?</p>
-<ul radio-group="d008b" class="radio-list">
-<li class="radio-list-item"><label><input class="radio-list-input" name="d008b" type="radio"> a. integer variable name: <code class="hljs inline no-lang" v-pre>totalPeople</code></label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="d008b" type="radio"> b. boolean variable name: <code class="hljs inline no-lang" v-pre>checkWeight</code></label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="d008b" type="radio"> c. method name (returns integer): <code class="hljs inline no-lang" v-pre>getPeopleCount</code></label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="d008b" type="radio"> d. method name (returns boolean): <code class="hljs inline no-lang" v-pre>isValidAddress</code></label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="d008b" type="radio"> e. String variable name: <code class="hljs inline no-lang" v-pre>description</code></label></li></ul>
-<div slot="answer" class="algolia-no-index">
-<p>b</p>
-<p>Explanation: <code class="hljs inline no-lang" v-pre>checkWeight</code> is an action. Naming variables as actions makes the code harder to follow. <code class="hljs inline no-lang" v-pre>isWeightValid</code> may be a better name.</p></div></question></panel></div>
-<div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> Find intermediate coding standard violations</p></template>
-<question>
-<p>Repeat the exercise in the panel below but also find violations of <em>intermediate</em> level guidelines.</p>
-<div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> Find basic coding standard violations</p></template>
-<question>
-<p>Consider the code given below:</p>
-<pre><code class="hljs java" v-pre><span><span class="hljs-keyword">import</span> java.util.*;
-</span><span>
-</span><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Task</span> </span>{
-</span><span>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> String descriptionPrefix = <span class="hljs-string">&quot;description: &quot;</span>;
-</span><span>    <span class="hljs-keyword">private</span> String description;
-</span><span>    <span class="hljs-keyword">private</span> <span class="hljs-keyword">boolean</span> important;
-</span><span>    List&lt;String&gt; pastDescription = <span class="hljs-keyword">new</span> ArrayList&lt;&gt;(); <span class="hljs-comment">// a list of past descriptions</span>
-</span><span>
-</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Task</span><span class="hljs-params">(String d)</span> </span>{
-</span><span>      <span class="hljs-keyword">this</span>.description = d;
-</span><span>      <span class="hljs-keyword">if</span> (!d.isEmpty())
-</span><span>          <span class="hljs-keyword">this</span>.important = <span class="hljs-keyword">true</span>;
-</span><span>    }
-</span><span>
-</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getAsXML</span><span class="hljs-params">()</span> </span>{ <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;&lt;task&gt;&quot;</span>+description+<span class="hljs-string">&quot;&lt;/task&gt;&quot;</span>; }
-</span><span>
-</span><span>    <span class="hljs-comment">/**</span>
-</span><span><span class="hljs-comment">     * Print the description as a string.</span>
-</span><span><span class="hljs-comment">     */</span>
-</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">printingDescription</span><span class="hljs-params">()</span></span>{ System.out.println(<span class="hljs-keyword">this</span>); }
-</span><span>
-</span><span>    <span class="hljs-meta">@Override</span>
-</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">toString</span><span class="hljs-params">()</span> </span>{ <span class="hljs-keyword">return</span> descriptionPrefix + description; }
-</span><span>}
-</span></code></pre><p>In what ways do the code violate the coding standard you are expected to follow?</p>
-<div slot="hint" class="algolia-no-index">
-<p>Here are three:</p>
-<ul>
-<li><code class="hljs inline no-lang" v-pre>descriptionPrefix</code> is a constant and should be named <code class="hljs inline no-lang" v-pre>DESCRIPTION_PREFIX</code></li>
-<li>method name <code class="hljs inline no-lang" v-pre>printingDescription()</code> should be named as <code class="hljs inline no-lang" v-pre>printDescription()</code></li>
-<li>boolean variable <code class="hljs inline no-lang" v-pre>important</code> should be named to sound boolean e.g., <code class="hljs inline no-lang" v-pre>isImportant</code></li></ul>
-<p>There are many more.</p></div></question></panel></div>
-<div slot="hint" class="algolia-no-index">
-<p>Here's one you are more likely to miss:</p>
-<ul>
-<li><code class="hljs inline no-lang" v-pre>* Print the description as a string.</code> → <code class="hljs inline no-lang" v-pre>* Prints the description as a string.</code></li></ul>
-<p>There are more.</p></div></question></panel></div></div></panel></div></div></div></panel></panel>
+<p>There are many more.</p></div></question></panel></div></div></panel></div></div></div></panel></panel>
 <panel type="seamless" expanded id="guideline-name-well">
   <span slot="header" class="card-title"><div><h2 id="guideline-name-well"><span id="guideline-name-well" class="anchor"></span><span>Guideline: Name well</span><a class="fa fa-anchor" href="#guideline-name-well" onclick="event.stopPropagation()"></a></h2></div></span>
 <panel type="seamless" expanded id="introduction-4"><template slot="header"><h4 id="introduction-4"><span id="introduction-4" class="anchor"></span>Introduction<a class="fa fa-anchor" href="#introduction-4" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the need for good names in code</span></span></span></span><p></p>
   <div>
 <p>Proper naming improves the readability of code. It also reduces bugs caused by ambiguities regarding the intent of a variable or a method.</p>
@@ -770,7 +714,7 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <panel type="seamless" expanded id="use-nouns-for-things-and-verbs-for-actions"><template slot="header"><h4 id="use-nouns-for-things-and-verbs-for-actions"><span id="use-nouns-for-things-and-verbs-for-actions" class="anchor"></span>Use Nouns for Things and Verbs for Actions<a class="fa fa-anchor" href="#use-nouns-for-things-and-verbs-for-actions" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: use nouns for things and verbs for actions </span></span></span></span><p></p>
   <div>
 <blockquote>
@@ -809,17 +753,17 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <panel type="seamless" expanded id="use-standard-words"><template slot="header"><h4 id="use-standard-words"><span id="use-standard-words" class="anchor"></span>Use Standard Words<a class="fa fa-anchor" href="#use-standard-words" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: use standard words </span></span></span></span><p></p>
   <div>
 <p>Use correct spelling in names. Avoid 'texting-style' spelling. <strong>Avoid foreign language words, slang, and names that are only meaningful within specific contexts/times</strong> <span class="dimmed">e.g. terms from private jokes, a TV show currently popular in your country.</span></p></div>
   <div></div></div></panel></panel>
-<panel type="seamless" expanded id="intermediate-3">
-  <span slot="header" class="card-title"><div><h3 id="intermediate-3"><span id="intermediate-3" class="anchor"></span><span>Intermediate</span><a class="fa fa-anchor" href="#intermediate-3" onclick="event.stopPropagation()"></a></h3></div></span>
+<panel type="seamless" expanded id="intermediate-2">
+  <span slot="header" class="card-title"><div><h3 id="intermediate-2"><span id="intermediate-2" class="anchor"></span><span>Intermediate</span><a class="fa fa-anchor" href="#intermediate-2" onclick="event.stopPropagation()"></a></h3></div></span>
 <panel type="seamless" expanded id="use-name-to-explain"><template slot="header"><h4 id="use-name-to-explain"><span id="use-name-to-explain" class="anchor"></span>Use Name to Explain<a class="fa fa-anchor" href="#use-name-to-explain" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: use name to explain </span></span></span></span><p></p>
   <div>
 <p><strong>A name is not just for differentiation; it should explain the named entity to the reader accurately and at a sufficient level of detail.</strong></p>
@@ -867,7 +811,7 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <panel type="seamless" expanded id="not-too-long-not-too-short"><template slot="header"><h4 id="not-too-long-not-too-short"><span id="not-too-long-not-too-short" class="anchor"></span>Not Too Long, Not Too Short<a class="fa fa-anchor" href="#not-too-long-not-too-short" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: not too long, not too short </span></span></span></span><p></p>
   <div>
 <p>While it is preferable not to have lengthy names, names that are 'too short' are even worse.  If you must abbreviate or use acronyms, do it consistently. Explain their full meaning at an obvious location.</p></div>
@@ -875,7 +819,7 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <panel type="seamless" expanded id="avoid-misleading-names"><template slot="header"><h4 id="avoid-misleading-names"><span id="avoid-misleading-names" class="anchor"></span>Avoid Misleading Names<a class="fa fa-anchor" href="#avoid-misleading-names" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: avoid misleading names </span></span></span></span><p></p>
   <div>
 <p><strong>Related things should be named similarly, while unrelated things should NOT.</strong></p>
@@ -925,7 +869,7 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <panel type="seamless" expanded id="introduction-5"><template slot="header"><h4 id="introduction-5"><span id="introduction-5" class="anchor"></span>Introduction<a class="fa fa-anchor" href="#introduction-5" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the need for avoiding error-prone shortcuts</span></span></span></span><p></p>
   <div>
 <p>It is safer to use language constructs in the way they are meant to be used, even if the language allows shortcuts. Such coding practices are common sources of bugs. Know them and avoid them.</p></div>
@@ -935,7 +879,7 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <panel type="seamless" expanded id="use-the-default-branch"><template slot="header"><h4 id="use-the-default-branch"><span id="use-the-default-branch" class="anchor"></span>Use the Default Branch<a class="fa fa-anchor" href="#use-the-default-branch" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: use the default branch </span></span></span></span><p></p>
   <div>
 <p>Always include a default branch in <code class="hljs inline no-lang" v-pre>case</code> statements.</p>
@@ -953,7 +897,7 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <panel type="seamless" expanded id="don-t-recycle-variables-or-parameters"><template slot="header"><h4 id="don-t-recycle-variables-or-parameters"><span id="don-t-recycle-variables-or-parameters" class="anchor"></span>Don't Recycle Variables or Parameters<a class="fa fa-anchor" href="#don-t-recycle-variables-or-parameters" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: don't recycle variables or parameters </span></span></span></span><p></p>
   <div>
 <ul>
@@ -990,7 +934,7 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <panel type="seamless" expanded id="avoid-empty-catch-blocks"><template slot="header"><h4 id="avoid-empty-catch-blocks"><span id="avoid-empty-catch-blocks" class="anchor"></span>Avoid Empty Catch Blocks<a class="fa fa-anchor" href="#avoid-empty-catch-blocks" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: avoid empty catch blocks </span></span></span></span><p></p>
   <div>
 <p>Never write an empty <code class="hljs inline no-lang" v-pre>catch</code> statement. At least give a comment to explain why the <code class="hljs inline no-lang" v-pre>catch</code> block is left empty.</p></div>
@@ -998,17 +942,17 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <panel type="seamless" expanded id="delete-dead-code"><template slot="header"><h4 id="delete-dead-code"><span id="delete-dead-code" class="anchor"></span>Delete Dead Code<a class="fa fa-anchor" href="#delete-dead-code" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: delete dead code </span></span></span></span><p></p>
   <div>
 <p>You might feel reluctant to delete code you have painstakingly written, even if you have no use for that code anymore (&quot;I spent a lot of time writing that code; what if I need it again?&quot;). Consider all code as baggage you have to carry; get rid of unused code the moment it becomes redundant. If you need that code again, simply recover it from the revision control tool you are using. Deleting code you wrote previously is a sign that you are improving.</p></div>
   <div></div></div></panel></panel>
-<panel type="seamless" expanded id="intermediate-4">
-  <span slot="header" class="card-title"><div><h3 id="intermediate-4"><span id="intermediate-4" class="anchor"></span><span>Intermediate</span><a class="fa fa-anchor" href="#intermediate-4" onclick="event.stopPropagation()"></a></h3></div></span>
-<panel type="seamless" expanded id="minimize-scope-of-variables"><template slot="header"><h4 id="minimize-scope-of-variables"><span id="minimize-scope-of-variables" class="anchor"></span>Minimize Scope of Variables<a class="fa fa-anchor" href="#minimize-scope-of-variables" onclick="event.stopPropagation()"></a></h4></template>
+<panel type="seamless" expanded id="intermediate-3">
+  <span slot="header" class="card-title"><div><h3 id="intermediate-3"><span id="intermediate-3" class="anchor"></span><span>Intermediate</span><a class="fa fa-anchor" href="#intermediate-3" onclick="event.stopPropagation()"></a></h3></div></span>
+<panel type="seamless" expanded id="minimise-scope-of-variables"><template slot="header"><h4 id="minimise-scope-of-variables"><span id="minimise-scope-of-variables" class="anchor"></span>Minimise Scope of Variables<a class="fa fa-anchor" href="#minimise-scope-of-variables" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: minimize scope of variables </span></span></span></span><p></p>
   <div>
 <p><strong>Minimize global variables</strong>. Global variables may be the most convenient way to pass information around, but they do create implicit links between code segments that use the global variable. Avoid them as much as possible.</p>
@@ -1019,10 +963,10 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <ul>
 <li><a href="https://refactoring.com/catalog/reduceScopeOfVariable.html">Refactoring: Reduce Scope of Variable</a></li></ul></div>
   <div></div></div></panel>
-<panel type="seamless" expanded id="minimize-code-duplication"><template slot="header"><h4 id="minimize-code-duplication"><span id="minimize-code-duplication" class="anchor"></span>Minimize Code Duplication<a class="fa fa-anchor" href="#minimize-code-duplication" onclick="event.stopPropagation()"></a></h4></template>
+<panel type="seamless" expanded id="minimise-code-duplication"><template slot="header"><h4 id="minimise-code-duplication"><span id="minimise-code-duplication" class="anchor"></span>Minimise Code Duplication<a class="fa fa-anchor" href="#minimise-code-duplication" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: minimize code duplication </span></span></span></span><p></p>
   <div>
 <p><strong>Code duplication, especially when you copy-paste-modify code, often indicates a poor quality implementation.</strong> While it may not be possible to have zero duplication, always think twice before duplicating code; most often there is a better alternative.</p>
@@ -1050,7 +994,7 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <panel type="seamless" expanded id="introduction-6"><template slot="header"><h4 id="introduction-6"><span id="introduction-6" class="anchor"></span>Introduction<a class="fa fa-anchor" href="#introduction-6" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the need for commenting minimally but sufficiently</span></span></span></span><p></p>
   <div>
 <blockquote>
@@ -1062,7 +1006,7 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <panel type="seamless" expanded id="do-not-repeat-the-obvious"><template slot="header"><h4 id="do-not-repeat-the-obvious"><span id="do-not-repeat-the-obvious" class="anchor"></span>Do Not Repeat the Obvious<a class="fa fa-anchor" href="#do-not-repeat-the-obvious" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: do not repeat the obvious </span></span></span></span><p></p>
   <div>
 <p>If the code is self-explanatory, refrain from repeating the description in a comment just for the sake of 'good documentation'.</p>
@@ -1086,7 +1030,7 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <panel type="seamless" expanded id="write-to-the-reader"><template slot="header"><h4 id="write-to-the-reader"><span id="write-to-the-reader" class="anchor"></span>Write to the Reader<a class="fa fa-anchor" href="#write-to-the-reader" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: write to the reader </span></span></span></span><p></p>
   <div>
 <p>Do not write comments as if they are private notes to yourself. Instead, write them well enough to be understood by another programmer. One type of comment that is almost always useful is the <em>header comment</em> that you write for a class or an operation to explain its purpose.</p>
@@ -1117,12 +1061,12 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 </span><span>    ...
 </span></code></pre></div></div></box></div>
   <div></div></div></panel></panel>
-<panel type="seamless" expanded id="intermediate-5">
-  <span slot="header" class="card-title"><div><h3 id="intermediate-5"><span id="intermediate-5" class="anchor"></span><span>Intermediate</span><a class="fa fa-anchor" href="#intermediate-5" onclick="event.stopPropagation()"></a></h3></div></span>
+<panel type="seamless" expanded id="intermediate-4">
+  <span slot="header" class="card-title"><div><h3 id="intermediate-4"><span id="intermediate-4" class="anchor"></span><span>Intermediate</span><a class="fa fa-anchor" href="#intermediate-4" onclick="event.stopPropagation()"></a></h3></div></span>
 <panel type="seamless" expanded id="explain-what-and-why-not-how"><template slot="header"><h4 id="explain-what-and-why-not-how"><span id="explain-what-and-why-not-how" class="anchor"></span>Explain WHAT and WHY, not HOW<a class="fa fa-anchor" href="#explain-what-and-why-not-how" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can improve code quality using technique: explain what and why, not how </span></span></span></span><p></p>
   <div>
 <p>Comments should explain the <em>what</em> and <em>why</em> aspects of the code, rather than the <em>how</em> aspect.</p>
@@ -1192,7 +1136,6 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
 <a class="nav-link py-1" href="#introduction-3">Introduction&#x200E;</a>
 <a class="nav-link py-1" href="#basic-3">Basic&#x200E;</a>
-<a class="nav-link py-1" href="#intermediate-2">Intermediate&#x200E;</a>
 </nav>
 <a class="nav-link py-1" href="#guideline-name-well">Guideline: Name well&#x200E;</a>
 <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
@@ -1204,7 +1147,7 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <a class="nav-link py-1" href="#use-nouns-for-things-and-verbs-for-actions">Use Nouns for Things and Verbs for Actions&#x200E;</a>
 <a class="nav-link py-1" href="#use-standard-words">Use Standard Words&#x200E;</a>
 </nav>
-<a class="nav-link py-1" href="#intermediate-3">Intermediate&#x200E;</a>
+<a class="nav-link py-1" href="#intermediate-2">Intermediate&#x200E;</a>
 <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
 <a class="nav-link py-1" href="#use-name-to-explain">Use Name to Explain&#x200E;</a>
 <a class="nav-link py-1" href="#not-too-long-not-too-short">Not Too Long, Not Too Short&#x200E;</a>
@@ -1223,10 +1166,10 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <a class="nav-link py-1" href="#avoid-empty-catch-blocks">Avoid Empty Catch Blocks&#x200E;</a>
 <a class="nav-link py-1" href="#delete-dead-code">Delete Dead Code&#x200E;</a>
 </nav>
-<a class="nav-link py-1" href="#intermediate-4">Intermediate&#x200E;</a>
+<a class="nav-link py-1" href="#intermediate-3">Intermediate&#x200E;</a>
 <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
-<a class="nav-link py-1" href="#minimize-scope-of-variables">Minimize Scope of Variables&#x200E;</a>
-<a class="nav-link py-1" href="#minimize-code-duplication">Minimize Code Duplication&#x200E;</a>
+<a class="nav-link py-1" href="#minimise-scope-of-variables">Minimise Scope of Variables&#x200E;</a>
+<a class="nav-link py-1" href="#minimise-code-duplication">Minimise Code Duplication&#x200E;</a>
 </nav>
 </nav>
 <a class="nav-link py-1" href="#guideline-comment-minimally-but-sufficiently">Guideline: Comment minimally, but sufficiently&#x200E;</a>
@@ -1239,7 +1182,7 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 <a class="nav-link py-1" href="#do-not-repeat-the-obvious">Do Not Repeat the Obvious&#x200E;</a>
 <a class="nav-link py-1" href="#write-to-the-reader">Write to the Reader&#x200E;</a>
 </nav>
-<a class="nav-link py-1" href="#intermediate-5">Intermediate&#x200E;</a>
+<a class="nav-link py-1" href="#intermediate-4">Intermediate&#x200E;</a>
 <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
 <a class="nav-link py-1" href="#explain-what-and-why-not-how">Explain WHAT and WHY, not HOW&#x200E;</a>
 </nav>
@@ -1253,7 +1196,7 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Sun, 20 Dec 2020, 16:08:09 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Fri, 25 Dec 2020, 1:44:56 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>

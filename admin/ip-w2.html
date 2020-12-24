@@ -40,10 +40,23 @@
 <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Fri, Apr 9th] </span></a></li></dropdown>
   <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
   <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-  
-  <div class="nav-link temp-dropdown-placeholder">**Project Links**</div>
-  <div class="nav-link temp-dropdown-placeholder">**Other Links**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Other Links</strong></template>
+  <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://nus-tic4002-ay2021s2.github.io/dashboards" target="_blank" class="nav-link"><span><strong>Dashboards</strong></span></a></li>
+  <div class="nav-link temp-dropdown-placeholder">**Project Links**</div><dropdown tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Project Links</strong></template>
+    <span><strong> Individual Project (iP):</strong></span>
+    <li><a href="/website/admin/ip-overview.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Individual Project Info</span></a></li>
+    <li><a href="https://github.com/nus-tic4002-AY2021S2/ip" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> iP Upstream Repo</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/ip-dashboard/#sort=groupTitle&groupSelect=groupByAuthors" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> iP Code Dashboard</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/ip-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> iP Progress Dashboard</span></a></li>
+    <hr>
+    <span><strong> Team Project (tP):</strong></span>
+    <li><a href="/website/admin/tp-expectations.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Team Project Info</span></a></li>
+    <li tags="m--cs2103 m--tic4002"><a href="https://github.com/nus-tic4002-AY2021S2/tp2" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</span></a></li>
     
+    <li><a href="/website/admin/teamList.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team List</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/tp-dashboard/#breakdown=true" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> tP Progress Dashboard</span></a></li></dropdown>
+  <div class="nav-link temp-dropdown-placeholder">**Other Links**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Other Links</strong></template>
+    <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://github.com/nus-tic4002-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
     <li><a href="https://github.com/nus-tic4002-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
     
     <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span> Instructors</span></a></li>
@@ -52,9 +65,9 @@
     
     
     
-    
-    
-    
+    <li tags="m--cs2103 m--cs2113 m--tic2002 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/java/basic.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+    <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-git-square"></span> Git Conventions</span></a></li>
+    <li tags="m--cs2103 m--cs2113 m--tic4002"><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/forum-activities.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-trophy"></span> Forum Activities Dashboard</span></a></li>
     <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/participation.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> Participation Dashboard</span></a></li>
     
     </dropdown>
@@ -85,8 +98,6 @@
 <li><div class="site-nav-default-list-item site-nav-list-item-1" onclick="handleSiteNavClick(this)"><a href="/website/admin/ip-w4.html"><small>iP: Week 4</small></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></div></li>
 <li><div class="site-nav-default-list-item site-nav-list-item-1" onclick="handleSiteNavClick(this)"><a href="/website/admin/ip-w5.html"><small>iP: Week 5</small></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></div></li>
 <li><div class="site-nav-default-list-item site-nav-list-item-1" onclick="handleSiteNavClick(this)"><a href="/website/admin/ip-w6.html"><small>iP: Week 6</small></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span aria-hidden="true" class="fas fa-star"></span></span></span></div></li>
-<li><div class="site-nav-default-list-item site-nav-list-item-1" onclick="handleSiteNavClick(this)"><a href="/website/admin/ip-w7.html"><small>iP: Week 7</small></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span aria-hidden="true" class="fas fa-star"></span></span></span></div></li>
-<li><div class="site-nav-default-list-item site-nav-list-item-1" onclick="handleSiteNavClick(this)"><a href="/website/admin/ip-w8.html"><small>iP: Week 8</small></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-danger">1<span aria-hidden="true" class="fas fa-star"></span></span></span></div></li>
 <li><div class="site-nav-default-list-item site-nav-list-item-1" onclick="handleSiteNavClick(this)"><a href="/website/admin/ip-grading.html"><small>iP: Grading</small></a> <span class="badge badge-pill badge-light"><span class="font-weight-bold text-warning">2<span aria-hidden="true" class="fas fa-star"></span></span></span></div></li></ul></li>
 <li><div class="site-nav-default-list-item site-nav-list-item-0" onclick="handleSiteNavClick(this)">Team Project (tP)
 <i class="site-nav-dropdown-btn-icon" onclick="handleSiteNavClick(this.parentNode, false); event.stopPropagation();">
@@ -136,9 +147,11 @@
 <div id="summary" class="lead border-bottom border-left ml-3 mb-3" style="color: purple">
 <ol>
 <li><span>Learn about the project</span></li>
-<li><span>Set up prerequisites</span></li>
 <li><span>Set up the project in your computer</span></li>
-<li>Add Increments while committing frequently: <code class="hljs inline no-lang" v-pre>Level-1</code>, <code class="hljs inline no-lang" v-pre>Level-2</code>, <code class="hljs inline no-lang" v-pre>Level-3</code>, <code class="hljs inline no-lang" v-pre>Level-4</code>, <code class="hljs inline no-lang" v-pre>A-TextUiTesting</code>, <code class="hljs inline no-lang" v-pre>Level-5</code>, <code class="hljs inline no-lang" v-pre>Level-6</code>, <code class="hljs inline no-lang" v-pre>A-Enums</code> <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> Thu, Jan 21st 2359</span></span></li></ol></div>
+<li><span>Create a PR to the upstream repo</span></li>
+<li><span>Ensure TIC4001 iP increments have been done</span></li>
+<li>Add Increment: <code class="hljs inline no-lang" v-pre>A-Gradle</code></li>
+<li><span>Apply a stricter coding standard</span></li></ol></div>
 <div id="body">
 <div></div>
 <p></p>
@@ -151,99 +164,17 @@
 <div>
 <div id="title"></div>
 <div id="body">
-<p><strong>The objectives of the individual project (iP)</strong> is to learn/refresh the basics of,</p>
+<div tags="m--tic4002">
+<p><strong>The TIC4002 iP is a continuation of the iP you did in TIC4001.</strong> How it differs:</p>
 <ul>
-<li>Java</li>
-<li>OOP</li>
-<li>IDEs</li>
-<li>Git and GitHub</li>
-<li>Project automation tools</li>
-<li>Code quality</li></ul>
+<li>If some parts of the TIC4001 iP was not done well, you can strengthen them now.</li>
+<li>Some increments that were optional in TIC4001 iP will no longer be optional.</li>
+<li>Some new increments will be added.</li>
+<li>The bar you need to get full marks is higher.</li></ul>
+<p>As you know, the iP is based on the generic project called <a href="/website/se-book-adapted/projectDuke/index.html"><em>Project Duke</em></a>.</p></div>
 
-<p><strong>All skills you will learn in the iP will be useful in the team project (tP)</strong>. Furthermore, some of the iP code can be adapted for the tP.<br>
-<span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> The more you do in the iP and farther you push beyond the minimal expectations, the easier it will be in your tP.</p>
-<p><strong>The iP is based on the generic project called <a href="/website/se-book-adapted/projectDuke/index.html"><em>Project Duke</em></a></strong>, the overview of which is given below.</p>
-<div>
-<div class="indented">
-<div class="indented border">
-<panel type="seamless" no-close class="algolia-no-index">
-<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong>Overview</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
-<div>
-<h1 id="project-duke"><span id="project-duke" class="anchor"></span>Project Duke<a class="fa fa-anchor" href="#project-duke" onclick="event.stopPropagation()"></a></h1>
-<div class="lead">
-<pic add-class="float-left border mr-2 mt-2 p1 bg-white" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Duke_%28Java_mascot%29_waving.svg/226px-Duke_%28Java_mascot%29_waving.svg.png" width="60">
-<p><small><small><strong>Duke</strong>, the Java Mascot<br>[<a href="https://en.wikipedia.org/wiki/File:Duke_(Java_mascot)_waving.svg">credit: Wikipedia</a>]</small></small></p></pic><p></p>
-<p><strong>Project Duke is a educational software project designed to take you through the steps of building a small software <em>incrementally</em></strong>, while applying as many Java and SE techniques as possible along the way.</p></div>
-<p><strong>The project aims to build a product named <em>Duke</em>, a Personal Assistant Chatbot that helps a person to keep track of various things.</strong> <span class="dimmed">The name <em>Duke</em> was chosen as a placeholder name, in honor of <a href="https://www.oracle.com/java/duke.html">Duke, the Java Mascot</a>.</span> <strong>You may give it any other name and personality you wish.</strong></p>
-<p>Here is a sample interaction with Duke:</p>
-<pre><code class="no-line-numbers hljs" v-pre><span>    ____________________________________________________________
-</span><span>      ____        _        
-</span><span>     |  _ \ _   _| | _____ 
-</span><span>     | | | | | | | |/ / _ \
-</span><span>     | |_| | |_| |   &lt;  __/
-</span><span>     |____/ \__,_|_|\_\___|
-</span><span>
-</span><span>     Hello! I'm Duke
-</span><span>     What can I do for you?
-</span><span>    ____________________________________________________________
-</span><span>
-</span><span>list
-</span><span>    ____________________________________________________________
-</span><span>     Here are the tasks in your list:
-</span><span>     1.[T][✓] read book
-</span><span>     2.[D][✗] return book (by: June 6th)
-</span><span>     3.[E][✗] project meeting (at: Aug 6th 2-4pm)
-</span><span>     4.[T][✓] join sports club
-</span><span>    ____________________________________________________________
-</span><span>
-</span><span>todo borrow book
-</span><span>    ____________________________________________________________
-</span><span>     Got it. I've added this task: 
-</span><span>       [T][✗] borrow book
-</span><span>     Now you have 5 tasks in the list.
-</span><span>    ____________________________________________________________
-</span><span>
-</span><span>
-</span><span>deadline return book /by Sunday
-</span><span>    ____________________________________________________________
-</span><span>     Got it. I've added this task: 
-</span><span>       [D][✗] return book (by: Sunday)
-</span><span>     Now you have 6 tasks in the list.
-</span><span>    ____________________________________________________________
-</span><span>
-</span><span>done 2
-</span><span>    ____________________________________________________________
-</span><span>     Nice! I've marked this task as done: 
-</span><span>       [D][✓] return book (by: June 6th)
-</span><span>    ____________________________________________________________
-</span><span>
-</span><span>blah
-</span><span>    ____________________________________________________________
-</span><span>     ☹ OOPS!!! I'm sorry, but I don't know what that means :-(
-</span><span>    ____________________________________________________________
-</span><span>
-</span><span>bye
-</span><span>    ____________________________________________________________
-</span><span>     Bye. Hope to see you again soon!
-</span><span>    ____________________________________________________________
-</span><span>
-</span></code></pre><div id="increments_summary">
-<p>The project consists of the following <em>increments</em>:</p>
-<ul>
-<li><strong>Levels</strong>: A series of features, meant to be added to Duke in the given order, although some can be skipped. These have been named <code class="hljs inline no-lang" v-pre>Level 1</code> to <code class="hljs inline no-lang" v-pre>Level 10</code> to indicate how each makes the product progressively &quot;level up&quot;.</li>
-<li><strong>Extensions:</strong>
-<ul>
-<li><big><span class="badge badge-pill badge-primary">Category A</span></big> These are internal/feature enhancements meant to help you practice a specific Java or an SE technique.</li>
-<li><big><span class="badge badge-pill badge-info">Category B</span></big> These are enhancements related to task tracking.</li>
-<li><big><span class="badge badge-pill badge-success">Category C</span></big> These are enhancements, not specifically related to task tracking.</li>
-<li><big><span class="badge badge-pill badge-danger">Category D</span></big> Each of these adds the ability to track another type of entities.</li></ul></li></ul></div></div></panel></div></div></div>
-<br>
-<p><strong>The iP is to be done over the first half of the semester</strong>.</p>
-<box type="warning">
-<ul>
-<li><strong>Volatile requirements ahead!</strong>: Some requirements will only be released later (or could be changed along the way), to simulate how requirements of a project may not be available at the start or stay the same during the project.</li>
-<li><strong>Requirements may differ between students!</strong>: Note that some requirements that are to be released later could be different from one student to another.
-</li></ul></box></div></div></panel></div><p></p>
+
+</div></div></panel></div><p></p>
 <div class="indented-level2">
 <panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>iP - Grading</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
@@ -259,127 +190,137 @@
 <li><strong>The code quality</strong> meets the following conditions:
 <ul>
 <li>Reasonable use of OOP e.g., at least some use of inheritance, code divided into classes in a sensible way</li>
-<li>No blatant violations of the coding standard</li>
+<li>No blatant violations of the coding standard (both Java and Git conventions)</li>
 <li>At least some errors are handled using exceptions</li>
 <li>At least half of public methods/classes have javadoc comments</li>
 <li>The code is neat e.g., no chunks of commented out code</li>
 <li>Reasonable use of SLAP e.g., no very-long methods or deeply nested code</li></ul></li></ul>
+
+<div tags="m--tic4002">
 <p><strong>Project Management [<code class="hljs inline no-lang" v-pre>5</code> marks]</strong>: To get full marks, you should achieve,</p>
 <ul>
-<li>Submit <em>some</em> deliverables in at least 4 out of the 6 iP weeks (i.e., week 2 - week 7)</li>
-<li>Follow other requirements specified (e.g., how to use Git/Github for each increment, do peer reviews) in at least 4 weeks</li></ul>
-<p><strong>Documentation [<code class="hljs inline no-lang" v-pre>5</code> marks]</strong>: To get full marks, you should achieve,</p>
+<li>Submit <em>some</em> deliverables in at least 3 out of the 5 iP weeks (i.e., week 2 - week 6)</li>
+<li>Follow other requirements specified (e.g., how to use Git/Github for each increment) in at least 4 weeks</li></ul>
+<p><strong>Documentation [<code class="hljs inline no-lang" v-pre>5</code> marks]</strong>: To get full marks, you should achieve the following.</p>
 <ul>
-<li>The product web site and the user guide is <em>reasonable</em> (i.e., functional, not hard to read, covers all features, no major formatting errors in the published view).</li></ul>
+<li>The user guide: not hard to read, covers all features, no major formatting errors in the published view.</li>
+<li>The developer guide: Explains the design of the project using appropriate UML diagrams and descriptions.</li></ul></div>
 <box type="tip" seamless>
 <p>You can monitor your iP progress (as detected by our scripts) in the <a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/ip-progress.html">iP Progress Dashboard</a> page.
 </p></box><p></p></div></div></panel></div><p></p></div>
 <p></p>
-<h4 id="2-set-up-prerequisites"><span id="2-set-up-prerequisites" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> <span>Set up prerequisites</span><a class="fa fa-anchor" href="#2-set-up-prerequisites" onclick="event.stopPropagation()"></a></h4>
+<h4 id="2-set-up-the-project-in-your-computer"><span id="2-set-up-the-project-in-your-computer" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> <span>Set up the project in your computer</span><a class="fa fa-anchor" href="#2-set-up-the-project-in-your-computer" onclick="event.stopPropagation()"></a></h4>
 <div>
-<ul>
-<li><strong>Ensure you have followed the <span class="pr-1 pl-1" style="color:purple; border: 0.5px solid lightgrey"><span aria-hidden="true" class="fas fa-hard-hat"></span> Preparation</span> sections of the following module tools:</strong></li></ul>
-<div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Programming Language</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
-<div>
-<table class="two-column-content">
-<tr>
-<td width="160px">
- <img src="/website/admin/images/JamesGosling.png" width="150px"></td>
-<td>
-<p><mark><strong>The main language</strong> used in this module is Java</mark>. You should use
-Java for all programming activities, the project, and exam answers.</p>
-<p></p></td></tr></table>
-<box>
-<p><span style="color:purple"><strong><span aria-hidden="true" class="fas fa-hard-hat"></span> Preparation:</strong></span></p>
-<p>We require you to use <strong>Java 11</strong> (the Oracle version or the OpenJDK version) for all module work. It is your duty to ensure the code you write (and executables you produce) are compatible with that version of Java. <mark>Any incompatibilities will be considered as bugs</mark>.
-</p></box><p></p></div></panel></div><p></p>
-<div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Tools → Git</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
-<div>
-<h2 id="tool-git-for-revision-control"><span id="tool-git-for-revision-control" class="anchor"></span>Tool: Git (for revision control)<a class="fa fa-anchor" href="#tool-git-for-revision-control" onclick="event.stopPropagation()"></a></h2>
-<p>You are <mark><em>required to</em> use Git</mark>. Other revision control software are not allowed. The recommended GUI client for Git is <a href="https://www.sourcetreeapp.com/">SourceTree</a>, but you may use any other, or none.</p>
-<box>
-<p><span style="color:purple"><strong><span aria-hidden="true" class="fas fa-hard-hat"></span> Preparation:</strong></span></p>
-<p><strong>Install Git and a Git GUI client</strong> on your computer.<br>
-<span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> SourceTree comes bundled with Git i.e., if you install SourceTree, you get both Git and a GUI client in one shot. If you are already comfortable using Git command line, you need not install/use a GUI client.</p>
-<div id="git-username">
-<p><strong>Set Git <code class="hljs inline no-lang" v-pre>user.name</code></strong>: We use various tools to analyze your code. For us to be able to identify your commits, we encourage you to <mark>set your Git <code class="hljs inline no-lang" v-pre>user.name</code> in all computers you use</mark> to a sensible string that uniquely identifies you. For example, <mark>you can set it to your GitHub username or your full name</mark>. If this user name is not set properly or if you use multiple usernames for Git, our grading scripts might miss some of your work.</p>
-<p>After installing Git in a computer, you can set the Git username as follows:</p>
-<ol>
-<li>Open a command window that can run Git commands (e.g., Git bash window)</li>
-<li>Run the command <code class="hljs inline no-lang" v-pre>git config --global user.name YOUR_GITHUB_USERNAME</code> (omit the <code class="hljs inline no-lang" v-pre>--global</code> flag to limit the setting to the current repo only)<br>
-e.g., <code class="hljs inline no-lang" v-pre>git config --global user.name JohnDoe</code></li></ol>
-<p>More info about setting Git username is <a href="https://help.github.com/articles/setting-your-username-in-git/">here</a>.</p></div></box></div></panel></div><p></p>
-<div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Tools → <strong>GitHub</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
-<div>
-<h2 id="tool-github-for-code-hosting"><span id="tool-github-for-code-hosting" class="anchor"></span>Tool: GitHub (for code hosting)<a class="fa fa-anchor" href="#tool-github-for-code-hosting" onclick="event.stopPropagation()"></a></h2>
-<p>You are <mark><em>required to</em> use GitHub</mark> as the hosting and collaboration platform of your project (i.e., to hold the Code repository, Issue Tracker, etc.).</p>
-<box>
-<p><span style="color:purple"><strong><span aria-hidden="true" class="fas fa-hard-hat"></span> Preparation</strong>:</span></p>
-<p>Create a GitHub account (if you don't have one yet), as explained in the panel below.</p>
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> <strong>Appendix E - GitHub: Creating an Account</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
-<div>
-<p>Create a personal GitHub account if you don't have one yet.</p>
-<ol>
-<li>
-<p>You are advised to choose a sensible GitHub username as you are likely to use it for years to come in professional contexts e.g., in job applications.</p></li>
-<li>
-<p>Strongly recommended: Complete your GitHub profile. In particular,</p>
-<ul>
-<li>Specify your full name.</li>
-<li>Upload a profile photo that matches <trigger trigger="click" for="modal:creatingGitHubAccount-photoCriteria">our requirements</trigger>.</li></ul>
-<panel type="seamless" class="algolia-no-index"><template slot="header"><p><span class="dimmed">Why am I being encouraged to complete my GitHub profile?</span></p></template>
-<p>The GitHub profile is useful for the tutors and classmates to identify you. If you are reluctant to share your info in your long-term GitHub account, you can remove those details after the module is over or create a separate GitHub account just for the module.</p></panel></li>
-<li>
-<p><mark>You are discouraged from changing your GitHub username during the semester/exam/grading period</mark> as it can cause our auto-grading scripts to miss your GitHub activities. If you do change your GitHub username during that period, please let us know immediately.</p></li></ol>
-<b-modal id="modal:creatingGitHubAccount-photoCriteria" hide-footer size="lg" modal-class="mb-zoom" ref="modal:creatingGitHubAccount-photoCriteria" class="algolia-no-index"><template slot="modal-title">Our requirements for the profile photo</template>
-  <div>
-<p>The purpose of the profile photo is for the reader to identify you. Therefore, choose a <mark>recent individual photo showing your face clearly</mark> (i.e., not too small) -- somewhat similar to a passport photo. Given below are some examples of good and bad profile photos.<br>
-<img src="/website/admin/images/profilephotos.png" style="width: 365.33px"></p>
-<p>If you are uncomfortable posting your photo due to security reasons, you can post a lower resolution image so that it is hard for someone to misuse that image for fraudulent purposes. If you are concerned about privacy, you may use <a href="https://en.wikipedia.org/wiki/File:Portrait_placeholder.png">a placeholder image</a> in place of the photo in module-related documents that are publicly visible.</p></div></b-modal></div></panel></box>
-<p><strong>More info</strong>: See <a href="/website/admin/appendixE-gitHub.html">Appendix E - Using GitHub</a>.</p></div></panel></div><p></p>
-<div class="indented-level2">
-<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Tools → <strong>Intellij IDEA</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
-<div>
-<h2 id="tool-intellij-ide"><span id="tool-intellij-ide" class="anchor"></span>Tool: Intellij IDE<a class="fa fa-anchor" href="#tool-intellij-ide" onclick="event.stopPropagation()"></a></h2>
-<p>You are recommended to use <a href="https://www.jetbrains.com/idea/">Intellij IDEA</a> for module-related programming work. While the use of Intellij is not compulsory, note that module materials are optimized for Intellij. Use other IDEs at your own risk.</p>
-<box>
-<p><span style="color:purple"><strong><span aria-hidden="true" class="fas fa-hard-hat"></span> Preparation:</strong></span></p>
-<ul>
-<li>Install the IDE in your computer. You may use the Intellij community edition (free) or the ultimate edition (free for students).</li>
-<li>If you have an older version of the IDE, we recommend updating to the latest version.
-</li></ul></box></div></panel></div><p></p></div>
+<p>We assume you still have the iP project set up that you used for TIC4001. If not, please set it up as explained in <a href="https://nus-tic4001-ay2021s1.github.io/website/admin/ip-w2.html">TIC4001 website</a></p></div>
 <p></p>
-<h4 id="3-set-up-the-project-in-your-computer"><span id="3-set-up-the-project-in-your-computer" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> <span>Set up the project in your computer</span><a class="fa fa-anchor" href="#3-set-up-the-project-in-your-computer" onclick="event.stopPropagation()"></a></h4>
+<h4 id="3-create-a-pr-to-the-upstream-repo"><span id="3-create-a-pr-to-the-upstream-repo" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> <span>Create a PR to the upstream repo</span><a class="fa fa-anchor" href="#3-create-a-pr-to-the-upstream-repo" onclick="event.stopPropagation()"></a></h4>
 <div>
 <ul>
-<li>Read through this week's topics before starting the project.</li></ul>
+<li>Note that while you will be reusing the same <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., the cloned repo in your computer</span><em>local repo</em></span> and the same <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., the one you forked to your GitHub account last semester</span><em>forked remote repo</em></span>, you will be using a new <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., the repo you PR to</span><em>upstream repo</em></span> we have set up for this semester. As a result, <mark>you need to create a new PR</mark> from your fork to the new upstream repo, as given below.</li>
+<li>Create a <trigger trigger="click" for="modal:ipTasks-createPr">pull request (PR)</trigger> from your fork to the upstream repo. Note the following:
+<ul>
+<li>Create the PR from the <code class="hljs inline no-lang" v-pre>master</code> branch of your fork to the <code class="hljs inline no-lang" v-pre>master</code> branch of the upstream repo (<a href="https://github.com/nus-tic4002-AY2021S2/ip">https://github.com/nus-tic4002-AY2021S2/ip</a>)<mark>Be careful to choose the new upstream repo to receive the PR.</mark></li>
+<li>Set the PR name as <code class="hljs inline no-lang" v-pre>[{Your name}] iP</code> e.g., <code class="hljs inline no-lang" v-pre>[John Doe] iP</code> <span class="dimmed">If you are reluctant to give full name, you may give the first half of your name only</span>.<br>
+You may leave the description as empty.</li>
+<li>If you created the PR correctly, it should appear in the list of PRs <a href="https://github.com/nus-tic4002-AY2021S2/ip/pulls">here</a>.</li>
+<li>Steps for creating a PR is given in this textbook topic (<mark>steps 5 onwards</mark>):</li></ul></li></ul>
+<div class="indented-level4">
+<panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Textbook <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Git &amp; GitHub → <strong>Creating PRs</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
+<div>
+<p>Suppose you want to propose some changes to a GitHub repo (e.g., <a href="https://github.com/se-edu/samplerepo-pr-practice">samplerepo-pr-practice</a>) as a <trigger trigger="click" for="modal:githubPullRequests-rcsPullRequests">pull request (PR)</trigger>. Here is a scenario you can try in order to learn how to create PRs:</p>
+<b-modal id="modal:githubPullRequests-rcsPullRequests" hide-footer size="lg" modal-class="mb-zoom" ref="modal:githubPullRequests-rcsPullRequests" class="algolia-no-index"><template slot="modal-title">Project Management → Revision Control → Remote Repositories →</template>
+  <div>
+<p><strong>A <mark><em>pull request</em></mark> (PR for short) is a mechanism for contributing code to a remote repo,</strong> i.e., &quot;I'm <em>requesting</em> you to <em>pull</em> my proposed changes to your repo&quot;. For this to work, the two repos must have a shared history. The most common case is sending PRs from a fork to its <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content"><em>upstream</em> repo is a repo you forked from</span>upstream</span> repo.</p></div></b-modal>
+<p><strong>1. Fork</strong> the repo onto your GitHub account.</p>
+<p><strong>2. Clone</strong> it onto your computer.</p>
+<p><strong>3. Commit</strong> your changes e.g., add a new file with some contents and commit it.</p>
+<ul>
+<li><strong>Option A - Commit changes to the <code class="hljs inline no-lang" v-pre>master</code> branch</strong></li>
+<li><strong>Option B - Commit to a new branch</strong> e.g., create a branch named <code class="hljs inline no-lang" v-pre>add-intro</code> (remember to switch to the <code class="hljs inline no-lang" v-pre>master</code> branch before creating a new branch) and add your commit to it.</li></ul>
+<p><strong>4. Push</strong> the branch you updated (i.e., <code class="hljs inline no-lang" v-pre>master</code> branch or the new branch) to your fork, as explained <trigger trigger="click" for="modal:createPr-pushBranch">here</trigger>.</p>
+<b-modal id="modal:createPr-pushBranch" hide-footer size="lg" modal-class="mb-zoom" ref="modal:createPr-pushBranch" class="algolia-no-index"><template slot="modal-title">Git &amp; GitHub → Branch →</template>
+  <div>
+<h5 id="pushing-a-branch-to-a-remote-repo"><span id="pushing-a-branch-to-a-remote-repo" class="anchor"></span>Pushing a branch to a remote repo<a class="fa fa-anchor" href="#pushing-a-branch-to-a-remote-repo" onclick="event.stopPropagation()"></a></h5>
+<p>Here's how to push a branch to a remote repo:</p>
+<tabs>
+  <tab><template slot="_header">SourceTree</template>
+<p>Here's how to push a branch named <code class="hljs inline no-lang" v-pre>add-intro</code> to your own fork of a repo named <code class="hljs inline no-lang" v-pre>samplerepo-pr-practice</code>:</p>
+<img src="/website/book/gitAndGithub/branch/images/pushBranchToFork.png" height="300">
+<p></p></tab>
+  <tab class="algolia-no-index"><template slot="_header">CLI</template>
+<p>Normally: <code class="hljs inline no-lang" v-pre>git push {remote repository} {branch}</code>. Examples:<br></p>
+<ul>
+<li><code class="hljs inline no-lang" v-pre>git push origin master</code> pushes the <code class="hljs inline no-lang" v-pre>master</code> branch to the repo named <code class="hljs inline no-lang" v-pre>origin</code> (i.e., the repo you cloned from)</li>
+<li><code class="hljs inline no-lang" v-pre>git push upstream-repo add-intro</code> pushes the <code class="hljs inline no-lang" v-pre>add-intro</code> branch to the repo named <code class="hljs inline no-lang" v-pre>upstream-repo</code></li></ul>
+<p><strong>If pushing a branch you created locally to the remote for the <em>first time</em></strong>, add the <code class="hljs inline no-lang" v-pre>-u</code> flag to get the local branch to track the new upstream branch:<br>
+e.g., <code class="hljs inline no-lang" v-pre>git push -u origin add-intro</code></p>
+<p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> See <a href="https://git-scm.com/docs/git-push">git-scm.com/docs/git-push</a> for details of the <code class="hljs inline no-lang" v-pre>push</code> command.</p></tab></tabs>
+<p></p></div></b-modal>
+<p><strong>5. Initiate the PR creation:</strong></p>
 <ol>
-<li>Fork <a href="https://github.com/nus-tic4002-AY2021S2/ip">https://github.com/nus-tic4002-AY2021S2/ip</a>.</li>
-<li><mark>Enable the issue tracker of your fork</mark> (Go to <code class="hljs inline no-lang" v-pre>Settings</code> of your fork, scroll to the <code class="hljs inline no-lang" v-pre>Features</code> section, and tick the <code class="hljs inline no-lang" v-pre>Issues</code> checkbox). <span class="dimmed">Reason: at times we post feedback on your issue tracker.</span><br>
-<span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If the issue tracker is enabled, you should be able to visit the following URL <code class="hljs inline no-lang" v-pre>https://github.com/{your_user_name}/ip/issues</code> e.g., <code class="hljs inline no-lang" v-pre>https://github.com/johnDoe/ip/issues</code></li>
-<li>Clone the fork onto your computer.</li>
-<li>Set up the project in your IDE as explained in <a href="https://github.com/nus-tic4002-AY2021S2/ip/blob/master/README.html">the README file</a>.<br></li></ol></div>
+<li>
+<p>Go to your fork.</p></li>
+<li>
+<p>Click on the <span class="tab"><span class="dimmed"><svg version="1.1" width="12" height="16" viewBox="0 0 12 16" class="octicon octicon-git-pull-request" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0010 15a1.993 1.993 0 001-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 00-1 3.72v6.56A1.993 1.993 0 002 15a1.993 1.993 0 001-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg></span> Pull requests</span> tab followed by the <span class="btn btn-success pl-1 pr-1 pb-0 pt-0">New pull request</span> <strong>button</strong>. This will bring you to the 'Comparing changes' page.</p></li>
+<li>
+<p>Set the appropriate target repo and the branch that should receive your PR, using the <code class="hljs inline no-lang" v-pre>base repository</code> and <code class="hljs inline no-lang" v-pre>base</code> dropdowns. e.g.,<br>
+<span class="btn btn-light border">base repository: <strong>se-edu/samplerepo-pr-practice</strong> <svg version="1.1" width="12" height="16" viewBox="0 0 12 16" class="octicon octicon-triangle-down" aria-hidden="true"><path fill-rule="evenodd" d="M0 5l6 6 6-6H0z"/></svg></span> <span class="btn btn-light border">base: <strong>master</strong> <svg version="1.1" width="12" height="16" viewBox="0 0 12 16" class="octicon octicon-triangle-down" aria-hidden="true"><path fill-rule="evenodd" d="M0 5l6 6 6-6H0z"/></svg></span><br></p>
+<box type="info" seamless>
+<p>Normally, the default value shown in the dropdown is what you want but in case your fork has <span data-mb-component-type="popover" v-b-popover.hover.top.html="popoverInnerGetters" class="trigger"><span data-mb-slot-name="content">e.g., the repo you forked from is also a fork of a another repo, which means both of those are considered upstream repos of your fork</span>multiple upstream repos</span>, the default may not be what you want.</p></box></li>
+<li>
+<p>Indicate which repo:branch contains your proposed code, using the <code class="hljs inline no-lang" v-pre>head repository</code> and <code class="hljs inline no-lang" v-pre>compare</code> dropdowns. e.g.,<br>
+<span class="btn btn-light border">head repository: <strong>myrepo/samplerepo-pr-practice</strong> <svg version="1.1" width="12" height="16" viewBox="0 0 12 16" class="octicon octicon-triangle-down" aria-hidden="true"><path fill-rule="evenodd" d="M0 5l6 6 6-6H0z"/></svg></span> <span class="btn btn-light border">compare: <strong>master</strong> <svg version="1.1" width="12" height="16" viewBox="0 0 12 16" class="octicon octicon-triangle-down" aria-hidden="true"><path fill-rule="evenodd" d="M0 5l6 6 6-6H0z"/></svg></span><br></p></li></ol>
+<p><strong>6. Verify the proposed code</strong>: Verify that the diff view in the page shows the exact change you intend to propose. If it doesn't, <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">commit the new code and push to the branch</span>update the branch</span> as necessary.</p>
+<p><strong>7. Submit the PR:</strong></p>
+<span id="submit-the-pr">
+<ol>
+<li>
+<p>Click the <span class="btn btn-success pl-1 pr-1 pb-0 pt-0"><span><svg version="1.1" width="12" height="16" viewBox="0 0 12 16" class="octicon octicon-git-pull-request" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0010 15a1.993 1.993 0 001-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 00-1 3.72v6.56A1.993 1.993 0 002 15a1.993 1.993 0 001-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg></span> Create pull request</span> button.</p></li>
+<li>
+<p>Fill in the PR name and description e.g.,<br>
+Name: <code class="hljs inline no-lang" v-pre>Add an introduction to the README.md</code><br>
+Description:</p>
+<pre><code class="no-line-numbers hljs" v-pre><span>Add some paragraph to the README.md to explain ...
+</span><span>Also add a heading ...
+</span></code></pre></li>
+<li>
+<p>If you want to indicate that the PR you are about to create is 'still work in progress, not yet ready', click on the dropdown arrow in the <span class="btn btn-success pl-1 pr-1 pb-0 pt-0"> Create pull request <svg version="1.1" width="12" height="16" viewBox="0 0 12 16" class="octicon octicon-triangle-down" aria-hidden="true"><path fill-rule="evenodd" d="M0 5l6 6 6-6H0z"/></svg></span> button and choose <code class="hljs inline no-lang" v-pre>Create draft pull request</code> option.</p></li>
+<li>
+<p>Click the <span class="btn btn-success pl-1 pr-1 pb-0 pt-0"> Create pull request <svg version="1.1" width="12" height="16" viewBox="0 0 12 16" class="octicon octicon-triangle-down" aria-hidden="true"><path fill-rule="evenodd" d="M0 5l6 6 6-6H0z"/></svg></span> button to create the PR.<br></p></li>
+<li>
+<p>Go to the receiving repo to verify that your PR appears there in the <code class="hljs inline no-lang" v-pre>Pull requests</code> tab.
+</p></li></ol></span><p></p>
+
+
+<p><strong>The next step of the PR life cycle is the PR <em>review</em>.</strong> The members of the repo that received your PR can now review your proposed changes.</p>
+<ul>
+<li>If they like the changes, they can <em>merge</em> the changes to their repo, which also closes the PR automatically.</li>
+<li>If they don't like it at all, they can simply close the PR too i.e., they reject your proposed change.</li>
+<li>In most cases, they will add comments to the PR to suggest further changes. When that happens, GitHub will notify you.</li></ul>
+<p><strong>You can update the PR along the way too.</strong> Suppose PR reviewers suggested a certain improvement to your proposed code. To update your PR as per the suggestion, you can simply modify the code in your local repo, commit the updated code to the same <code class="hljs inline no-lang" v-pre>master</code> branch, and push to your fork as you did earlier. The PR will auto-update accordingly.</p>
+<p><strong>Sending PRs using the <code class="hljs inline no-lang" v-pre>master</code> branch is less common</strong> than sending PRs using separate branches. For example, suppose you wanted to propose two bug fixes that are not related to each other. In that case, it is more appropriate to send two separate PRs so that each fix can be reviewed, refined, and merged independently. But if you send PRs using the <code class="hljs inline no-lang" v-pre>master</code> branch only, both fixes (and any other change you do in the <code class="hljs inline no-lang" v-pre>master</code> branch) will appear in the PRs you create from it.</p>
+<p><strong>To create another PR</strong> while the current PR is still under review, create a new branch (remember to <mark>switch back to the <code class="hljs inline no-lang" v-pre>master</code> branch first</mark>), add your new proposed change in that branch, and create a new PR following the steps given above.</p>
+<p><strong>It is possible to create PRs within the same repo</strong> e.g., you can create a PR from branch <code class="hljs inline no-lang" v-pre>feature-x</code> to the <code class="hljs inline no-lang" v-pre>master</code> branch, within the same repo. Doing so will allow the code to be reviewed by other developers (using PR review mechanism) before it is merged.</p>
+<panel expanded><template slot="header"><p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> Resources</p></template>
+<ul>
+<li><a href="https://help.github.com/articles/creating-a-pull-request/">GitHub's own documentation on creating a PR</a></li></ul></panel></div></panel></div><p></p>
+<div class="indented-level2">
+</div>
+<b-modal id="modal:ipTasks-createPr" hide-footer size="lg" modal-class="mb-zoom" ref="modal:ipTasks-createPr" class="algolia-no-index"><template slot="modal-title">Pull Request (PR)</template>
+<p><em>Pull Requests</em> is a mechanism for offering code to a repository e.g., a bug fix or a new feature. PRs allow developers to review, discuss, and refine proposed code changes before incorporating (i.e., <em>merging</em>) the new code to the repository.</p>
+<p>Resources:</p>
+<ul>
+<li><a href="https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests">GitHub Help page on PRs</a></li></ul></b-modal></div>
 <p></p>
-<h4 id="4-add-increments-while-committing-frequently-level-1-level-2-level-3-level-4-a-textuitesting-level-5-level-6-a-enums-thu-jan-21st-2359"><span id="4-add-increments-while-committing-frequently-level-1-level-2-level-3-level-4-a-textuitesting-level-5-level-6-a-enums-thu-jan-21st-2359" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>4</big></big></span> Add Increments while committing frequently: <code class="hljs inline no-lang" v-pre>Level-1</code>, <code class="hljs inline no-lang" v-pre>Level-2</code>, <code class="hljs inline no-lang" v-pre>Level-3</code>, <code class="hljs inline no-lang" v-pre>Level-4</code>, <code class="hljs inline no-lang" v-pre>A-TextUiTesting</code>, <code class="hljs inline no-lang" v-pre>Level-5</code>, <code class="hljs inline no-lang" v-pre>Level-6</code>, <code class="hljs inline no-lang" v-pre>A-Enums</code> <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> Thu, Jan 21st 2359</span></span><a class="fa fa-anchor" href="#4-add-increments-while-committing-frequently-level-1-level-2-level-3-level-4-a-textuitesting-level-5-level-6-a-enums-thu-jan-21st-2359" onclick="event.stopPropagation()"></a></h4>
-<div>
-<div>
-<ul>
-<li>Implement the following <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">in this context, an <em>increment</em> is a Duke <em>level</em> or a Duke <em>extension</em></span>increments</span> <mark>in the given order</mark>.</li></ul></div>
+<h4 id="4-ensure-tic4001-ip-increments-have-been-done"><span id="4-ensure-tic4001-ip-increments-have-been-done" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>4</big></big></span> <span>Ensure TIC4001 iP increments have been done</span><a class="fa fa-anchor" href="#4-ensure-tic4001-ip-increments-have-been-done" onclick="event.stopPropagation()"></a></h4>
 <div>
 <ul>
-<li>From this point onward, after completing each increment,
-<ul>
-<li><strong><code class="hljs inline no-lang" v-pre>git tag</code></strong> the commit with the exact increment ID e.g., <code class="hljs inline no-lang" v-pre>Level-2</code>, <code class="hljs inline no-lang" v-pre>A-TextUiTesting</code></li>
-<li><strong><code class="hljs inline no-lang" v-pre>git push</code></strong> the code to your fork (<span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> git doesn't push tags unless you specifically ask it to)</li></ul></li></ul></div></div>
-<div></div>
+<li>Ensure that following increments (that were due in TIC4001) have been done. Improve their implementation, if the current implementation is weak (in your own opinion). <span class="dimmed">For example, you can add <em>more</em> JavaDoc comments or JUnit tests even if the current code has them already.</span></li></ul>
 <div>
 <div class="indented">
 <div class="indented border">
 <panel type="seamless" no-close class="algolia-no-index">
-<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>Level-1</code>: Greet, Echo, Exit</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>Level1</code>: Greet, Echo, Exit</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
 <div>
 <p><span><thumbnail font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-comments"></span></thumbnail></span></p>
 <h3 id="level-1-greet-echo-exit"><span id="level-1-greet-echo-exit" class="anchor"></span>Level 1. Greet, Echo, Exit<a class="fa fa-anchor" href="#level-1-greet-echo-exit" onclick="event.stopPropagation()"></a></h3>
@@ -411,13 +352,11 @@ Example:</p>
 <box type="tip">
 <p><strong>You are strongly encouraged to customize the chatbot</strong> name, command/display formats, and even the personality of the chatbot to make your chatbot unique.
 </p></box><p></p></div></panel></div></div></div>
-<div></div>
-<div></div>
 <div>
 <div class="indented">
 <div class="indented border">
 <panel type="seamless" no-close class="algolia-no-index">
-<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>Level-2</code>: Add, List</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>Level2</code>: Add, List</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
 <div>
 <p><span><thumbnail font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-list"></span></thumbnail></span></p>
 <h3 id="level-2-add-list"><span id="level-2-add-list" class="anchor"></span>Level 2. Add, List<a class="fa fa-anchor" href="#level-2-add-list" onclick="event.stopPropagation()"></a></h3>
@@ -451,13 +390,11 @@ Example:</p>
 </span></code></pre><ul>
 <li>There is no need to save the data to the hard disk.</li>
 <li>Assume there will be no more than 100 tasks. If you wish, you may use a fixed size array (e.g., <code class="hljs inline no-lang" v-pre>String[100]</code>) to store the items.</li></ul></div></panel></div></div></div>
-<div></div>
-<div></div>
 <div>
 <div class="indented">
 <div class="indented border">
 <panel type="seamless" no-close class="algolia-no-index">
-<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>Level-3</code>: Mark as Done</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>Level3</code>: Mark as Done</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
 <div>
 <p><span><thumbnail font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-check"></span></thumbnail></span></p>
 <h3 id="level-3-mark-as-done"><span id="level-3-mark-as-done" class="anchor"></span>Level 3. Mark as Done<a class="fa fa-anchor" href="#level-3-mark-as-done" onclick="event.stopPropagation()"></a></h3>
@@ -503,13 +440,11 @@ Example:</p>
 </span></code></pre><pre><code class="hljs java" v-pre><span>Task t = <span class="hljs-keyword">new</span> Taks(<span class="hljs-string">&quot;read book&quot;</span>);
 </span><span>t.markAsDone()
 </span></code></pre></panel></div></panel></div></div></div></panel></div></div></div>
-<div></div>
-<div></div>
 <div>
 <div class="indented">
 <div class="indented border">
 <panel type="seamless" no-close class="algolia-no-index">
-<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>Level-4</code>: ToDo, Event, Deadline</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>Level4</code>: ToDo, Event, Deadline</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
 <div>
 <p><span><thumbnail font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-business-time"></span></thumbnail></span></p>
 <h3 id="level-4-todos-events-deadlines"><span id="level-4-todos-events-deadlines" class="anchor"></span>Level 4. ToDos, Events, Deadlines<a class="fa fa-anchor" href="#level-4-todos-events-deadlines" onclick="event.stopPropagation()"></a></h3>
@@ -588,29 +523,94 @@ Example:</p>
 </span></code></pre><pre><code class="hljs java" v-pre><span>Task[] tasks = <span class="hljs-keyword">new</span> Task[<span class="hljs-number">100</span>];
 </span><span>task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span> Deadline(<span class="hljs-string">&quot;return book&quot;</span>, <span class="hljs-string">&quot;Monday&quot;</span>);
 </span></code></pre></panel></div></panel></div></div></div></panel></div></div></div>
-<div></div>
-<div></div>
 <div>
 <div class="indented">
 <div class="indented border">
 <panel type="seamless" no-close class="algolia-no-index">
-<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>A-TextUiTesting</code>: Automated Text UI Testing</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>Level4</code>: ToDo, Event, Deadline</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+<div>
+<p><span><thumbnail font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-business-time"></span></thumbnail></span></p>
+<h3 id="level-4-todos-events-deadlines-2"><span id="level-4-todos-events-deadlines-2" class="anchor"></span>Level 4. ToDos, Events, Deadlines<a class="fa fa-anchor" href="#level-4-todos-events-deadlines-2" onclick="event.stopPropagation()"></a></h3>
+<p>Add support for tracking three types of tasks:
+<br>
+<br></p>
+<ol>
+<li><strong>ToDos</strong>: tasks without any date/time attached to it <span class="dimmed">e.g., <em>visit new theme park</em></span></li>
+<li><strong>Deadlines</strong>: tasks that need to be done before a specific date/time <span class="dimmed">e.g., <em>submit report by 11/10/2019 5pm</em></span></li>
+<li><strong>Events</strong>: tasks that start at a specific time and ends at a specific time <span class="dimmed">e.g., <em>team project meeting on 2/10/2019 2-4pm</em></span></li></ol>
+<p>Example:</p>
+<pre><code class="no-line-numbers hljs" v-pre><span>todo borrow book
+</span><span>    ____________________________________________________________
+</span><span>     Got it. I've added this task: 
+</span><span>       [T][✗] borrow book
+</span><span>     Now you have 5 tasks in the list.
+</span><span>    ____________________________________________________________
+</span><span>
+</span><span>list
+</span><span>    ____________________________________________________________
+</span><span>     Here are the tasks in your list:
+</span><span>     1.[T][✓] read book
+</span><span>     2.[D][✗] return book (by: June 6th)
+</span><span>     3.[E][✗] project meeting (at: Aug 6th 2-4pm)
+</span><span>     4.[T][✓] join sports club
+</span><span>     5.[T][✗] borrow book
+</span><span>    ____________________________________________________________
+</span><span>
+</span><span>deadline return book /by Sunday
+</span><span>    ____________________________________________________________
+</span><span>     Got it. I've added this task: 
+</span><span>       [D][✗] return book (by: Sunday)
+</span><span>     Now you have 6 tasks in the list.
+</span><span>    ____________________________________________________________
+</span><span>
+</span><span>event project meeting /at Mon 2-4pm
+</span><span>    ____________________________________________________________
+</span><span>     Got it. I've added this task: 
+</span><span>       [E][✗] project meeting (at: Mon 2-4pm)
+</span><span>     Now you have 7 tasks in the list.
+</span><span>    ____________________________________________________________
+</span></code></pre><p>At this point, dates/times can be treated as strings; there is no need to convert them to actual dates/times.</p>
+<p>Example:</p>
+<pre><code class="no-line-numbers hljs" v-pre><span>
+</span><span>deadline do homework /by no idea :-p
+</span><span>    ____________________________________________________________
+</span><span>     Got it. I've added this task: 
+</span><span>       [D][✗] do homework (by: no idea :-p)
+</span><span>     Now you have 6 tasks in the list.
+</span><span>    ____________________________________________________________
+</span></code></pre><div>
+<p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
+<div class="indented">
+<panel class="algolia-no-index"><template slot="header"><p><strong>Extension: <code class="hljs inline no-lang" v-pre>A-Inheritance</code></strong></p></template>
 <div>
 <div>
-<h3 id="a-textuitesting"><span id="a-textuitesting" class="anchor"></span><span class="badge badge-pill badge-primary">A-TextUiTesting</span><a class="fa fa-anchor" href="#a-textuitesting" onclick="event.stopPropagation()"></a></h3>
-<p>     <big>↳</big> <strong>Test using the I/O redirection technique</strong></p></div>
-<p>Use the input/output redirection technique to semi-automate the testing of Duke.</p>
-<p>Notes:</p>
-<ul>
-<li>A tutorial of this technique is <a href="https://se-education.org/guides/tutorials/textUiTesting.html">here</a>.</li>
-<li>The required scripts are provided in the Duke repo (see the <code class="hljs inline no-lang" v-pre>text-ui-test</code> folder).</li></ul></div></panel></div></div></div>
-<div></div>
-<div></div>
+<h3 id="a-inheritance-2"><span id="a-inheritance-2" class="anchor"></span><span class="badge badge-pill badge-primary">A-Inheritance</span><a class="fa fa-anchor" href="#a-inheritance-2" onclick="event.stopPropagation()"></a></h3>
+<p>     <big>↳</big> <strong>Use Inheritance to support multiple task types</strong></p></div>
+<p>As there are multiple types of tasks that have some similarity between them, you can implement classes <code class="hljs inline no-lang" v-pre>Todo</code>, <code class="hljs inline no-lang" v-pre>Deadline</code> and <code class="hljs inline no-lang" v-pre>Event</code> classes to inherit from a <code class="hljs inline no-lang" v-pre>Task</code> class.</p>
+<p>Furthermore, use polymorphism to store all tasks in a data structure containing <code class="hljs inline no-lang" v-pre>Task</code> objects e.g., <code class="hljs inline no-lang" v-pre>Task[100]</code>.</p>
+<panel type="seamless" minimized class="algolia-no-index"><template slot="header"><p>Partial solution</p></template>
+<pre><code class="hljs java" v-pre><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Deadline</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">Task</span> </span>{
+</span><span>
+</span><span>    <span class="hljs-keyword">protected</span> String by;
+</span><span>
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Deadline</span><span class="hljs-params">(String description, String by)</span> </span>{
+</span><span>        <span class="hljs-keyword">super</span>(description);
+</span><span>        <span class="hljs-keyword">this</span>.by = by;
+</span><span>    }
+</span><span>
+</span><span>    <span class="hljs-meta">@Override</span>
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">toString</span><span class="hljs-params">()</span> </span>{
+</span><span>        <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;[D]&quot;</span> + <span class="hljs-keyword">super</span>.toString() + <span class="hljs-string">&quot; (by: &quot;</span> + by + <span class="hljs-string">&quot;)&quot;</span>;
+</span><span>    }
+</span><span>}
+</span></code></pre><pre><code class="hljs java" v-pre><span>Task[] tasks = <span class="hljs-keyword">new</span> Task[<span class="hljs-number">100</span>];
+</span><span>task[<span class="hljs-number">0</span>] = <span class="hljs-keyword">new</span> Deadline(<span class="hljs-string">&quot;return book&quot;</span>, <span class="hljs-string">&quot;Monday&quot;</span>);
+</span></code></pre></panel></div></panel></div></div></div></panel></div></div></div>
 <div>
 <div class="indented">
 <div class="indented border">
 <panel type="seamless" no-close class="algolia-no-index">
-<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>Level-5</code>: Handle Errors</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>Level5</code>: Handle Errors</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
 <div>
 <p><span><thumbnail font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-exclamation-triangle"></span></thumbnail></span></p>
 <h3 id="level-5-handle-errors"><span id="level-5-handle-errors" class="anchor"></span>Level 5. Handle Errors<a class="fa fa-anchor" href="#level-5-handle-errors" onclick="event.stopPropagation()"></a></h3>
@@ -639,13 +639,11 @@ Example:</p>
 <ul>
 <li><strong>Minimal</strong>: handle at least the two types of errors shown in the example above.</li>
 <li><strong>Stretch goal</strong>: handle all possible errors in the current version. As you evolve Duke, continue to handle errors related to the new features added.</li></ul></div></panel></div></div></div>
-<div></div>
-<div></div>
 <div>
 <div class="indented">
 <div class="indented border">
 <panel type="seamless" no-close class="algolia-no-index">
-<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>Level-6</code>: Delete</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>Level6</code>: Delete</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
 <div>
 <p><span><thumbnail font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-trash-alt"></span></thumbnail></span></p>
 <h3 id="level-6-delete"><span id="level-6-delete" class="anchor"></span>Level 6. Delete<a class="fa fa-anchor" href="#level-6-delete" onclick="event.stopPropagation()"></a></h3>
@@ -678,19 +676,205 @@ Example:</p>
 <h3 id="a-collections"><span id="a-collections" class="anchor"></span><span class="badge badge-pill badge-primary">A-Collections</span><a class="fa fa-anchor" href="#a-collections" onclick="event.stopPropagation()"></a></h3>
 <p>     <big>↳</big> <strong>Use Java Collections classes</strong></p></div>
 <p>Use Java Collections classes for storing data. For example, you can use an <code class="hljs inline no-lang" v-pre>ArrayList&lt;Task&gt;</code> to store the tasks.</p></div></panel></div></div></div></panel></div></div></div>
-<div></div>
+<div>
+<div class="indented">
+<div class="indented border">
+<panel type="seamless" no-close class="algolia-no-index">
+<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>Level7</code>: Save</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+<div>
+<p><span><thumbnail font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-save"></span></thumbnail></span></p>
+<h3 id="level-7-save"><span id="level-7-save" class="anchor"></span>Level 7. Save<a class="fa fa-anchor" href="#level-7-save" onclick="event.stopPropagation()"></a></h3>
+<p>Save the tasks in the hard disk automatically whenever the task list changes. Load the data from the hard disk when Duke starts up. You may hard-code the file name and location <span class="dimmed">e.g., <code class="hljs inline no-lang" v-pre>[project_root]/data/duke.txt</code></span></p>
+<p>The format of the file is up to you. Example:</p>
+<pre><code class="no-line-numbers hljs" v-pre><span>T | 1 | read book
+</span><span>D | 0 | return book | June 6th
+</span><span>E | 0 | project meeting | Aug 6th 2-4pm
+</span><span>T | 1 | join sports club
+</span></code></pre><p><strong><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If you use file paths in your code,</strong></p>
+<ul>
+<li>remember to use relative paths rather than absolute paths such as <code class="hljs inline no-lang" v-pre>C:\data</code>. If not, your app can cause unpredictable results when used in another computer.</li>
+<li>remember to <a href="https://www.sghill.net/how-do-i-make-cross-platform-file-paths-in-java.html">specify file paths in an OS-independent way</a>. If not, your app might not work when used on a different OS.</li></ul>
+<p><font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Your code must <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., if the file is missing, your code must creat it</span>handle</span> the case where the data file doesn't exist at the start. Reason: when someone else takes your Duke and runs it for the first time, the required file might not exist in their computer. Similarly, if you expect the data file to be in as specific folder (e.g., <code class="hljs inline no-lang" v-pre>./data/</code>), you must also handle the folder-does-not-exist-yet case.</p></div></panel></div></div></div>
+<div>
+<div class="indented">
+<div class="indented border">
+<panel type="seamless" no-close class="algolia-no-index">
+<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>Level9</code>: Find</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+<div>
+<p><span><thumbnail font-color="white" add-class="float-left bg-dark mr-2 mt-2" size="80"><span aria-hidden="true" class="fas fa-search"></span></thumbnail></span></p>
+<h3 id="level-9-find"><span id="level-9-find" class="anchor"></span>Level 9. Find<a class="fa fa-anchor" href="#level-9-find" onclick="event.stopPropagation()"></a></h3>
+<p>Give users a way to find a task by searching for a keyword.
+<br>
+<br></p>
+<p>Example:</p>
+<pre><code class="no-line-numbers hljs" v-pre><span>find book
+</span><span>    ____________________________________________________________
+</span><span>     Here are the matching tasks in your list:
+</span><span>     1.[T][✓] read book
+</span><span>     2.[D][✓] return book (by: June 6th)
+</span><span>    ____________________________________________________________
+</span></code></pre></div></panel></div></div></div>
+<br>
+<div>
+<div class="indented">
+<div class="indented border">
+<panel type="seamless" no-close class="algolia-no-index">
+<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>A-AbstractClasses</code>: Use Abstract Classes</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+<div>
+<div>
+<h3 id="a-abstractclasses"><span id="a-abstractclasses" class="anchor"></span><span class="badge badge-pill badge-primary">A-AbstractClasses</span><a class="fa fa-anchor" href="#a-abstractclasses" onclick="event.stopPropagation()"></a></h3>
+<p>     <big>↳</big> <strong>Use abstract classes</strong></p></div>
+<p>Make the <code class="hljs inline no-lang" v-pre>Task</code> class an abstract class. If applicable, use abstract methods as well.</p></div></panel></div></div></div>
+<div>
+<div class="indented">
+<div class="indented border">
+<panel type="seamless" no-close class="algolia-no-index">
+<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>A-MoreOOP</code>: Use more OOP</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+<div>
+<div>
+<h3 id="a-moreoop"><span id="a-moreoop" class="anchor"></span><span class="badge badge-pill badge-primary">A-MoreOOP</span><a class="fa fa-anchor" href="#a-moreoop" onclick="event.stopPropagation()"></a></h3>
+<p>     <big>↳</big> <strong>Make the code more OOP</strong></p></div>
+<p>Refactor the code to extract out closely related code as classes.</p>
+<ul>
+<li><strong>Minimal</strong>: Extract the following classes:
+<ul>
+<li><code class="hljs inline no-lang" v-pre>Ui</code>: deals with interactions with the user</li>
+<li><code class="hljs inline no-lang" v-pre>Storage</code>: deals with loading tasks from the file and saving tasks in the file</li>
+<li><code class="hljs inline no-lang" v-pre>Parser</code>: deals with making sense of the user command</li>
+<li><code class="hljs inline no-lang" v-pre>TaskList</code>: contains the task list <span class="dimmed">e.g., it has operations to add/delete tasks in the list</span></li></ul></li></ul>
+<div class="indented-level2">
+<p>For example, the code of the main class could look like this:</p>
+<pre><code class="hljs java" v-pre><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Duke</span> </span>{
+</span><span>
+</span><span>    <span class="hljs-keyword">private</span> Storage storage;
+</span><span>    <span class="hljs-keyword">private</span> TaskList tasks;
+</span><span>    <span class="hljs-keyword">private</span> Ui ui;
+</span><span>
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Duke</span><span class="hljs-params">(String filePath)</span> </span>{
+</span><span>        ui = <span class="hljs-keyword">new</span> Ui();
+</span><span>        storage = <span class="hljs-keyword">new</span> Storage(filePath);
+</span><span>        <span class="hljs-keyword">try</span> {
+</span><span>            tasks = <span class="hljs-keyword">new</span> TaskList(storage.load());
+</span><span>        } <span class="hljs-keyword">catch</span> (DukeException e) {
+</span><span>            ui.showLoadingError();
+</span><span>            tasks = <span class="hljs-keyword">new</span> TaskList();
+</span><span>        }
+</span><span>    }
+</span><span>
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">run</span><span class="hljs-params">()</span> </span>{
+</span><span>        <span class="hljs-comment">//...</span>
+</span><span>    }
+</span><span>
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+</span><span>        <span class="hljs-keyword">new</span> Duke(<span class="hljs-string">&quot;data/tasks.txt&quot;</span>).run();
+</span><span>    }
+</span><span>}
+</span></code></pre></div>
+<ul>
+<li><strong>Stretch Goal</strong>: Consider extracting more classes. e.g., <code class="hljs inline no-lang" v-pre>*Command</code> classes (i.e., <code class="hljs inline no-lang" v-pre>AddCommand</code>, <code class="hljs inline no-lang" v-pre>DeleteCommand</code>, <code class="hljs inline no-lang" v-pre>ExitCommand</code> etc.) that inherits from an abstract <code class="hljs inline no-lang" v-pre>Command</code> class, so that you can write the main logic of the App as follows:<pre><code class="hljs java" v-pre><span><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">run</span><span class="hljs-params">()</span> </span>{
+</span><span>    ui.showWelcome();
+</span><span>    <span class="hljs-keyword">boolean</span> isExit = <span class="hljs-keyword">false</span>;
+</span><span>    <span class="hljs-keyword">while</span> (!isExit) {
+</span><span>        <span class="hljs-keyword">try</span> {
+</span><span>            String fullCommand = ui.readCommand();
+</span><span>            ui.showLine(); <span class="hljs-comment">// show the divider line (&quot;_______&quot;)</span>
+</span><span>            Command c = Parser.parse(fullCommand);
+</span><span>            c.execute(tasks, ui, storage);
+</span><span>            isExit = c.isExit();
+</span><span>        } <span class="hljs-keyword">catch</span> (DukeException e) {
+</span><span>            ui.showError(e.getMessage());
+</span><span>        } <span class="hljs-keyword">finally</span> {
+</span><span>            ui.showLine();
+</span><span>        }
+</span><span>    }
+</span><span>}
+</span></code></pre><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can get some inspiration from how the code of the <a href="https://github.com/se-edu/addressbook-level2">addressbook-level2</a> is organized.</li></ul></div></panel></div></div></div>
+<div>
+<div class="indented">
+<div class="indented border">
+<panel type="seamless" no-close class="algolia-no-index">
+<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>A-Packages</code>: Use Packages</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+<div>
+<div>
+<h3 id="a-packages"><span id="a-packages" class="anchor"></span><span class="badge badge-pill badge-primary">A-Packages</span><a class="fa fa-anchor" href="#a-packages" onclick="event.stopPropagation()"></a></h3>
+<p>     <big>↳</big> <strong>Divide classes into packages</strong></p></div>
+<p>Organize the classes into suitable java packages.</p>
+<ul>
+<li><strong>Minimal</strong>: put all classes in one package e.g., <code class="hljs inline no-lang" v-pre>duke</code></li>
+<li><strong>Stretch goal</strong>: divide into multiple packages as the number of classes increase e.g., <code class="hljs inline no-lang" v-pre>duke.task</code>, <code class="hljs inline no-lang" v-pre>duke.command</code></li></ul></div></panel></div></div></div>
+<div>
+<div class="indented">
+<div class="indented border">
+<panel type="seamless" no-close class="algolia-no-index">
+<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>A-JavaDoc</code>: Add JavaDoc comments</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+<div>
+<div>
+<h3 id="a-javadoc"><span id="a-javadoc" class="anchor"></span><span class="badge badge-pill badge-primary">A-JavaDoc</span><a class="fa fa-anchor" href="#a-javadoc" onclick="event.stopPropagation()"></a></h3>
+<p>     <big>↳</big> <strong>Add JavaDoc comments</strong></p></div>
+<p>Add JavaDoc comments to the code.</p>
+<ul>
+<li><strong>Minimal</strong>: Add header comments to at least half of the non-private classes/methods.</li>
+<li><strong>Stretch goal</strong>: Add header comments to all non-private classes/methods, and non-trivial private methods.</li></ul></div></panel></div></div></div>
+<div>
+<div class="indented">
+<div class="indented border">
+<panel type="seamless" no-close class="algolia-no-index">
+<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>A-JUnit</code>: Add JUnit Tests</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+<div>
+<div>
+<h3 id="a-junit"><span id="a-junit" class="anchor"></span><span class="badge badge-pill badge-primary">A-JUnit</span><a class="fa fa-anchor" href="#a-junit" onclick="event.stopPropagation()"></a></h3>
+<p>     <big>↳</big> <strong>Add JUnit tests</strong></p></div>
+<p>Add JUnit tests to test the behavior of the code.</p>
+<p><strong>Requirements</strong>:</p>
+<ul>
+<li>Minimum: More than two test methods, preferably targeting more than one class (if you have multiple classes)</li>
+<li>Stretch goal: test methods to target all public methods of all classes</li></ul>
+<p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Refer to the <a href="https://se-education.org/guides/tutorials/junit.html"><em>JUnit tutorial</em> @se-edu/guides</a> to find how to use JUnit.</p></div></panel></div></div></div></div>
+<p></p>
+<h4 id="5-add-increment-a-gradle"><span id="5-add-increment-a-gradle" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>5</big></big></span> Add Increment: <code class="hljs inline no-lang" v-pre>A-Gradle</code><a class="fa fa-anchor" href="#5-add-increment-a-gradle" onclick="event.stopPropagation()"></a></h4>
+<div>
+<ul>
+<li>As before, after an increment has been completed, tag the commit using the increment ID (e.g., <code class="hljs inline no-lang" v-pre>A-Gradle</code> in this case) and push that tag to your fork.</li>
+<li>You are recommended to do each new increment in a separate branch.</li>
+<li>If you have done the increment in the previous semester already and the tag has been pushed to the repo, no further action needed.</li></ul></div>
 <div></div>
 <div>
 <div class="indented">
 <div class="indented border">
 <panel type="seamless" no-close class="algolia-no-index">
-<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>A-Enums</code>: Use Enums</strong></span> <span class="badge badge-pill badge-secondary">if-applicable</span></span></div>
+<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>A-Gradle</code>: Use Gradle</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
 <div>
 <div>
-<h3 id="a-enums"><span id="a-enums" class="anchor"></span><span class="badge badge-pill badge-primary">A-Enums</span><a class="fa fa-anchor" href="#a-enums" onclick="event.stopPropagation()"></a></h3>
-<p>     <big>↳</big> <strong>Use Enumerations</strong></p></div>
-<p>Use Java <code class="hljs inline no-lang" v-pre>enum</code>s, if applicable.</p></div></panel></div></div></div>
+<h3 id="a-gradle"><span id="a-gradle" class="anchor"></span><span class="badge badge-pill badge-primary">A-Gradle</span><a class="fa fa-anchor" href="#a-gradle" onclick="event.stopPropagation()"></a></h3>
+<p>     <big>↳</big> <strong>Automate project builds using Gradle</strong></p></div>
+<p>Use Gradle to automate some of the build tasks of the project.</p>
+<p>Refer to the <a href="https://se-education.org/guides/tutorials/gradle.html"><em>Gradle tutorial</em> @SE-EDU</a> to learn how to use Gradle.</p>
+<p>Gradle support is provided as a separate branch (named <code class="hljs inline no-lang" v-pre>add-gradle-support</code>) in the Duke repo. Therefore, you can follow the <em>scenario 2</em> in the above guide.</p>
+<ul>
+<li><strong>Minimal</strong>: Set up gradle so that you can build and run Duke using gradle.</li>
+<li><strong>Recommended</strong>: Set up gradle to run unit tests.</li>
+<li><strong>Stretch Goal</strong>: Use gradle to automate more things in your project.</li></ul></div></panel></div></div></div>
 <div></div>
+<p></p>
+<h4 id="6-apply-a-stricter-coding-standard"><span id="6-apply-a-stricter-coding-standard" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>6</big></big></span> <span>Apply a stricter coding standard</span><a class="fa fa-anchor" href="#6-apply-a-stricter-coding-standard" onclick="event.stopPropagation()"></a></h4>
+<div>
+<div class="indented">
+<p>In TIC4001, you applied only the <em>basic</em> rules of the Java coding standard. TIC4002 raises the bar to <mark>cover <em>intermediate</em> rules as well</mark>. Update your code to comply with that new bar.</p>
+<p>Tag to apply to the commit: <code class="hljs inline no-lang" v-pre>A-StricterCodingStandard</code>.</p>
+<p>See the <a href="/website/admin/standardsAndConventions.html">Standards/conventions page</a> for more info.</p>
+<p>Implementing the following increment (optional) can be help with the above.</p></div>
+<div>
+<div class="indented">
+<div class="indented border">
+<panel type="seamless" no-close class="algolia-no-index">
+<div slot="header"><span><strong>Duke</strong> <span class="dimmed"><strong><code class="hljs inline no-lang" v-pre>A-CheckStyle</code>: Use CheckStyle</strong></span> <span class="badge badge-pill badge-secondary"></span></span></div>
+<div>
+<div>
+<h3 id="a-checkstyle"><span id="a-checkstyle" class="anchor"></span><span class="badge badge-pill badge-primary">A-CheckStyle</span><a class="fa fa-anchor" href="#a-checkstyle" onclick="event.stopPropagation()"></a></h3>
+<p>     <big>↳</big> <strong>Use CheckStyle</strong></p></div>
+<p>Use checkStyle to detect coding style violations.</p>
+<p>Refer the tutorial <a href="https://se-education.org/guides/tutorials/checkstyle.html"><em>Using Checkstyle</em> @SE-EDU/guides</a> to learn how to use Checkstyle.</p>
+<p></p></div></panel></div></div></div></div>
 <p></p></div></div>
 <br>
 <p><span class="float-left algolia-no-index"><a class="badge badge-light" href="/website/admin/ip-overview.html"><span><span aria-hidden="true" class="far fa-arrow-alt-circle-left"></span> iP (Individual Project): Overview</span></a></span><span class="float-right algolia-no-index"><a class="badge badge-light" href="/website/admin/ip-w3.html"><span>iP: Week 3 <span aria-hidden="true" class="far fa-arrow-alt-circle-right"></span></span></a></span></p></div>
@@ -702,9 +886,11 @@ Example:</p>
 <a class="nav-link py-1" href="#ip-week-2">iP: Week 2 &#x200E;</a>
 <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
 <a class="nav-link py-1" href="#1-learn-about-the-project">1 Learn about the project&#x200E;</a>
-<a class="nav-link py-1" href="#2-set-up-prerequisites">2 Set up prerequisites&#x200E;</a>
-<a class="nav-link py-1" href="#3-set-up-the-project-in-your-computer">3 Set up the project in your computer&#x200E;</a>
-<a class="nav-link py-1" href="#4-add-increments-while-committing-frequently-level-1-level-2-level-3-level-4-a-textuitesting-level-5-level-6-a-enums-thu-jan-21st-2359">4 Add Increments while committing frequently: Level-1, Level-2, Level-3, Level-4, A-TextUiTesting, Level-5, Level-6, A-Enums  Thu, Jan 21st 2359&#x200E;</a>
+<a class="nav-link py-1" href="#2-set-up-the-project-in-your-computer">2 Set up the project in your computer&#x200E;</a>
+<a class="nav-link py-1" href="#3-create-a-pr-to-the-upstream-repo">3 Create a PR to the upstream repo&#x200E;</a>
+<a class="nav-link py-1" href="#4-ensure-tic4001-ip-increments-have-been-done">4 Ensure TIC4001 iP increments have been done&#x200E;</a>
+<a class="nav-link py-1" href="#5-add-increment-a-gradle">5 Add Increment: A-Gradle&#x200E;</a>
+<a class="nav-link py-1" href="#6-apply-a-stricter-coding-standard">6 Apply a stricter coding standard&#x200E;</a>
 </nav>
 
 </nav>
@@ -714,7 +900,7 @@ Example:</p>
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Sun, 20 Dec 2020, 16:08:09 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Fri, 25 Dec 2020, 1:44:56 GMT+8]</small></div></footer></div>
 </body>
 <script src="../markbind/js/bootstrap-utility.min.js"></script>
 <script>

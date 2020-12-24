@@ -124,7 +124,7 @@
 <p><div><h2 id="logging"><span id="logging" class="anchor"></span><span>Logging</span><a class="fa fa-anchor" href="#logging" onclick="event.stopPropagation()"></a></h2></div></p>
 <div class="indented-less">
 <div class="indented-less">
-<h4 id="what-4"><span id="what-4" class="anchor"></span>What <span class="badge badge-light"><small><small><font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#what-4" onclick="event.stopPropagation()"></a></h4>
+<h4 id="what-4"><span id="what-4" class="anchor"></span>What <span class="badge badge-light"><small><small><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#what-4" onclick="event.stopPropagation()"></a></h4>
 <div class="indented-less">
 <div>
 <p><strong><em>Logging</em> is the deliberate recording of certain information during a program execution for future reference.</strong> Logs are typically written to a log file but it is also possible to log information in other ways <span class="dimmed">e.g. into a database or a remote server</span>.</p>
@@ -136,7 +136,7 @@
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Flight_data_recorder_displayed_at_HAL_Museum_7893.JPG" width="250"><br>
 <sub>source: <a href="https://upload.wikimedia.org/wikipedia/commons/5/5b/Flight_data_recorder_displayed_at_HAL_Museum_7893.JPG">https://commons.wikimedia.org</a></sub></p></div></box></div></div></div></div>
 <div class="indented-less">
-<h4 id="how-3"><span id="how-3" class="anchor"></span>How <span class="badge badge-light"><small><small><font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#how-3" onclick="event.stopPropagation()"></a></h4>
+<h4 id="how-3"><span id="how-3" class="anchor"></span>How <span class="badge badge-light"><small><small><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#how-3" onclick="event.stopPropagation()"></a></h4>
 <div class="indented-less">
 <div>
 <p><strong>Most programming environments come with logging systems that allow sophisticated forms of logging.</strong> They have features such as the ability to enable and disable logging easily or to change the logging <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">how much information to record</span>intensity</span>.</p>
@@ -161,7 +161,7 @@
 <p><div><h2 id="defensive-programming"><span id="defensive-programming" class="anchor"></span><span>Defensive programming</span><a class="fa fa-anchor" href="#defensive-programming" onclick="event.stopPropagation()"></a></h2></div></p>
 <div class="indented-less">
 <div class="indented-less">
-<h4 id="what-5"><span id="what-5" class="anchor"></span>What <span class="badge badge-light"><small><small><font color="DarkOrange"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#what-5" onclick="event.stopPropagation()"></a></h4>
+<h4 id="what-5"><span id="what-5" class="anchor"></span>What <span class="badge badge-light"><small><small><font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#what-5" onclick="event.stopPropagation()"></a></h4>
 <div class="indented-less">
 <div>
 <p><strong>A defensive programmer codes under the assumption &quot;if you leave room for things to go wrong, they <em>will</em> go wrong&quot;.</strong> Therefore, a defensive programmer proactively tries to eliminate any room for things to go wrong.</p>
@@ -221,6 +221,112 @@
 </span><span>}
 </span></code></pre></box></div></div></div>
 <div class="indented-less">
+<h4 id="enforcing-1-to3-associations"><span id="enforcing-1-to3-associations" class="anchor"></span>Enforcing 1-to3 Associations <span class="badge badge-light"><small><small><font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#enforcing-1-to3-associations" onclick="event.stopPropagation()"></a></h4>
+<div class="indented-less">
+<div>
+<p>Consider the association given below. A defensive implementation requires us to ensure that a <code class="hljs inline no-lang" v-pre>MinedCell</code> cannot exist without a <code class="hljs inline no-lang" v-pre>Mine</code> and vice versa which requires simultaneous object creation. However, Java can only create one object at a time. Given below are two alternative implementations, both of which violate the multiplicity for a short period of time.</p>
+<img src="/website/book/errorHandling/defensiveProgramming/1to1Associations/images/minedCell.png" height="50">
+<p></p>
+<p>Option 1:</p>
+<pre><code class="hljs java" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MinedCell</span> </span>{
+</span><span>    <span class="hljs-keyword">private</span> Mine mine;
+</span><span>
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">MinedCell</span><span class="hljs-params">(Mine m)</span> </span>{
+</span><span>        <span class="hljs-keyword">if</span> (m == <span class="hljs-keyword">null</span>) {
+</span><span>            showError();
+</span><span>        }
+</span><span>        mine = m;
+</span><span>    }
+</span><span>    …
+</span><span>}
+</span></code></pre><p>Option 1 forces us to keep a <code class="hljs inline no-lang" v-pre>Mine</code> without a <code class="hljs inline no-lang" v-pre>MinedCell</code> (until the <code class="hljs inline no-lang" v-pre>MinedCell</code> is created).</p>
+<p>Option 2:</p>
+<pre><code class="hljs java" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">MinedCell</span> </span>{
+</span><span>    <span class="hljs-keyword">private</span> Mine mine;
+</span><span>
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">MinedCell</span><span class="hljs-params">()</span> </span>{
+</span><span>        mine = <span class="hljs-keyword">new</span> Mine();
+</span><span>    }
+</span><span>    …
+</span><span>}
+</span></code></pre><p>Option 2 is more defensive because the <code class="hljs inline no-lang" v-pre>Mine</code> is immediately linked to a <code class="hljs inline no-lang" v-pre>MinedCell</code>.</p></div></div></div>
+<div class="indented-less">
+<h4 id="enforcing-referential-integrity"><span id="enforcing-referential-integrity" class="anchor"></span>Enforcing Referential Integrity <span class="badge badge-light"><small><small><font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#enforcing-referential-integrity" onclick="event.stopPropagation()"></a></h4>
+<div class="indented-less">
+<div>
+<p>A bidirectional association in the design (shown in (a)) is usually emulated at code level using two variables (as shown in (b)).</p>
+<img src="/website/book/errorHandling/defensiveProgramming/referentialIntegrity/images/manWoman.png" height="140">
+<p></p>
+<pre><code class="hljs java" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Man</span> </span>{
+</span><span>    Woman girlfriend;
+</span><span>
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">setGirlfriend</span><span class="hljs-params">(Woman w)</span> </span>{
+</span><span>        girlfriend = w;
+</span><span>    }
+</span><span>    …
+</span><span>}
+</span></code></pre><pre><code class="hljs java" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Woman</span> </span>{
+</span><span>    Man boyfriend;
+</span><span>
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">setBoyfriend</span><span class="hljs-params">(Man m)</span> </span>{
+</span><span>        boyfriend = m;
+</span><span>    }
+</span><span>}
+</span></code></pre><p>The two classes are meant to be used as follows:</p>
+<pre><code class="hljs java" v-pre><span>Woman jean;
+</span><span>Man james;
+</span><span>…
+</span><span>james.setGirlfriend(jean);
+</span><span>jean.setBoyfriend(james);
+</span></code></pre><p>Suppose the two classes were used like this instead:</p>
+<pre><code class="hljs java" v-pre><span>Woman jean;
+</span><span>Man james, yong;
+</span><span>…
+</span><span>james.setGirlfriend(jean);  
+</span><span>jean.setBoyfriend(yong);  
+</span></code></pre><p>Now James' girlfriend is Jean, while Jean's boyfriend is not James. This situation is a result of the code not being defensive enough to stop this &quot;love triangle&quot;. In such a situation, you could say that <em>the referential integrity has been violated</em>. This means that <em>there is an inconsistency in object references</em>.</p>
+<img src="/website/book/errorHandling/defensiveProgramming/referentialIntegrity/images/woman.png" height="50">
+<p></p>
+<p>One way to prevent this situation is to implement the two classes as shown below. Note how the referential integrity is maintained.</p>
+<pre><code class="hljs java" v-pre><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Woman</span> </span>{
+</span><span>    <span class="hljs-keyword">private</span> Man boyfriend;
+</span><span>
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setBoyfriend</span><span class="hljs-params">(Man m)</span> </span>{
+</span><span>        <span class="hljs-keyword">if</span> (boyfriend == m) {
+</span><span>            <span class="hljs-keyword">return</span>;
+</span><span>        }
+</span><span>        <span class="hljs-keyword">if</span> (boyfriend != <span class="hljs-keyword">null</span>) {
+</span><span>            boyfriend.breakUp();
+</span><span>        }
+</span><span>        boyfriend = m;
+</span><span>        m.setGirlfriend(<span class="hljs-keyword">this</span>);
+</span><span>    }
+</span><span>
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">breakUp</span><span class="hljs-params">()</span> </span>{
+</span><span>        boyfriend = <span class="hljs-keyword">null</span>;
+</span><span>    }   
+</span><span>    ...
+</span><span>}
+</span></code></pre><pre><code class="hljs java" v-pre><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Man</span> </span>{
+</span><span>    <span class="hljs-keyword">private</span> Woman girlfriend;
+</span><span>
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setGirlfriend</span><span class="hljs-params">(Woman w)</span> </span>{
+</span><span>        <span class="hljs-keyword">if</span> (girlfriend == w) {
+</span><span>            <span class="hljs-keyword">return</span>;
+</span><span>        }
+</span><span>        <span class="hljs-keyword">if</span> (girlfriend != <span class="hljs-keyword">null</span>) {
+</span><span>            girlfriend.breakUp();
+</span><span>        }
+</span><span>        girlfriend = w;
+</span><span>        w.setBoyfriend(<span class="hljs-keyword">this</span>);
+</span><span>    }
+</span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">breakUp</span><span class="hljs-params">()</span> </span>{
+</span><span>        girlfriend = <span class="hljs-keyword">null</span>;
+</span><span>    }  
+</span><span>   ...
+</span><span>}
+</span></code></pre><p>When <code class="hljs inline no-lang" v-pre>james.setGirlfriend(jean)</code> is executed, the code ensures that <code class="hljs inline no-lang" v-pre>james</code> breaks up with any current girlfriend before he accepts <code class="hljs inline no-lang" v-pre>jean</code> as his girlfriend. Furthermore, the code ensures that <code class="hljs inline no-lang" v-pre>jean</code> breaks up with any existing boyfriends before accepting <code class="hljs inline no-lang" v-pre>james</code> as her boyfriend.</p></div></div></div>
+<div class="indented-less">
 <h4 id="when-3"><span id="when-3" class="anchor"></span>When <span class="badge badge-light"><small><small><font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#when-3" onclick="event.stopPropagation()"></a></h4>
 <div class="indented-less">
 <div>
@@ -230,13 +336,22 @@
 <li>How critical is the system?</li>
 <li>Will the code be used by programmers other than the author?</li>
 <li>The level of programming language support for defensive programming</li>
-<li>The overhead of being defensive</li></ul></div></div></div></div></div>
+<li>The overhead of being defensive</li></ul></div></div></div></div>
+<p><div><h2 id="design-by-contract-approach"><span id="design-by-contract-approach" class="anchor"></span><span>Design-by-contract approach</span><a class="fa fa-anchor" href="#design-by-contract-approach" onclick="event.stopPropagation()"></a></h2></div></p>
+<div class="indented-less">
+<div class="indented-less">
+<h4 id="design-by-contract"><span id="design-by-contract" class="anchor"></span>Design by Contract <span class="badge badge-light"><small><small><font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#design-by-contract" onclick="event.stopPropagation()"></a></h4>
+<div class="indented-less">
+<div>
+<p><strong><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">term was coined by Bertrand Meyer</span>Design by contract (DbC)</span> is an approach for designing software that requires defining formal, precise and verifiable interface specifications for software components.</strong></p>
+<p>Suppose an operation is implemented with the behavior specified precisely in the API (preconditions, post conditions, exceptions etc.). When following the defensive approach, the code should first check if the preconditions have been met. Typically, exceptions are thrown if preconditions are violated. In contrast, the <em>Design-by-Contract (DbC)</em> approach to coding assumes that it is the responsibility of the caller to ensure all preconditions are met. The operation will honor the contract only if the preconditions have been met. If any of them have not been met, the behavior of the operation is &quot;unspecified&quot;.</p>
+<p>Languages such as Eiffel have native support for DbC. For example, preconditions of an operation can be specified in Eiffel and the language runtime will check precondition violations without the need to do it explicitly in the code. To follow the DbC approach in languages such as Java and C++ where there is no built-in DbC support, assertions can be used to confirm pre-conditions.</p></div></div></div></div></div>
 <p><i class="fa fa-arrow-circle-up fa-lg" id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true"></i></p></div>
         </div>
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Sun, 20 Dec 2020, 16:08:09 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Fri, 25 Dec 2020, 1:44:56 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>

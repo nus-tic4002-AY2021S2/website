@@ -1,0 +1,1098 @@
+2020-12-23T07:47:47.248Z - info: Website generation (lazy) started at 3:47:41 PM
+2020-12-23T07:48:00.490Z - info: Building assets...
+2020-12-23T07:48:07.022Z - info: Assets built
+2020-12-23T07:48:07.023Z - info: Generating landing page...
+2020-12-23T07:48:08.971Z - info: Landing page built, other pages will be built as you navigate to them!
+2020-12-23T07:48:09.675Z - info: Site data built
+2020-12-23T07:48:09.675Z - info: Website generation (lazy) complete! Total build time: 28.137s
+2020-12-23T07:48:10.664Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2020-12-23T07:48:10.665Z - info: Press CTRL+C to stop ...
+2020-12-23T07:58:28.506Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w3 as some of its dependencies were changed since the last visit
+2020-12-23T07:58:30.266Z - info: Site data built
+2020-12-23T07:58:30.266Z - info: Lazy website regeneration complete! Total build time: 1.796s
+2020-12-23T07:58:44.035Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w2 as some of its dependencies were changed since the last visit
+2020-12-23T07:58:45.476Z - info: Site data built
+2020-12-23T07:58:45.477Z - info: Lazy website regeneration complete! Total build time: 1.443s
+2020-12-23T08:05:22.006Z - info: [4:05:22 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T08:05:23.031Z - info: Rebuilding 1 pages
+2020-12-23T08:05:24.806Z - info: Site data built
+2020-12-23T08:05:24.807Z - info: Pages rebuilt
+2020-12-23T08:05:24.808Z - info: Website regeneration complete! Total build time: 1.783s
+2020-12-23T08:06:41.723Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w3 as some of its dependencies were changed since the last visit
+2020-12-23T08:06:43.063Z - info: Site data built
+2020-12-23T08:06:43.064Z - info: Lazy website regeneration complete! Total build time: 1.342s
+2020-12-23T08:08:18.697Z - info: [4:08:18 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-23T08:08:19.716Z - info: Rebuilding 1 pages
+2020-12-23T08:08:19.934Z - error:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 13, Column 8]
+  parseAggregate: expected comma after expression
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:27:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderPage (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:448:17)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:878:57
+2020-12-23T08:08:19.935Z - warn:  Error: Error while generating undefined
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:1043:18
+2020-12-23T08:08:40.953Z - info: [4:08:40 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-23T08:08:41.958Z - info: No pages needed to be rebuilt
+2020-12-23T08:10:38.430Z - info: [4:10:38 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-23T08:10:39.451Z - info: No pages needed to be rebuilt
+2020-12-23T08:11:40.477Z - info: [4:11:40 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T08:11:41.483Z - info: No pages needed to be rebuilt
+2020-12-23T08:11:58.330Z - info: Website generation (lazy) started at 4:11:55 PM
+2020-12-23T08:12:08.373Z - info: Building assets...
+2020-12-23T08:12:13.483Z - info: Assets built
+2020-12-23T08:12:13.485Z - info: Generating landing page...
+2020-12-23T08:12:14.336Z - info: Landing page built, other pages will be built as you navigate to them!
+2020-12-23T08:12:14.775Z - info: Site data built
+2020-12-23T08:12:14.775Z - info: Website generation (lazy) complete! Total build time: 19.566s
+2020-12-23T08:12:15.651Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2020-12-23T08:12:15.652Z - info: Press CTRL+C to stop ...
+2020-12-23T08:18:58.689Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w3 as some of its dependencies were changed since the last visit
+2020-12-23T08:18:59.596Z - info: Site data built
+2020-12-23T08:18:59.596Z - info: Lazy website regeneration complete! Total build time: 0.923s
+2020-12-23T08:21:38.607Z - info: [4:21:38 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\headers\header.md
+2020-12-23T08:21:39.612Z - info: Rebuilding 1 pages
+2020-12-23T08:21:40.160Z - info: Site data built
+2020-12-23T08:21:40.161Z - info: Pages rebuilt
+2020-12-23T08:21:40.161Z - info: Website regeneration complete! Total build time: 0.55s
+2020-12-23T08:22:14.672Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\standardsAndConventions as some of its dependencies were changed since the last visit
+2020-12-23T08:22:15.036Z - info: Site data built
+2020-12-23T08:22:15.037Z - info: Lazy website regeneration complete! Total build time: 0.366s
+2020-12-23T08:25:16.468Z - info: [4:25:16 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T08:25:17.488Z - info: No pages needed to be rebuilt
+2020-12-23T08:25:24.812Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w3 as some of its dependencies were changed since the last visit
+2020-12-23T08:25:25.413Z - info: Site data built
+2020-12-23T08:25:25.414Z - info: Lazy website regeneration complete! Total build time: 0.602s
+2020-12-23T08:28:15.828Z - info: [4:28:15 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-23T08:28:15.834Z - info: [4:28:15 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T08:28:16.834Z - info: No pages needed to be rebuilt
+2020-12-23T08:28:27.773Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w3 as some of its dependencies were changed since the last visit
+2020-12-23T08:28:28.142Z - error:  Error: No such segment 'A-Checkstyle' in file: C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\projectDuke\extensions.mbdf
+Missing reference in C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\dukeFragment.md
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:285:23)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:350:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:136:53
+    at Array.map (<anonymous>)
+    at NodePreprocessor._preProcessPanel (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:136:39)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:345:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:319:57
+2020-12-23T08:28:28.325Z - info: Site data built
+2020-12-23T08:28:28.325Z - info: Lazy website regeneration complete! Total build time: 0.553s
+2020-12-23T08:28:46.986Z - info: [4:28:46 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T08:28:47.995Z - info: Rebuilding 1 pages
+2020-12-23T08:28:48.469Z - info: Site data built
+2020-12-23T08:28:48.470Z - info: Pages rebuilt
+2020-12-23T08:28:48.470Z - info: Website regeneration complete! Total build time: 0.477s
+2020-12-23T08:29:53.420Z - info: [4:29:53 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T08:29:54.439Z - info: Rebuilding 1 pages
+2020-12-23T08:29:55.212Z - info: Site data built
+2020-12-23T08:29:55.213Z - info: Pages rebuilt
+2020-12-23T08:29:55.213Z - info: Website regeneration complete! Total build time: 0.777s
+2020-12-23T08:30:04.103Z - info: [4:30:04 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T08:30:05.142Z - info: Rebuilding 1 pages
+2020-12-23T08:30:05.596Z - info: Site data built
+2020-12-23T08:30:05.596Z - info: Pages rebuilt
+2020-12-23T08:30:05.596Z - info: Website regeneration complete! Total build time: 0.465s
+2020-12-23T08:30:55.715Z - info: [4:30:55 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-23T08:30:56.732Z - info: Rebuilding 1 pages
+2020-12-23T08:30:56.960Z - error:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 18, Column 1]
+  unexpected token: ]
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:27:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderPage (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:448:17)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:878:57
+2020-12-23T08:30:56.961Z - warn:  Error: Error while generating undefined
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:1043:18
+2020-12-23T08:54:32.110Z - info: [4:54:32 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T08:54:33.255Z - info: Assets built
+2020-12-23T09:25:20.495Z - info: [5:25:20 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T09:25:21.524Z - info: Assets built
+2020-12-23T09:25:52.297Z - info: [5:25:52 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-23T09:25:53.352Z - info: Assets built
+2020-12-23T09:25:57.459Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w4 as some of its dependencies were changed since the last visit
+2020-12-23T09:25:57.536Z - warn:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 18, Column 1]
+  unexpected token: ]
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:27:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderPage (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:448:17)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:878:57
+2020-12-23T09:26:04.849Z - info: [5:26:04 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-23T09:26:05.089Z - info: [5:26:05 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-23T09:26:05.997Z - info: Assets built
+2020-12-23T09:26:18.729Z - info: Website generation (lazy) started at 5:26:18 PM
+2020-12-23T09:26:27.178Z - info: Building assets...
+2020-12-23T09:26:32.550Z - info: Assets built
+2020-12-23T09:26:32.551Z - info: Generating landing page...
+2020-12-23T09:26:33.347Z - info: Landing page built, other pages will be built as you navigate to them!
+2020-12-23T09:26:33.893Z - info: Site data built
+2020-12-23T09:26:33.893Z - info: Website generation (lazy) complete! Total build time: 15.198s
+2020-12-23T09:26:34.738Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2020-12-23T09:26:34.739Z - info: Press CTRL+C to stop ...
+2020-12-23T09:26:46.652Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w3 as some of its dependencies were changed since the last visit
+2020-12-23T09:26:46.791Z - warn:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 18, Column 1]
+  unexpected token: ]
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:27:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderPage (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:448:17)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:878:57
+2020-12-23T09:27:04.794Z - info: [5:27:04 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-23T09:27:05.842Z - info: Assets built
+2020-12-23T09:27:25.815Z - info: Website generation (lazy) started at 5:27:25 PM
+2020-12-23T09:27:33.310Z - info: Building assets...
+2020-12-23T09:27:38.357Z - info: Assets built
+2020-12-23T09:27:38.358Z - info: Generating landing page...
+2020-12-23T09:27:39.132Z - info: Landing page built, other pages will be built as you navigate to them!
+2020-12-23T09:27:39.527Z - info: Site data built
+2020-12-23T09:27:39.527Z - info: Website generation (lazy) complete! Total build time: 13.738s
+2020-12-23T09:27:40.305Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2020-12-23T09:27:40.305Z - info: Press CTRL+C to stop ...
+2020-12-23T09:27:57.341Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w3 as some of its dependencies were changed since the last visit
+2020-12-23T09:27:57.802Z - info: Site data built
+2020-12-23T09:27:57.802Z - info: Lazy website regeneration complete! Total build time: 0.461s
+2020-12-23T09:28:04.395Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w4 as some of its dependencies were changed since the last visit
+2020-12-23T09:28:04.674Z - info: Site data built
+2020-12-23T09:28:04.674Z - info: Lazy website regeneration complete! Total build time: 0.279s
+2020-12-23T09:30:12.944Z - info: [5:30:12 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-23T09:30:13.948Z - info: Rebuilding 1 pages
+2020-12-23T09:30:14.803Z - info: Site data built
+2020-12-23T09:30:14.803Z - info: Pages rebuilt
+2020-12-23T09:30:14.803Z - info: Website regeneration complete! Total build time: 0.856s
+2020-12-23T09:31:59.346Z - info: [5:31:59 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-23T09:31:59.360Z - info: [5:31:59 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T09:32:00.347Z - info: Rebuilding 1 pages
+2020-12-23T09:32:00.536Z - error:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 30, Column 1]
+  unexpected token: ]
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:27:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderPage (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:448:17)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:878:57
+2020-12-23T09:32:00.537Z - warn:  Error: Error while generating undefined
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:1043:18
+2020-12-23T09:32:41.000Z - info: [5:32:40 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-23T09:32:42.013Z - info: No pages needed to be rebuilt
+2020-12-23T09:32:56.258Z - info: Website generation (lazy) started at 5:32:53 PM
+2020-12-23T09:33:05.552Z - info: Building assets...
+2020-12-23T09:33:12.868Z - info: Assets built
+2020-12-23T09:33:12.869Z - info: Generating landing page...
+2020-12-23T09:33:13.713Z - info: Landing page built, other pages will be built as you navigate to them!
+2020-12-23T09:33:14.144Z - info: Site data built
+2020-12-23T09:33:14.145Z - info: Website generation (lazy) complete! Total build time: 20.637s
+2020-12-23T09:33:15.079Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2020-12-23T09:33:15.079Z - info: Press CTRL+C to stop ...
+2020-12-23T09:33:42.642Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w3 as some of its dependencies were changed since the last visit
+2020-12-23T09:33:42.788Z - warn:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 70, Column 65]
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 30, Column 1]
+  unexpected token: ]
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:27:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderPage (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:448:17)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:878:57
+2020-12-23T09:34:58.376Z - info: Website generation (lazy) started at 5:34:58 PM
+2020-12-23T09:35:05.736Z - info: Building assets...
+2020-12-23T09:35:11.354Z - info: Assets built
+2020-12-23T09:35:11.355Z - info: Generating landing page...
+2020-12-23T09:35:12.194Z - info: Landing page built, other pages will be built as you navigate to them!
+2020-12-23T09:35:12.674Z - info: Site data built
+2020-12-23T09:35:12.675Z - info: Website generation (lazy) complete! Total build time: 14.32s
+2020-12-23T09:35:13.506Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2020-12-23T09:35:13.506Z - info: Press CTRL+C to stop ...
+2020-12-23T09:35:21.930Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w3 as some of its dependencies were changed since the last visit
+2020-12-23T09:35:24.953Z - info: Site data built
+2020-12-23T09:35:24.954Z - info: Lazy website regeneration complete! Total build time: 3.024s
+2020-12-23T09:36:05.959Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w4 as some of its dependencies were changed since the last visit
+2020-12-23T09:36:06.508Z - info: Site data built
+2020-12-23T09:36:06.509Z - info: Lazy website regeneration complete! Total build time: 0.55s
+2020-12-23T09:37:47.343Z - info: [5:37:47 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-23T09:37:48.352Z - info: No pages needed to be rebuilt
+2020-12-23T09:37:53.896Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w4 as some of its dependencies were changed since the last visit
+2020-12-23T09:37:54.518Z - info: Site data built
+2020-12-23T09:37:54.519Z - info: Lazy website regeneration complete! Total build time: 0.624s
+2020-12-23T09:38:58.205Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w5 as some of its dependencies were changed since the last visit
+2020-12-23T09:38:58.576Z - info: Site data built
+2020-12-23T09:38:58.576Z - info: Lazy website regeneration complete! Total build time: 0.372s
+2020-12-23T09:40:48.846Z - info: [5:40:48 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T09:40:49.855Z - info: No pages needed to be rebuilt
+2020-12-23T09:40:57.636Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w5 as some of its dependencies were changed since the last visit
+2020-12-23T09:40:58.102Z - info: Site data built
+2020-12-23T09:40:58.102Z - info: Lazy website regeneration complete! Total build time: 0.467s
+2020-12-23T09:41:04.686Z - info: [5:41:04 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T09:41:05.695Z - info: No pages needed to be rebuilt
+2020-12-23T09:41:09.744Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w5 as some of its dependencies were changed since the last visit
+2020-12-23T09:41:10.156Z - info: Site data built
+2020-12-23T09:41:10.156Z - info: Lazy website regeneration complete! Total build time: 0.412s
+2020-12-23T09:41:41.769Z - info: [5:41:41 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T09:41:42.771Z - info: No pages needed to be rebuilt
+2020-12-23T09:44:27.310Z - info: [5:44:27 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-23T09:44:27.311Z - info: [5:44:27 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T09:44:28.320Z - info: No pages needed to be rebuilt
+2020-12-23T09:44:33.284Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w5 as some of its dependencies were changed since the last visit
+2020-12-23T09:44:34.001Z - info: Site data built
+2020-12-23T09:44:34.001Z - info: Lazy website regeneration complete! Total build time: 0.718s
+2020-12-23T09:45:59.308Z - info: [5:45:59 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T09:46:00.320Z - info: No pages needed to be rebuilt
+2020-12-23T09:46:07.967Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w5 as some of its dependencies were changed since the last visit
+2020-12-23T09:46:08.464Z - info: Site data built
+2020-12-23T09:46:08.464Z - info: Lazy website regeneration complete! Total build time: 0.498s
+2020-12-23T09:46:47.005Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\index as some of its dependencies were changed since the last visit
+2020-12-23T09:46:47.221Z - info: Site data built
+2020-12-23T09:46:47.221Z - info: Lazy website regeneration complete! Total build time: 0.216s
+2020-12-23T09:46:52.966Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\codeQuality as some of its dependencies were changed since the last visit
+2020-12-23T09:46:54.735Z - info: Site data built
+2020-12-23T09:46:54.735Z - info: Lazy website regeneration complete! Total build time: 1.769s
+2020-12-23T09:47:29.130Z - info: [5:47:29 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T09:47:30.134Z - info: No pages needed to be rebuilt
+2020-12-23T09:47:34.765Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w5 as some of its dependencies were changed since the last visit
+2020-12-23T09:47:35.501Z - info: Site data built
+2020-12-23T09:47:35.502Z - info: Lazy website regeneration complete! Total build time: 0.737s
+2020-12-23T09:47:52.171Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w6 as some of its dependencies were changed since the last visit
+2020-12-23T09:47:53.189Z - info: Site data built
+2020-12-23T09:47:53.189Z - info: Lazy website regeneration complete! Total build time: 1.018s
+2020-12-23T09:50:53.509Z - info: [5:50:53 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T09:50:54.525Z - info: Rebuilding 1 pages
+2020-12-23T09:50:55.730Z - info: Site data built
+2020-12-23T09:50:55.731Z - info: Pages rebuilt
+2020-12-23T09:50:55.731Z - info: Website regeneration complete! Total build time: 1.21s
+2020-12-23T09:51:07.367Z - info: [5:51:07 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T09:51:08.396Z - info: Rebuilding 1 pages
+2020-12-23T09:51:09.288Z - info: Site data built
+2020-12-23T09:51:09.288Z - info: Pages rebuilt
+2020-12-23T09:51:09.288Z - info: Website regeneration complete! Total build time: 0.895s
+2020-12-23T09:52:50.249Z - info: [5:52:50 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-23T09:52:50.266Z - info: [5:52:50 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T09:52:51.259Z - info: Rebuilding 1 pages
+2020-12-23T09:52:52.031Z - info: Site data built
+2020-12-23T09:52:52.031Z - info: Pages rebuilt
+2020-12-23T09:52:52.031Z - info: Website regeneration complete! Total build time: 0.774s
+2020-12-23T09:55:08.016Z - info: [5:55:08 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T09:55:09.024Z - info: Rebuilding 1 pages
+2020-12-23T09:55:09.550Z - info: Site data built
+2020-12-23T09:55:09.550Z - info: Pages rebuilt
+2020-12-23T09:55:09.550Z - info: Website regeneration complete! Total build time: 0.529s
+2020-12-23T09:55:32.230Z - info: [5:55:32 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T09:55:33.233Z - info: Rebuilding 1 pages
+2020-12-23T09:55:33.784Z - info: Site data built
+2020-12-23T09:55:33.784Z - info: Pages rebuilt
+2020-12-23T09:55:33.785Z - info: Website regeneration complete! Total build time: 0.553s
+2020-12-23T09:57:26.238Z - info: [5:57:26 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-23T09:57:27.240Z - info: Rebuilding 1 pages
+2020-12-23T09:57:27.735Z - info: Site data built
+2020-12-23T09:57:27.735Z - info: Pages rebuilt
+2020-12-23T09:57:27.735Z - info: Website regeneration complete! Total build time: 0.497s
+2020-12-23T09:58:26.944Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w7 as some of its dependencies were changed since the last visit
+2020-12-23T09:58:27.220Z - info: Site data built
+2020-12-23T09:58:27.220Z - info: Lazy website regeneration complete! Total build time: 0.277s
+2020-12-23T09:58:43.094Z - info: [5:58:43 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyAdminTopics.mbdf
+2020-12-23T09:58:44.110Z - info: Rebuilding 1 pages
+2020-12-23T09:58:44.455Z - info: Site data built
+2020-12-23T09:58:44.455Z - info: Pages rebuilt
+2020-12-23T09:58:44.455Z - info: Website regeneration complete! Total build time: 0.346s
+2020-12-23T09:59:21.165Z - info: Website generation (lazy) started at 5:59:17 PM
+2020-12-23T09:59:31.178Z - info: Building assets...
+2020-12-23T09:59:38.522Z - info: Assets built
+2020-12-23T09:59:38.523Z - info: Generating landing page...
+2020-12-23T09:59:39.390Z - info: Landing page built, other pages will be built as you navigate to them!
+2020-12-23T09:59:39.910Z - info: Site data built
+2020-12-23T09:59:39.911Z - info: Website generation (lazy) complete! Total build time: 22.532s
+2020-12-23T09:59:40.762Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2020-12-23T09:59:40.762Z - info: Press CTRL+C to stop ...
+2020-12-23T09:59:59.688Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w6 as some of its dependencies were changed since the last visit
+2020-12-23T10:00:00.207Z - info: Site data built
+2020-12-23T10:00:00.207Z - info: Lazy website regeneration complete! Total build time: 0.52s
+2020-12-23T10:00:24.376Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-grading as some of its dependencies were changed since the last visit
+2020-12-23T10:00:24.787Z - info: Site data built
+2020-12-23T10:00:24.787Z - info: Lazy website regeneration complete! Total build time: 0.412s
+2020-12-23T10:04:11.690Z - info: [6:04:11 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-grading.md
+2020-12-23T10:04:12.699Z - info: Rebuilding 1 pages
+2020-12-23T10:04:13.167Z - info: Site data built
+2020-12-23T10:04:13.168Z - info: Pages rebuilt
+2020-12-23T10:04:13.168Z - info: Website regeneration complete! Total build time: 0.473s
+2020-12-23T10:07:23.718Z - info: [6:07:23 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-grading.md
+2020-12-23T10:07:24.725Z - info: Rebuilding 1 pages
+2020-12-23T10:07:24.994Z - info: Site data built
+2020-12-23T10:07:24.994Z - info: Pages rebuilt
+2020-12-23T10:07:24.994Z - info: Website regeneration complete! Total build time: 0.27s
+2020-12-23T10:07:37.559Z - info: [6:07:37 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-grading.md
+2020-12-23T10:07:38.574Z - info: Rebuilding 1 pages
+2020-12-23T10:07:38.893Z - info: Site data built
+2020-12-23T10:07:38.895Z - info: Pages rebuilt
+2020-12-23T10:07:38.895Z - info: Website regeneration complete! Total build time: 0.325s
+2020-12-23T10:07:57.661Z - info: [6:07:57 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-grading.md
+2020-12-23T10:07:58.670Z - info: Rebuilding 1 pages
+2020-12-23T10:07:58.990Z - info: Site data built
+2020-12-23T10:07:58.990Z - info: Pages rebuilt
+2020-12-23T10:07:58.990Z - info: Website regeneration complete! Total build time: 0.323s
+2020-12-23T10:08:34.341Z - info: [6:08:34 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-grading.md
+2020-12-23T10:08:35.348Z - info: Rebuilding 1 pages
+2020-12-23T10:08:35.619Z - info: Site data built
+2020-12-23T10:08:35.619Z - info: Pages rebuilt
+2020-12-23T10:08:35.619Z - info: Website regeneration complete! Total build time: 0.274s
+2020-12-23T10:09:07.703Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-overview as some of its dependencies were changed since the last visit
+2020-12-23T10:09:08.004Z - info: Site data built
+2020-12-23T10:09:08.005Z - info: Lazy website regeneration complete! Total build time: 0.301s
+2020-12-23T10:09:17.887Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w2 as some of its dependencies were changed since the last visit
+2020-12-23T10:09:19.221Z - info: Site data built
+2020-12-23T10:09:19.221Z - info: Lazy website regeneration complete! Total build time: 1.335s
+2020-12-23T10:11:19.047Z - info: [6:11:19 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-overview.md
+2020-12-23T10:11:20.056Z - info: Rebuilding 1 pages
+2020-12-23T10:11:21.893Z - info: Site data built
+2020-12-23T10:11:21.898Z - info: Pages rebuilt
+2020-12-23T10:11:21.898Z - info: Website regeneration complete! Total build time: 1.844s
+2020-12-23T10:11:39.793Z - info: [6:11:39 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-overview.md
+2020-12-23T10:11:40.826Z - info: Rebuilding 1 pages
+2020-12-23T10:11:41.987Z - info: Site data built
+2020-12-23T10:11:41.987Z - info: Pages rebuilt
+2020-12-23T10:11:41.987Z - info: Website regeneration complete! Total build time: 1.168s
+2020-12-23T10:11:46.684Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\projectDuke\index as some of its dependencies were changed since the last visit
+2020-12-23T10:11:47.402Z - info: Site data built
+2020-12-23T10:11:47.403Z - info: Lazy website regeneration complete! Total build time: 0.718s
+2020-12-23T10:14:22.521Z - info: [6:14:22 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\projectDuke\extensions.mbdf
+2020-12-23T10:14:23.531Z - info: Rebuilding 1 pages
+2020-12-23T10:14:25.247Z - info: Site data built
+2020-12-23T10:14:25.248Z - info: Pages rebuilt
+2020-12-23T10:14:25.248Z - info: Website regeneration complete! Total build time: 1.722s
+2020-12-23T10:14:26.290Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\projectDuke\index as some of its dependencies were changed since the last visit
+2020-12-23T10:14:27.391Z - info: Site data built
+2020-12-23T10:14:27.391Z - info: Lazy website regeneration complete! Total build time: 1.102s
+2020-12-23T10:16:23.275Z - info: [6:16:23 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-23T10:16:24.289Z - info: Rebuilding 1 pages
+2020-12-23T10:16:25.985Z - info: Site data built
+2020-12-23T10:16:25.986Z - info: Pages rebuilt
+2020-12-23T10:16:25.986Z - info: Website regeneration complete! Total build time: 1.701s
+2020-12-23T10:16:30.206Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w5 as some of its dependencies were changed since the last visit
+2020-12-23T10:16:30.625Z - info: Site data built
+2020-12-23T10:16:30.625Z - info: Lazy website regeneration complete! Total build time: 0.42s
+2020-12-23T10:17:30.445Z - info: [6:17:30 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-23T10:17:31.467Z - info: Rebuilding 1 pages
+2020-12-23T10:17:32.200Z - info: Site data built
+2020-12-23T10:17:32.200Z - info: Pages rebuilt
+2020-12-23T10:17:32.201Z - info: Website regeneration complete! Total build time: 0.739s
+2020-12-23T10:19:47.979Z - info: [6:19:47 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-23T10:19:48.007Z - info: [6:19:48 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T10:19:48.992Z - info: No pages needed to be rebuilt
+2020-12-23T10:19:53.409Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w5 as some of its dependencies were changed since the last visit
+2020-12-23T10:19:54.167Z - info: Site data built
+2020-12-23T10:19:54.168Z - info: Lazy website regeneration complete! Total build time: 0.759s
+2020-12-23T10:20:12.778Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w6 as some of its dependencies were changed since the last visit
+2020-12-23T10:20:13.356Z - info: Site data built
+2020-12-23T10:20:13.356Z - info: Lazy website regeneration complete! Total build time: 0.578s
+2020-12-23T13:32:54.103Z - info: Website generation (lazy) started at 9:32:48 PM
+2020-12-23T13:33:05.249Z - info: Building assets...
+2020-12-23T13:33:11.171Z - info: Assets built
+2020-12-23T13:33:11.172Z - info: Generating landing page...
+2020-12-23T13:33:11.988Z - info: Landing page built, other pages will be built as you navigate to them!
+2020-12-23T13:33:12.508Z - info: Site data built
+2020-12-23T13:33:12.508Z - info: Website generation (lazy) complete! Total build time: 23.691s
+2020-12-23T13:33:13.489Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2020-12-23T13:33:13.489Z - info: Press CTRL+C to stop ...
+2020-12-23T13:41:12.989Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\index as some of its dependencies were changed since the last visit
+2020-12-23T13:41:13.417Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T13:41:13.422Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\index.md'
+2020-12-23T13:41:13.422Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters-printable/-printable.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\index.md'
+2020-12-23T13:41:13.608Z - info: Site data built
+2020-12-23T13:41:13.608Z - info: Lazy website regeneration complete! Total build time: 0.632s
+2020-12-23T13:41:22.498Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\oop as some of its dependencies were changed since the last visit
+2020-12-23T13:41:23.337Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T13:41:24.990Z - info: Site data built
+2020-12-23T13:41:24.990Z - info: Lazy website regeneration complete! Total build time: 2.494s
+2020-12-23T13:41:25.839Z - debug:  
+2020-12-23T13:41:50.345Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\requirements as some of its dependencies were changed since the last visit
+2020-12-23T13:41:50.469Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T13:41:50.638Z - info: Site data built
+2020-12-23T13:41:50.638Z - info: Lazy website regeneration complete! Total build time: 0.293s
+2020-12-23T13:41:59.964Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\gatheringRequirements as some of its dependencies were changed since the last visit
+2020-12-23T13:42:00.176Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T13:42:00.355Z - info: Site data built
+2020-12-23T13:42:00.355Z - info: Lazy website regeneration complete! Total build time: 0.391s
+2020-12-23T13:42:10.933Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\specifyingRequirements as some of its dependencies were changed since the last visit
+2020-12-23T13:42:11.845Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T13:42:12.488Z - info: Site data built
+2020-12-23T13:42:12.488Z - info: Lazy website regeneration complete! Total build time: 1.556s
+2020-12-23T13:42:41.825Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\design as some of its dependencies were changed since the last visit
+2020-12-23T13:42:42.253Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T13:42:42.475Z - info: Site data built
+2020-12-23T13:42:42.475Z - info: Lazy website regeneration complete! Total build time: 0.651s
+2020-12-23T13:42:53.177Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\designFundamentals as some of its dependencies were changed since the last visit
+2020-12-23T13:42:53.594Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T13:42:53.871Z - info: Site data built
+2020-12-23T13:42:53.871Z - info: Lazy website regeneration complete! Total build time: 0.695s
+2020-12-23T13:43:02.851Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\modeling as some of its dependencies were changed since the last visit
+2020-12-23T13:43:03.784Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T13:43:08.482Z - debug:  
+2020-12-23T13:43:08.484Z - debug:  
+2020-12-23T13:43:09.294Z - debug:  
+2020-12-23T13:43:09.295Z - debug:  
+2020-12-23T13:43:09.316Z - info: Site data built
+2020-12-23T13:43:09.316Z - info: Lazy website regeneration complete! Total build time: 6.466s
+2020-12-23T13:45:01.485Z - info: [9:45:01 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\textbookTopics.mbdf
+2020-12-23T13:45:02.495Z - info: Rebuilding 1 pages
+2020-12-23T13:45:03.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T13:45:08.123Z - debug:  
+2020-12-23T13:45:08.124Z - debug:  
+2020-12-23T13:45:08.910Z - debug:  
+2020-12-23T13:45:08.910Z - debug:  
+2020-12-23T13:45:08.930Z - info: Site data built
+2020-12-23T13:45:08.931Z - info: Pages rebuilt
+2020-12-23T13:45:08.932Z - info: Website regeneration complete! Total build time: 6.439s
+2020-12-23T13:47:31.170Z - info: [9:47:31 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\textbookTopics.mbdf
+2020-12-23T13:47:32.176Z - info: Rebuilding 1 pages
+2020-12-23T13:47:33.179Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T13:47:37.548Z - debug:  
+2020-12-23T13:47:37.549Z - debug:  
+2020-12-23T13:47:37.818Z - debug:  
+2020-12-23T13:47:37.819Z - debug:  
+2020-12-23T13:47:38.376Z - info: Site data built
+2020-12-23T13:47:38.378Z - info: Pages rebuilt
+2020-12-23T13:47:38.379Z - info: Website regeneration complete! Total build time: 6.205s
+2020-12-23T13:48:29.174Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\specifyingRequirements as some of its dependencies were changed since the last visit
+2020-12-23T13:48:30.268Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T13:48:30.832Z - info: Site data built
+2020-12-23T13:48:30.833Z - info: Lazy website regeneration complete! Total build time: 1.661s
+2020-12-23T13:50:56.779Z - info: [9:50:56 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4001\textbookTopics.mbdf
+2020-12-23T13:50:57.817Z - info: Assets built
+2020-12-23T13:51:54.174Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\architecture as some of its dependencies were changed since the last visit
+2020-12-23T13:51:54.509Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T13:51:54.817Z - info: Site data built
+2020-12-23T13:51:54.817Z - info: Lazy website regeneration complete! Total build time: 0.643s
+2020-12-23T13:52:26.935Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\designPatterns as some of its dependencies were changed since the last visit
+2020-12-23T13:52:27.752Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T13:52:28.450Z - info: Site data built
+2020-12-23T13:52:28.451Z - info: Lazy website regeneration complete! Total build time: 1.517s
+2020-12-23T13:52:29.532Z - debug:  
+2020-12-23T13:53:44.873Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\designApproaches as some of its dependencies were changed since the last visit
+2020-12-23T13:53:45.021Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T13:53:45.151Z - info: Site data built
+2020-12-23T13:53:45.151Z - info: Lazy website regeneration complete! Total build time: 0.278s
+2020-12-23T14:37:22.789Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\codeQuality as some of its dependencies were changed since the last visit
+2020-12-23T14:37:23.538Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T14:37:24.304Z - info: Site data built
+2020-12-23T14:37:24.305Z - info: Lazy website regeneration complete! Total build time: 1.518s
+2020-12-23T14:43:33.837Z - info: [10:43:33 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T14:43:34.929Z - info: Assets built
+2020-12-23T14:43:41.321Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\index as some of its dependencies were changed since the last visit
+2020-12-23T14:43:42.076Z - info: Site data built
+2020-12-23T14:43:42.077Z - info: Lazy website regeneration complete! Total build time: 0.756s
+2020-12-23T14:43:47.588Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w4 as some of its dependencies were changed since the last visit
+2020-12-23T14:43:48.056Z - info: Site data built
+2020-12-23T14:43:48.056Z - info: Lazy website regeneration complete! Total build time: 0.468s
+2020-12-23T14:43:53.550Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w3 as some of its dependencies were changed since the last visit
+2020-12-23T14:43:53.966Z - info: Site data built
+2020-12-23T14:43:53.966Z - info: Lazy website regeneration complete! Total build time: 0.416s
+2020-12-23T14:44:00.807Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w5 as some of its dependencies were changed since the last visit
+2020-12-23T14:44:01.097Z - info: Site data built
+2020-12-23T14:44:01.097Z - info: Lazy website regeneration complete! Total build time: 0.291s
+2020-12-23T14:44:24.279Z - info: [10:44:24 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-23T14:44:25.298Z - info: No pages needed to be rebuilt
+2020-12-23T14:50:42.324Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\refactoring as some of its dependencies were changed since the last visit
+2020-12-23T14:50:42.699Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T14:50:42.978Z - info: Site data built
+2020-12-23T14:50:42.978Z - info: Lazy website regeneration complete! Total build time: 0.654s
+2020-12-23T14:50:44.141Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w5 as some of its dependencies were changed since the last visit
+2020-12-23T14:50:44.581Z - info: Site data built
+2020-12-23T14:50:44.581Z - info: Lazy website regeneration complete! Total build time: 0.441s
+2020-12-23T14:50:48.976Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\documentation as some of its dependencies were changed since the last visit
+2020-12-23T14:50:49.294Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T14:50:49.611Z - info: Site data built
+2020-12-23T14:50:49.612Z - info: Lazy website regeneration complete! Total build time: 0.635s
+2020-12-23T14:51:28.182Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\errorHandling as some of its dependencies were changed since the last visit
+2020-12-23T14:51:28.578Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T14:51:29.212Z - info: Site data built
+2020-12-23T14:51:29.212Z - info: Lazy website regeneration complete! Total build time: 1.031s
+2020-12-23T14:52:01.871Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\integration as some of its dependencies were changed since the last visit
+2020-12-23T14:52:02.248Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T14:52:02.685Z - info: Site data built
+2020-12-23T14:52:02.685Z - info: Lazy website regeneration complete! Total build time: 0.815s
+2020-12-23T14:52:55.525Z - info: [10:52:55 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\textbookTopics.mbdf
+2020-12-23T14:52:56.529Z - info: Rebuilding 1 pages
+2020-12-23T14:52:56.872Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T14:52:57.075Z - info: Site data built
+2020-12-23T14:52:57.075Z - info: Pages rebuilt
+2020-12-23T14:52:57.075Z - info: Website regeneration complete! Total build time: 0.548s
+2020-12-23T14:52:58.229Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w5 as some of its dependencies were changed since the last visit
+2020-12-23T14:52:58.695Z - info: Site data built
+2020-12-23T14:52:58.695Z - info: Lazy website regeneration complete! Total build time: 0.467s
+2020-12-23T14:53:30.022Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\reuse as some of its dependencies were changed since the last visit
+2020-12-23T14:53:30.299Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T14:53:30.587Z - info: Site data built
+2020-12-23T14:53:30.588Z - info: Lazy website regeneration complete! Total build time: 0.566s
+2020-12-23T14:54:55.247Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\qualityAssurance as some of its dependencies were changed since the last visit
+2020-12-23T14:54:55.552Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T14:54:55.846Z - info: Site data built
+2020-12-23T14:54:55.846Z - info: Lazy website regeneration complete! Total build time: 0.599s
+2020-12-23T14:55:01.923Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\testing as some of its dependencies were changed since the last visit
+2020-12-23T14:55:02.561Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T14:55:03.412Z - info: Site data built
+2020-12-23T14:55:03.412Z - info: Lazy website regeneration complete! Total build time: 1.489s
+2020-12-23T14:55:40.033Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\testCaseDesign as some of its dependencies were changed since the last visit
+2020-12-23T14:55:40.635Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T14:55:41.211Z - info: Site data built
+2020-12-23T14:55:41.212Z - info: Lazy website regeneration complete! Total build time: 1.18s
+2020-12-23T14:56:15.739Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\revisionControl as some of its dependencies were changed since the last visit
+2020-12-23T14:56:16.165Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T14:56:16.523Z - info: Site data built
+2020-12-23T14:56:16.524Z - info: Lazy website regeneration complete! Total build time: 0.786s
+2020-12-23T14:56:25.845Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\projectPlanning as some of its dependencies were changed since the last visit
+2020-12-23T14:56:25.993Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T14:56:26.129Z - info: Site data built
+2020-12-23T14:56:26.129Z - info: Lazy website regeneration complete! Total build time: 0.284s
+2020-12-23T14:57:40.695Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\teamwork as some of its dependencies were changed since the last visit
+2020-12-23T14:57:40.850Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T14:57:40.925Z - info: Site data built
+2020-12-23T14:57:40.926Z - info: Lazy website regeneration complete! Total build time: 0.232s
+2020-12-23T14:57:46.897Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\processModels as some of its dependencies were changed since the last visit
+2020-12-23T14:57:47.148Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T14:57:47.384Z - info: Site data built
+2020-12-23T14:57:47.385Z - info: Lazy website regeneration complete! Total build time: 0.488s
+2020-12-23T14:58:07.486Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\principles as some of its dependencies were changed since the last visit
+2020-12-23T14:58:08.263Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T14:58:09.905Z - info: Site data built
+2020-12-23T14:58:09.906Z - info: Lazy website regeneration complete! Total build time: 2.42s
+2020-12-23T14:58:09.952Z - debug:  
+2020-12-23T14:58:42.753Z - info: [10:58:42 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\textbookTopics.mbdf
+2020-12-23T14:58:43.765Z - info: Rebuilding 1 pages
+2020-12-23T14:58:44.560Z - info: Site data built
+2020-12-23T14:58:44.561Z - info: Pages rebuilt
+2020-12-23T14:58:44.562Z - info: Website regeneration complete! Total build time: 0.8s
+2020-12-23T14:58:45.705Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\principles as some of its dependencies were changed since the last visit
+2020-12-23T14:58:46.346Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T14:58:47.707Z - info: Site data built
+2020-12-23T14:58:47.708Z - info: Lazy website regeneration complete! Total build time: 2.003s
+2020-12-23T14:58:47.994Z - debug:  
+2020-12-23T14:58:53.340Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\uml as some of its dependencies were changed since the last visit
+2020-12-23T14:58:54.163Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T14:58:59.006Z - debug:  
+2020-12-23T14:58:59.007Z - debug:  
+2020-12-23T14:58:59.008Z - debug:  
+2020-12-23T14:58:59.008Z - debug:  
+2020-12-23T14:58:59.032Z - info: Site data built
+2020-12-23T14:58:59.032Z - info: Lazy website regeneration complete! Total build time: 5.693s
+2020-12-23T14:59:46.200Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\intellij as some of its dependencies were changed since the last visit
+2020-12-23T14:59:46.350Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T14:59:46.467Z - info: Site data built
+2020-12-23T14:59:46.467Z - info: Lazy website regeneration complete! Total build time: 0.267s
+2020-12-23T14:59:58.607Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\gitAndGithub as some of its dependencies were changed since the last visit
+2020-12-23T14:59:59.340Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T15:00:00.048Z - info: Site data built
+2020-12-23T15:00:00.048Z - info: Lazy website regeneration complete! Total build time: 1.441s
+2020-12-23T15:00:34.342Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\common\definitions as some of its dependencies were changed since the last visit
+2020-12-23T15:00:34.707Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T15:00:34.927Z - info: Site data built
+2020-12-23T15:00:34.927Z - info: Lazy website regeneration complete! Total build time: 0.585s
+2020-12-23T15:00:38.115Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\projectDuke\index as some of its dependencies were changed since the last visit
+2020-12-23T15:00:38.472Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T15:00:38.739Z - info: Site data built
+2020-12-23T15:00:38.740Z - info: Lazy website regeneration complete! Total build time: 0.625s
+2020-12-23T15:00:44.302Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\cppToJava as some of its dependencies were changed since the last visit
+2020-12-23T15:00:45.589Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T15:00:47.773Z - info: Site data built
+2020-12-23T15:00:47.774Z - info: Lazy website regeneration complete! Total build time: 3.471s
+2020-12-23T15:05:40.686Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\chapters\oop as some of its dependencies were changed since the last visit
+2020-12-23T15:05:41.663Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/se-book-adapted/chapters/.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\navigation\se-book-adapted-sitenav.md'
+2020-12-23T15:05:43.683Z - debug:  
+2020-12-23T15:05:43.713Z - info: Site data built
+2020-12-23T15:05:43.713Z - info: Lazy website regeneration complete! Total build time: 3.028s
+2020-12-23T15:07:24.871Z - info: [11:07:24 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\textbookTopics.mbdf
+2020-12-23T15:07:25.881Z - info: Rebuilding 1 pages
+2020-12-23T15:07:28.268Z - info: Site data built
+2020-12-23T15:07:28.270Z - info: Pages rebuilt
+2020-12-23T15:07:28.270Z - info: Website regeneration complete! Total build time: 2.394s
+2020-12-23T15:07:28.275Z - debug:  
+2020-12-23T15:07:28.796Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w5 as some of its dependencies were changed since the last visit
+2020-12-23T15:07:29.251Z - info: Site data built
+2020-12-23T15:07:29.251Z - info: Lazy website regeneration complete! Total build time: 0.455s
+2020-12-23T15:18:36.805Z - info: [11:18:36 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:18:37.815Z - info: No pages needed to be rebuilt
+2020-12-23T15:19:17.798Z - info: [11:19:17 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:19:18.811Z - info: No pages needed to be rebuilt
+2020-12-23T15:22:15.095Z - info: [11:22:15 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4001\textbookTopics.mbdf
+2020-12-23T15:22:16.160Z - info: Assets built
+2020-12-23T15:22:17.363Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w5 as some of its dependencies were changed since the last visit
+2020-12-23T15:22:18.346Z - info: Site data built
+2020-12-23T15:22:18.346Z - info: Lazy website regeneration complete! Total build time: 0.983s
+2020-12-23T15:24:04.083Z - info: [11:24:04 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4001\textbookTopics.mbdf
+2020-12-23T15:24:05.104Z - info: Assets built
+2020-12-23T15:27:58.422Z - info: [11:27:58 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:27:59.424Z - info: No pages needed to be rebuilt
+2020-12-23T15:31:05.414Z - info: [11:31:05 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:31:06.421Z - info: No pages needed to be rebuilt
+2020-12-23T15:31:23.610Z - info: Website generation (lazy) started at 11:31:19 PM
+2020-12-23T15:31:37.710Z - info: Building assets...
+2020-12-23T15:31:44.268Z - info: Assets built
+2020-12-23T15:31:44.269Z - info: Generating landing page...
+2020-12-23T15:31:45.265Z - info: Landing page built, other pages will be built as you navigate to them!
+2020-12-23T15:31:45.745Z - info: Site data built
+2020-12-23T15:31:45.746Z - info: Website generation (lazy) complete! Total build time: 25.894s
+2020-12-23T15:31:46.783Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2020-12-23T15:31:46.783Z - info: Press CTRL+C to stop ...
+2020-12-23T15:32:37.344Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week1\index as some of its dependencies were changed since the last visit
+2020-12-23T15:32:38.197Z - info: Site data built
+2020-12-23T15:32:38.198Z - info: Lazy website regeneration complete! Total build time: 0.861s
+2020-12-23T15:32:57.992Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week2\index as some of its dependencies were changed since the last visit
+2020-12-23T15:32:58.820Z - info: Site data built
+2020-12-23T15:32:58.820Z - info: Lazy website regeneration complete! Total build time: 0.829s
+2020-12-23T15:33:22.701Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week2\topics as some of its dependencies were changed since the last visit
+2020-12-23T15:33:29.571Z - debug:  
+2020-12-23T15:33:29.573Z - debug:  
+2020-12-23T15:33:30.514Z - debug:  
+2020-12-23T15:33:30.515Z - debug:  
+2020-12-23T15:33:30.541Z - info: Site data built
+2020-12-23T15:33:30.542Z - info: Lazy website regeneration complete! Total build time: 7.841s
+2020-12-23T15:33:47.311Z - info: [11:33:47 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:33:48.325Z - info: Rebuilding 1 pages
+2020-12-23T15:33:54.610Z - debug:  
+2020-12-23T15:33:54.638Z - debug:  
+2020-12-23T15:33:54.881Z - debug:  
+2020-12-23T15:33:54.881Z - debug:  
+2020-12-23T15:33:55.644Z - info: Site data built
+2020-12-23T15:33:55.653Z - info: Pages rebuilt
+2020-12-23T15:33:55.653Z - info: Website regeneration complete! Total build time: 7.333s
+2020-12-23T15:34:23.228Z - info: [11:34:23 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:34:24.260Z - info: Rebuilding 1 pages
+2020-12-23T15:34:30.159Z - debug:  
+2020-12-23T15:34:30.160Z - debug:  
+2020-12-23T15:34:31.081Z - debug:  
+2020-12-23T15:34:31.082Z - debug:  
+2020-12-23T15:34:31.107Z - info: Site data built
+2020-12-23T15:34:31.107Z - info: Pages rebuilt
+2020-12-23T15:34:31.108Z - info: Website regeneration complete! Total build time: 6.871s
+2020-12-23T15:39:01.004Z - info: [11:39:01 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:39:02.012Z - info: Rebuilding 1 pages
+2020-12-23T15:39:02.293Z - error:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 1, Column 33]
+  parseAggregate: expected comma after expression
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:29:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderPage (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:448:17)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:878:57
+2020-12-23T15:39:02.294Z - warn:  Error: Error while generating undefined
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:1043:18
+2020-12-23T15:39:30.490Z - info: Website generation (lazy) started at 11:39:27 PM
+2020-12-23T15:39:41.576Z - info: Building assets...
+2020-12-23T15:39:49.430Z - info: Assets built
+2020-12-23T15:39:49.431Z - info: Generating landing page...
+2020-12-23T15:39:50.351Z - info: Landing page built, other pages will be built as you navigate to them!
+2020-12-23T15:39:50.885Z - info: Site data built
+2020-12-23T15:39:50.885Z - info: Website generation (lazy) complete! Total build time: 23.854s
+2020-12-23T15:39:52.109Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2020-12-23T15:39:52.109Z - info: Press CTRL+C to stop ...
+2020-12-23T15:40:13.912Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week1\index as some of its dependencies were changed since the last visit
+2020-12-23T15:40:14.047Z - warn:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 1, Column 33]
+  parseAggregate: expected comma after expression
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:27:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderPage (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:448:17)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:878:57
+2020-12-23T15:42:19.059Z - info: [11:42:19 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:42:20.127Z - info: Assets built
+2020-12-23T15:43:54.410Z - info: [11:43:54 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:43:55.442Z - info: Assets built
+2020-12-23T15:44:08.105Z - info: [11:44:08 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:44:09.129Z - info: Assets built
+2020-12-23T15:44:27.572Z - info: Website generation (lazy) started at 11:44:27 PM
+2020-12-23T15:44:46.822Z - info: Building assets...
+2020-12-23T15:44:56.550Z - info: Assets built
+2020-12-23T15:44:56.550Z - info: Generating landing page...
+2020-12-23T15:44:57.352Z - info: Landing page built, other pages will be built as you navigate to them!
+2020-12-23T15:44:57.859Z - info: Site data built
+2020-12-23T15:44:57.859Z - info: Website generation (lazy) complete! Total build time: 30.335s
+2020-12-23T15:44:59.195Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2020-12-23T15:44:59.195Z - info: Press CTRL+C to stop ...
+2020-12-23T15:45:09.315Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week1\index as some of its dependencies were changed since the last visit
+2020-12-23T15:45:10.113Z - warn:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 1, Column 33]
+  parseAggregate: expected comma after expression
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:27:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderPage (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:448:17)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:878:57
+2020-12-23T15:47:35.840Z - info: [11:47:35 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:47:36.893Z - info: Assets built
+2020-12-23T15:47:53.261Z - info: Website generation (lazy) started at 11:47:53 PM
+2020-12-23T15:48:09.656Z - info: Building assets...
+2020-12-23T15:48:15.715Z - info: Assets built
+2020-12-23T15:48:15.716Z - info: Generating landing page...
+2020-12-23T15:48:16.495Z - info: Landing page built, other pages will be built as you navigate to them!
+2020-12-23T15:48:16.916Z - info: Site data built
+2020-12-23T15:48:16.917Z - info: Website generation (lazy) complete! Total build time: 23.707s
+2020-12-23T15:48:18.169Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2020-12-23T15:48:18.169Z - info: Press CTRL+C to stop ...
+2020-12-23T15:48:26.534Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week1\index as some of its dependencies were changed since the last visit
+2020-12-23T15:48:27.463Z - warn:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 1, Column 33]
+  parseAggregate: expected comma after expression
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:27:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderPage (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:448:17)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:878:57
+2020-12-23T15:49:02.919Z - info: [11:49:02 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:49:03.953Z - info: Assets built
+2020-12-23T15:49:11.194Z - info: Website generation (lazy) started at 11:49:11 PM
+2020-12-23T15:49:19.977Z - info: Building assets...
+2020-12-23T15:49:25.460Z - info: Assets built
+2020-12-23T15:49:25.461Z - info: Generating landing page...
+2020-12-23T15:49:26.267Z - info: Landing page built, other pages will be built as you navigate to them!
+2020-12-23T15:49:26.687Z - info: Site data built
+2020-12-23T15:49:26.687Z - info: Website generation (lazy) complete! Total build time: 15.518s
+2020-12-23T15:49:28.026Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2020-12-23T15:49:28.027Z - info: Press CTRL+C to stop ...
+2020-12-23T15:50:06.494Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week1\index as some of its dependencies were changed since the last visit
+2020-12-23T15:50:07.212Z - info: Site data built
+2020-12-23T15:50:07.212Z - info: Lazy website regeneration complete! Total build time: 0.721s
+2020-12-23T15:50:11.473Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week2\index as some of its dependencies were changed since the last visit
+2020-12-23T15:50:12.184Z - info: Site data built
+2020-12-23T15:50:12.184Z - info: Lazy website regeneration complete! Total build time: 0.712s
+2020-12-23T15:50:20.740Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week3\index as some of its dependencies were changed since the last visit
+2020-12-23T15:50:21.661Z - info: Site data built
+2020-12-23T15:50:21.661Z - info: Lazy website regeneration complete! Total build time: 0.921s
+2020-12-23T15:52:55.576Z - info: [11:52:55 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:52:56.587Z - info: Rebuilding 1 pages
+2020-12-23T15:52:56.866Z - error:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 1, Column 33]
+  parseAggregate: expected comma after expression
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:27:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderPage (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:448:17)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:878:57
+2020-12-23T15:52:56.868Z - warn:  Error: Error while generating undefined
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:1043:18
+2020-12-23T15:53:12.642Z - info: [11:53:12 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:53:13.653Z - info: No pages needed to be rebuilt
+2020-12-23T15:53:27.437Z - info: Website generation (lazy) started at 11:53:24 PM
+2020-12-23T15:53:36.407Z - info: Building assets...
+2020-12-23T15:53:42.746Z - info: Assets built
+2020-12-23T15:53:42.747Z - info: Generating landing page...
+2020-12-23T15:53:43.540Z - info: Landing page built, other pages will be built as you navigate to them!
+2020-12-23T15:53:43.962Z - info: Site data built
+2020-12-23T15:53:43.963Z - info: Website generation (lazy) complete! Total build time: 19.431s
+2020-12-23T15:53:44.896Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2020-12-23T15:53:44.896Z - info: Press CTRL+C to stop ...
+2020-12-23T15:53:45.358Z - info: [11:53:45 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:53:48.248Z - info: Assets built
+2020-12-23T15:53:59.827Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week3\index as some of its dependencies were changed since the last visit
+2020-12-23T15:54:01.120Z - info: Site data built
+2020-12-23T15:54:01.121Z - info: Lazy website regeneration complete! Total build time: 1.295s
+2020-12-23T15:56:01.796Z - info: [11:56:01 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:56:02.812Z - info: Rebuilding 1 pages
+2020-12-23T15:56:03.093Z - error:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path)
+  Template render error: (unknown path) [Line 1, Column 33]
+  parseAggregate: expected comma after expression
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:27:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderPage (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:448:17)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Page\index.js:878:57
+2020-12-23T15:56:03.094Z - warn:  Error: Error while generating undefined
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:1043:18
+2020-12-23T15:56:41.028Z - info: [11:56:41 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:56:42.070Z - info: Assets built
+2020-12-23T15:56:58.633Z - info: Website generation (lazy) started at 11:56:55 PM
+2020-12-23T15:57:10.357Z - info: Building assets...
+2020-12-23T15:57:19.669Z - info: Assets built
+2020-12-23T15:57:19.670Z - info: Generating landing page...
+2020-12-23T15:57:20.447Z - info: Landing page built, other pages will be built as you navigate to them!
+2020-12-23T15:57:20.935Z - info: Site data built
+2020-12-23T15:57:20.935Z - info: Website generation (lazy) complete! Total build time: 25.277s
+2020-12-23T15:57:22.308Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2020-12-23T15:57:22.308Z - info: Press CTRL+C to stop ...
+2020-12-23T15:57:31.901Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week3\index as some of its dependencies were changed since the last visit
+2020-12-23T15:57:34.079Z - info: Site data built
+2020-12-23T15:57:34.079Z - info: Lazy website regeneration complete! Total build time: 2.179s
+2020-12-23T15:58:24.527Z - info: [11:58:24 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:58:25.547Z - info: Rebuilding 1 pages
+2020-12-23T15:58:26.902Z - info: Site data built
+2020-12-23T15:58:26.903Z - info: Pages rebuilt
+2020-12-23T15:58:26.903Z - info: Website regeneration complete! Total build time: 1.358s
+2020-12-23T15:58:44.069Z - info: [11:58:44 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:58:45.084Z - info: Rebuilding 1 pages
+2020-12-23T15:58:46.405Z - info: Site data built
+2020-12-23T15:58:46.406Z - info: Pages rebuilt
+2020-12-23T15:58:46.406Z - info: Website regeneration complete! Total build time: 1.324s
+2020-12-23T15:58:56.320Z - info: [11:58:56 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:58:57.325Z - info: Rebuilding 1 pages
+2020-12-23T15:58:58.584Z - info: Site data built
+2020-12-23T15:58:58.584Z - info: Pages rebuilt
+2020-12-23T15:58:58.585Z - info: Website regeneration complete! Total build time: 1.263s
+2020-12-23T15:59:14.471Z - info: [11:59:14 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:59:15.480Z - info: Rebuilding 1 pages
+2020-12-23T15:59:17.249Z - info: Site data built
+2020-12-23T15:59:17.249Z - info: Pages rebuilt
+2020-12-23T15:59:17.249Z - info: Website regeneration complete! Total build time: 1.771s
+2020-12-23T15:59:52.325Z - info: [11:59:52 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTextbookTopics.mbdf
+2020-12-23T15:59:53.331Z - info: Rebuilding 1 pages
+2020-12-23T15:59:54.073Z - info: Site data built
+2020-12-23T15:59:54.073Z - info: Pages rebuilt
+2020-12-23T15:59:54.073Z - info: Website regeneration complete! Total build time: 0.745s
+2020-12-23T15:59:59.482Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week3\topics as some of its dependencies were changed since the last visit

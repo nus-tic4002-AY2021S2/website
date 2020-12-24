@@ -1,0 +1,390 @@
+2020-12-22T12:31:55.067Z - info: Website generation (lazy) started at 8:31:47 PM
+2020-12-22T12:32:04.145Z - info: Building assets...
+2020-12-22T12:32:09.907Z - info: Assets built
+2020-12-22T12:32:09.908Z - info: Generating landing page...
+2020-12-22T12:32:10.850Z - info: Landing page built, other pages will be built as you navigate to them!
+2020-12-22T12:32:11.305Z - info: Site data built
+2020-12-22T12:32:11.305Z - info: Website generation (lazy) complete! Total build time: 23.997s
+2020-12-22T12:32:12.138Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2020-12-22T12:32:12.138Z - info: Press CTRL+C to stop ...
+2020-12-22T12:34:23.420Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-overview as some of its dependencies were changed since the last visit
+2020-12-22T12:34:24.099Z - info: Site data built
+2020-12-22T12:34:24.099Z - info: Lazy website regeneration complete! Total build time: 0.681s
+2020-12-22T12:35:59.351Z - info: [8:35:59 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-overview.md
+2020-12-22T12:36:00.357Z - info: Rebuilding 1 pages
+2020-12-22T12:36:00.899Z - info: Site data built
+2020-12-22T12:36:00.900Z - info: Pages rebuilt
+2020-12-22T12:36:00.900Z - info: Website regeneration complete! Total build time: 0.544s
+2020-12-22T12:36:19.571Z - info: [8:36:19 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-overview.md
+2020-12-22T12:36:20.575Z - info: Rebuilding 1 pages
+2020-12-22T12:36:20.912Z - info: Site data built
+2020-12-22T12:36:20.913Z - info: Pages rebuilt
+2020-12-22T12:36:20.913Z - info: Website regeneration complete! Total build time: 0.339s
+2020-12-22T12:39:45.724Z - info: [8:39:45 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-overview.md
+2020-12-22T12:39:46.731Z - info: Rebuilding 1 pages
+2020-12-22T12:39:47.069Z - info: Site data built
+2020-12-22T12:39:47.070Z - info: Pages rebuilt
+2020-12-22T12:39:47.070Z - info: Website regeneration complete! Total build time: 0.343s
+2020-12-22T12:41:14.102Z - info: [8:41:14 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-overview.md
+2020-12-22T12:41:15.118Z - info: Rebuilding 1 pages
+2020-12-22T12:41:15.443Z - info: Site data built
+2020-12-22T12:41:15.443Z - info: Pages rebuilt
+2020-12-22T12:41:15.443Z - info: Website regeneration complete! Total build time: 0.328s
+2020-12-22T12:42:26.068Z - info: [8:42:26 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-overview.md
+2020-12-22T12:42:27.084Z - info: Rebuilding 1 pages
+2020-12-22T12:42:27.426Z - info: Site data built
+2020-12-22T12:42:27.427Z - info: Pages rebuilt
+2020-12-22T12:42:27.427Z - info: Website regeneration complete! Total build time: 0.344s
+2020-12-22T12:42:49.741Z - info: [8:42:49 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-overview.md
+2020-12-22T12:42:50.746Z - info: Rebuilding 1 pages
+2020-12-22T12:42:51.032Z - info: Site data built
+2020-12-22T12:42:51.032Z - info: Pages rebuilt
+2020-12-22T12:42:51.032Z - info: Website regeneration complete! Total build time: 0.29s
+2020-12-22T12:43:04.523Z - info: [8:43:04 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-overview.md
+2020-12-22T12:43:05.524Z - info: Rebuilding 1 pages
+2020-12-22T12:43:05.747Z - info: Site data built
+2020-12-22T12:43:05.748Z - info: Pages rebuilt
+2020-12-22T12:43:05.748Z - info: Website regeneration complete! Total build time: 0.224s
+2020-12-22T12:43:11.906Z - info: [8:43:11 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-overview.md
+2020-12-22T12:43:12.927Z - info: Rebuilding 1 pages
+2020-12-22T12:43:13.166Z - info: Site data built
+2020-12-22T12:43:13.166Z - info: Pages rebuilt
+2020-12-22T12:43:13.166Z - info: Website regeneration complete! Total build time: 0.242s
+2020-12-22T12:43:23.884Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w2 as some of its dependencies were changed since the last visit
+2020-12-22T12:43:25.304Z - info: Site data built
+2020-12-22T12:43:25.304Z - info: Lazy website regeneration complete! Total build time: 1.421s
+2020-12-22T12:49:26.397Z - info: [8:49:26 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T12:49:26.409Z - info: [8:49:26 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-22T12:49:27.406Z - info: Rebuilding 1 pages
+2020-12-22T12:49:29.018Z - info: Site data built
+2020-12-22T12:49:29.025Z - info: Pages rebuilt
+2020-12-22T12:49:29.025Z - info: Website regeneration complete! Total build time: 1.621s
+2020-12-22T12:50:04.968Z - info: [8:50:04 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T12:50:05.980Z - info: Rebuilding 1 pages
+2020-12-22T12:50:07.476Z - info: Site data built
+2020-12-22T12:50:07.478Z - info: Pages rebuilt
+2020-12-22T12:50:07.478Z - info: Website regeneration complete! Total build time: 1.502s
+2020-12-22T12:51:37.512Z - info: [8:51:37 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-22T12:51:38.533Z - info: Rebuilding 1 pages
+2020-12-22T12:51:50.015Z - info: Website generation (lazy) started at 8:51:45 PM
+2020-12-22T12:52:00.682Z - info: Building assets...
+2020-12-22T12:52:06.294Z - info: Assets built
+2020-12-22T12:52:06.295Z - info: Generating landing page...
+2020-12-22T12:52:07.062Z - info: Landing page built, other pages will be built as you navigate to them!
+2020-12-22T12:52:07.558Z - info: Site data built
+2020-12-22T12:52:07.558Z - info: Website generation (lazy) complete! Total build time: 21.596s
+2020-12-22T12:52:08.400Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2020-12-22T12:52:08.401Z - info: Press CTRL+C to stop ...
+2020-12-22T12:55:03.634Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-overview as some of its dependencies were changed since the last visit
+2020-12-22T12:55:04.063Z - info: Site data built
+2020-12-22T12:55:04.063Z - info: Lazy website regeneration complete! Total build time: 0.44s
+2020-12-22T12:55:07.378Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w2 as some of its dependencies were changed since the last visit
+2020-12-22T12:55:08.703Z - info: Site data built
+2020-12-22T12:55:08.703Z - info: Lazy website regeneration complete! Total build time: 1.327s
+2020-12-22T12:56:02.932Z - info: [8:56:02 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T12:56:03.951Z - info: Rebuilding 1 pages
+2020-12-22T12:56:05.316Z - info: Site data built
+2020-12-22T12:56:05.316Z - info: Pages rebuilt
+2020-12-22T12:56:05.316Z - info: Website regeneration complete! Total build time: 1.367s
+2020-12-22T12:57:08.066Z - info: [8:57:08 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T12:57:08.115Z - info: [8:57:08 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\variables.md
+2020-12-22T12:57:09.102Z - info: Rebuilding 1 pages
+2020-12-22T12:57:10.118Z - info: Assets built
+2020-12-22T12:57:10.187Z - info: Site data built
+2020-12-22T12:57:10.187Z - info: Pages rebuilt
+2020-12-22T12:57:10.187Z - info: Website regeneration complete! Total build time: 1.088s
+2020-12-22T13:04:11.474Z - info: [9:04:11 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:04:11.497Z - info: [9:04:11 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-22T13:04:12.490Z - info: Rebuilding 1 pages
+2020-12-22T13:04:22.043Z - info: Website generation (lazy) started at 9:04:19 PM
+2020-12-22T13:04:29.451Z - info: Building assets...
+2020-12-22T13:04:34.662Z - info: Assets built
+2020-12-22T13:04:34.663Z - info: Generating landing page...
+2020-12-22T13:04:35.430Z - info: Landing page built, other pages will be built as you navigate to them!
+2020-12-22T13:04:35.822Z - info: Site data built
+2020-12-22T13:04:35.823Z - info: Website generation (lazy) complete! Total build time: 16.529s
+2020-12-22T13:04:36.714Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2020-12-22T13:04:36.714Z - info: Press CTRL+C to stop ...
+2020-12-22T13:08:08.427Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w2 as some of its dependencies were changed since the last visit
+2020-12-22T13:08:09.393Z - info: Site data built
+2020-12-22T13:08:09.393Z - info: Lazy website regeneration complete! Total build time: 0.975s
+2020-12-22T13:15:02.355Z - info: [9:15:02 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:15:03.364Z - info: Rebuilding 1 pages
+2020-12-22T13:15:04.106Z - info: Site data built
+2020-12-22T13:15:04.106Z - info: Pages rebuilt
+2020-12-22T13:15:04.107Z - info: Website regeneration complete! Total build time: 0.747s
+2020-12-22T13:15:18.236Z - info: [9:15:18 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:15:19.259Z - info: Rebuilding 1 pages
+2020-12-22T13:15:19.748Z - info: Site data built
+2020-12-22T13:15:19.748Z - info: Pages rebuilt
+2020-12-22T13:15:19.748Z - info: Website regeneration complete! Total build time: 0.492s
+2020-12-22T13:16:20.146Z - info: [9:16:20 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:16:21.152Z - info: Rebuilding 1 pages
+2020-12-22T13:16:22.182Z - info: Site data built
+2020-12-22T13:16:22.182Z - info: Pages rebuilt
+2020-12-22T13:16:22.183Z - info: Website regeneration complete! Total build time: 1.036s
+2020-12-22T13:17:20.660Z - info: [9:17:20 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:17:21.667Z - info: Rebuilding 1 pages
+2020-12-22T13:17:23.061Z - info: Site data built
+2020-12-22T13:17:23.061Z - info: Pages rebuilt
+2020-12-22T13:17:23.061Z - info: Website regeneration complete! Total build time: 1.395s
+2020-12-22T13:18:45.548Z - info: [9:18:45 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:18:46.570Z - info: Rebuilding 1 pages
+2020-12-22T13:18:47.731Z - info: Site data built
+2020-12-22T13:18:47.731Z - info: Pages rebuilt
+2020-12-22T13:18:47.731Z - info: Website regeneration complete! Total build time: 1.163s
+2020-12-22T13:19:37.359Z - info: [9:19:37 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:19:38.364Z - info: Rebuilding 1 pages
+2020-12-22T13:19:39.255Z - info: Site data built
+2020-12-22T13:19:39.255Z - info: Pages rebuilt
+2020-12-22T13:19:39.256Z - info: Website regeneration complete! Total build time: 0.892s
+2020-12-22T13:20:37.367Z - info: [9:20:37 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:20:38.389Z - info: Rebuilding 1 pages
+2020-12-22T13:20:39.648Z - info: Site data built
+2020-12-22T13:20:39.649Z - info: Pages rebuilt
+2020-12-22T13:20:39.649Z - info: Website regeneration complete! Total build time: 1.264s
+2020-12-22T13:21:19.145Z - info: [9:21:19 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:21:20.153Z - info: Rebuilding 1 pages
+2020-12-22T13:21:21.267Z - info: Site data built
+2020-12-22T13:21:21.271Z - info: Pages rebuilt
+2020-12-22T13:21:21.271Z - info: Website regeneration complete! Total build time: 1.121s
+2020-12-22T13:21:28.824Z - info: [9:21:28 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:21:29.836Z - info: Rebuilding 1 pages
+2020-12-22T13:21:30.654Z - info: Site data built
+2020-12-22T13:21:30.654Z - info: Pages rebuilt
+2020-12-22T13:21:30.654Z - info: Website regeneration complete! Total build time: 0.823s
+2020-12-22T13:21:34.958Z - info: [9:21:34 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:21:35.961Z - info: Rebuilding 1 pages
+2020-12-22T13:21:36.672Z - info: Site data built
+2020-12-22T13:21:36.672Z - info: Pages rebuilt
+2020-12-22T13:21:36.672Z - info: Website regeneration complete! Total build time: 0.712s
+2020-12-22T13:22:25.760Z - info: [9:22:25 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:22:26.776Z - info: Rebuilding 1 pages
+2020-12-22T13:22:27.994Z - info: Site data built
+2020-12-22T13:22:27.994Z - info: Pages rebuilt
+2020-12-22T13:22:27.994Z - info: Website regeneration complete! Total build time: 1.222s
+2020-12-22T13:24:30.789Z - info: [9:24:30 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:24:31.808Z - info: Rebuilding 1 pages
+2020-12-22T13:24:32.327Z - error:  Error: No such file: C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\projectDuke\extensions.md
+Missing reference in C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\dukeFragment.md
+    at NodePreprocessor._getFileExistsNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:73:21)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:234:33)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:350:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:136:53
+    at Array.map (<anonymous>)
+    at NodePreprocessor._preProcessPanel (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:136:39)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:345:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+2020-12-22T13:24:32.694Z - info: Site data built
+2020-12-22T13:24:32.695Z - info: Pages rebuilt
+2020-12-22T13:24:32.695Z - info: Website regeneration complete! Total build time: 0.89s
+2020-12-22T13:25:00.365Z - info: [9:25:00 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:25:01.377Z - info: Rebuilding 1 pages
+2020-12-22T13:25:02.758Z - info: Site data built
+2020-12-22T13:25:02.759Z - info: Pages rebuilt
+2020-12-22T13:25:02.759Z - info: Website regeneration complete! Total build time: 1.387s
+2020-12-22T13:25:20.126Z - info: [9:25:20 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:25:21.136Z - info: Rebuilding 1 pages
+2020-12-22T13:25:21.924Z - info: Site data built
+2020-12-22T13:25:21.924Z - info: Pages rebuilt
+2020-12-22T13:25:21.924Z - info: Website regeneration complete! Total build time: 0.791s
+2020-12-22T13:25:56.067Z - info: [9:25:56 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:25:57.095Z - info: Rebuilding 1 pages
+2020-12-22T13:25:58.362Z - info: Site data built
+2020-12-22T13:25:58.362Z - info: Pages rebuilt
+2020-12-22T13:25:58.363Z - info: Website regeneration complete! Total build time: 1.273s
+2020-12-22T13:27:51.156Z - info: [9:27:51 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:27:52.178Z - info: Rebuilding 1 pages
+2020-12-22T13:27:52.729Z - error:  Error: No such segment 'A-Javadoc' in file: C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\projectDuke\extensions.mbdf
+Missing reference in C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\dukeFragment.md
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:285:23)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:350:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:136:53
+    at Array.map (<anonymous>)
+    at NodePreprocessor._preProcessPanel (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:136:39)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:345:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:319:57
+2020-12-22T13:27:53.098Z - info: Site data built
+2020-12-22T13:27:53.098Z - info: Pages rebuilt
+2020-12-22T13:27:53.098Z - info: Website regeneration complete! Total build time: 0.922s
+2020-12-22T13:28:09.429Z - info: [9:28:09 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:28:10.439Z - info: Rebuilding 1 pages
+2020-12-22T13:28:11.378Z - info: Site data built
+2020-12-22T13:28:11.378Z - info: Pages rebuilt
+2020-12-22T13:28:11.378Z - info: Website regeneration complete! Total build time: 0.94s
+2020-12-22T13:29:49.208Z - info: [9:29:49 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:29:50.230Z - info: Rebuilding 1 pages
+2020-12-22T13:29:51.452Z - info: Site data built
+2020-12-22T13:29:51.452Z - info: Pages rebuilt
+2020-12-22T13:29:51.452Z - info: Website regeneration complete! Total build time: 1.227s
+2020-12-22T13:31:20.550Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-w2 as some of its dependencies were changed since the last visit
+2020-12-22T13:31:21.138Z - info: Site data built
+2020-12-22T13:31:21.138Z - info: Lazy website regeneration complete! Total build time: 0.589s
+2020-12-22T13:31:44.085Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w3 as some of its dependencies were changed since the last visit
+2020-12-22T13:31:45.939Z - info: Site data built
+2020-12-22T13:31:45.939Z - info: Lazy website regeneration complete! Total build time: 1.854s
+2020-12-22T13:51:10.881Z - info: [9:51:10 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:51:11.902Z - info: Rebuilding 1 pages
+2020-12-22T13:51:13.042Z - info: Site data built
+2020-12-22T13:51:13.042Z - info: Pages rebuilt
+2020-12-22T13:51:13.042Z - info: Website regeneration complete! Total build time: 1.146s
+2020-12-22T13:51:28.752Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w2 as some of its dependencies were changed since the last visit
+2020-12-22T13:51:29.702Z - info: Site data built
+2020-12-22T13:51:29.702Z - info: Lazy website regeneration complete! Total build time: 0.951s
+2020-12-22T13:52:34.072Z - info: [9:52:34 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-22T13:52:35.082Z - info: Rebuilding 1 pages
+2020-12-22T13:52:36.558Z - info: Site data built
+2020-12-22T13:52:36.560Z - info: Pages rebuilt
+2020-12-22T13:52:36.560Z - info: Website regeneration complete! Total build time: 1.481s
+2020-12-22T13:54:42.104Z - info: [9:54:42 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:54:43.120Z - info: Rebuilding 1 pages
+2020-12-22T13:54:44.278Z - info: Site data built
+2020-12-22T13:54:44.278Z - info: Pages rebuilt
+2020-12-22T13:54:44.278Z - info: Website regeneration complete! Total build time: 1.16s
+2020-12-22T13:54:59.380Z - info: [9:54:59 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:55:00.391Z - info: Rebuilding 1 pages
+2020-12-22T13:55:01.267Z - info: Site data built
+2020-12-22T13:55:01.267Z - info: Pages rebuilt
+2020-12-22T13:55:01.267Z - info: Website regeneration complete! Total build time: 0.878s
+2020-12-22T13:56:20.455Z - info: [9:56:20 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:56:21.461Z - info: Rebuilding 1 pages
+2020-12-22T13:56:23.204Z - info: Site data built
+2020-12-22T13:56:23.206Z - info: Pages rebuilt
+2020-12-22T13:56:23.206Z - info: Website regeneration complete! Total build time: 1.748s
+2020-12-22T13:58:45.246Z - info: [9:58:45 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T13:58:46.268Z - info: Rebuilding 1 pages
+2020-12-22T13:58:47.808Z - info: Site data built
+2020-12-22T13:58:47.809Z - info: Pages rebuilt
+2020-12-22T13:58:47.809Z - info: Website regeneration complete! Total build time: 1.543s
+2020-12-22T14:00:04.614Z - info: [10:00:04 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T14:00:05.629Z - info: Rebuilding 1 pages
+2020-12-22T14:00:07.059Z - info: Site data built
+2020-12-22T14:00:07.066Z - info: Pages rebuilt
+2020-12-22T14:00:07.067Z - info: Website regeneration complete! Total build time: 1.44s
+2020-12-22T14:00:45.850Z - info: [10:00:45 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T14:00:46.870Z - info: Rebuilding 1 pages
+2020-12-22T14:00:48.391Z - info: Site data built
+2020-12-22T14:00:48.398Z - info: Pages rebuilt
+2020-12-22T14:00:48.398Z - info: Website regeneration complete! Total build time: 1.532s
+2020-12-22T14:03:06.300Z - info: [10:03:06 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T14:03:07.314Z - info: Rebuilding 1 pages
+2020-12-22T14:03:08.902Z - info: Site data built
+2020-12-22T14:03:08.903Z - info: Pages rebuilt
+2020-12-22T14:03:08.903Z - info: Website regeneration complete! Total build time: 1.59s
+2020-12-22T14:04:48.445Z - info: [10:04:48 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T14:04:49.456Z - info: Rebuilding 1 pages
+2020-12-22T14:04:50.964Z - info: Site data built
+2020-12-22T14:04:50.964Z - info: Pages rebuilt
+2020-12-22T14:04:50.964Z - info: Website regeneration complete! Total build time: 1.512s
+2020-12-22T15:02:00.849Z - info: [11:02:00 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T15:02:01.900Z - info: Rebuilding 1 pages
+2020-12-22T15:02:03.510Z - info: Site data built
+2020-12-22T15:02:03.511Z - info: Pages rebuilt
+2020-12-22T15:02:03.511Z - info: Website regeneration complete! Total build time: 1.629s
+2020-12-22T15:02:20.782Z - info: [11:02:20 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T15:02:21.800Z - info: Rebuilding 1 pages
+2020-12-22T15:02:23.495Z - info: Site data built
+2020-12-22T15:02:23.497Z - info: Pages rebuilt
+2020-12-22T15:02:23.497Z - info: Website regeneration complete! Total build time: 1.701s
+2020-12-22T15:04:07.782Z - info: [11:04:07 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T15:04:08.793Z - info: Rebuilding 1 pages
+2020-12-22T15:04:10.591Z - info: Site data built
+2020-12-22T15:04:10.592Z - info: Pages rebuilt
+2020-12-22T15:04:10.592Z - info: Website regeneration complete! Total build time: 1.801s
+2020-12-22T15:04:22.458Z - info: [11:04:22 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T15:04:23.462Z - info: Rebuilding 1 pages
+2020-12-22T15:04:24.600Z - info: Site data built
+2020-12-22T15:04:24.601Z - info: Pages rebuilt
+2020-12-22T15:04:24.601Z - info: Website regeneration complete! Total build time: 1.14s
+2020-12-22T15:04:53.138Z - info: [11:04:53 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T15:04:54.152Z - info: Rebuilding 1 pages
+2020-12-22T15:04:55.632Z - info: Site data built
+2020-12-22T15:04:55.634Z - info: Pages rebuilt
+2020-12-22T15:04:55.635Z - info: Website regeneration complete! Total build time: 1.484s
+2020-12-22T15:07:15.845Z - info: [11:07:15 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T15:07:16.862Z - info: Rebuilding 1 pages
+2020-12-22T15:07:18.546Z - info: Site data built
+2020-12-22T15:07:18.546Z - info: Pages rebuilt
+2020-12-22T15:07:18.546Z - info: Website regeneration complete! Total build time: 1.688s
+2020-12-22T15:08:11.106Z - info: [11:08:11 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T15:08:12.113Z - info: Rebuilding 1 pages
+2020-12-22T15:08:13.688Z - info: Site data built
+2020-12-22T15:08:13.689Z - info: Pages rebuilt
+2020-12-22T15:08:13.689Z - info: Website regeneration complete! Total build time: 1.578s
+2020-12-22T15:09:53.942Z - info: [11:09:53 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T15:09:54.957Z - info: Rebuilding 1 pages
+2020-12-22T15:09:56.537Z - info: Site data built
+2020-12-22T15:09:56.544Z - info: Pages rebuilt
+2020-12-22T15:09:56.544Z - info: Website regeneration complete! Total build time: 1.591s
+2020-12-22T15:10:37.711Z - info: [11:10:37 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T15:10:38.716Z - info: Rebuilding 1 pages
+2020-12-22T15:10:41.392Z - info: Site data built
+2020-12-22T15:10:41.394Z - info: Pages rebuilt
+2020-12-22T15:10:41.395Z - info: Website regeneration complete! Total build time: 2.681s
+2020-12-22T15:11:53.583Z - info: [11:11:53 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyIpTasks.mbdf
+2020-12-22T15:11:54.592Z - info: Rebuilding 1 pages
+2020-12-22T15:11:56.090Z - info: Site data built
+2020-12-22T15:11:56.090Z - info: Pages rebuilt
+2020-12-22T15:11:56.090Z - info: Website regeneration complete! Total build time: 1.499s
+2020-12-22T15:14:07.862Z - info: [11:14:07 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T15:14:08.879Z - info: Rebuilding 1 pages
+2020-12-22T15:14:10.741Z - info: Site data built
+2020-12-22T15:14:10.741Z - info: Pages rebuilt
+2020-12-22T15:14:10.742Z - info: Website regeneration complete! Total build time: 1.868s
+2020-12-22T15:14:22.192Z - info: [11:14:22 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T15:14:23.195Z - info: Rebuilding 1 pages
+2020-12-22T15:14:24.651Z - info: Site data built
+2020-12-22T15:14:24.651Z - info: Pages rebuilt
+2020-12-22T15:14:24.651Z - info: Website regeneration complete! Total build time: 1.459s
+2020-12-22T15:14:35.837Z - info: [11:14:35 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T15:14:36.841Z - info: Rebuilding 1 pages
+2020-12-22T15:14:38.295Z - info: Site data built
+2020-12-22T15:14:38.295Z - info: Pages rebuilt
+2020-12-22T15:14:38.296Z - info: Website regeneration complete! Total build time: 1.457s
+2020-12-22T15:14:57.257Z - info: [11:14:57 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T15:14:58.261Z - info: Rebuilding 1 pages
+2020-12-22T15:14:59.534Z - info: Site data built
+2020-12-22T15:14:59.535Z - info: Pages rebuilt
+2020-12-22T15:14:59.535Z - info: Website regeneration complete! Total build time: 1.277s
+2020-12-22T15:15:09.656Z - info: [11:15:09 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T15:15:10.669Z - info: Rebuilding 1 pages
+2020-12-22T15:15:11.620Z - info: Site data built
+2020-12-22T15:15:11.621Z - info: Pages rebuilt
+2020-12-22T15:15:11.621Z - info: Website regeneration complete! Total build time: 0.954s
+2020-12-22T15:15:42.392Z - info: [11:15:42 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T15:15:43.400Z - info: Rebuilding 1 pages
+2020-12-22T15:15:45.160Z - info: Site data built
+2020-12-22T15:15:45.168Z - info: Pages rebuilt
+2020-12-22T15:15:45.168Z - info: Website regeneration complete! Total build time: 1.774s
+2020-12-22T15:19:24.700Z - info: [11:19:24 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T15:19:25.720Z - info: Rebuilding 1 pages
+2020-12-22T15:19:27.909Z - info: Site data built
+2020-12-22T15:19:27.923Z - info: Pages rebuilt
+2020-12-22T15:19:27.923Z - info: Website regeneration complete! Total build time: 2.214s
+2020-12-22T15:24:59.262Z - info: [11:24:59 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T15:25:00.272Z - info: Rebuilding 1 pages
+2020-12-22T15:25:02.035Z - info: Site data built
+2020-12-22T15:25:02.036Z - info: Pages rebuilt
+2020-12-22T15:25:02.036Z - info: Website regeneration complete! Total build time: 1.768s
+2020-12-22T15:25:20.456Z - info: [11:25:20 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2020-12-22T15:25:21.460Z - info: Rebuilding 1 pages
+2020-12-22T15:25:22.537Z - info: Site data built
+2020-12-22T15:25:22.537Z - info: Pages rebuilt
+2020-12-22T15:25:22.537Z - info: Website regeneration complete! Total build time: 1.078s

@@ -39,10 +39,23 @@
 <li><a href="/website/schedule/week13/index.html" class="dropdown-item"> <span><strong>Week 13</strong> [Fri, Apr 9th] </span></a></li></dropdown>
   <li><a href="/website/se-book-adapted/index.html" class="nav-link"><span><strong>Textbook</strong></span></a></li>
   <li><a href="/website/admin/index.html" class="nav-link"><span><strong>Admin Info</strong></span></a></li>
-  
-  <div class="nav-link temp-dropdown-placeholder">**Project Links**</div>
-  <div class="nav-link temp-dropdown-placeholder">**Other Links**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Other Links</strong></template>
+  <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://nus-tic4002-ay2021s2.github.io/dashboards" target="_blank" class="nav-link"><span><strong>Dashboards</strong></span></a></li>
+  <div class="nav-link temp-dropdown-placeholder">**Project Links**</div><dropdown tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Project Links</strong></template>
+    <span><strong> Individual Project (iP):</strong></span>
+    <li><a href="/website/admin/ip-overview.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Individual Project Info</span></a></li>
+    <li><a href="https://github.com/nus-tic4002-AY2021S2/ip" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> iP Upstream Repo</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/ip-dashboard/#sort=groupTitle&groupSelect=groupByAuthors" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> iP Code Dashboard</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/ip-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> iP Progress Dashboard</span></a></li>
+    <hr>
+    <span><strong> Team Project (tP):</strong></span>
+    <li><a href="/website/admin/tp-expectations.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Team Project Info</span></a></li>
+    <li tags="m--cs2103 m--tic4002"><a href="https://github.com/nus-tic4002-AY2021S2/tp2" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</span></a></li>
     
+    <li><a href="/website/admin/teamList.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team List</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/tp-dashboard/#breakdown=true" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard</span></a></li>
+    <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> tP Progress Dashboard</span></a></li></dropdown>
+  <div class="nav-link temp-dropdown-placeholder">**Other Links**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Other Links</strong></template>
+    <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://github.com/nus-tic4002-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-bug"></span> Report Bugs</span></a></li>
     <li><a href="https://github.com/nus-tic4002-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
     
     <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span> Instructors</span></a></li>
@@ -51,9 +64,9 @@
     
     
     
-    
-    
-    
+    <li tags="m--cs2103 m--cs2113 m--tic2002 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/java/basic.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+    <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-git-square"></span> Git Conventions</span></a></li>
+    <li tags="m--cs2103 m--cs2113 m--tic4002"><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/forum-activities.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-trophy"></span> Forum Activities Dashboard</span></a></li>
     <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/participation.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> Participation Dashboard</span></a></li>
     
     </dropdown>
@@ -140,7 +153,7 @@
 <panel type="seamless" expanded id="what"><template slot="header"><h4 id="what"><span id="what" class="anchor"></span>What<a class="fa fa-anchor" href="#what" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain SDLC process models</span></span></span></span><p></p>
   <div>
 <p><strong>Software development goes through different stages such as <em>requirements, analysis, design, implementation</em> and <em>testing</em>. These stages are collectively known as the <em>software development life cycle</em> (SDLC).</strong> There are several approaches, known as <em>software development life cycle models</em> (also called <em>software process models</em>), that describe different ways to go through the SDLC. Each process model prescribes a &quot;roadmap&quot; for the software developers to manage the development effort. The roadmap describes the aims of the development stage(s), the artifacts or outcome of each stage, as well as the workflow i.e. the relationship between stages.</p></div>
@@ -148,7 +161,7 @@
 <panel type="seamless" expanded id="sequential-models"><template slot="header"><h4 id="sequential-models"><span id="sequential-models" class="anchor"></span>Sequential Models<a class="fa fa-anchor" href="#sequential-models" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain sequential process models</span></span></span></span><p></p>
   <div>
 <p><strong>The <em>sequential model</em>, also called the <em>waterfall</em> model, models software development as a linear process</strong>, in which the project is seen as progressing steadily in one direction through the development stages. The name <em>waterfall</em> stems from how the model is drawn to look like a waterfall (see below).</p>
@@ -161,7 +174,7 @@
 <panel type="seamless" expanded id="iterative-models"><template slot="header"><h4 id="iterative-models"><span id="iterative-models" class="anchor"></span>Iterative Models<a class="fa fa-anchor" href="#iterative-models" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DarkOrange"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
+  <span><span class="dimmed"><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain iterative process models</span></span></span></span><p></p>
   <div>
 <p><strong>The iterative model (sometimes called <em>iterative</em> and <em>incremental</em>) advocates having several <em>iterations</em> of SDLC.</strong> Each of the iterations could potentially go through all the development stages, from requirements gathering to testing &amp; deployment. Roughly, it appears to be similar to several cycles of the sequential model.</p>
@@ -268,7 +281,7 @@
 <panel type="seamless" expanded id="unified-process"><template slot="header"><h4 id="unified-process"><span id="unified-process" class="anchor"></span>Unified Process<a class="fa fa-anchor" href="#unified-process" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font></span></span></span>
+  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain the Unified Process</span></span></span></span><p></p>
   <div>
 <p>The <em>unified process</em> is developed by the Three Amigos - Ivar Jacobson, Grady Booch and James Rumbaugh (the creators of UML).</p>
@@ -347,7 +360,7 @@
 <panel type="seamless" expanded id="cmmi"><template slot="header"><h4 id="cmmi"><span id="cmmi" class="anchor"></span>CMMI<a class="fa fa-anchor" href="#cmmi" onclick="event.stopPropagation()"></a></h4></template>
   <div class="indented">
   <span class="badge badge-light">
-  <span><span class="dimmed"><font color="ForestGreen"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font></span></span></span>
+  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
   <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain CMMI</span></span></span></span><p></p>
   <div>
 <box type="definition" seamless>
@@ -355,139 +368,7 @@
 <p><strong>CMMI defines five maturity levels for a process and provides criteria to determine if the process of an organization is at a certain maturity level.</strong> The diagram below [taken from Wikipedia] gives an overview of the five levels.</p>
 <img src="/website/book/processModels/more/cmmi/images/diagram.png" height="250">
 <p></p></div>
-  <div></div></div></panel></panel>
-<panel type="seamless" expanded id="summary">
-  <span slot="header" class="card-title"><div><h2 id="summary"><span id="summary" class="anchor"></span><span>Summary</span><a class="fa fa-anchor" href="#summary" onclick="event.stopPropagation()"></a></h2></div></span>
-<panel type="seamless" expanded id="recap"><template slot="header"><h4 id="recap"><span id="recap" class="anchor"></span>Recap<a class="fa fa-anchor" href="#recap" onclick="event.stopPropagation()"></a></h4></template>
-  <div class="indented">
-  <span class="badge badge-light">
-  <span><span class="dimmed"><font color="DodgerBlue"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span><span class="glyphicon glyphicon-star" aria-hidden="true"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></span></span></span>
-  <span class="badge badge-light"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can explain process models at a higher level</span></span></span></span><p></p>
-  <div>
-<p>This section has some exercises that cover multiple topics related to SDLC process models.</p></div>
-  <div>
- <div>
-<panel expandable class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="fas fa-dumbbell"></span></span> Exercises</p></template>
-  <div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Sequential vs iterative approach</p></template>
-<question has-input="true">
-<p>Discuss how a sequential approach and an iterative approach can affect the following aspects of a project.</p>
-<p>a) Quality of the final product.</p>
-<p>b) Risk of overshooting the deadline.</p>
-<p>c) Total project cost.</p>
-<p>d) Customer satisfaction.</p>
-<p>e) Monitoring the project progress.</p>
-<p>f) Suitability for a school project.</p>
-<div slot="answer" class="algolia-no-index">
-<p>a) Quality of the final product:</p>
-<ul>
-<li>Iterative: Frequent reworking can deteriorate the design. Frequent refactoring should be used to prevent this. Frequent customer feedback can help to improve the quality (i.e. quality as seen by the customer).</li>
-<li>Sequential: Final quality depends on the quality of each phase. Any quality problems in any phase could result in a low quality product.</li></ul>
-<p>b) Risk of overshooting the deadline.</p>
-<ul>
-<li>Iterative: Less risk. If the last iteration got delayed, we can always deliver the previous version. However, this does not guarantee that all features promised at the beginning will be delivered by the deadline.</li>
-<li>Sequential: High risk. Any delay in any phase can result in overshooting the deadline with nothing to deliver.</li></ul>
-<p>c) Total project cost.</p>
-<ul>
-<li>Iterative: We can always stop before the project budget is exceeded. However, this does not guarantee that all features promised at the beginning will be delivered under the estimated cost.</li>
-<li>Sequential: The sequential model requires us to carry on even if the budget is exceeded because there is no intermediate version to fall back on.</li></ul>
-<p>Iterative reworking of existing artifacts could add to the cost. However, this is “cheaper” than finding at the end that we built the wrong product.</p>
-<p>d) Customer satisfaction</p>
-<ul>
-<li>Iterative: The customer gets many opportunities to guide the product in the direction he/she wants. The customer gets to change requirements even in the middle of the product's development. Both of these can increase the probability of customer satisfaction.</li>
-<li>Sequential: Customer satisfaction is guaranteed only if the product was delivered as promised and if the initial requirements proved to be accurate. However, the customer is not required to do the extra work of giving frequent feedback during the project's development.</li></ul>
-<p>e) Monitoring project progress</p>
-<ul>
-<li>Iterative: Hard to measure progress against a plan, as the plan itself keeps changing.</li>
-<li>Sequential: Easier to measure progress against the plan, although this does not ensure eventual success.</li></ul>
-<p>f) Suitability for a school project:</p>
-<p>Reasons to use iterative:</p>
-<ul>
-<li>Requirements are not fixed.</li>
-<li>Overshooting the deadline is not an option.</li>
-<li>Gives a chance to learn lessons from one iteration and apply them in the next.</li></ul>
-<p>Sequential:</p>
-<ul>
-<li>Can save time because we minimize rework.</li></ul></div></question></panel></div>
-  <div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Agile processes, Pair programming, Test-driven development</p></template>
-<question has-input="true">
-<p>Find out more about the following three topics and give at least three arguments for and three arguments against each.</p>
-<p>(a) Agile processes</p>
-<p>(b) Pair programming</p>
-<p>(c) Test-driven development</p>
-<div slot="answer" class="algolia-no-index">
-<p>(a) Arguments in favor of agile processes:</p>
-<ul>
-<li>More focus on customer satisfaction.</li>
-<li>Less chance of building the wrong product (because of frequent customer feedback).</li>
-<li>Less resources wasted on bureaucracy, over-documenting, contract negotiations.</li></ul>
-<p>Arguments against agile processes (not necessarily true):</p>
-<ul>
-<li>It is ‘just hacking’. Not very systematic. No discipline.</li>
-<li>It is hard to know in advance the exact final product.</li>
-<li>It does not give enough attention to documentation.</li>
-<li>Lack of management control (too much freedom given to developers).</li></ul>
-<p>(b) Arguments in favor of pair programming:</p>
-<ul>
-<li>It could produce better quality code.</li>
-<li>It is good to have more than one person know about any piece of code.</li>
-<li>It is a way to learn from each other.</li>
-<li>It can be used to train new programmers.</li>
-<li>Better discipline and better time management (e.g. less likely to play Farmville while working).</li>
-<li>Better morale due to more interactions with co-workers.</li></ul>
-<p>Arguments against pair programming:</p>
-<ul>
-<li>Increase in total man hours required.</li>
-<li>Personality clashes between pair-members.</li>
-<li>Workspaces need to be adapted to suit two developers working at one computer.</li>
-<li>If pairs are rotated, one needs to know more parts of the system than in solo programming.</li></ul>
-<p>(c) Arguments in favor of TDD:</p>
-<ul>
-<li>Testing will not be neglected due to time pressure (because it is done first).</li>
-<li>Forces the developer to think about what the component should be before jumping into implementing it.</li>
-<li>Optimizes programmer effort (i.e. if all tests pass, there is no need to add any more functionality).</li>
-<li>Forces us to automate all tests.</li></ul>
-<p>Arguments against TDD (not necessarily true):</p>
-<ul>
-<li>Since tests can be seen as ‘executable specifications’, programmers tend to neglect other forms of documentation.</li>
-<li>Promotes ‘trial-and-error’ coding instead of making programmers think through their algorithms (i.e. ‘just keep hacking until all tests pass’).</li>
-<li>Gives a false sense of security. (What if you forgot to test certain scenarios?)</li></ul>
-<p>Not intuitive. Some programmers might resist adopting TDD.</p></div></question></panel></div>
-  <div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> The two basic process models</p></template>
-<question>
-<p>The sequential model and the waterfall model are the two most basic process models.</p>
-<ul radio-group="44ac6" class="radio-list">
-<li class="radio-list-item"><label><input class="radio-list-input" name="44ac6" type="radio"> True</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="44ac6" type="radio"> False</label></li></ul>
-<div slot="answer" class="algolia-no-index">
-<p>False</p>
-<p>Explanation: The sequential model and the waterfall model are the same thing. The second basic model is the iterative model.</p></div></question></panel></div>
-  <div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Statements about sequential and iterative process models</p></template>
-<question>
-<p>Choose the correct statements about the sequential and iterative process models.</p>
-<ul class="contains-task-list">
-<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> a. The sequential model organizes the project based on activities.</li>
-<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> b. The iterative and incremental model organizes the project based on functionality.</li>
-<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> c. The iterative model can be breadth-first or depth-first.</li>
-<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> d. The iterative model is always better than the sequential model.</li>
-<li class="task-list-item enabled"><input class="task-list-item-checkbox" type="checkbox"> e. Compared to the sequential model, the iterative model is better at adapting to changing requirements.</li></ul>
-<div slot="answer" class="algolia-no-index">
-<p>(a)(b)(c)<s>(d)</s>(e)</p>
-<p>Explanation: Both models have pros and cons. There is no definitive ‘better’ choice between the two. However, the iterative model works better in typical software projects than a purely sequential approach.</p></div></question></panel></div>
-  <div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span> Risk of overshooting a deadline</p></template>
-<question>
-<p>In general, which has a higher risk of overshooting a deadline?</p>
-<ul radio-group="2ba69" class="radio-list">
-<li class="radio-list-item"><label><input class="radio-list-input" name="2ba69" type="radio"> a. The iterative process.</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="2ba69" type="radio"> b. The sequential process.</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="2ba69" type="radio"> c. The risk is similar.</label></li></ul>
-<div slot="answer" class="algolia-no-index">
-<p>(b)</p>
-<p>Explanation: An iterative process can meet a deadline better than a sequential process. If the last iteration got delayed, we can always deliver the previous version. However, this does not guarantee that all features promised at the beginning will be delivered on the deadline.</p></div></question></panel></div></panel></div></div></div></panel></panel></div>
+  <div></div></div></panel></panel></div>
 <p><i class="fa fa-arrow-circle-up fa-lg" id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true"></i></p></div>
         <nav id="page-nav" class="navbar navbar-light bg-transparent">
 <div class="border-left-grey nav-inner position-sticky slim-scroll">
@@ -512,10 +393,6 @@
 <nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
 <a class="nav-link py-1" href="#cmmi">CMMI&#x200E;</a>
 </nav>
-<a class="nav-link py-1" href="#summary">Summary&#x200E;</a>
-<nav class="nav nav-pills flex-column my-0 nested no-flex-wrap">
-<a class="nav-link py-1" href="#recap">Recap&#x200E;</a>
-</nav>
 </nav>
 
 </nav>
@@ -525,7 +402,7 @@
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Sun, 20 Dec 2020, 16:08:09 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Fri, 25 Dec 2020, 1:44:56 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>

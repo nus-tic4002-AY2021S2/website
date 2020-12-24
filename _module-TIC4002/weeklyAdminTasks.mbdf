@@ -2,9 +2,7 @@
 
 {% set weekly_admin_tasks = {
 week1: [
-  {id: 'submit_pre_lecture_quiz', deadline: get_date(date_w1_start, 7), graded: true},
   {id: 'set_up_tools', deadline: "before the lecture"},
-  {id: 'submit_pre_module_survey', deadline: get_date(date_w1_start, 4), graded: true},
   {id: 'learn_about_the_module'},
   {id: 'attend_the_first_lecture'}
 ],
@@ -13,8 +11,7 @@ week2: [
   {id: 'get_connect_with_comm_channels'}
 ],
 week3: [
-  {id: 'submit_post_lecture_quiz', graded: true},
-  {id: 'form_teams'}
+  {id: 'submit_post_lecture_quiz', graded: true}
 ],
 week4: [
   {id: 'accept_github_invitations', graded: true},
@@ -32,20 +29,15 @@ week7: [
   {id: 'submit_post_lecture_quiz', graded: true}
 ],
 week8: [
-  {id: 'submit_post_lecture_quiz', graded: true},
   {id: 'submit_midterm_peer_evaluations', deadline: get_date(date_w8_start, 9), graded: true}
 ],
 week9: [
   {id: 'submit_post_lecture_quiz', graded: true}
 ],
-week10: [
-  {id: 'submit_post_lecture_quiz', graded: true}
-],
-week11: [
-  {id: 'submit_post_lecture_quiz', graded: true}
-],
+week10: [],
+week11: [],
 week12: [
-  {id: 'submit_reuse_declaration', deadline: "COMPULSORY", deadline_type: 'danger'}
+  {id: 'submit_reuse_declaration', deadline: "COMPULSORY", deadline_type: 'danger', graded: true}
 ],
 week13: [
   {id: 'submit_final_peer_evaluations', deadline: get_date(date_w13_start, 6), graded: true}

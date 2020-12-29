@@ -50,16 +50,16 @@
 </span><span>list
 </span><span>    ____________________________________________________________
 </span><span>     Here are the tasks in your list:
-</span><span>     1.[T][✓] read book
-</span><span>     2.[D][✗] return book (by: June 6th)
-</span><span>     3.[E][✗] project meeting (at: Aug 6th 2-4pm)
-</span><span>     4.[T][✓] join sports club
+</span><span>     1.[T][X] read book
+</span><span>     2.[D][ ] return book (by: June 6th)
+</span><span>     3.[E][ ] project meeting (at: Aug 6th 2-4pm)
+</span><span>     4.[T][X] join sports club
 </span><span>    ____________________________________________________________
 </span><span>
 </span><span>todo borrow book
 </span><span>    ____________________________________________________________
 </span><span>     Got it. I've added this task: 
-</span><span>       [T][✗] borrow book
+</span><span>       [T][ ] borrow book
 </span><span>     Now you have 5 tasks in the list.
 </span><span>    ____________________________________________________________
 </span><span>
@@ -67,14 +67,14 @@
 </span><span>deadline return book /by Sunday
 </span><span>    ____________________________________________________________
 </span><span>     Got it. I've added this task: 
-</span><span>       [D][✗] return book (by: Sunday)
+</span><span>       [D][ ] return book (by: Sunday)
 </span><span>     Now you have 6 tasks in the list.
 </span><span>    ____________________________________________________________
 </span><span>
 </span><span>done 2
 </span><span>    ____________________________________________________________
 </span><span>     Nice! I've marked this task as done: 
-</span><span>       [D][✓] return book (by: June 6th)
+</span><span>       [D][X] return book (by: June 6th)
 </span><span>    ____________________________________________________________
 </span><span>
 </span><span>blah
@@ -183,15 +183,15 @@ Example:</p>
 <pre><code class="no-line-numbers hljs" v-pre><span>list
 </span><span>    ____________________________________________________________
 </span><span>     Here are the tasks in your list:
-</span><span>     1.[✓] read book
-</span><span>     2.[✗] return book
-</span><span>     3.[✗] buy bread
+</span><span>     1.[X] read book
+</span><span>     2.[ ] return book
+</span><span>     3.[ ] buy bread
 </span><span>    ____________________________________________________________
 </span><span>
 </span><span>done 2
 </span><span>    ____________________________________________________________
 </span><span>     Nice! I've marked this task as done: 
-</span><span>       [✓] return book
+</span><span>       [X] return book
 </span><span>    ____________________________________________________________
 </span></code></pre><div>
 <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> When implementing this feature, you are also recommended to implement the following extension:</p>
@@ -235,31 +235,31 @@ Example:</p>
 <pre><code class="no-line-numbers hljs" v-pre><span>todo borrow book
 </span><span>    ____________________________________________________________
 </span><span>     Got it. I've added this task: 
-</span><span>       [T][✗] borrow book
+</span><span>       [T][ ] borrow book
 </span><span>     Now you have 5 tasks in the list.
 </span><span>    ____________________________________________________________
 </span><span>
 </span><span>list
 </span><span>    ____________________________________________________________
 </span><span>     Here are the tasks in your list:
-</span><span>     1.[T][✓] read book
-</span><span>     2.[D][✗] return book (by: June 6th)
-</span><span>     3.[E][✗] project meeting (at: Aug 6th 2-4pm)
-</span><span>     4.[T][✓] join sports club
-</span><span>     5.[T][✗] borrow book
+</span><span>     1.[T][X] read book
+</span><span>     2.[D][ ] return book (by: June 6th)
+</span><span>     3.[E][ ] project meeting (at: Aug 6th 2-4pm)
+</span><span>     4.[T][X] join sports club
+</span><span>     5.[T][ ] borrow book
 </span><span>    ____________________________________________________________
 </span><span>
 </span><span>deadline return book /by Sunday
 </span><span>    ____________________________________________________________
 </span><span>     Got it. I've added this task: 
-</span><span>       [D][✗] return book (by: Sunday)
+</span><span>       [D][ ] return book (by: Sunday)
 </span><span>     Now you have 6 tasks in the list.
 </span><span>    ____________________________________________________________
 </span><span>
 </span><span>event project meeting /at Mon 2-4pm
 </span><span>    ____________________________________________________________
 </span><span>     Got it. I've added this task: 
-</span><span>       [E][✗] project meeting (at: Mon 2-4pm)
+</span><span>       [E][ ] project meeting (at: Mon 2-4pm)
 </span><span>     Now you have 7 tasks in the list.
 </span><span>    ____________________________________________________________
 </span></code></pre><p>At this point, dates/times can be treated as strings; there is no need to convert them to actual dates/times.</p>
@@ -268,7 +268,7 @@ Example:</p>
 </span><span>deadline do homework /by no idea :-p
 </span><span>    ____________________________________________________________
 </span><span>     Got it. I've added this task: 
-</span><span>       [D][✗] do homework (by: no idea :-p)
+</span><span>       [D][ ] do homework (by: no idea :-p)
 </span><span>     Now you have 6 tasks in the list.
 </span><span>    ____________________________________________________________
 </span></code></pre><div>
@@ -337,17 +337,17 @@ Example:</p>
 <pre><code class="no-line-numbers hljs" v-pre><span>list
 </span><span>    ____________________________________________________________
 </span><span>     Here are the tasks in your list:
-</span><span>     1.[T][✓] read book
-</span><span>     2.[D][✓] return book (by: June 6th)
-</span><span>     3.[E][✗] project meeting (at: Aug 6th 2-4pm)
-</span><span>     4.[T][✓] join sports club
-</span><span>     5.[T][✗] borrow book
+</span><span>     1.[T][X] read book
+</span><span>     2.[D][X] return book (by: June 6th)
+</span><span>     3.[E][ ] project meeting (at: Aug 6th 2-4pm)
+</span><span>     4.[T][X] join sports club
+</span><span>     5.[T][ ] borrow book
 </span><span>    ____________________________________________________________
 </span><span>
 </span><span>delete 3
 </span><span>    ____________________________________________________________
 </span><span>     Noted. I've removed this task: 
-</span><span>       [E][✗] project meeting (at: Aug 6th 2-4pm)
+</span><span>       [E][ ] project meeting (at: Aug 6th 2-4pm)
 </span><span>     Now you have 4 tasks in the list.
 </span><span>    ____________________________________________________________
 </span></code></pre><div>
@@ -421,8 +421,8 @@ Example:</p>
 <pre><code class="no-line-numbers hljs" v-pre><span>find book
 </span><span>    ____________________________________________________________
 </span><span>     Here are the matching tasks in your list:
-</span><span>     1.[T][✓] read book
-</span><span>     2.[D][✓] return book (by: June 6th)
+</span><span>     1.[T][X] read book
+</span><span>     2.[D][X] return book (by: June 6th)
 </span><span>    ____________________________________________________________
 </span></code></pre></div><hr>
 <div id="Level-10">

@@ -51,7 +51,7 @@
     <hr>
     <span><strong> Team Project (tP):</strong></span>
     <li><a href="/website/admin/tp-expectations.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Team Project Info</span></a></li>
-    <li tags="m--cs2103 m--tic4002"><a href="https://github.com/nus-tic4002-AY2021S2/tp2" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</span></a></li>
+    <li tags="m--cs2103 m--tic4002"><a href="https://github.com/nus-tic4002-AY2021S2/tp2" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> tP Upstream Repo (AB3)</span></a></li>
     
     <li><a href="/website/admin/teamList.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team List</span></a></li>
     <li><a href="https://nus-tic4002-ay2021s2.github.io/tp-dashboard/#breakdown=true" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard</span></a></li>
@@ -61,14 +61,14 @@
     <li><a href="https://github.com/nus-tic4002-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
     
     <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span> Instructors</span></a></li>
-    <li><a href="https://luminus.nus.edu.sg/modules/5aee78b3-3927-432e-85a5-27be5f6a00fd/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
-    <li><a href="https://luminus.nus.edu.sg/modules/5aee78b3-3927-432e-85a5-27be5f6a00fd/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> Files (handouts, submissions etc.)</span></a></li>
+    <li><a href="https://luminus.nus.edu.sg/modules/b630174f-8e10-4956-9dfb-93debf19039c/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+    <li><a href="https://luminus.nus.edu.sg/modules/b630174f-8e10-4956-9dfb-93debf19039c/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> Files (handouts, submissions etc.)</span></a></li>
     
     
     
-    <li tags="m--cs2103 m--cs2113 m--tic2002 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/java/basic.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+    <li tags="m--cs2103 m--cs2113 m--tic2002 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
     <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-git-square"></span> Git Conventions</span></a></li>
-    <li tags="m--cs2103 m--cs2113 m--tic4002"><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/forum-activities.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-trophy"></span> Forum Activities Dashboard</span></a></li>
+    
     <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/participation.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> Participation Dashboard</span></a></li>
     
     </dropdown>
@@ -258,13 +258,12 @@ For an example, see <a href="https://se-education.org/addressbook-level3/Develop
 <li><strong>Use multiple UML diagram types.</strong> Following from the point above, try to include UML diagrams of multiple types to showcase your ability to use different UML diagrams.</li>
 <li><strong>Diagramming tools</strong>:
 <ul>
-<li>
-<p>AB3 uses PlantUML (see the guide <a href="https://se-education.org/guides/tutorials/plantUml.html"><em>Using PlantUML</em> @SE-EDU/guides</a> for more info).<br></p></li>
-<li>
-<p>You may use any other tool too (e.g., PowerPoint). But if you do, note the following:<br>
-<mark>Choose a diagramming tool that has some 'source' format that can be version-controlled using git and updated incrementally</mark> <span class="dimmed">(reason: because diagrams need to evolve with the code that is already being version controlled using git)</span>. For example, if you use PowerPoint to draw diagrams, also commit the source PowerPoint files so that they can be reused when updating diagrams later.</p></li>
-<li>
-<p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Can <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., automatically reverse engineered from the Java code</span>IDE-generated</span> UML diagrams be used in project submissions? Not a good idea. Given below are three reasons each of which can be reported by evaluators as 'bugs' in your diagrams, costing you marks:</p>
+<li>AB3 uses PlantUML (see the guide <a href="https://se-education.org/guides/tutorials/plantUml.html"><em>Using PlantUML</em> @SE-EDU/guides</a> for more info).<br></li>
+<li>You may use any other tool too (e.g., PowerPoint). But if you do, note the following:
+<ul>
+<li><mark>Choose a diagramming tool that has some 'source' format that can be version-controlled using git and updated incrementally</mark> <span class="dimmed">(reason: because diagrams need to evolve with the code that is already being version controlled using git)</span>. For example, if you use PowerPoint to draw diagrams, also commit the source PowerPoint files so that they can be reused when updating diagrams later.</li>
+<li>Use the same diagramming tool for the whole project, except in cases for which there is a <em>strong</em> need to use a different tool due to a shortcoming in the primary diagramming tool. <span class="dimmed">Do not use a mix of different tools simply based on personal preferences.</span></li></ul></li>
+<li><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Can <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., automatically reverse engineered from the Java code</span>IDE-generated</span> UML diagrams be used in project submissions? Not a good idea. Given below are three reasons each of which can be reported by evaluators as 'bugs' in your diagrams, costing you marks:
 <ul>
 <li>They often don't follow the standard UML notation (e.g., they add extra icons).</li>
 <li>They tend to include <em>every</em> little detail whereas we want to limit UML diagrams to important details only, to improve readability.</li>
@@ -623,6 +622,12 @@ Having said that, <em>none of us</em> likes it when others point out problems of
 <ul>
 <li>After you have been notified of the download location, download the zip file that bears your name.</li></ul></tab></tabs>
 <p></p>
+<div class="indented">
+<box>
+<p><strong class="text-success"><strong>Testing tips</strong></strong></p>
+<p><span class="text-success"><strong><span aria-hidden="true" class="fas fa-lightbulb"></span></strong></span> <strong>Use easy-to-remember patterns in test data.</strong> For example, if you use <code class="hljs inline no-lang" v-pre>12345678</code> as a phone number while testing and it appears as <code class="hljs inline no-lang" v-pre>2345678</code> somewhere else in the UI, you can easily spot that the first digit has gone missing. But if you used a random number instead, detecting that bug won't be as easy. Similarly, if you use <code class="hljs inline no-lang" v-pre>Alice Bee</code>, <code class="hljs inline no-lang" v-pre>Benny Lee</code>, <code class="hljs inline no-lang" v-pre>Charles Pereira</code> as test data (note how the names start with letters A, B, C), it will be easy to detect if one goes missing, or they appear in the incorrect order.</p>
+<p><span class="text-success"><strong><span aria-hidden="true" class="fas fa-lightbulb"></span></strong></span> <strong>Go wide before you go deep</strong>. Do a light testing of all features first. That will give you a better idea of which features are likely to be more buggy. Spending equal time for all features or testing in the order the features appear in the UG is not always the best approach.</p></box></div>
+<p></p>
 </div></panel></div></div>
 <p></p>
 <h4 id="5-attend-the-practical-exam-during-lecture-on-fri-apr-16th-2359"><span id="5-attend-the-practical-exam-during-lecture-on-fri-apr-16th-2359" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>5</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span> Attend the practical exam</span> <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> during lecture on Fri, Apr 16th 2359</span></span><a class="fa fa-anchor" href="#5-attend-the-practical-exam-during-lecture-on-fri-apr-16th-2359" onclick="event.stopPropagation()"></a></h4>
@@ -721,6 +726,12 @@ Having said that, <em>none of us</em> likes it when others point out problems of
 <tab class="algolia-no-index"><template slot="_header">PE (at <strong>v1.4</strong>)</template>
 <ul>
 <li>After you have been notified of the download location, download the zip file that bears your name.</li></ul></tab></tabs>
+<p></p>
+<div class="indented">
+<box>
+<p><strong class="text-success"><strong>Testing tips</strong></strong></p>
+<p><span class="text-success"><strong><span aria-hidden="true" class="fas fa-lightbulb"></span></strong></span> <strong>Use easy-to-remember patterns in test data.</strong> For example, if you use <code class="hljs inline no-lang" v-pre>12345678</code> as a phone number while testing and it appears as <code class="hljs inline no-lang" v-pre>2345678</code> somewhere else in the UI, you can easily spot that the first digit has gone missing. But if you used a random number instead, detecting that bug won't be as easy. Similarly, if you use <code class="hljs inline no-lang" v-pre>Alice Bee</code>, <code class="hljs inline no-lang" v-pre>Benny Lee</code>, <code class="hljs inline no-lang" v-pre>Charles Pereira</code> as test data (note how the names start with letters A, B, C), it will be easy to detect if one goes missing, or they appear in the incorrect order.</p>
+<p><span class="text-success"><strong><span aria-hidden="true" class="fas fa-lightbulb"></span></strong></span> <strong>Go wide before you go deep</strong>. Do a light testing of all features first. That will give you a better idea of which features are likely to be more buggy. Spending equal time for all features or testing in the order the features appear in the UG is not always the best approach.</p></box></div>
 <p></p>
 </div></panel></div>
 <p></p>
@@ -867,7 +878,7 @@ If you are on Windows, use the DOS prompt or the PowerShell (not the WSL termina
 <span aria-hidden="true" class="fas fa-bug"></span> A legitimate user behavior is not handled <span class="dimmed">e.g. incorrect commands, extra parameters</span><br>
 <span aria-hidden="true" class="fas fa-bug"></span> Behavior is not specified and differs from normal expectations <span class="dimmed">e.g. error message does not match the error</span><br></p></div></panel></div><p></p>
 <ul>
-<li>Do not post suggestions but if the product is missing a critical functionality that makes the product less useful to the intended user, it can be reported as a bug of type <code class="hljs inline no-lang" v-pre>Type.FeatureFlaw</code>.</li></ul>
+<li>Do not post suggestions but if the product is missing a critical functionality that makes the product less useful to the intended user, it can be reported as a bug of type <code class="hljs inline no-lang" v-pre>Type.FeatureFlaw</code>. The dev team is allowed to reject bug reports framed as mere suggestions or/and lacking in a convincing justification as to why the omission of that functionality is problematic.</li></ul>
 <div class="indented-level2">
 <panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → <strong>Feature Flaws</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
@@ -1415,7 +1426,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Fri, 25 Dec 2020, 1:44:56 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Tue, 29 Dec 2020, 23:39:27 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>

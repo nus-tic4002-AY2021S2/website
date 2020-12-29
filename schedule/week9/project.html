@@ -51,7 +51,7 @@
     <hr>
     <span><strong> Team Project (tP):</strong></span>
     <li><a href="/website/admin/tp-expectations.html" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-drafting-compass"></span></span> Team Project Info</span></a></li>
-    <li tags="m--cs2103 m--tic4002"><a href="https://github.com/nus-tic4002-AY2021S2/tp2" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> Addressbook-level3</span></a></li>
+    <li tags="m--cs2103 m--tic4002"><a href="https://github.com/nus-tic4002-AY2021S2/tp2" target="_blank" class="dropdown-item"><span><span><span aria-hidden="true" class="fas fa-code-branch"></span></span> tP Upstream Repo (AB3)</span></a></li>
     
     <li><a href="/website/admin/teamList.html" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Team List</span></a></li>
     <li><a href="https://nus-tic4002-ay2021s2.github.io/tp-dashboard/#breakdown=true" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-chart-area"></span> tP Code Dashboard</span></a></li>
@@ -61,14 +61,14 @@
     <li><a href="https://github.com/nus-tic4002-AY2021S2/forum/issues" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-comment"></span> Forum</span></a></li>
     
     <li><a href="/website/admin/instructors.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-user-tie"></span> Instructors</span></a></li>
-    <li><a href="https://luminus.nus.edu.sg/modules/5aee78b3-3927-432e-85a5-27be5f6a00fd/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
-    <li><a href="https://luminus.nus.edu.sg/modules/5aee78b3-3927-432e-85a5-27be5f6a00fd/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> Files (handouts, submissions etc.)</span></a></li>
+    <li><a href="https://luminus.nus.edu.sg/modules/b630174f-8e10-4956-9dfb-93debf19039c/announcements/active" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="glyphicon glyphicon-bullhorn"></span> Announcements</span></a></li>
+    <li><a href="https://luminus.nus.edu.sg/modules/b630174f-8e10-4956-9dfb-93debf19039c/files" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-file-upload"></span> Files (handouts, submissions etc.)</span></a></li>
     
     
     
-    <li tags="m--cs2103 m--cs2113 m--tic2002 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/java/basic.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
+    <li tags="m--cs2103 m--cs2113 m--tic2002 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/java/intermediate.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-code"></span> Java Coding Standard</span></a></li>
     <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002"><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item"><span><span aria-hidden="true" class="fab fa-git-square"></span> Git Conventions</span></a></li>
-    <li tags="m--cs2103 m--cs2113 m--tic4002"><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/forum-activities.html" class="dropdown-item"><span><span aria-hidden="true" class="fas fa-trophy"></span> Forum Activities Dashboard</span></a></li>
+    
     <li><a href="https://nus-tic4002-ay2021s2.github.io/dashboards/contents/participation.html" target="_blank" class="dropdown-item text-success"><span><span aria-hidden="true" class="fas fa-trophy"></span> Participation Dashboard</span></a></li>
     
     </dropdown>
@@ -141,16 +141,16 @@ There is no requirement for a minimum coverage level. Note that in a production 
 <h4 id="3-start-the-next-iteration"><span id="3-start-the-next-iteration" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>3</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span> Start the next iteration</span><a class="fa fa-anchor" href="#3-start-the-next-iteration" onclick="event.stopPropagation()"></a></h4>
 <div>
 <div class="indented">
-<box type="tip" seamless>
-<div tags="m--cs2113 m--cs2103 m--tic4002">
-<p>The version you deliver in this iteration (i.e., v1.3) will be subjected a peer testing (aka <a href="/website/admin/tp-pe.html#tp-practical-exam-dry-run-pe-d">PE Dry Run</a>) and you will be informed of the bugs they find (no penalty for those bugs). Hence, it is in your interest to <mark>finish implementing all your <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">features you want to include in your final version (i.e., v1.4)</span>final features</span> in this iteration itself</mark> so that you can get them tested for <em>free</em>. You can use the final iteration for fixing the bugs found by peer testers.</p>
-<p>Furthermore, the final iteration (i.e., the one after this) will be shorter than usual and there'll be a lot of additional things to do during that iteration e.g., polishing up documentation; all the more reason to try and get all the implementation work done in this iteration itself.</p></div>
-</box>
+<box type="important" tags="m--cs2113 m--cs2103 m--tic4002" seamless>
+<p><mark><strong>This iteration is your last chance to add features.</strong> You are strongly discouraged from adding new features in the following iteration (i.e., v1.4).</mark> That iteration (which is shorter than usual) is best reserved for bug fixing and documentation work only.</p>
+<p>The version you deliver in this iteration (i.e., v1.3) will be subjected a peer testing (aka <a href="/website/admin/tp-pe.html#tp-practical-exam-dry-run-pe-d">PE Dry Run</a>) and you will be informed of the bugs they find (no penalty for those bugs).
+</p></box>
+<p></p>
 <p>As you did in the previous iteration,</p>
 <ul>
 <li><strong>Plan the next iteration</strong> (steps are given below as a reminder):
 <ul>
-<li><span><span aria-hidden="true" class="fas fa-users"></span></span> Decide which enhancements will be added to the product in this iteration, if this is the last iteration.</li>
+<li><span><span aria-hidden="true" class="fas fa-users"></span></span> Decide which enhancements will be added to the product in this iteration, assuming this is the last iteration.</li>
 <li><span><span aria-hidden="true" class="fas fa-users"></span></span> If possible, split that into two incremental versions.</li>
 <li><span><span aria-hidden="true" class="fas fa-users"></span></span> Divide the work among team members.</li>
 <li><span><span aria-hidden="true" class="fas fa-user"></span></span> Reflect the above plan in the issue tracker.</li></ul></li>
@@ -201,13 +201,12 @@ For an example, see <a href="https://se-education.org/addressbook-level3/Develop
 <li><strong>Use multiple UML diagram types.</strong> Following from the point above, try to include UML diagrams of multiple types to showcase your ability to use different UML diagrams.</li>
 <li><strong>Diagramming tools</strong>:
 <ul>
-<li>
-<p>AB3 uses PlantUML (see the guide <a href="https://se-education.org/guides/tutorials/plantUml.html"><em>Using PlantUML</em> @SE-EDU/guides</a> for more info).<br></p></li>
-<li>
-<p>You may use any other tool too (e.g., PowerPoint). But if you do, note the following:<br>
-<mark>Choose a diagramming tool that has some 'source' format that can be version-controlled using git and updated incrementally</mark> <span class="dimmed">(reason: because diagrams need to evolve with the code that is already being version controlled using git)</span>. For example, if you use PowerPoint to draw diagrams, also commit the source PowerPoint files so that they can be reused when updating diagrams later.</p></li>
-<li>
-<p><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Can <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., automatically reverse engineered from the Java code</span>IDE-generated</span> UML diagrams be used in project submissions? Not a good idea. Given below are three reasons each of which can be reported by evaluators as 'bugs' in your diagrams, costing you marks:</p>
+<li>AB3 uses PlantUML (see the guide <a href="https://se-education.org/guides/tutorials/plantUml.html"><em>Using PlantUML</em> @SE-EDU/guides</a> for more info).<br></li>
+<li>You may use any other tool too (e.g., PowerPoint). But if you do, note the following:
+<ul>
+<li><mark>Choose a diagramming tool that has some 'source' format that can be version-controlled using git and updated incrementally</mark> <span class="dimmed">(reason: because diagrams need to evolve with the code that is already being version controlled using git)</span>. For example, if you use PowerPoint to draw diagrams, also commit the source PowerPoint files so that they can be reused when updating diagrams later.</li>
+<li>Use the same diagramming tool for the whole project, except in cases for which there is a <em>strong</em> need to use a different tool due to a shortcoming in the primary diagramming tool. <span class="dimmed">Do not use a mix of different tools simply based on personal preferences.</span></li></ul></li>
+<li><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Can <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., automatically reverse engineered from the Java code</span>IDE-generated</span> UML diagrams be used in project submissions? Not a good idea. Given below are three reasons each of which can be reported by evaluators as 'bugs' in your diagrams, costing you marks:
 <ul>
 <li>They often don't follow the standard UML notation (e.g., they add extra icons).</li>
 <li>They tend to include <em>every</em> little detail whereas we want to limit UML diagrams to important details only, to improve readability.</li>
@@ -314,7 +313,7 @@ If the app asks for public repo access permissions, grant it (just go with the d
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Fri, 25 Dec 2020, 1:44:56 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.2</a>, generated on Tue, 29 Dec 2020, 23:39:27 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>

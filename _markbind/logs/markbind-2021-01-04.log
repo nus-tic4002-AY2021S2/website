@@ -1,0 +1,32 @@
+2021-01-04T15:05:15.911Z - info: Website generation (lazy) started at 11:05:05 PM
+2021-01-04T15:05:30.695Z - info: Building assets...
+2021-01-04T15:05:37.694Z - info: Assets built
+2021-01-04T15:05:37.694Z - info: Generating landing page...
+2021-01-04T15:05:40.129Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-01-04T15:05:40.686Z - info: Site data built
+2021-01-04T15:05:40.687Z - info: Website generation (lazy) complete! Total build time: 35.564s
+2021-01-04T15:05:41.657Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2021-01-04T15:05:41.657Z - info: Press CTRL+C to stop ...
+2021-01-04T15:08:39.801Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-w4 as some of its dependencies were changed since the last visit
+2021-01-04T15:08:40.943Z - info: Site data built
+2021-01-04T15:08:40.943Z - info: Lazy website regeneration complete! Total build time: 1.152s
+2021-01-04T15:11:18.544Z - info: [11:11:18 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2021-01-04T15:11:19.551Z - info: Rebuilding 1 pages
+2021-01-04T15:11:20.165Z - info: Site data built
+2021-01-04T15:11:20.165Z - info: Pages rebuilt
+2021-01-04T15:11:20.165Z - info: Website regeneration complete! Total build time: 0.618s
+2021-01-04T15:13:47.334Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\se-book-adapted\projectDuke\index as some of its dependencies were changed since the last visit
+2021-01-04T15:13:48.352Z - info: Site data built
+2021-01-04T15:13:48.353Z - info: Lazy website regeneration complete! Total build time: 1.02s
+2021-01-04T15:15:00.034Z - info: [11:15:00 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2021-01-04T15:15:01.047Z - info: Rebuilding 1 pages
+2021-01-04T15:15:01.708Z - info: Site data built
+2021-01-04T15:15:01.709Z - info: Pages rebuilt
+2021-01-04T15:15:01.709Z - info: Website regeneration complete! Total build time: 0.665s
+2021-01-04T15:15:32.374Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-grading as some of its dependencies were changed since the last visit
+2021-01-04T15:15:33.104Z - info: Site data built
+2021-01-04T15:15:33.104Z - info: Lazy website regeneration complete! Total build time: 0.73s
+2021-01-04T15:18:33.256Z - info: [11:18:33 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\variables.md
+2021-01-04T15:18:34.269Z - info: Assets built
+2021-01-04T15:25:05.320Z - info: Website generation started at 11:25:01 PM
+2021-01-04T15:25:16.369Z - info: Building assets...

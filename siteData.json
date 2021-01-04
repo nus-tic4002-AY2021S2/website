@@ -468,8 +468,8 @@
       "title": "Admin: tP: Grading",
       "headings": {
         "tp-grading": "tP: Grading ",
-        "1-project-grading-product-design-10-marks": "1. Project Grading: Product Design [ 10 marks]",
-        "2-project-grading-implementation-20-marks": "2. Project Grading: Implementation [ 20 marks]",
+        "1-project-grading-product-design-5-marks": "1. Project Grading: Product Design [ 5 marks]",
+        "2-project-grading-implementation-25-marks": "2. Project Grading: Implementation [ 25 marks]",
         "3-project-grading-qa-15-marks": "3. Project Grading: QA [ 15 marks]",
         "grading-bugs-found-in-the-pe": "Grading bugs found in the PE",
         "4-project-grading-documentation-15-marks": "4. Project Grading: Documentation [ 15 marks]",

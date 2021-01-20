@@ -52,8 +52,10 @@
 </span><span>Snowball: Meow
 </span></code></pre><panel type="seamless" class="algolia-no-index"><template slot="header"><p><span class="dimmed">The <code class="hljs inline no-lang" v-pre>Cat</code> class</span></p></template>
 <pre><code class="hljs java" v-pre><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Cat</span> </span>{
+</span><span>    <span class="hljs-keyword">private</span> String name;
+</span><span>
 </span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Cat</span><span class="hljs-params">(String name)</span> </span>{
-</span><span>        <span class="hljs-keyword">super</span>(name);
+</span><span>        <span class="hljs-keyword">this</span>.name = name;
 </span><span>    }
 </span><span>
 </span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">speak</span><span class="hljs-params">()</span> </span>{
@@ -86,8 +88,10 @@
 </span><span>Spot: Woof
 </span></code></pre><panel type="seamless" class="algolia-no-index"><template slot="header"><p><span class="dimmed">The <code class="hljs inline no-lang" v-pre>Dog</code> class</span></p></template>
 <pre><code class="hljs java" v-pre><span><span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Dog</span> </span>{
+</span><span>    <span class="hljs-keyword">private</span> String name;
+</span><span>
 </span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-title">Dog</span><span class="hljs-params">(String name)</span> </span>{
-</span><span>        <span class="hljs-keyword">super</span>(name);
+</span><span>        <span class="hljs-keyword">this</span>.name = name;
 </span><span>    }
 </span><span>
 </span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">speak</span><span class="hljs-params">()</span> </span>{

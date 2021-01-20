@@ -34,7 +34,29 @@ Understanding such workflows is important for the success of the software projec
 <p>(iv)</p>
 <p>Explanation: <code class="hljs inline no-lang" v-pre>-e-f-</code> and <code class="hljs inline no-lang" v-pre>-g-</code> are parallel paths. Both paths should complete before the execution reaches <code class="hljs inline no-lang" v-pre>c</code> again.</p></div></question></panel></div>
 <div>
-<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> Model workflow of Burger shop</p></template>
+<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> Model the algorithms of calculating grades</p></template>
+<question>
+<p>(a) Draw an activity diagram to represent the following algorithm used for calculating the grade of a student.</p>
+<ol>
+<li>Read project score from keyboard</li>
+<li>Read exam score from keyboard</li>
+<li>Calculate the total</li>
+<li>Calculate the grade</li>
+<li>Print total and grade</li></ol>
+<p>(b) Update the activity diagram you drew above to also include the following logic that is used when calculating the grade.</p>
+<ul>
+<li><code class="hljs inline no-lang" v-pre>A</code>: at least 25 marks for each component and at least 60 in total (for brevity, you can call this <code class="hljs inline no-lang" v-pre>condition-A</code> -- i.e., if <code class="hljs inline no-lang" v-pre>condition-A</code> is met, give grade <code class="hljs inline no-lang" v-pre>A</code>)</li>
+<li><code class="hljs inline no-lang" v-pre>B</code>: at least one component has 25 or more marks and at least 50 in total (i.e., <code class="hljs inline no-lang" v-pre>condition-B</code>)</li>
+<li><code class="hljs inline no-lang" v-pre>C</code>: otherwise</li></ul>
+<p>(c) Update the diagram you drew above to incorporate the following information.</p>
+<ul>
+<li>At the very beginning, ask the user how many grades need to be calculated.</li>
+<li>Repeat the whole grade calculation process for the number of times specified by the user.</li></ul>
+<panel type="seamless" minimized class="algolia-no-index"><template slot="header"><p>Example Activity Diagram</p></template>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Activity_conducting.svg"><br>
+<sub>[<a href="https://en.wikipedia.org/wiki/Activity_diagram">source:wikipeida</a>]</sub></p></panel><p></p></question></panel></div>
+<div>
+<panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> Model workflow of a Burger shop</p></template>
 <question>
 <p>Draw an activity diagram to represent the following workflow a burger shop uses when processing an order by a customer.</p>
 <ul>

@@ -213,7 +213,7 @@ Example:</p>
 </span><span>    }
 </span><span>
 </span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getStatusIcon</span><span class="hljs-params">()</span> </span>{
-</span><span>        <span class="hljs-keyword">return</span> (isDone ? <span class="hljs-string">&quot;\u2713&quot;</span> : <span class="hljs-string">&quot;\u2718&quot;</span>); <span class="hljs-comment">//return tick or X symbols</span>
+</span><span>        <span class="hljs-keyword">return</span> (isDone ? <span class="hljs-string">&quot;X&quot;</span> : <span class="hljs-string">&quot; &quot;</span>); <span class="hljs-comment">// mark done task with X</span>
 </span><span>    }
 </span><span>
 </span><span>    <span class="hljs-comment">//...</span>
@@ -431,7 +431,13 @@ Example:</p>
 <p>Add a GUI to Duke. Use the JavaFX technology to implement the GUI.</p>
 <br>
 <br>
-<p>Refer to the <a href="https://se-education.org/guides/tutorials/javaFx.html"><em>JavaFX tutorial</em> @SE-EDU/guides</a> to learn how to get started with JavaFX.</p></div>
+<p>Refer to the <a href="https://se-education.org/guides/tutorials/javaFx.html"><em>JavaFX tutorial</em> @SE-EDU/guides</a> to learn how to get started with JavaFX.</p>
+<box type="warning" seamless>
+<p><strong>There are two non-trivial steps</strong> to take here:</p>
+<ol>
+<li>earning JavaFX basics</li>
+<li>creating a GUi for Duke</li></ol>
+<p>You are <span class="text-danger">cautioned against trying to do both in one go</span>. Instead, complete the JavaFX tutorial as a separate project before adding a GUI to Duke.</p></box></div>
 <p></p>
 <div>
 <h2 id="extensions-category-a"><span id="extensions-category-a" class="anchor"></span><div class="text-white bg-primary p-1">Extensions: Category A</div><a class="fa fa-anchor" href="#extensions-category-a" onclick="event.stopPropagation()"></a></h2>
@@ -451,7 +457,7 @@ Example:</p>
 </span><span>    }
 </span><span>
 </span><span>    <span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getStatusIcon</span><span class="hljs-params">()</span> </span>{
-</span><span>        <span class="hljs-keyword">return</span> (isDone ? <span class="hljs-string">&quot;\u2713&quot;</span> : <span class="hljs-string">&quot;\u2718&quot;</span>); <span class="hljs-comment">//return tick or X symbols</span>
+</span><span>        <span class="hljs-keyword">return</span> (isDone ? <span class="hljs-string">&quot;X&quot;</span> : <span class="hljs-string">&quot; &quot;</span>); <span class="hljs-comment">// mark done task with X</span>
 </span><span>    }
 </span><span>
 </span><span>    <span class="hljs-comment">//...</span>

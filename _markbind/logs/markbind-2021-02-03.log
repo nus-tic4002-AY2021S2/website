@@ -1,0 +1,24 @@
+2021-02-03T14:37:43.083Z - info: Website generation (lazy) started at 10:37:34 PM
+2021-02-03T14:37:53.980Z - info: Building assets...
+2021-02-03T14:38:00.348Z - info: Assets built
+2021-02-03T14:38:00.349Z - info: Generating landing page...
+2021-02-03T14:38:02.673Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-02-03T14:38:03.180Z - info: Site data built
+2021-02-03T14:38:03.180Z - info: Website generation (lazy) complete! Total build time: 28.364s
+2021-02-03T14:38:04.327Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2021-02-03T14:38:04.328Z - info: Press CTRL+C to stop ...
+2021-02-03T14:38:46.642Z - info: [10:38:46 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-CS2103\weeklyTextbookTopics.mbdf
+2021-02-03T14:38:47.647Z - info: Rebuilding 1 pages
+2021-02-03T14:38:49.237Z - info: Site data built
+2021-02-03T14:38:49.238Z - info: Pages rebuilt
+2021-02-03T14:38:49.238Z - info: Website regeneration complete! Total build time: 1.594s
+2021-02-03T14:38:54.184Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week6\index as some of its dependencies were changed since the last visit
+2021-02-03T14:38:55.035Z - info: Site data built
+2021-02-03T14:38:55.035Z - info: Lazy website regeneration complete! Total build time: 0.851s
+2021-02-03T14:38:58.123Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week6\topics as some of its dependencies were changed since the last visit
+2021-02-03T14:39:01.548Z - info: Site data built
+2021-02-03T14:39:01.548Z - info: Lazy website regeneration complete! Total build time: 3.425s
+2021-02-03T14:39:03.074Z - debug:  
+2021-02-03T14:39:03.075Z - debug:  
+2021-02-03T14:45:31.526Z - info: [10:45:31 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_markbind\variables.md
+2021-02-03T14:45:32.579Z - info: Assets built

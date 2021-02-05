@@ -1,0 +1,50 @@
+2021-02-05T08:44:56.550Z - info: Website generation (lazy) started at 4:44:41 PM
+2021-02-05T08:45:15.513Z - info: Building assets...
+2021-02-05T08:45:26.644Z - info: Assets built
+2021-02-05T08:45:26.647Z - info: Generating landing page...
+2021-02-05T08:45:29.276Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-02-05T08:45:30.658Z - info: Site data built
+2021-02-05T08:45:30.659Z - info: Website generation (lazy) complete! Total build time: 49.471s
+2021-02-05T08:45:32.738Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2021-02-05T08:45:32.739Z - info: Press CTRL+C to stop ...
+2021-02-05T08:45:44.493Z - info: [4:45:44 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-tasks.mbdf
+2021-02-05T08:45:46.034Z - info: Rebuilding 1 pages
+2021-02-05T08:45:51.095Z - error:  Template render error: (unknown path)
+  Template render error: (unknown path)
+  parseIf: expected elif, else, or endif, got end of file
+Error while preprocessing 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\index.md'
+    at Object._prettifyError (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:383:17
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\nunjucks\src\environment.js:631:18), <anonymous>:27:3)
+    at Template.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:372:8)
+    at Environment.renderString (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\patches\nunjucks\context-overrides-frame.js:77:15)
+    at VariableRenderer.render (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableRenderer.js:96:17)
+    at VariableProcessor.renderSiteVariables (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:163:53)
+    at VariableProcessor.renderIncludeFile (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\variables\VariableProcessor.js:411:34)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:261:32)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:350:19)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:59
+    at Array.map (<anonymous>)
+    at NodePreprocessor.preProcessNode (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:357:45)
+    at C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:319:57
+    at Array.map (<anonymous>)
+    at NodePreprocessor._preProcessInclude (C:\Users\damithch\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodePreprocessor.js:319:43)
+2021-02-05T08:45:52.536Z - info: Site data built
+2021-02-05T08:45:52.659Z - info: Pages rebuilt
+2021-02-05T08:45:52.659Z - info: Website regeneration complete! Total build time: 6.626s
+2021-02-05T08:46:59.527Z - info: [4:46:59 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-tasks.mbdf
+2021-02-05T08:47:00.541Z - info: Rebuilding 1 pages
+2021-02-05T08:47:01.668Z - info: Site data built
+2021-02-05T08:47:01.669Z - info: Pages rebuilt
+2021-02-05T08:47:01.669Z - info: Website regeneration complete! Total build time: 1.135s
+2021-02-05T08:47:05.681Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week5\index as some of its dependencies were changed since the last visit
+2021-02-05T08:47:07.012Z - info: Site data built
+2021-02-05T08:47:07.012Z - info: Lazy website regeneration complete! Total build time: 1.331s
+2021-02-05T08:47:11.840Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week5\project as some of its dependencies were changed since the last visit
+2021-02-05T08:47:13.654Z - info: Site data built
+2021-02-05T08:47:13.655Z - info: Lazy website regeneration complete! Total build time: 1.815s
+2021-02-05T08:50:10.096Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week5\admin as some of its dependencies were changed since the last visit
+2021-02-05T08:50:11.234Z - info: Site data built
+2021-02-05T08:50:11.234Z - info: Lazy website regeneration complete! Total build time: 1.138s
+2021-02-05T08:50:30.477Z - info: Website generation started at 4:50:27 PM
+2021-02-05T08:50:40.412Z - info: Building assets...

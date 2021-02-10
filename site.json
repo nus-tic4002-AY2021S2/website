@@ -52,7 +52,7 @@
       "searchable": "no"
     }
   ],
-  "enableSearch": true,
+  "enableSearch": false,
   "headingIndexingLevel": 5,
   "plugins": ["filterTags", "algolia", "googleAnalytics"],
   "pluginsContext": {
@@ -60,8 +60,8 @@
       "tags": ["m--tic4002"]
     },
     "algolia": {
-      "apiKey": "0b1e4ae12d54a6114a4c5d131a850c2b",
-      "indexName": "nus-cs2103-ay1920s1",
+      "apiKey": "38f19784bc7ad41eb2e3934172fbee04",
+      "indexName": "nus-tic4002-ay2021s2",
       "algoliaOptions": { "hitsPerPage": 10 },
       "facetFilters": [["tags:admin", "tags:se-book-adapted", "tags:schedule"]],
       "debug": false

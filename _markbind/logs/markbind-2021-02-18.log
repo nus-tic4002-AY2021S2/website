@@ -1,0 +1,227 @@
+2021-02-17T17:26:06.031Z - info: Website generation (lazy) started at 1:25:59 AM
+2021-02-17T17:26:16.718Z - info: Building assets...
+2021-02-17T17:26:23.195Z - info: Assets built
+2021-02-17T17:26:23.196Z - info: Generating landing page...
+2021-02-17T17:26:25.267Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-02-17T17:26:25.828Z - info: Site data built
+2021-02-17T17:26:25.828Z - info: Website generation (lazy) complete! Total build time: 26.261s
+2021-02-17T17:26:26.661Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2021-02-17T17:26:26.661Z - info: Press CTRL+C to stop ...
+2021-02-17T17:26:44.209Z - info: [1:26:44 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2021-02-17T17:26:45.216Z - info: Rebuilding 1 pages
+2021-02-17T17:26:46.254Z - info: Site data built
+2021-02-17T17:26:46.254Z - info: Pages rebuilt
+2021-02-17T17:26:46.254Z - info: Website regeneration complete! Total build time: 1.039s
+2021-02-17T17:26:47.197Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week6\project as some of its dependencies were changed since the last visit
+2021-02-17T17:26:49.830Z - info: Site data built
+2021-02-17T17:26:49.830Z - info: Lazy website regeneration complete! Total build time: 2.633s
+2021-02-17T17:28:00.729Z - info: [1:28:00 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2021-02-17T17:28:01.750Z - info: Rebuilding 1 pages
+2021-02-17T17:28:04.424Z - info: Site data built
+2021-02-17T17:28:04.425Z - info: Pages rebuilt
+2021-02-17T17:28:04.425Z - info: Website regeneration complete! Total build time: 2.677s
+2021-02-17T17:28:37.181Z - info: [1:28:37 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\ip-tasks.mbdf
+2021-02-17T17:28:38.194Z - info: Rebuilding 1 pages
+2021-02-17T17:28:40.814Z - info: Site data built
+2021-02-17T17:28:40.814Z - info: Pages rebuilt
+2021-02-17T17:28:40.815Z - info: Website regeneration complete! Total build time: 2.627s
+2021-02-17T17:29:09.182Z - info: Website generation started at 1:29:06 AM
+2021-02-17T17:29:17.410Z - info: Building assets...
+2021-02-17T17:29:23.430Z - info: Assets built
+2021-02-17T17:29:23.430Z - info: Generating pages...
+2021-02-17T17:29:36.547Z - debug:  
+2021-02-17T17:29:36.548Z - debug:  
+2021-02-17T17:29:36.548Z - debug:  
+2021-02-17T17:29:36.548Z - debug:  
+2021-02-17T17:29:37.573Z - debug:  
+2021-02-17T17:29:37.575Z - debug:  
+2021-02-17T17:30:09.354Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/about/usage.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.357Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/softwareEngineering/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.358Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/oop/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.359Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/requirements/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.359Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/gatheringRequirements/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.360Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/specifyingRequirements/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.361Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/design/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.362Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designFundamentals/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.362Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/modeling/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.363Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/architecture/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.363Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designPatterns/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.364Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designApproaches/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.365Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/ides/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.365Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/codeQuality/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.366Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/refactoring/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.366Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/documentation/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.367Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/errorHandling/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.368Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/integration/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.368Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/reuse/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.369Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/qualityAssurance/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.370Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/testing/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.370Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/testCaseDesign/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.371Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/revisionControl/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.372Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/projectPlanning/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.373Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/teamwork/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.373Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/processModels/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.374Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/uml/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.375Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/intellij/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.375Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/gitAndGithub/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.376Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/principles/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.377Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/cppToJava/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.378Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/definitions.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.378Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/references.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.379Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/outcomes.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:30:09.379Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-17T17:31:54.697Z - debug:  
+2021-02-17T17:32:09.104Z - debug:  
+2021-02-17T17:32:09.110Z - debug:  
+2021-02-17T17:32:21.371Z - info: Pages built
+2021-02-17T17:32:21.887Z - info: Site data built
+2021-02-17T17:32:21.887Z - info: Website generation complete! Total build time: 195.461s
+2021-02-17T17:32:21.887Z - info: Build success!
+2021-02-17T17:32:26.832Z - info: Deployed at https://nus-cs2103-ay2021s2.github.io/website!
+2021-02-18T05:17:56.627Z - info: Website generation (lazy) started at 1:17:49 PM
+2021-02-18T05:18:06.733Z - info: Building assets...
+2021-02-18T05:18:13.434Z - info: Assets built
+2021-02-18T05:18:13.435Z - info: Generating landing page...
+2021-02-18T05:18:15.024Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-02-18T05:18:15.673Z - info: Site data built
+2021-02-18T05:18:15.673Z - info: Website generation (lazy) complete! Total build time: 26.408s
+2021-02-18T05:18:16.878Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2021-02-18T05:18:16.878Z - info: Press CTRL+C to stop ...
+2021-02-18T05:19:16.436Z - info: [1:19:16 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\projectDuke\extensions.mbdf
+2021-02-18T05:19:17.495Z - info: Assets built
+2021-02-18T05:19:19.646Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week6\project as some of its dependencies were changed since the last visit
+2021-02-18T05:19:22.129Z - info: Site data built
+2021-02-18T05:19:22.130Z - info: Lazy website regeneration complete! Total build time: 2.485s
+2021-02-18T05:22:05.660Z - info: [1:22:05 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\projectDuke\extensions.mbdf
+2021-02-18T05:22:06.701Z - info: Rebuilding 1 pages
+2021-02-18T05:22:09.305Z - info: Site data built
+2021-02-18T05:22:09.306Z - info: Pages rebuilt
+2021-02-18T05:22:09.308Z - info: Website regeneration complete! Total build time: 2.613s
+2021-02-18T05:22:39.236Z - info: [1:22:39 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\projectDuke\extensions.mbdf
+2021-02-18T05:22:40.248Z - info: Rebuilding 1 pages
+2021-02-18T05:22:42.802Z - info: Site data built
+2021-02-18T05:22:42.812Z - info: Pages rebuilt
+2021-02-18T05:22:42.812Z - info: Website regeneration complete! Total build time: 2.568s
+2021-02-18T05:22:59.164Z - info: Website generation started at 1:22:56 PM
+2021-02-18T05:23:08.811Z - info: Building assets...
+2021-02-18T05:23:14.446Z - info: Assets built
+2021-02-18T05:23:14.447Z - info: Generating pages...
+2021-02-18T05:23:29.015Z - debug:  
+2021-02-18T05:23:29.016Z - debug:  
+2021-02-18T05:23:29.016Z - debug:  
+2021-02-18T05:23:29.016Z - debug:  
+2021-02-18T05:23:29.016Z - debug:  
+2021-02-18T05:23:30.816Z - debug:  
+2021-02-18T05:24:05.535Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/about/usage.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.538Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/softwareEngineering/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.539Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/oop/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.540Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/requirements/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.540Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/gatheringRequirements/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.541Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/specifyingRequirements/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.542Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/design/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.543Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designFundamentals/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.543Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/modeling/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.544Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/architecture/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.544Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designPatterns/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.545Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designApproaches/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.546Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/ides/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.547Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/codeQuality/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.548Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/refactoring/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.549Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/documentation/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.550Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/errorHandling/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.551Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/integration/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.551Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/reuse/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.553Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/qualityAssurance/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.554Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/testing/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.556Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/testCaseDesign/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.557Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/revisionControl/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.558Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/projectPlanning/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.558Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/teamwork/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.559Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/processModels/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.560Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/uml/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.561Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/intellij/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.562Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/gitAndGithub/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.563Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/principles/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.564Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/cppToJava/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.565Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/definitions.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.566Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/references.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.566Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/outcomes.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:24:05.567Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-02-18T05:25:57.155Z - debug:  
+2021-02-18T05:26:15.919Z - debug:  
+2021-02-18T05:26:15.920Z - debug:  
+2021-02-18T05:26:29.906Z - info: Pages built
+2021-02-18T05:26:30.453Z - info: Site data built
+2021-02-18T05:26:30.453Z - info: Website generation complete! Total build time: 213.922s
+2021-02-18T05:26:30.453Z - info: Build success!
+2021-02-18T05:26:36.487Z - info: Deployed at https://nus-cs2103-ay2021s2.github.io/website!

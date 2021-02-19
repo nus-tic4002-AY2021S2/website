@@ -117,19 +117,33 @@
 <div>
 <h4 id="pe-overview"><span id="pe-overview" class="anchor"></span><span class="badge badge-success">PE</span> <span class="text-success">Overview</span><a class="fa fa-anchor" href="#pe-overview" onclick="event.stopPropagation()"></a></h4>
 <span id="pe-overview">
-<p><strong>Objectives:</strong></p>
 <ul>
-<li>The primary objective of the PE is to <mark>increase the rigor of project grading</mark>. Assessing most aspects of the project involves an element subjectivity. As the project counts for a large percentage of the final grade, it is not prudent to rely on evaluations of tutors alone as there can be significant variations between how different tutors assess projects. That is why we collect more data points via the PE so as to minimize the chance of your project being affected by evaluator-bias.</li>
-<li>PE is also <mark>used to evaluate your manual testing skills, product evaluation skills, effort estimation skills</mark> etc.</li>
-<li>Note that significant project components are <mark>not graded solely based on peer ratings</mark>. Rather, PE data are cross-validated with tutors' grades to identify cases that need further investigation. When peer inputs are used for grading, they are usually combined with tutors' grades with appropriate weight for each. In some cases ratings from team members are given a higher weight compared to ratings from other peers, if that is appropriate.</li>
-<li>PE is <mark>not a means of <em>getting you to bring down each other</em></mark> because <em>bringing down</em> anyone is not the goal; it's just a means of identifying as many bugs as possible. No one <em>can</em> sabotage another person or <em>inject</em> bugs into others' products. All anyone <em>can</em> do is to point out potential problems. If those are false positives, no real harm done.<br>
-Having said that, <em>none of us</em> likes it when others point out problems of our work. <strong>We just have to learn not to take bug reports personally</strong>. Another important lesson is to learn how to report bugs in a way that doesn't feel like you are <em>attacking</em> or trying to <em>sabotage</em> the dev team.</li></ul>
+<li>
+<p><strong>The upfront objective of the PE is to increase the rigor of project grading.</strong> Assessing most aspects of the project involves an element subjectivity. As the project counts for a large percentage of the final grade, it is not prudent to rely on evaluations of tutors alone as there can be significant variations between how different tutors assess projects. That is why we collect more data points via the PE so as to minimize the chance of your project being affected by evaluator-bias.</p></li>
+<li>
+<p><strong>PE mainly evaluates your testing skills</strong>, done as the following two-parts:</p>
+<ol>
+<li><strong>You will be given a chance to find bugs in a different software.</strong> Furthermore, you will be given an opportunity to defend your bug reports against any possible objections. If you can successfully find bugs and defend them against any objections, you earn marks (provided the product actually had bugs in the first place).</li>
+<li><strong>Your product will be subjected to a rigorous testing</strong> and you will be given a chance to object to any bugs reported. You will lose marks for any bugs that turned out to be real bugs, but only if your work has more bugs than a certain bar.</li></ol></li>
+<li>
+<p><strong>The above two can lead to high-rigor, <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">based on how well you achieve the objectives of testing, as opposed to indirect measures such as number of test cases</span><em>outcome-based</em></span> evaluation of your testing skills</strong>. The alternative is to rely solely on other easy-to-measure metrics <span class="dimmed">(e.g., the number of test cases, test coverage, test LoC etc.)</span> which we don't think is right, given how important the testing aspect is.
+<strong>The <em>ultimate</em> objective of the PE is not even the higher rigor of grading.</strong> Because of the PE, you will realize that any bugs are very likely to be detected, which means you <mark>will work extra hard to avoid bugs; and THAT is the real benefit</mark>.</p></li>
+<li>
+<p><strong>Problem: There is no way we can carry out the above-mentioned</strong> two-part evaluation at a high-level of rigor if using tutors as testers, or using an automated testing script. <span class="dimmed">e.g., some tutors might not have the motivation to try hard enough to find bugs, and it will be hard to find tutors willing to spend many hours testing products so near to their own exams.</span><br>
+<strong>Solution: Get the two parts of the evaluation to power each other</strong> by getting student to test each others' products.</p></li>
+<li>
+<p><strong>The fact that you are testing products created by your classmates and objecting to bugs reported by your classmates can makes this a rather 'unpleasant' experience</strong>. You might feel like <em>being pitted against each other</em>, or as if <em>you are forced to bring down each other</em>. But as you read above, it is a necessary evil for this evaluation to be even possible. Given the actual goal is to get you to create products with very few bugs, we think switching off the 'collaborative learning' mode for just a few days is a price worth paying to achieve that goal. After all, the PE is an evaluation activity (not a <em>learning activity</em>) and happens <em>after</em> the regular learning period is over.</p></li>
+<li>
+<p><strong>Still, <em>none of us</em> likes it when others point out problems of our work</strong>. Some of us don't even like pointing out problems of others' work. But <mark>we just have to learn not to take bug reports personally</mark>. Another important lesson is to learn how to report bugs in a way that doesn't feel like you are <em>attacking</em> or trying to <em>sabotage</em> the dev team.</p></li>
+<li>
+<p><strong>PE also evaluates aspects other than testing</strong> e.g., your product evaluation skills, effort estimation skills etc. When evaluating those aspects in particular, they <mark>not graded solely based on peer ratings</mark>. Rather, PE data are cross-validated with tutors' grades to identify cases that need further investigation. When peer inputs are used for grading, they are usually combined with tutors' grades with appropriate weight for each. In some cases ratings from team members are given a higher weight compared to ratings from other peers, if that is appropriate.</p></li>
+<li>
 <p><strong>Grading</strong>:</p>
 <ul>
 <li>Your performance in the practical exam will affect your final grade and your peers', as explained in <a href="/website/admin/tp-grading.html"><em>Admin: Project Grading</em></a> section.</li>
 <li>As such, we have put in measures to identify and <mark>penalize insincere/random evaluations</mark>.</li>
-<li>Also see:</li></ul>
-<div class="indented-level2">
+<li>Also see:</li></ul></li></ul>
+<div class="indented-level4">
 <panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → Notes on how marks are calculated for PE <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
 <h5 id="grading-bugs-found-in-the-pe"><span id="grading-bugs-found-in-the-pe" class="anchor"></span>Grading bugs found in the PE<a class="fa fa-anchor" href="#grading-bugs-found-in-the-pe" onclick="event.stopPropagation()"></a></h5>
@@ -147,7 +161,7 @@ Having said that, <em>none of us</em> likes it when others point out problems of
 <li><code class="hljs inline no-lang" v-pre>n</code> bugs found in your feature; it is a big feature consisting of lot of code → 4/5 marks</li>
 <li><code class="hljs inline no-lang" v-pre>n</code> bugs found in your feature; it is a small feature with a small amount of code → 1/5 marks</li></ul></li>
 <li>You don't need to find <em>all</em> bugs in the product to get full marks. For example, finding half of the bugs of that product or 4 bugs, whichever the lower, could earn you full marks.</li>
-<li>Excessive incorrect downgrading/rejecting/<span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">marking as duplicates</span>duplicate-flagging</span>, if deemed an attempt to <em>game the system</em>, will be penalized.</li></ul></div></panel></div></span>
+<li>Excessive incorrect downgrading/rejecting/<span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">marking as duplicates</span>duplicate-flagging</span>, if deemed an attempt to <em>game the system</em>, will be penalized.</li></ul></div></panel></div><p></p></span>
 <h4 id="pe-preparation"><span id="pe-preparation" class="anchor"></span><span class="badge badge-success">PE</span> <span class="text-success">Preparation</span><a class="fa fa-anchor" href="#pe-preparation" onclick="event.stopPropagation()"></a></h4>
 <ul>
 <li>It's similar to,</li></ul>
@@ -1327,7 +1341,7 @@ There is no requirement for a minimum coverage level. Note that in a production 
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Tue, 16 Feb 2021, 21:03:06 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Fri, 19 Feb 2021, 17:35:11 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>

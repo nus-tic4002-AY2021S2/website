@@ -520,8 +520,8 @@ e.g.</p>
 <td></td></tr></tbody></table></div></div>
 <ul>
 <li>The <mark>page limits given above are <em>after</em> converting to PDF format</mark>. The actual amount of content you require is actually less than what these numbers suggest because the HTML → PDF conversion adds a lot of spacing around content.</li></ul></div></div></b-modal></div></div></div></b-modal>
-<p><strong>Follow the <trigger trigger="click" for="modal:appErecommendedWorkflow-forkingworkflow">forking workflow</trigger></strong> in your project at least until (and including) v1.2 <span class="dimmed">(you may tweak the workflow v1.3 onwards)</span>.</p>
 <ul>
+<li><strong>Follow the <trigger trigger="click" for="modal:appErecommendedWorkflow-forkingworkflow">forking workflow</trigger></strong> in your project. Normally, we expect you to follow the forking workflow at least until (and including) v1.2 after which you may tweak the workflow v1.3. However, after following the forking workflow for 2-3 PRs (per person) in v1.2, if you are confident that you can follow the forking workflow well, you may switch to the <trigger trigger="click" for="modal:appErecommendedWorkflow-featurebranchworkflow">feature branch workflow</trigger> workflow <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., without waiting for the end of v1.2</span>earlier</span>.</li>
 <li><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <strong>Protect the <code class="hljs inline no-lang" v-pre>master</code> branch</strong>: You can use GitHub's <a href="https://help.github.com/articles/about-protected-branches/"><em>Protected Branches</em></a> feature to protect your <code class="hljs inline no-lang" v-pre>master</code> branch against rogue PRs. We suggest the following:
 <ul>
 <li>Go the the <span class="border border-secondary border-bottom-0 pr-1 pl-1 mr-1 ml-1 rounded-top"><small><svg version="1.1" width="14" height="16" viewBox="0 0 14 16" class="octicon octicon-gear" aria-hidden="true"><path fill-rule="evenodd" d="M14 8.77v-1.6l-1.94-.64-.45-1.09.88-1.84-1.13-1.13-1.81.91-1.09-.45-.69-1.92h-1.6l-.63 1.94-1.11.45-1.84-.88-1.13 1.13.91 1.81-.45 1.09L0 7.23v1.59l1.94.64.45 1.09-.88 1.84 1.13 1.13 1.81-.91 1.09.45.69 1.92h1.59l.63-1.94 1.11-.45 1.84.88 1.13-1.13-.92-1.81.47-1.09L14 8.75v.02zM7 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/></svg> settings</small></span> of your team repo.</li>
@@ -644,7 +644,25 @@ e.g.</p>
 <li>Push the updated PR branch to your fork.</li></ol></li>
 <li>
 <p><strong>[Another member or the PR author]: Merge the de-conflicted PR</strong>: When GitHub does not indicate a conflict anymore, you can go ahead and merge the PR.</p></li></ol></div>
-<div></div></div></div></div></b-modal></div></panel></box>
+<div></div></div></div></div></b-modal>
+<b-modal id="modal:appErecommendedWorkflow-featurebranchworkflow" hide-footer size="lg" modal-class="mb-zoom" ref="modal:appErecommendedWorkflow-featurebranchworkflow" class="algolia-no-index"><template slot="modal-title">TextBook <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span></template>
+  <div>
+<div>
+<p><panel src="/website/book/revisionControl/forkingWorkflow/unit-inElsewhere-asFlat._include_.html" popup-url="/website/book/revisionControl/forkingWorkflow" class="algolia-no-index"><template slot="header"><p><span class="dimmed"><span><span aria-hidden="true" class="glyphicon glyphicon-education"></span></span> Revision Control → Forking Workflow</span></p></template></panel></p></div><p></p>
+<p><span class="dimmed"><strong><span>Project Management → Revision Control →
+</span></strong></span></p>
+<div id="title-and-body">
+<div><h4 id="feature-branch-flow"><span id="feature-branch-flow" class="anchor"></span><span>Feature branch flow</span><a class="fa fa-anchor" href="#feature-branch-flow" onclick="event.stopPropagation()"></a></h4></div>
+<div id="main">
+<div>
+<p><strong><em>Feature branch</em> workflow is similar to forking workflow except there are no forks.</strong> Everyone is pushing/pulling from the same remote repo. The phrase <em>feature branch</em> is used because each new feature (or bug fix, or any other modification) is done in a separate branch and merged to the <code class="hljs inline no-lang" v-pre>master</code> branch when ready.</p>
+<img src="/website/book/revisionControl/featureBranchFlow/images/diagram.png" height="330">
+<p></p></div>
+<div>
+  <div>
+<panel expanded><template slot="header"><p><span><span aria-hidden="true" class="fas fa-paperclip"></span></span> Resources</p></template>
+<ul>
+<li><a href="https://www.atlassian.com/git/tutorials/comparing-workflows#feature-branch-workflow">A detailed explanation of the Feature Branch Workflow</a> - From Atlassian</li></ul></panel></div></div></div></div></div></b-modal></div></panel></box>
 <p>Update the following pages in your project repo:</p></div>
 <ul>
 <li><strong><em>AboutUs</em> page</strong>:
@@ -1205,7 +1223,7 @@ Optionally, you can define a <code class="hljs inline no-lang" v-pre>mid-v1.2</c
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Sat, 20 Feb 2021, 11:49:42 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Thu, 25 Feb 2021, 13:52:23 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>

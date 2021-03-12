@@ -508,7 +508,7 @@ Update the following pages in your project repo:
 * If you haven't done so already, make sure you know individual and team expectations of the tP
 
 {{ embed_topic("tp-expectations.md#functionalityExpectations", "Admin " + icon_embedding + " tP: Functionality Expectations", "3", indent="2") }}
-{{ embed_topic("tp-expectations.md#individualExpectations", "Admin " + icon_embedding + " tP: Individual Expectations", "3", indent="2") }}
+{{ embed_topic("tp-expectations.md#individualExpectations", "Admin " + icon_embedding + " tP: Individual Expectations (and ==guidance on work distribution==)", "3", indent="2") }}
 {{ embed_topic("tp-expectations.md#teamExpectations", "Admin " + icon_embedding + " tP: Team Expectations", "3", indent="2") }}
 </span>
 {#====================================================================================================================#}

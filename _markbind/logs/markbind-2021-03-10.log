@@ -1,0 +1,23 @@
+2021-03-09T16:24:52.156Z - info: Website generation (lazy) started at 12:24:40 AM
+2021-03-09T16:25:05.699Z - info: Building assets...
+2021-03-09T16:25:13.632Z - info: Assets built
+2021-03-09T16:25:13.633Z - info: Generating landing page...
+2021-03-09T16:25:15.469Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-03-09T16:25:16.024Z - info: Site data built
+2021-03-09T16:25:16.025Z - info: Website generation (lazy) complete! Total build time: 35.07s
+2021-03-09T16:25:17.169Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2021-03-09T16:25:17.169Z - info: Press CTRL+C to stop ...
+2021-03-09T16:25:30.061Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week9\index as some of its dependencies were changed since the last visit
+2021-03-09T16:25:32.855Z - info: Site data built
+2021-03-09T16:25:32.856Z - info: Lazy website regeneration complete! Total build time: 2.795s
+2021-03-09T16:26:14.087Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week10\index as some of its dependencies were changed since the last visit
+2021-03-09T16:26:15.153Z - info: Site data built
+2021-03-09T16:26:15.154Z - info: Lazy website regeneration complete! Total build time: 1.066s
+2021-03-09T16:26:39.267Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\timeline as some of its dependencies were changed since the last visit
+2021-03-09T16:26:45.952Z - info: Site data built
+2021-03-09T16:26:45.952Z - info: Lazy website regeneration complete! Total build time: 6.685s
+2021-03-09T16:29:27.449Z - info: [12:29:27 AM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\_module-TIC4002\weeklyTpTasks.mbdf
+2021-03-09T16:29:28.512Z - info: Rebuilding 1 pages
+2021-03-09T16:29:33.976Z - info: Site data built
+2021-03-09T16:29:33.978Z - info: Pages rebuilt
+2021-03-09T16:29:33.978Z - info: Website regeneration complete! Total build time: 5.486s

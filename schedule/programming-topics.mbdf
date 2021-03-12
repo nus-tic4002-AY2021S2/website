@@ -233,7 +233,9 @@ Next, let us learn to to control access to variables and methods of an object.
 <include src="../programming/oop-visibility/text.md" />{{ hr_double }}
 
 {% call topic_followup(reuse=false) %}
-This video contains an example that covers some of the OOP topics covered so far. The last part of the video requires you to know ==UML topics covered in this week== as well.
+This video contains an example that covers some of the OOP topics covered so far.
+* The code shown in the video can be found at [https://goo.gl/qW1Qnb](https://goo.gl/qW1Qnb)
+* The last part of the video requires you to know ==UML topics covered in this week== as well.
 
 {{ panopto("37c74051-6261-4d0b-a517-ab8100a9c87d") }}
 {% endcall %}

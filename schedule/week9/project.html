@@ -99,7 +99,6 @@
 <li><span><span><span aria-hidden="true" class="fas fa-users"></span></span> Adjust process rigor if necessary</span></li>
 <li><span><span><span aria-hidden="true" class="fas fa-user"></span></span> Start the next iteration</span></li>
 <li><span><span><span aria-hidden="true" class="fas fa-user"></span></span> Update the DG with design details</span></li>
-<li><span><span><span aria-hidden="true" class="fas fa-user"></span></span> Smoke-test CATcher</span> <span class="badge badge-danger font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> COMPULSORY</span></span> <span class="text-info"><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">counted for participation</span><span aria-hidden="true" class="fab fa-product-hunt"></span></span></span></li>
 <li><span><span><span aria-hidden="true" class="fas fa-users"></span></span> Do a trial JAR release</span></li></ol></div></div>
 <h2 class="d-block text-white bg-dark p-1 mb-4 mt-4" id="tp-mid-v1-3"><span id="tp-mid-v1-3" class="anchor"></span>tP: mid-v1.3<a class="fa fa-anchor" href="#tp-mid-v1-3" onclick="event.stopPropagation()"></a></h2>
 <div>
@@ -255,36 +254,7 @@ It will look more 'polished' if the two text sizes match.
   <img src="https://se-education.org/addressbook-level3/images/ArchitectureSequenceDiagram.png"></b-modal></div></span></panel>
 <p></p></div></div>
 <p></p>
-<h4 id="5-smoke-test-catcher-compulsory"><span id="5-smoke-test-catcher-compulsory" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>5</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span> Smoke-test CATcher</span> <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> COMPULSORY</span></span> <span class="text-info"><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">counted for participation</span><span aria-hidden="true" class="fab fa-product-hunt"></span></span></span><a class="fa fa-anchor" href="#5-smoke-test-catcher-compulsory" onclick="event.stopPropagation()"></a></h4>
-<div>
-<ul>
-<li><strong>This activity is <span class="text-danger">compulsory</span> and counts for <code class="hljs inline no-lang" v-pre>3</code> participation points.</strong> Please do it before the weekly deadline. This will be counted for next week's participation.</li></ul>
-<div class="indented-level2">
-<box dismissible>
-<p><span class="dimmed"><strong><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Some background:</strong> As you know, our <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., Practical Exam</span>PE</span> includes peer-testing tP products under exam conditions. In the past, we used GitHub as the platform for that -- which was not optimal (e.g., it was hard to ensure the compulsory labels have been applied). As a remedy, some ex-students have been developing an app called <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">CAT stands for Crowd-sourced Anonymous Testing</span>CATcher</span> that we'll be using for the PE this semester.</span></p></box><p></p>
-<p>This week, we would like you to smoke-test the CATcher app <strong>to ensure it can run in your computer</strong>.</p>
-<p></p>
-<panel type="info" minimized class="algolia-no-index"><template slot="header"><p><strong>The steps for smoke-testing CATcher:</strong></p></template>
-<ol>
-<li><strong>Download the latest version</strong> of the CATcher executable from <a href="https://github.com/CATcher-org/CATcher/releases">https://github.com/CATcher-org/CATcher/releases</a>.</li>
-<li><strong>Launch the app.</strong> Allow the app to run if there are security warnings <span class="dimmed">(e.g., for Win 10, click the <code class="hljs inline no-lang" v-pre>More Info</code> link in the security warning and choose <code class="hljs inline no-lang" v-pre>Run anyway</code>)</span>.<br>
-<span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If the app is blocked by your virus scanner, put it in a new folder and add the folder to the <em>exclusions</em> list of the virus scanner.<br>
-<span><span aria-hidden="true" class="fas fa-info-circle"></span></span> If you encounter other problems at the app launch, refer to the <a href="https://github.com/CATcher-org/CATcher/blob/master/docs/usage-notes.html">Notes on using the CATcher Desktop App</a>.</li>
-<li><strong>Login</strong>: Choose the <em>session</em> <code class="hljs inline no-lang" v-pre>TIC4002/T Alpha Test</code>, and submit.
-<img src="/website/admin/images/catcherLogin.png"></li>
-<li>In the next screen, login to CATcher using your GitHub account.<br>
-If the app asks for public repo access permissions, grant it (just go with the default settings).</li>
-<li><strong>Let CATcher create a repo named <code class="hljs inline no-lang" v-pre>alpha</code></strong> in your GitHub account, when it asks for permission. That repo will be used to hold the bug reports you will create in this testing session.</li>
-<li><strong>Use the app (not the GitHub Web interface) to create 1-2 dummy bug reports</strong>. The steps are similar to how you would enter bug reports in the GitHub issue tracker. Include at least one screenshot in one of those bug reports.<br>
-<span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> you can <mark>copy-paste screenshots</mark> into the bug description.<br>
-<span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use Markdown syntax in the bug descriptions.<br>
-<span><span aria-hidden="true" class="fas fa-info-circle"></span></span> The <code class="hljs inline no-lang" v-pre>severity</code> and <code class="hljs inline no-lang" v-pre>type</code> labels are compulsory.</li>
-<li><strong>Report any problems you encounter</strong> at the <a href="https://github.com/CATcher-org/CATcher/issues">CATcher issue tracker</a>.</li>
-<li><strong>Do NOT delete the <code class="hljs inline no-lang" v-pre>alpha</code> repo</strong> created by CATcher in your GitHub account (keep it until the end of the semester) as our scripts will look for it later to check if you have done this activity.</li>
-<li><strong>Do NOT delete the CATcher executable</strong> you downloaded either; you will need it again.</li></ol></panel>
-<p></p></div></div>
-<p></p>
-<h4 id="6-do-a-trial-jar-release"><span id="6-do-a-trial-jar-release" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>6</big></big></span> <span><span><span aria-hidden="true" class="fas fa-users"></span></span> Do a trial JAR release</span><a class="fa fa-anchor" href="#6-do-a-trial-jar-release" onclick="event.stopPropagation()"></a></h4>
+<h4 id="5-do-a-trial-jar-release"><span id="5-do-a-trial-jar-release" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>5</big></big></span> <span><span><span aria-hidden="true" class="fas fa-users"></span></span> Do a trial JAR release</span><a class="fa fa-anchor" href="#5-do-a-trial-jar-release" onclick="event.stopPropagation()"></a></h4>
 <div>
 <ul>
 <li><font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>Do a <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">resulting in a jar file on GitHub that can be downloaded by potential users</span>product release</span></strong> <a href="https://nus-tic4002-ay2021s2.github.io/tp2/DevOps.html#making-a-release">as described in the Developer Guide</a>. You can name it something like <code class="hljs inline no-lang" v-pre>v1.2.1</code> (or <code class="hljs inline no-lang" v-pre>v1.3.trial</code>). <mark>Ensure that the jar file works as expected in an empty folder and using Java 11</mark>, by doing some manual testing. <span class="dimmed">Reason: You are <em>required</em> to do a proper product release for v1.3. Doing a trial at this point will help you iron out any problems in advance. It may take additional effort to get the jar working especially if you use third party libraries or additional assets such as images.</span></li></ul></div>
@@ -302,8 +272,7 @@ If the app asks for public repo access permissions, grant it (just go with the d
 <a class="nav-link py-1" href="#2-adjust-process-rigor-if-necessary">2  Adjust process rigor if necessary&#x200E;</a>
 <a class="nav-link py-1" href="#3-start-the-next-iteration">3  Start the next iteration&#x200E;</a>
 <a class="nav-link py-1" href="#4-update-the-dg-with-design-details">4  Update the DG with design details&#x200E;</a>
-<a class="nav-link py-1" href="#5-smoke-test-catcher-compulsory">5  Smoke-test CATcher  COMPULSORY counted for participation&#x200E;</a>
-<a class="nav-link py-1" href="#6-do-a-trial-jar-release">6  Do a trial JAR release&#x200E;</a>
+<a class="nav-link py-1" href="#5-do-a-trial-jar-release">5  Do a trial JAR release&#x200E;</a>
 </nav>
 </nav>
 
@@ -314,7 +283,7 @@ If the app asks for public repo access permissions, grant it (just go with the d
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Fri, 5 Mar 2021, 22:57:59 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Fri, 12 Mar 2021, 17:17:31 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>

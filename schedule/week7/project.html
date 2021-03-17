@@ -636,6 +636,7 @@ e.g.</p>
 <a href="/website/admin/images/gitHubPrStatus.png" target="_self"><img src="/website/admin/images/gitHubPrStatus.png" alt class="img-fluid"></a>
 <ul>
 <li><strong>If there is a failure</strong>, you can click on the <code class="hljs inline no-lang" v-pre>Details</code> link in corresponding line to find out more about the failure. Once you figure out the cause of the failure, push the a fix to the PR.</li></ul></li>
+<li><strong>Avoid rebasing/squashing</strong> when merging PRs. While both are good alternatives to the default behavior of creating a merge commit, rebasing/squashing can affect the timestamp of the commits, which can interfere with the progress tracking that we do for grading purposes <span class="dimmed">i.e., the commits can get detected under a week different from the week they were actually done</span>.</li>
 <li><strong>After merging a PR</strong>,
 <ul>
 <li>close the corresponding issue.<br>
@@ -775,7 +776,7 @@ e.g.</p>
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Sat, 13 Mar 2021, 1:20:27 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Thu, 18 Mar 2021, 1:26:07 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>

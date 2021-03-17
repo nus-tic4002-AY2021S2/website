@@ -107,18 +107,25 @@
 <h4 id="1-smoke-test-catcher-during-the-lecture"><span id="1-smoke-test-catcher-during-the-lecture" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>1</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span> Smoke-test CATcher</span> <span class="badge badge-secondary font-weight-normal"><span><span aria-hidden="true" class="far fa-clock"></span> During the lecture</span></span> <span class="text-info"><span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">counted for participation</span><span aria-hidden="true" class="fab fa-product-hunt"></span></span></span><a class="fa fa-anchor" href="#1-smoke-test-catcher-during-the-lecture" onclick="event.stopPropagation()"></a></h4>
 <div>
 <ul>
-<li><strong>This activity is <span class="text-danger">compulsory</span> and counts for <code class="hljs inline no-lang" v-pre>3</code> participation points.</strong> Please do it before the weekly deadline. This will be counted for next week's participation.</li></ul>
+<li><strong>This activity is <span class="text-danger">compulsory</span> and counts for <code class="hljs inline no-lang" v-pre>3</code> participation points.</strong> Please do it before the weekly deadline.</li></ul>
 <div class="indented-level2">
 <box dismissible>
 <p><span class="dimmed"><strong><span><span aria-hidden="true" class="fas fa-info-circle"></span></span> Some background:</strong> As you know, our <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., Practical Exam</span>PE</span> includes peer-testing tP products under exam conditions. In the past, we used GitHub as the platform for that -- which was not optimal (e.g., it was hard to ensure the compulsory labels have been applied). As a remedy, some ex-students have been developing an app called <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">CAT stands for Crowd-sourced Anonymous Testing</span>CATcher</span> that we'll be using for the PE this semester.</span></p></box><p></p>
 <p>This week, we would like you to smoke-test the CATcher app <strong>to ensure it can run in your computer</strong>.</p>
 <p></p>
-<panel type="info" minimized class="algolia-no-index"><template slot="header"><p><strong>The steps for smoke-testing CATcher:</strong></p></template>
+<panel type="info" expanded><template slot="header"><p><strong>The steps for smoke-testing CATcher:</strong></p></template>
+<p><strong>There are two versions of CATcher:</strong></p>
+<ul>
+<li>The Web version - this will be the default option</li>
+<li>The desktop version - this will be used as a fallback in case we run into any problems with the Web version.</li></ul>
+<p><strong>You need to <mark>smoke-test both versions</mark></strong> even if the Web version is working for you. The reason is, the Web version can still fail during the actual PE due to GitHub API restrictions. In that case, you should have the desktop version ready-to-use.</p>
+<h5 id="step-1-smoke-test-the-web-version"><span id="step-1-smoke-test-the-web-version" class="anchor"></span>Step 1: smoke-test the Web version<a class="fa fa-anchor" href="#step-1-smoke-test-the-web-version" onclick="event.stopPropagation()"></a></h5>
 <ol>
-<li><strong>Download the latest version</strong> of the CATcher executable from <a href="https://github.com/CATcher-org/CATcher/releases">https://github.com/CATcher-org/CATcher/releases</a>.</li>
-<li><strong>Launch the app.</strong> Allow the app to run if there are security warnings <span class="dimmed">(e.g., for Win 10, click the <code class="hljs inline no-lang" v-pre>More Info</code> link in the security warning and choose <code class="hljs inline no-lang" v-pre>Run anyway</code>)</span>.<br>
-<span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If the app is blocked by your virus scanner, put it in a new folder and add the folder to the <em>exclusions</em> list of the virus scanner.<br>
-<span><span aria-hidden="true" class="fas fa-info-circle"></span></span> If you encounter other problems at the app launch, refer to the <a href="https://github.com/CATcher-org/CATcher/blob/master/docs/usage-notes.html">Notes on using the CATcher Desktop App</a>.</li>
+<li><strong>Go to the CATcher Web version</strong> at <a href="https://catcher-org.github.io/CATcher/">https://catcher-org.github.io/CATcher/</a> using <mark>the same computer (i.e., not a mobile device) that you plan to use for the practical exam</mark>.
+<ul>
+<li>Use a common browser such as Chrome, Edge, Firefox, Safari</li>
+<li>Allow popups from <a href="https://catcher-org.github.io/">https://catcher-org.github.io/</a></li>
+<li>If you encounter other problems at the app launch, refer to the <a href="https://tinyurl.com/catcher-usage">Notes on using CATcher</a>.</li></ul></li>
 <li><strong>Login</strong>: Choose the <em>session</em> <code class="hljs inline no-lang" v-pre>TIC4002/T Alpha Test</code>, and submit.
 <img src="/website/admin/images/catcherLogin.png"></li>
 <li>In the next screen, login to CATcher using your GitHub account.<br>
@@ -129,8 +136,15 @@ If the app asks for public repo access permissions, grant it (just go with the d
 <span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> You can use Markdown syntax in the bug descriptions.<br>
 <span><span aria-hidden="true" class="fas fa-info-circle"></span></span> The <code class="hljs inline no-lang" v-pre>severity</code> and <code class="hljs inline no-lang" v-pre>type</code> labels are compulsory.</li>
 <li><strong>Report any problems you encounter</strong> at the <a href="https://github.com/CATcher-org/CATcher/issues">CATcher issue tracker</a>.</li>
-<li><strong>Do NOT delete the <code class="hljs inline no-lang" v-pre>alpha</code> repo</strong> created by CATcher in your GitHub account (keep it until the end of the semester) as our scripts will look for it later to check if you have done this activity.</li>
-<li><strong>Do NOT delete the CATcher executable</strong> you downloaded either; you will need it again.</li></ol></panel>
+<li><strong>Do NOT delete the <code class="hljs inline no-lang" v-pre>alpha</code> repo</strong> created by CATcher in your GitHub account (keep it until the end of the semester) as our scripts will look for it later to check if you have done this activity.</li></ol>
+<h5 id="step-2-smoke-test-the-desktop-version"><span id="step-2-smoke-test-the-desktop-version" class="anchor"></span>Step 2: smoke-test the Desktop version<a class="fa fa-anchor" href="#step-2-smoke-test-the-desktop-version" onclick="event.stopPropagation()"></a></h5>
+<ol>
+<li><strong>Download the latest version</strong> of the CATcher executable from <a href="https://github.com/CATcher-org/CATcher/releases">https://github.com/CATcher-org/CATcher/releases</a>.</li>
+<li><strong>Launch the app.</strong> Allow the app to run if there are security warnings <span class="dimmed">(e.g., for Win 10, click the <code class="hljs inline no-lang" v-pre>More Info</code> link in the security warning and choose <code class="hljs inline no-lang" v-pre>Run anyway</code>)</span>.<br>
+<span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> If the app is blocked by your virus scanner, put it in a new folder and add the folder to the <em>exclusions</em> list of the virus scanner.<br>
+<span><span aria-hidden="true" class="fas fa-info-circle"></span></span> If you encounter other problems at the app launch, refer to the <a href="https://tinyurl.com/catcher-usage">Notes on using CATcher </a>.</li>
+<li>Login as before, and add 1-2 new dummy bug reports.</li>
+<li><strong>Do NOT delete the CATcher executable</strong> you downloaded either; you will need it again later.</li></ol></panel>
 <p></p></div></div>
 <p></p>
 <h4 id="2-deliver-v1-3"><span id="2-deliver-v1-3" class="anchor"></span><span class="badge badge-pill badge-dark p-2"><big><big>2</big></big></span> <span><span><span aria-hidden="true" class="fas fa-user"></span></span> Deliver v1.3</span><a class="fa fa-anchor" href="#2-deliver-v1-3" onclick="event.stopPropagation()"></a></h4>
@@ -251,7 +265,7 @@ If the app asks for public repo access permissions, grant it (just go with the d
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Sat, 13 Mar 2021, 1:20:27 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Thu, 18 Mar 2021, 1:26:07 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>

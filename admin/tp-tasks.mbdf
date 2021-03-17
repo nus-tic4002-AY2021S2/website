@@ -654,7 +654,7 @@ Hence, it is in your interest to ==finish implementing all your <tooltip content
 As you did in the previous iteration,
 * **Plan the next iteration** (steps are given below as a reminder):
   * {{ icon_team }} Decide which enhancements will be added to the product in this iteration, assuming this is the last iteration.
-  * {{ icon_team }} If possible, split that into two incremental versions.
+  * {{ icon_team }} If possible, split that into two incremental versions `{{ version_penultimate }}` and `{{ version_penultimate }}b`.
   * {{ icon_team }} Divide the work among team members.
   * {{ icon_individual }} Reflect the above plan in the issue tracker.
 * {{ icon_individual }} **Start implementing** the features as per the plan made above.
@@ -692,12 +692,12 @@ While we are on the topic, also note that the architecture of AB3 doesn't suite 
 
 <panel type="info" header="Why the hurry to update documents? Why not wait till the implementation is finalized?" minimized>
 
+Here are some reasons:
 * We want you to take at least two passes at documenting the project so that you can learn how to evolve the documentation along with the code %%(which requires additional considerations, when compared to documenting the project only once)%%.
-
 * It is better to get used to the documentation tool chain early, to avoid unexpected problems near the final submission deadline.
-
 * It allows receiving early self/peer/instructor feedback.
 </panel>
+<p/>
 </div>
 
 * **Update the Developer Guide** as follows:{% if tic4001 %}
@@ -750,7 +750,7 @@ While we are on the topic, also note that the architecture of AB3 doesn't suite 
 <span id="heading_smoke_test_catcher">{{ icon_individual }} Smoke-test CATcher</span>
 <span id="desc_smoke_test_catcher">
 
-* **This activity is <span class="text-danger">compulsory</span> and counts for `3` participation points.** Please do it before the weekly deadline.{% if tic4002 %} This will be counted for next week's participation.{% endif %}
+* **This activity is <span class="text-danger">compulsory</span> and counts for `3` participation points.** Please do it before the weekly deadline.
 <div class="indented-level2">
 
 <box dismissible>
@@ -761,12 +761,23 @@ While we are on the topic, also note that the architecture of AB3 doesn't suite 
 This week, we would like you to smoke-test the CATcher app **to ensure it can run in your computer**.
 <p/>
 
-<panel type="info" header="**The steps for smoke-testing CATcher:**" minimized>
+<panel type="info" header="**The steps for smoke-testing CATcher:**" expanded>
 
-1. **Download the latest version** of the CATcher executable from [https://github.com/CATcher-org/CATcher/releases](https://github.com/CATcher-org/CATcher/releases).
-1. **Launch the app.** Allow the app to run if there are security warnings %%(e.g., for Win 10, click the `More Info` link in the security warning and choose `Run anyway`)%%.<br>
-   {{ icon_tip }} If the app is blocked by your virus scanner, put it in a new folder and add the folder to the _exclusions_ list of the virus scanner.<br>
-   {{ icon_info }} If you encounter other problems at the app launch, refer to the [Notes on using the CATcher Desktop App](https://github.com/CATcher-org/CATcher/blob/master/docs/usage-notes.md).
+**There are two versions of CATcher:**
+* The Web version - this will be the default option
+* The desktop version - this will be used as a fallback in case we run into any problems with the Web version.
+
+**You need to ==smoke-test both versions==** even if the Web version is working for you. The reason is, the Web version can still fail during the actual PE due to GitHub API restrictions. In that case, you should have the desktop version ready-to-use.
+
+
+##### Step 1: smoke-test the Web version
+
+{% set dot = "." %}
+
+1. **Go to the CATcher Web version** at https://catcher-org.github.io/CATcher/ using ==the same computer (i.e., not a mobile device) that you plan to use for the practical exam==.
+   * Use a common browser such as Chrome, Edge, Firefox, Safari
+   * Allow popups from https://catcher-org.github.io/
+   * If you encounter other problems at the app launch, refer to the [Notes on using CATcher](https://tinyurl.com/catcher-usage).
 1. **Login**: Choose the _session_ `{{ module }}/T Alpha Test`, and submit.
    <img src="images/catcherLogin.png" />
 1. In the next screen, login to CATcher using your GitHub account.<br>
@@ -778,7 +789,15 @@ This week, we would like you to smoke-test the CATcher app **to ensure it can ru
    {{ icon_info }} The `severity` and `type` labels are compulsory.
 1. **Report any problems you encounter** at the [CATcher issue tracker](https://github.com/CATcher-org/CATcher/issues).
 1. **Do NOT delete the `alpha` repo** created by CATcher in your GitHub account (keep it until the end of the semester) as our scripts will look for it later to check if you have done this activity.
-1. **Do NOT delete the CATcher executable** you downloaded either; you will need it again.
+
+##### Step 2: smoke-test the Desktop version
+
+1. **Download the latest version** of the CATcher executable from [https://github.com/CATcher-org/CATcher/releases](https://github.com/CATcher-org/CATcher/releases).
+1. **Launch the app.** Allow the app to run if there are security warnings %%(e.g., for Win 10, click the `More Info` link in the security warning and choose `Run anyway`)%%.<br>
+   {{ icon_tip }} If the app is blocked by your virus scanner, put it in a new folder and add the folder to the _exclusions_ list of the virus scanner.<br>
+   {{ icon_info }} If you encounter other problems at the app launch, refer to the [Notes on using CATcher ](https://tinyurl.com/catcher-usage).
+1. Login as before, and add 1-2 new dummy bug reports.
+1. **Do NOT delete the CATcher executable** you downloaded either; you will need it again later.
 
 </panel>
 <p/>

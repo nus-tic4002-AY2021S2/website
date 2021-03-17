@@ -1,0 +1,37 @@
+2021-03-17T15:40:24.609Z - info: Website generation (lazy) started at 11:40:10 PM
+2021-03-17T15:40:34.614Z - info: Building assets...
+2021-03-17T15:40:40.636Z - info: Assets built
+2021-03-17T15:40:40.638Z - info: Generating landing page...
+2021-03-17T15:40:42.111Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-03-17T15:40:42.642Z - info: Site data built
+2021-03-17T15:40:42.643Z - info: Website generation (lazy) complete! Total build time: 31.803s
+2021-03-17T15:40:43.535Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2021-03-17T15:40:43.535Z - info: Press CTRL+C to stop ...
+2021-03-17T15:49:53.310Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week10\index as some of its dependencies were changed since the last visit
+2021-03-17T15:49:54.384Z - info: Site data built
+2021-03-17T15:49:54.385Z - info: Lazy website regeneration complete! Total build time: 1.077s
+2021-03-17T15:50:15.277Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week10\admin as some of its dependencies were changed since the last visit
+2021-03-17T15:50:15.503Z - info: Site data built
+2021-03-17T15:50:15.504Z - info: Lazy website regeneration complete! Total build time: 0.227s
+2021-03-17T15:50:22.829Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week10\topics as some of its dependencies were changed since the last visit
+2021-03-17T15:50:25.808Z - info: Site data built
+2021-03-17T15:50:25.808Z - info: Lazy website regeneration complete! Total build time: 2.98s
+2021-03-17T15:50:31.890Z - debug:  
+2021-03-17T15:54:00.540Z - info: [11:54:00 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\common-commentary.mbdf
+2021-03-17T15:54:01.547Z - info: Rebuilding 1 pages
+2021-03-17T15:54:06.757Z - info: Site data built
+2021-03-17T15:54:06.765Z - info: Pages rebuilt
+2021-03-17T15:54:06.771Z - info: Website regeneration complete! Total build time: 5.221s
+2021-03-17T15:54:06.863Z - debug:  
+2021-03-17T15:54:58.740Z - info: [11:54:58 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\common-commentary.mbdf
+2021-03-17T15:54:59.745Z - info: Rebuilding 1 pages
+2021-03-17T15:55:04.238Z - info: Site data built
+2021-03-17T15:55:04.239Z - info: Pages rebuilt
+2021-03-17T15:55:04.239Z - info: Website regeneration complete! Total build time: 4.496s
+2021-03-17T15:55:04.245Z - debug:  
+2021-03-17T15:56:45.368Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week10\tutorial as some of its dependencies were changed since the last visit
+2021-03-17T15:56:46.239Z - info: Site data built
+2021-03-17T15:56:46.240Z - info: Lazy website regeneration complete! Total build time: 0.872s
+2021-03-17T15:57:41.923Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week10\project as some of its dependencies were changed since the last visit
+2021-03-17T15:57:43.754Z - info: Site data built
+2021-03-17T15:57:43.755Z - info: Lazy website regeneration complete! Total build time: 1.832s

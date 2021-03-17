@@ -171,13 +171,13 @@
 <p><strong>After following the given workflow for at least <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., until the end of v1.2</span>one iteration</span>, optionally, you may adjust the process rigor</strong> to suit your team's pace. Here are some examples:</p>
 <ul>
 <li>
+<p><strong>Switch to a lighter workflow</strong>: While <em>forking workflow</em> is the safest (and is recommended), it is also rather heavy. You may switch to a simpler workflow if the forking workflow if you wish. Refer the textbook to find more about alternative workflows: <em>feature branches workflow</em> (a reasonable alternative, but if you choose this, make sure your master branch is <em>protected</em>), <em>centralized workflow</em> (discouraged). Even if you do switch, we still recommend that you use PR reviews, at least for PRs affecting others' features.</p></li>
+<li>
 <p><strong>Reduce automated tests</strong>: Automated tests have benefits, but they can be a pain to write/maintain.<br>
 It is OK to get rid of some of the troublesome tests and rely more on manual testing instead. The less automated tests you have, the higher the risk of regressions; but it may be an acceptable trade-off under the circumstances if tests are slowing you down too much.<br>
 There is no direct penalty for removing tests. Also note <trigger trigger="click" for="modal:appEworkflow-testingExpectations">our expectation on test code</trigger>.</p></li>
 <li>
 <p><strong>Reduce automated checks</strong>: You can also reduce the rigor of checkstyle checks to expedite PR processing.</p></li>
-<li>
-<p><strong>Switch to a lighter workflow</strong>: While <em>forking workflow</em> is the safest (and is recommended), it is also rather heavy. You may switch to a simpler workflow if the forking workflow if you wish. Refer the textbook to find more about alternative workflows: <em>feature branches workflow</em>, <em>centralized workflow</em>. Even if you do switch, we still recommend that you use PR reviews, at least for PRs affecting others' features.</p></li>
 <li>
 <p>If you are unsure if a certain adjustment is allowed, you can check with the teaching team first.</p></li></ul>
 <b-modal id="modal:appEworkflow-testingExpectations" hide-footer size modal-class="mb-zoom" ref="modal:appEworkflow-testingExpectations" class="algolia-no-index"><template slot="modal-title">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Grading → Expectation on testing</template>
@@ -202,7 +202,7 @@ There is no requirement for a minimum coverage level. Note that in a production 
 <li><strong>Plan the next iteration</strong> (steps are given below as a reminder):
 <ul>
 <li><span><span aria-hidden="true" class="fas fa-users"></span></span> Decide which enhancements will be added to the product in this iteration, assuming this is the last iteration.</li>
-<li><span><span aria-hidden="true" class="fas fa-users"></span></span> If possible, split that into two incremental versions.</li>
+<li><span><span aria-hidden="true" class="fas fa-users"></span></span> If possible, split that into two incremental versions <code class="hljs inline no-lang" v-pre>v1.3</code> and <code class="hljs inline no-lang" v-pre>v1.3b</code>.</li>
 <li><span><span aria-hidden="true" class="fas fa-users"></span></span> Divide the work among team members.</li>
 <li><span><span aria-hidden="true" class="fas fa-user"></span></span> Reflect the above plan in the issue tracker.</li></ul></li>
 <li><span><span aria-hidden="true" class="fas fa-user"></span></span> <strong>Start implementing</strong> the features as per the plan made above.</li>
@@ -222,14 +222,14 @@ While we are on the topic, also note that the architecture of AB3 doesn't suite 
 <div>
 <div class="indented-level2" tags="m--cs2103 m--tic4002">
 <panel type="info" minimized class="algolia-no-index"><template slot="header"><p>Why the hurry to update documents? Why not wait till the implementation is finalized?</p></template>
+<p>Here are some reasons:</p>
 <ul>
-<li>
-<p>We want you to take at least two passes at documenting the project so that you can learn how to evolve the documentation along with the code <span class="dimmed">(which requires additional considerations, when compared to documenting the project only once)</span>.</p></li>
-<li>
-<p>It is better to get used to the documentation tool chain early, to avoid unexpected problems near the final submission deadline.</p></li>
-<li>
-<p>It allows receiving early self/peer/instructor feedback.
-</p></li></ul></panel><p></p></div>
+<li>We want you to take at least two passes at documenting the project so that you can learn how to evolve the documentation along with the code <span class="dimmed">(which requires additional considerations, when compared to documenting the project only once)</span>.</li>
+<li>It is better to get used to the documentation tool chain early, to avoid unexpected problems near the final submission deadline.</li>
+<li>It allows receiving early self/peer/instructor feedback.
+</li></ul></panel>
+
+<p></p></div>
 <ul>
 <li><strong>Update the Developer Guide</strong> as follows:
 <ul>
@@ -333,7 +333,7 @@ It will look more 'polished' if the two text sizes match.
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Sat, 13 Mar 2021, 1:20:27 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Thu, 18 Mar 2021, 1:26:07 GMT+8]</small></div></footer></div>
 </body>
 <script src="../markbind/js/bootstrap-utility.min.js"></script>
 <script>

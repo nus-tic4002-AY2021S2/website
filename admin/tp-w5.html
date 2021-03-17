@@ -808,6 +808,7 @@ e.g.</p>
 <a href="/website/admin/images/gitHubPrStatus.png" target="_self"><img src="/website/admin/images/gitHubPrStatus.png" alt class="img-fluid"></a>
 <ul>
 <li><strong>If there is a failure</strong>, you can click on the <code class="hljs inline no-lang" v-pre>Details</code> link in corresponding line to find out more about the failure. Once you figure out the cause of the failure, push the a fix to the PR.</li></ul></li>
+<li><strong>Avoid rebasing/squashing</strong> when merging PRs. While both are good alternatives to the default behavior of creating a merge commit, rebasing/squashing can affect the timestamp of the commits, which can interfere with the progress tracking that we do for grading purposes <span class="dimmed">i.e., the commits can get detected under a week different from the week they were actually done</span>.</li>
 <li><strong>After merging a PR</strong>,
 <ul>
 <li>close the corresponding issue.<br>
@@ -928,13 +929,13 @@ e.g.</p>
 <p><strong>After following the given workflow for at least <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., until the end of v1.2</span>one iteration</span>, optionally, you may adjust the process rigor</strong> to suit your team's pace. Here are some examples:</p>
 <ul>
 <li>
+<p><strong>Switch to a lighter workflow</strong>: While <em>forking workflow</em> is the safest (and is recommended), it is also rather heavy. You may switch to a simpler workflow if the forking workflow if you wish. Refer the textbook to find more about alternative workflows: <em>feature branches workflow</em> (a reasonable alternative, but if you choose this, make sure your master branch is <em>protected</em>), <em>centralized workflow</em> (discouraged). Even if you do switch, we still recommend that you use PR reviews, at least for PRs affecting others' features.</p></li>
+<li>
 <p><strong>Reduce automated tests</strong>: Automated tests have benefits, but they can be a pain to write/maintain.<br>
 It is OK to get rid of some of the troublesome tests and rely more on manual testing instead. The less automated tests you have, the higher the risk of regressions; but it may be an acceptable trade-off under the circumstances if tests are slowing you down too much.<br>
 There is no direct penalty for removing tests. Also note <trigger trigger="click" for="modal:appEworkflow-testingExpectations">our expectation on test code</trigger>.</p></li>
 <li>
 <p><strong>Reduce automated checks</strong>: You can also reduce the rigor of checkstyle checks to expedite PR processing.</p></li>
-<li>
-<p><strong>Switch to a lighter workflow</strong>: While <em>forking workflow</em> is the safest (and is recommended), it is also rather heavy. You may switch to a simpler workflow if the forking workflow if you wish. Refer the textbook to find more about alternative workflows: <em>feature branches workflow</em>, <em>centralized workflow</em>. Even if you do switch, we still recommend that you use PR reviews, at least for PRs affecting others' features.</p></li>
 <li>
 <p>If you are unsure if a certain adjustment is allowed, you can check with the teaching team first.</p></li></ul>
 <b-modal id="modal:appEworkflow-testingExpectations" hide-footer size modal-class="mb-zoom" ref="modal:appEworkflow-testingExpectations" class="algolia-no-index"><template slot="modal-title">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project Grading → Expectation on testing</template>
@@ -969,7 +970,7 @@ There is no requirement for a minimum coverage level. Note that in a production 
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Sat, 13 Mar 2021, 1:20:27 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Thu, 18 Mar 2021, 1:26:07 GMT+8]</small></div></footer></div>
 </body>
 <script src="../markbind/js/bootstrap-utility.min.js"></script>
 <script>

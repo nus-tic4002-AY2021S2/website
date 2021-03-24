@@ -4,7 +4,7 @@
 
 * Ensure you have access to a **computer that is able to run module projects** %%e.g. has the right Java version%%.
 
-* **Download the [latest CATcher](https://github.com/CATcher-org/CATcher/releases)** and ensure you can run it on your computer.
+* **Download the [latest CATcher](https://github.com/CATcher-org/CATcher/releases)** and ensure you can run it on your computer. You should have done this when you smoke-tested CATcher earlier in the week.
 
 <div class="indented-level2">
 
@@ -31,15 +31,18 @@ Issues created for PE-D and PE need to be in a precise format for our grading sc
 </panel><p/>
 </div>
 
-* **Have a good screen grab tool** with annotation features so that you can quickly take a screenshot of a bug, annotate it, and post in the issue tracker.
-  * {{ icon_tip }} You can use <kbd>Ctrl</kbd>+<kbd>V</kbd> to paste a picture from the clipboard into a text box in a bug report.
+* **Have a good screen grab tool** with annotation features so that you can quickly take a screenshot of a bug, annotate it, and post in the issue tracker.<br>
+  {{ icon_tip }} You can use <kbd>Ctrl</kbd>+<kbd>V</kbd> to paste a picture from the clipboard into a text box in a bug report.
+
+* **[Optional] Have a good screen recording tool** if you plan to use screen recording clips as part of your bug reports. Ensure that your screen recording tool can create small files as CATcher doesn't allow files bigger than 10Mb.<br>
+  {{ icon_important }} As the CATcher support for uploading screen recordings is new and limited, use it only if strictly necessary -- use screenshots for other cases.
 
 * **<span class="text-danger">Download the product to be tested</span>**.
 
 <tabs active="{{ pe_active_tab }}" add-class="ml-4">
 <tab header="PE Dry Run (at **{{ version_penultimate }}**)">
 
-* After you have been notified which team to test (likely to be in the morning of PE-D day), download the jar file from the team's releases page.
+* After you have been notified which team to test (likely to be {{ "during the PE-D session itself" if tic4002 else "in the morning of PE-D day" }}), download the jar file from the team's releases page.
 
 </tab>
 <tab header="PE (at **{{ version_final }}**)">

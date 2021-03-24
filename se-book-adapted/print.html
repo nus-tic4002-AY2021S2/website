@@ -460,10 +460,9 @@ components of real systems, but equally as well fulfill assigned roles as compon
 <h4 id="dependencies"><span id="dependencies" class="anchor"></span>Dependencies <span class="badge badge-light"><small><small><span aria-hidden="true" class="glyphicon glyphicon-education"></span>: <span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#dependencies" onclick="event.stopPropagation()"></a></h4>
 <div class="indented-less">
 <div>
-<p>In the context of OOP associations, <strong>a <em>dependency</em> is a need for one class to depend on another without having a direct association with it.</strong> One cause of dependencies is interactions between objects that do not have a long-term link between them.</p>
+<p>In the context of OOP associations, <strong>a <em>dependency</em> is a need for one class to depend on another without having a direct association in the same direction.</strong> Reason for the exclusion: If there is an association from class <code class="hljs inline no-lang" v-pre>Foo</code> to class <code class="hljs inline no-lang" v-pre>Bar</code> (i.e., navigable from <code class="hljs inline no-lang" v-pre>Foo</code> to <code class="hljs inline no-lang" v-pre>Bar</code>), that means <code class="hljs inline no-lang" v-pre>Foo</code> is <em>obviously</em> dependent on <code class="hljs inline no-lang" v-pre>Bar</code> and hence there is no point in mentioning <em>dependency</em> specifically. In other words, we are only concerned about <em>non-obvious</em> dependencies here. One cause of such dependencies is interactions between objects that do not have a long-term link between them.</p>
 <box>
-<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A <code class="hljs inline no-lang" v-pre>Course</code> object can have a dependency on a <code class="hljs inline no-lang" v-pre>Registrar</code> object to obtain the maximum number of students it can support.</p></box>
-<h5 id="implementing-dependencies"><span id="implementing-dependencies" class="anchor"></span>Implementing dependencies<a class="fa fa-anchor" href="#implementing-dependencies" onclick="event.stopPropagation()"></a></h5>
+<p><span><span aria-hidden="true" class="fas fa-cube"></span></span> A <code class="hljs inline no-lang" v-pre>Course</code> class can have a dependency on a <code class="hljs inline no-lang" v-pre>Registrar</code> class because the <code class="hljs inline no-lang" v-pre>Course</code> class needs to refer to the <code class="hljs inline no-lang" v-pre>Registrar</code> class to obtain the the maximum number of students it can support (e.g., <code class="hljs inline no-lang" v-pre>Registrar.MAX_COURSE_CAPACITY</code>).</p></box>
 <box>
 <p><span><span aria-hidden="true" class="fas fa-cube"></span></span> In the code below, <code class="hljs inline no-lang" v-pre>Foo</code> has a dependency on <code class="hljs inline no-lang" v-pre>Bar</code> but it is not an association because it is only a <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">temporary</span>transient</span> interaction and there is no long term relationship between a <code class="hljs inline no-lang" v-pre>Foo</code> object and a <code class="hljs inline no-lang" v-pre>Bar</code> object. <span class="dimmed">i.e. the <code class="hljs inline no-lang" v-pre>Foo</code> object does not keep the <code class="hljs inline no-lang" v-pre>Bar</code> object it receives as a parameter</span>.</p>
 <div class="alt-java">
@@ -5816,7 +5815,9 @@ No specific boundary</p></td></tr>
 <li>If reviewers suggested any changes, Jean updates the PR accordingly.</li>
 <li>When reviewers are satisfied with the PR, one of the members (usually the team lead or a designated 'maintainer' of the main repo) merges the PR, which brings Jean’s code to the main repo.</li>
 <li>Other members, realizing there is new code in the upstream repo, sync their forks with the new upstream repo (i.e. the main repo). This is done by pulling the new code to their own local repo and pushing the updated code to their own fork.<br>
-<font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Possible mistake: Creating another 'reverse' PR from the team repo to the team member's fork to sync the member's fork with the merged code. PRs are meant to go from downstream repos to upstream repos, not in the other direction.</li></ol></div></div></div></div>
+<font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Possible mistake: Creating another 'reverse' PR from the team repo to the team member's fork to sync the member's fork with the merged code. PRs are meant to go from downstream repos to upstream repos, not in the other direction.</li></ol>
+<p>One main benefit of this workflow is that it does not require most contributors to have write permissions to the main repository. Only those who are merging PRs need write permissions.
+The main drawback of this workflow is the extra overhead of sending everything through forks.</p></div></div></div></div>
   <p style="page-break-after: always;">&nbsp;</p>
 <div id="title">
 <div><h1 id="project-planning"><span id="project-planning" class="anchor"></span><span>Project planning</span><a class="fa fa-anchor" href="#project-planning" onclick="event.stopPropagation()"></a></h1></div></div>
@@ -8529,7 +8530,7 @@ If that option is not available, post a message in the PR requesting the PR auth
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Sat, 20 Mar 2021, 0:30:11 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Wed, 24 Mar 2021, 16:54:17 GMT+8]</small></div></footer></div>
 </body>
 <script src="../markbind/js/bootstrap-utility.min.js"></script>
 <script>

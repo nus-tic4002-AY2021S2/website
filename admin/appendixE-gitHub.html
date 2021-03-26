@@ -655,7 +655,13 @@ The main drawback of this workflow is the extra overhead of sending everything t
 <p><strong>After following the given workflow for at least <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., until the end of v1.2</span>one iteration</span>, optionally, you may adjust the process rigor</strong> to suit your team's pace. Here are some examples:</p>
 <ul>
 <li>
-<p><strong>Switch to a lighter workflow</strong>: While <em>forking workflow</em> is the safest (and is recommended), it is also rather heavy. You may switch to a simpler workflow if the forking workflow if you wish. Refer the textbook to find more about alternative workflows: <em>feature branches workflow</em> (a reasonable alternative, but if you choose this, make sure your master branch is <em>protected</em>), <em>centralized workflow</em> (discouraged). Even if you do switch, we still recommend that you use PR reviews, at least for PRs affecting others' features.</p></li>
+<p><strong>Switch to a lighter workflow</strong>:</p>
+<ul>
+<li>While <em>forking workflow</em> is the safest (and is recommended), it is also rather heavy. You may switch to a simpler workflow if the forking workflow if you wish. Refer the textbook to find more about <a href="/website/se-book-adapted/chapters/revisionControl.html">alternative workflows</a>:
+<ul>
+<li>The <em>feature branches</em> workflow: a reasonable alternative, but if you choose this, make sure your master branch is <em>protected</em> and most members have write access only (i.e., no admin access)</li>
+<li>The <em>centralized workflow</em>: discouraged.</li></ul></li>
+<li>Even if you do switch, we still recommend that you use PR reviews, at least for PRs affecting others' features.</li></ul></li>
 <li>
 <p><strong>Reduce automated tests</strong>: Automated tests have benefits, but they can be a pain to write/maintain.<br>
 It is OK to get rid of some of the troublesome tests and rely more on manual testing instead. The less automated tests you have, the higher the risk of regressions; but it may be an acceptable trade-off under the circumstances if tests are slowing you down too much.<br>
@@ -778,7 +784,7 @@ There is no requirement for a minimum coverage level. Note that in a production 
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Wed, 24 Mar 2021, 16:54:17 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Fri, 26 Mar 2021, 19:55:38 GMT+8]</small></div></footer></div>
 </body>
 <script src="../markbind/js/bootstrap-utility.min.js"></script>
 <script>

@@ -419,9 +419,9 @@ There is no requirement for a minimum coverage level. Note that in a production 
 <li>
 <p><font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> <strong>From this point onwards each member is expected to contribute <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">the amount of code does not matter; even small contributions are acceptable</span>some</span> code to each <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">v1.3, v1.4</span> milestone</span>, preferably each week; only merged code is considered as contributions</strong> <span class="dimmed"><span data-mb-component-type="popover" v-b-popover.hover.top.html="popoverInnerGetters" class="trigger"><span data-mb-slot-name="content">The ability to deliver code incrementally is an important learning outcome of this module because incremental delivery, among other things, improves the <em>visibility</em> of your work.</span>(Reason)</span></span>.</p></li>
 <li>
-<p><strong>If you plan to rename the code packages</strong>, you may want to do it around this time. Doing it later can be more difficult, and can cause problems in our code authorship tracking. Also note that renaming packages is optional.</p></li>
+<p><mark><strong>If you plan to rename the code packages</strong></mark>, you may want to do it around this time. Doing it later can be more difficult <span class="dimmed">(e.g., it can cause more merge conflicts)</span>, and can cause problems in our code authorship tracking. Also note that renaming packages is optional.</p></li>
 <li>
-<p><strong>Note: you are required to follow the forking workflow</strong> for at least the first part of this iteration:</p></li></ul>
+<p><strong>Note: you are required to follow the forking workflow</strong> for at least for the first part of this iteration:</p></li></ul>
 <div class="indented-level2">
 <panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Appendix E(extract): <strong>Workflow</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
@@ -448,7 +448,7 @@ e.g., <code class="hljs inline no-lang" v-pre>git config --global user.name John
 <li>You clearly give credit to the original author(s).</li></ul></li>
 <li>You are allowed to reuse work from external sources, subject to following conditions:
 <ul>
-<li>The work comes from a source of 'good standing' (such as an established open source project). This means you cannot reuse code written by an outside 'friend'.</li>
+<li>In case of reusing more than a short code snippet (e.g., reusing an entire library or an entire feature), the work comes from a source of 'good standing' (such as an established open source project). This means you cannot reuse a <em>significant portion</em> of codebase written by a friend or a past student. But you may reuse/adapt small code snippets from any source such as stackoverflow.</li>
 <li>You clearly give credit to the original author. Acknowledge use of third party resources clearly e.g. in the welcome message, splash screen (if any) or under the 'about' menu. If you are open about reuse, you are less likely to get into trouble if you unintentionally reused something copyrighted.</li>
 <li>You do not violate the license under which the work has been released. Please  <strong>do not use 3rd-party images/audio</strong> in your software unless they have been specifically released to be used freely. Just because you found it in the Internet does not mean it is free for reuse.</li>
 <li><mark>Always get permission from us before you reuse</mark> third-party libraries. Please post your 'request to use 3rd party library' in our <a href="https://github.com/nus-tic4002-AY2021S2/forum/issues">forum</a>. That way, the whole class get to see what libraries are being used by others.</li></ul></li></ul>
@@ -593,10 +593,10 @@ e.g.</p>
 <ul>
 <li><strong>Code contributed</strong>: Give a link to your code on <a href="https://nus-tic4002-ay2021s2.github.io/tp-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=docs~functional-code~test-code~other">tP Code Dashboard</a>. The link is available in the <a href="/website/admin/teamList.html">Project List Page</a> -- linked to the <span class="dimmed"><span aria-hidden="true" class="fas fa-code"></span></span> icon under your profile picture.</li>
 <li><strong>Enhancements implemented:</strong> A summary of the enhancements you implemented.</li>
-<li><strong>Contributions to documentation:</strong> Which sections did you contribute to the UG?</li>
+<li><strong>Contributions to the UG:</strong> Which sections did you contribute to the UG?</li>
 <li><strong>Contributions to the DG:</strong> Which sections did you contribute to the DG? Which UML diagrams did you add/updated?</li>
-<li><strong>Contributions to <trigger trigger="click" for="modal:deliverablesPPP-teamTasks">team-based tasks </trigger>:</strong></li>
-<li><strong>Review/mentoring contributions:</strong> Links to PRs reviewed, instances of helping team members in other ways</li>
+<li><strong>Contributions to <trigger trigger="click" for="modal:deliverablesPPP-teamTasks">team-based tasks </trigger></strong></li>
+<li><strong>Review/mentoring contributions:</strong> Links to PRs reviewed, instances of helping team members in other ways.</li>
 <li><strong>Contributions beyond the project team:</strong>
 <ul>
 <li>Evidence of helping others <span class="dimmed">e.g. responses you posted in our forum, bugs you reported in other team's products</span>,</li>
@@ -622,8 +622,7 @@ e.g.</p>
 <li>Incorporating more useful tools/libraries/frameworks into the product or the project workflow <span class="dimmed">(e.g. automate more aspects of the project workflow using a GitHub plugin)</span></li></ol></span></panel><p></p></box></div></b-modal>
 <div class="indented-level2">
 <box type="tip" seamless>
-<p>Keep in mind that evaluators will use the PPP to estimate your project effort. We recommend that you mention things that will earn you a fair score <span class="dimmed">e.g., explain how deep the enhancement is, why it is <em>complete</em>, how hard it was to implement etc.</span>.
-</p></box><p></p></div>
+<p>Keep in mind that evaluators will use the PPP to estimate your project effort. We recommend that you mention things that will earn you a fair score <span class="dimmed">e.g., explain how deep the enhancement is, why it is <em>complete</em>, how hard it was to implement etc.</span></p></box><p></p></div>
 <ul>
 <li><strong><span class="badge badge-pill badge-success">OPTIONAL</span> Contributions to the Developer Guide (Extracts)</strong>: Reproduce the parts in the Developer Guide that you wrote. Alternatively, you can show the various diagrams you contributed.</li>
 <li><strong><span class="badge badge-pill badge-success">OPTIONAL</span> Contributions to the User Guide (Extracts)</strong>: Reproduce the parts in the User Guide that you wrote.</li></ul>
@@ -832,7 +831,7 @@ The main drawback of this workflow is the extra overhead of sending everything t
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Sun, 28 Mar 2021, 11:42:34 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Sun, 4 Apr 2021, 11:33:08 GMT+8]</small></div></footer></div>
 </body>
 <script src="../markbind/js/bootstrap-utility.min.js"></script>
 <script>

@@ -993,8 +993,18 @@ Also see:
 {{ icon_tick_green }} purely cosmetic enhancements e.g., alignments, style changes<br>
 {{ icon_tick_green }} improving code quality<br>
 {{ icon_tick_green }} improving tests
+{{ icon_tick_green }} removing features
 
 {{ icon_x_red }} <span class="text-danger">**Not allowed in {{ version_final }}:**</span> adding features or doing major changes to existing features.
+
+**The goal of freezing features in the pre-release iteration** is to subject the features to at least one round of intensive non-dev testing before they are released to the users. In a real project, minor or critical changes might be allowed even near a deadline -- but here, we do not allow _any_ feature changes because it can start us on a slippery slope and many "is this change allowed?" queries. Therefore, {{ version_final }} should not have _any_ features that was not already tested in the PE-D).
+
+**FAQs:**
+* **Q:** Can we add a missing validity check for a user input?<br>
+  **A:** Yes, but only if its absence causes the software to mis-behave (i.e., it's omission can be considered a bug).
+* **Q:** Testers have reported a missing feature (or a feature suggestion). Can we add it?<br>
+  **A:** Most teams receive such suggestions from testers as we allow feature suggestions in PE-D (but they are not allowed in the PE). You can use those suggestions when you envision future versions of the product (i.e., beyond {{ version_final }} -- to improve your product design skills. But for now, focus on fixing bugs, and perfecting other aspects such as testing, documentation, code quality.<br>
+   Also note that given there's a feature freeze in {{ version_final }}, some lower-priority features can be argued as out-of-scope if there were other higher priority features that took up the available time in previous versions. Every team has to draw the line somewhere as there wasn't a lot of time to implement features.
 </box>
 </div>
 

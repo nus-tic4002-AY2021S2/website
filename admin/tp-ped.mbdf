@@ -100,6 +100,7 @@ Report as many bugs as you can find during the given time. Take longer if you ne
 
 * Test ==based on the Developer Guide== (Appendix named _Instructions for Manual Testing_) ==and the User Guide==. The testing instructions in the Developer Guide can provide you some guidance but if you follow those instructions strictly, you are unlikely to find many bugs. You can deviate from the instructions to probe areas that are more likely to have bugs.
 * As before, do both ==_system testing_ and _acceptance testing_== but give priority to system testing as those bugs can earn you more credit.
+* {{ icon_tip }} Be careful when copying commands from the UG (PDF version) to the software as some PDF viewers can affect the pasted text. If that happens, you might want to open the UG in a different PDF viewer.
 
 </tab>
 </tabs>

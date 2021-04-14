@@ -75,7 +75,7 @@
 </box>
 
 
-* **When, where**: Last lecture slot of the semester, 7.00-9.30pm.{% if tic4002 %} Use the same Zoom link used for the regular lecture.{% else %} The Zoom link will be given to you closer to the day.{% endif %}
+* **When, where**: Last lecture slot of the semester.{% if tic4002 %} Use the same Zoom link used for the regular lecture.{% else %} The Zoom link will be given to you closer to the day.{% endif %}
 
 ##### <span class="badge badge-success">PE Phase 1 - Part I</span> <span class="text-success">Product Testing [60 minutes]</span>
 

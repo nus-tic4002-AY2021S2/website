@@ -992,7 +992,7 @@ Also see:
 {{ icon_tick_green }} improving documentation<br>
 {{ icon_tick_green }} purely cosmetic enhancements e.g., alignments, style changes<br>
 {{ icon_tick_green }} improving code quality<br>
-{{ icon_tick_green }} improving tests
+{{ icon_tick_green }} improving tests<br>
 {{ icon_tick_green }} removing features
 
 {{ icon_x_red }} <span class="text-danger">**Not allowed in {{ version_final }}:**</span> adding features or doing major changes to existing features.

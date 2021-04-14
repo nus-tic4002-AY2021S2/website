@@ -71,13 +71,14 @@ Report as many bugs as you can find during the given time. Take longer if you ne
 
 * Download the zip file from the given location, if you haven't done that already.
 * Unzip the downloaded zip file with the password (to be given to you at the start of the PE, via LumiNUS gradebook). This will give you another zip file with the name suffix `_inner.zip`.
-* Unzip the inner zip file. This will give you the jar file and other PDF files needed for the PE. ==Warning: do not run the jar file while it is still inside the zip file==.
+* Unzip the inner zip file. This will give you the JAR file and other PDF files needed for the PE. ==Warning: do not run the JAR file while it is still inside the zip file==.<br>
 
 </tab>
 </tabs>
 <p/>
 
-* Put the downloaded jar file ==in an empty folder== in which the app is allowed to create files %%(i.e., do not use a write-protected folder)%%.
+* Put the JAR file ==in an empty folder== in which the app is allowed to create files %%(i.e., do not use a write-protected folder)%%.<br>
+  In rare cases, the team could have submitted a ZIP file instead of a JAR file. In that case, unzip that file into the target folder.
 * Open a command window. Run the `java -version` command to ensure you are using Java 11.
 * Check the UG to see if there are extra things you need to do before launching the JAR file %%e.g., download another file from somewhere%%<br>
   {{ icon_info }} You may visit the team's _releases_ page on GitHub if they have provided some extra files you need to download.

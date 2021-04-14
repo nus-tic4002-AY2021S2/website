@@ -1,0 +1,27 @@
+2021-04-14T05:02:10.701Z - info: Website generation (lazy) started at 1:02:03 PM
+2021-04-14T05:02:21.827Z - info: Building assets...
+2021-04-14T05:02:28.186Z - info: Assets built
+2021-04-14T05:02:28.186Z - info: Generating landing page...
+2021-04-14T05:02:29.245Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-04-14T05:02:29.798Z - info: Site data built
+2021-04-14T05:02:29.798Z - info: Website generation (lazy) complete! Total build time: 25.886s
+2021-04-14T05:02:30.681Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2021-04-14T05:02:30.682Z - info: Press CTRL+C to stop ...
+2021-04-14T05:04:18.043Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\index as some of its dependencies were changed since the last visit
+2021-04-14T05:04:18.832Z - info: Site data built
+2021-04-14T05:04:18.832Z - info: Lazy website regeneration complete! Total build time: 0.792s
+2021-04-14T05:04:26.994Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe as some of its dependencies were changed since the last visit
+2021-04-14T05:04:28.831Z - info: Site data built
+2021-04-14T05:04:28.832Z - info: Lazy website regeneration complete! Total build time: 1.837s
+2021-04-14T05:09:00.996Z - info: [1:09:00 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-ped.mbdf
+2021-04-14T05:09:02.020Z - info: Rebuilding 1 pages
+2021-04-14T05:09:04.136Z - info: Site data built
+2021-04-14T05:09:04.136Z - info: Pages rebuilt
+2021-04-14T05:09:04.137Z - info: Website regeneration complete! Total build time: 2.12s
+2021-04-14T05:09:24.536Z - info: [1:09:24 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-ped.mbdf
+2021-04-14T05:09:25.557Z - info: Rebuilding 1 pages
+2021-04-14T05:09:27.743Z - info: Site data built
+2021-04-14T05:09:27.745Z - info: Pages rebuilt
+2021-04-14T05:09:27.745Z - info: Website regeneration complete! Total build time: 2.196s
+2021-04-14T05:10:38.026Z - info: Website generation started at 1:10:34 PM
+2021-04-14T05:10:49.623Z - info: Building assets...

@@ -852,7 +852,8 @@ File name: <code class="hljs inline no-lang" v-pre>[TEAM_ID][Your full Name as G
 <li>Website: LumiNUS</li>
 <li>Website: Module website <span class="dimmed">(e.g., to look up PE info)</span></li>
 <li>Software: CATcher, any text editor, any screen grab/recording software</li>
-<li>Software: PDF reader <span class="dimmed">(to read the UG/DG or other references such as the textbook)</span></li></ul></li>
+<li>Software: PDF reader <span class="dimmed">(to read the UG/DG or other references such as the textbook)</span></li>
+<li>Software: A text editor <span class="dimmed">(to keep track of commands you tried)</span></li></ul></li>
 <li><strong>Do not use any other software running</strong> in the background e.g., Telegram chat.</li>
 <li><strong>This is a <em>manual</em> testing session</strong>. Do not use any test automation tools or custom scripts.</li></ul></box>
 <h5 id="pe-phase-1-part-i-product-testing-60-minutes"><span id="pe-phase-1-part-i-product-testing-60-minutes" class="anchor"></span><span class="badge badge-success">PE Phase 1 - Part I</span> <span class="text-success">Product Testing [60 minutes]</span><a class="fa fa-anchor" href="#pe-phase-1-part-i-product-testing-60-minutes" onclick="event.stopPropagation()"></a></h5>
@@ -1019,8 +1020,8 @@ If you are on Windows, use the DOS prompt or the PowerShell (not the WSL termina
 <ul>
 <li>Launch CATcher, and login to the correct profile:
 <ul>
-<li>PE Dry Run: <code class="hljs inline no-lang" v-pre>TIC4002/T PE Dry run</code></li>
-<li>PE: <code class="hljs inline no-lang" v-pre>TIC4002/T PE</code></li></ul></li>
+<li>PE Dry Run: <code class="hljs inline no-lang" v-pre>TIC4002 PE Dry run</code></li>
+<li>PE: <code class="hljs inline no-lang" v-pre>TIC4002 PE</code></li></ul></li>
 <li>Post bugs using CATcher.
 </li></ul></tab>
 <tab class="algolia-no-index"><template slot="_header">Not using CATcher</template>
@@ -1268,7 +1269,7 @@ For reference, the AB3 DG is <a href="https://se-education.org/addressbook-level
 </div>
 <p><thumbnail circle background="#28a745" font-color="white" size="25"><strong>Q</strong></thumbnail> <strong>[Optional] Concerns or any noteworthy observations about the product you evaluated</strong></p></box></div>
 <h4 id="pe-phase-2-developer-response"><span id="pe-phase-2-developer-response" class="anchor"></span><span class="badge badge-success">PE</span> <span class="text-success">Phase 2: Developer Response</span><a class="fa fa-anchor" href="#pe-phase-2-developer-response" onclick="event.stopPropagation()"></a></h4>
-<p><mark><strong>Deadline:</strong> Tue, Apr 20th 2359</mark></p>
+<p><mark><strong>Deadline:</strong> Mon, Apr 19th 2359</mark></p>
 <p>This phase is for you to respond to the bug reports you received.</p>
 <box type="tip" seamless>
 <p><strong class="text-success">Bonus marks for high accuracy rates!</strong></p>
@@ -1289,7 +1290,7 @@ Accordingly, we hope you'll <strong>accept bug reports graciously</strong> (rath
 <li>CATcher does not come with a UG, but the UI is fairly intuitive (there are tool tips too). Do post in the forum if you need any guidance with its usage.</li>
 <li>Also note that CATcher hasn't been battle-tested for this phase, in particular, w.r.t. multiple team members editing the same issue concurrently. It is ideal if the team members get together and work through the issues together. If you think others might be editing the same issues at the same time, use the <code class="hljs inline no-lang" v-pre>Sync</code> button at the top to force-sync your view with the latest data from GitHub.
 </li></ul></box>
-<li>Go to <a href="https://catcher-org.github.io/CATcher/">CATcher Web version</a> (use the desktop version only if the Web version fails), and login to the profile <code class="hljs inline no-lang" v-pre>TIC4002/T PE</code>. It will show all the bugs assigned to your team, divided into three sections:
+<li>Go to <a href="https://catcher-org.github.io/CATcher/">CATcher Web version</a> (use the desktop version only if the Web version fails), and login to the profile <code class="hljs inline no-lang" v-pre>TIC4002 PE</code>. It will show all the bugs assigned to your team, divided into three sections:
 <ol>
 <li><code class="hljs inline no-lang" v-pre>Issues Pending Responses</code> - Issues that your team has not processed yet.</li>
 <li><code class="hljs inline no-lang" v-pre>Issues Responded</code> - Your job is to get all issues to this category.</li>
@@ -1325,7 +1326,7 @@ Accordingly, we hope you'll <strong>accept bug reports graciously</strong> (rath
 <li><code class="hljs inline no-lang" v-pre>response.CannotReproduce</code>: You are unable to reproduce the behavior reported in the bug after multiple tries.</li>
 <li><code class="hljs inline no-lang" v-pre>response.IssueUnclear</code>: The issue description is not clear. Don't post comments asking the tester to give more info. The tester will not be able to see those comments because the bug reports are anonymous.</li></ul></box></div>
 <ul>
-<li><strong>Apply one of these labels</strong> (if missing, we assign: <code class="hljs inline no-lang" v-pre>type.FunctionalityBug</code>)</li></ul>
+<li><strong>If you disagree with the original bug type assigned to the bug</strong>, you may change it to the correct type.</li></ul>
 <div class="indented" id="type-labels">
 <box>
 <p><strong>Type</strong> labels:</p>
@@ -1350,7 +1351,7 @@ Accordingly, we hope you'll <strong>accept bug reports graciously</strong> (rath
 <div class="indented-level2" id="additionalGuidelinesForBugTriaging">
 <box type="info"><template slot="_header"><p><strong>Some additional guidelines for bug triaging:</strong></p></template>
 <ul>
-<li><strong>Broken links in UG/DG</strong>: Severity can be low or medium depending on how many such cases and how much inconvenience they cause to the reader.</li>
+<li><strong>Broken links in UG/DG</strong>: Severity can be low or medium depending on how much inconvenience they cause to the reader.</li>
 <li><strong>UML notation variations</strong> caused by the diagramming tool: Can be rejected if not contradicting the standard notation (as given by the textbook) i.e., extra decorations that are not misleading.<br>
 Omitting optional notations is not a bug as long it doesn't hinder understanding.</li>
 <li><strong>What bugs can be considered duplicates?</strong> It is up to the dev team to prove conclusively that a bug is a duplicate. If the proof is not convincing enough, they will be considered as 'not duplicates'. Only the following cases can be considered duplicates:
@@ -1409,7 +1410,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <p><strong>Start:</strong> Within 1 day after Phase 2 ends.<br></p>
 <div class="indented">
 <p><font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> While you are waiting for Phase 3 to start, comments will be added to the bug reports in your <code class="hljs inline no-lang" v-pre>/pe</code> repo, to indicate the response each received from the receiving team. <span class="text-danger">Please do not edit any of those comments or reply to them via the GitHub interface.</span> Doing so can invalidate them, in which case the grading script will assume that you agree with the dev team's response. Instead, wait till the start of the Phase 3 is announced, after which you should use CATcher to respond.</p></div>
-<p><mark><strong>Deadline:</strong> Fri, Apr 23rd 2359</mark></p>
+<p><mark><strong>Deadline:</strong> Thu, Apr 22nd 2359</mark></p>
 <ul>
 <li>In this phase you will get to state whether you agree or disagree with the dev team's response to the bugs you reported. If a bug reported has been subjected to any of the below by the receiving dev team, you can record your objections and the reason for the objection.
 <ul>
@@ -1424,7 +1425,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <div>
 <box type="info"><template slot="_header"><p><strong>Some additional guidelines for bug triaging:</strong></p></template>
 <ul>
-<li><strong>Broken links in UG/DG</strong>: Severity can be low or medium depending on how many such cases and how much inconvenience they cause to the reader.</li>
+<li><strong>Broken links in UG/DG</strong>: Severity can be low or medium depending on how much inconvenience they cause to the reader.</li>
 <li><strong>UML notation variations</strong> caused by the diagramming tool: Can be rejected if not contradicting the standard notation (as given by the textbook) i.e., extra decorations that are not misleading.<br>
 Omitting optional notations is not a bug as long it doesn't hinder understanding.</li>
 <li><strong>What bugs can be considered duplicates?</strong> It is up to the dev team to prove conclusively that a bug is a duplicate. If the proof is not convincing enough, they will be considered as 'not duplicates'. Only the following cases can be considered duplicates:
@@ -1468,7 +1469,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <tabs>
 <tab><template slot="_header">Using CATcher</template>
 <ul>
-<li>When the phase has been announced as open, login to CATcher as usual (profile: <code class="hljs inline no-lang" v-pre>TIC4002/T PE</code>).<br>
+<li>When the phase has been announced as open, login to CATcher as usual (profile: <code class="hljs inline no-lang" v-pre>TIC4002 PE</code>).<br>
 <span><span aria-hidden="true" class="fas fa-info-circle"></span></span> You may use <a href="https://github.com/CATcher-org/CATcher/releases">the latest version of CATcher</a> or the <a href="http://catcher-org.github.io/webapp">Web version of CATcher</a>.</li>
 <li>For each issues listed in the <code class="hljs inline no-lang" v-pre>Issues Pending Responses</code> section:
 <ul>
@@ -1512,7 +1513,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Thu, 15 Apr 2021, 0:46:27 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Fri, 16 Apr 2021, 23:54:51 GMT+8]</small></div></footer></div>
 </body>
 <script src="../markbind/js/bootstrap-utility.min.js"></script>
 <script>

@@ -151,8 +151,8 @@ Report as many bugs as you can find during the given time. Take longer if you ne
 <tab header="Using CATcher">
 
 * Launch CATcher, and login to the correct profile:
-  * PE Dry Run: `{{ module }}/T PE Dry run`
-  * PE: `{{ module }}/T PE`
+  * PE Dry Run: `{{ module_pair }} PE Dry run`
+  * PE: `{{ module_pair }} PE`
 * Post bugs using CATcher.
 </tab>
 <tab header="Not using CATcher">

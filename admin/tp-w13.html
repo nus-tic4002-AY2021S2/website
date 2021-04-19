@@ -1281,8 +1281,12 @@ For reference, the AB3 DG is <a href="https://se-education.org/addressbook-level
 <p><strong>Instructions for Reviewing Bug Reports</strong></p>
 <ul>
 <li><strong>Don't freak out if there are lot of bug reports.</strong> Many can be duplicates and some can be <em>false positives</em>. In any case, we anticipate that all of these products will have some bugs and our penalty for bugs is not harsh. Furthermore, it depends on the severity of the bug. Some bug may not even be penalized.</li>
-<li>As mentioned earlier, the penalty for having a specific bug is not the same as the reward for reporting that bug (it's not a <em>zero-sum</em> game). For example, the reward for testers will be higher (because we don't expect the products to have that many bugs after they have gone through so much prior testing) and penalty for a minor bug (e.g., <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">an indicative value only; the actual value depends on the severity, type, and the number of assignees</span>-0.15</span>) is unlikely to make a difference in your final grade, especially given that the penalty applies only if you have more than a certain amount of bugs.<br>
-Accordingly, we hope you'll <strong>accept bug reports graciously</strong> (rather than fight tooth-and-nail to reject <em>every</em> bug report received) if you think the bug is within the ballpark of 'reasonable'.</li></ul>
+<li>As mentioned earlier, the penalty for having a specific bug is not the same as the reward for reporting that bug (it's not a <em>zero-sum</em> game). For example, the reward for testers will be higher (because we don't expect the products to have that many bugs after they have gone through so much prior testing)</li></ul>
+<box type="info" seamless>
+<p><strong>Penalty for a minor bug (e.g., <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">an indicative value only; the actual value depends on the severity, type, and the number of assignees</span>-0.15</span>) is unlikely to make a difference in your final grade</strong>, especially given that the penalty applies only if you have more than a certain amount of bugs.<br></p>
+<p>For example, in a typical case a developer might assigned 5+ <code class="hljs inline no-lang" v-pre>severity.VeryLow</code> bugs before the penalty even starts affecting their marks.</p>
+<p>Accordingly, we hope you'll <strong>accept bug reports graciously</strong> (rather than fight tooth-and-nail to reject <em>every</em> bug report received) if you think the bug is within the ballpark of 'reasonable'. Those minor bugs are really not worth stressing/fighting over.
+</p></box><p></p>
 <tabs>
 <tab><template slot="_header">Using CATcher</template>
 <box type="info"><template slot="icon"><span aria-hidden="true" class="fas fa-hard-hat"></span></template>
@@ -1370,7 +1374,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <li><s><strong>You can reject bugs that you <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., the current behavior is same as AB3 and you had no reason to change it because the feature applies similarly to your new product</span>inherited</span> from AB3.</strong></s> Even bugs inherited from AB3 are counted.
 </li></ul></box></div>
 <ul>
-<li><strong>Decide who should take responsibility for the bug</strong>. Use the <code class="hljs inline no-lang" v-pre>Assignees</code> field to assign the issue to that person(s). There is no need to actually fix the bug though. It's simply an indication/acceptance of responsibility. <strong>If there is no assignee, we will distribute the penalty for that bug (if any) among all team members.</strong>
+<li><strong>Decide who should take responsibility for the bug</strong>. Use the <code class="hljs inline no-lang" v-pre>Assignees</code> field to assign the issue to that person(s). There is no need to actually fix the bug though. It's simply an indication/acceptance of responsibility. <strong>If there is no assignee, we will distribute the penalty for that bug (if any) equally among all team members</strong> <span class="dimmed">e.g., if the penalty is -0.4 and there are 4 members, each member will be penalized -0.1</span>.
 <ul>
 <li>If it is not easy to decide the assignee(s), we recommend (but not enforce) that the feature owner should be assigned bugs related to the feature, Reason: The feature owner should have defended the feature against bugs using automated tests and defensive coding techniques.</li></ul></li></ul>
 <p></p>
@@ -1469,14 +1473,13 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <tabs>
 <tab><template slot="_header">Using CATcher</template>
 <ul>
-<li>When the phase has been announced as open, login to CATcher as usual (profile: <code class="hljs inline no-lang" v-pre>TIC4002 PE</code>).<br>
-<span><span aria-hidden="true" class="fas fa-info-circle"></span></span> You may use <a href="https://github.com/CATcher-org/CATcher/releases">the latest version of CATcher</a> or the <a href="http://catcher-org.github.io/webapp">Web version of CATcher</a>.</li>
+<li>When the phase has been announced as open, login to <a href="https://catcher-org.github.io/CATcher">CATcher</a> as usual (profile: <code class="hljs inline no-lang" v-pre>TIC4002 PE</code>).</li>
 <li>For each issues listed in the <code class="hljs inline no-lang" v-pre>Issues Pending Responses</code> section:
 <ul>
 <li>Click on it to go to the details, and read the dev team's response.</li>
 <li>If you disagree with any of the items listed, tick on the <code class="hljs inline no-lang" v-pre>I disagree</code> tick box and enter your justification for the disagreement, and click <code class="hljs inline no-lang" v-pre>Save</code>.</li>
 <li>If you are fine with the team's changes, click <code class="hljs inline no-lang" v-pre>Save</code> without any other changes upon which the issue will move to the <code class="hljs inline no-lang" v-pre>Issue Responded</code> section.</li></ul></li>
-<li>Note that only bugs that require your response will be shown by CATcher. <strong>Bugs already accepted <em>as reported</em> by the team will not appear in CATcher</strong> as there is nothing for you to do about them.</li></ul></tab>
+<li>Note that <mark>only bugs that require your response will be shown by CATcher</mark>. Bugs the team accepted <em>exactly as you reported them</em> (i.e., no change to type or severity) will not appear in CATcher as there is nothing for you to do about them.</li></ul></tab>
 <tab class="algolia-no-index"><template slot="_header">Not using CATcher</template>
 <div class="indented-less">
 <div><div>
@@ -1513,7 +1516,7 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Fri, 16 Apr 2021, 23:54:51 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Tue, 20 Apr 2021, 0:02:24 GMT+8]</small></div></footer></div>
 </body>
 <script src="../markbind/js/bootstrap-utility.min.js"></script>
 <script>

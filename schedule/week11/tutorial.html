@@ -183,7 +183,8 @@
 <box>
 <p><strong>Bug Severity</strong> labels:</p>
 <ul>
-<li><code class="hljs inline no-lang" v-pre>severity.VeryLow</code> : A flaw that is purely cosmetic and does not affect usage e.g., a typo/spacing/layout/color/font issues in the docs or the UI that doesn't affect usage.</li>
+<li><code class="hljs inline no-lang" v-pre>severity.VeryLow</code> : A flaw that is purely cosmetic and does not affect usage e.g., a typo/spacing/layout/color/font issues in the docs or the UI that doesn't affect usage.
+Only cosmetic problems should have this label.</li>
 <li><code class="hljs inline no-lang" v-pre>severity.Low</code> : A flaw that is unlikely to affect normal operations of the product. Appears only in very rare situations and causes a minor inconvenience only.</li>
 <li><code class="hljs inline no-lang" v-pre>severity.Medium</code> : A flaw that causes occasional inconvenience to some users but they can continue to use the product.</li>
 <li><code class="hljs inline no-lang" v-pre>severity.High</code> : A flaw that affects most users and causes major problems for users. i.e., makes the product almost unusable for most users.</li></ul>
@@ -193,7 +194,8 @@
 <p><strong>Type</strong> labels:</p>
 <ul>
 <li><code class="hljs inline no-lang" v-pre>type.FunctionalityBug</code>: A functionality does not work as specified/expected.</li>
-<li><code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>: Some functionality missing from a feature delivered in v1.4 in a way that the feature becomes less useful to the intended target user for <em>normal</em> usage. i.e., the feature is not 'complete'. In other words, an acceptance-testing bug that falls within the scope of v1.4 features. These issues are counted against the <em>product design</em> aspect of the project.</li>
+<li><code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>: Some functionality missing from a feature delivered in v1.4 in a way that the feature becomes less useful to the intended target user for <em>normal</em> usage. i.e., the feature is not 'complete'. In other words, an acceptance-testing bug that falls within the scope of v1.4 features. These issues are counted against the <em>product design</em> aspect of the project.<br>
+Features that work as specified by the UG but <em>should have been designed to work differently</em> (from the end-user's point of view) fall in this category too.</li>
 <li><code class="hljs inline no-lang" v-pre>type.DocumentationBug</code>: A flaw in the documentation <span class="dimmed">e.g., a missing step, a wrong instruction, typos</span></li></ul></box></div>
 <p></p></panel><p></p><p></p></div>
 <ul>
@@ -447,7 +449,8 @@ If you are on Windows, use the DOS prompt or the PowerShell (not the WSL termina
 <box>
 <p><strong>Bug Severity</strong> labels:</p>
 <ul>
-<li><code class="hljs inline no-lang" v-pre>severity.VeryLow</code> : A flaw that is purely cosmetic and does not affect usage e.g., a typo/spacing/layout/color/font issues in the docs or the UI that doesn't affect usage.</li>
+<li><code class="hljs inline no-lang" v-pre>severity.VeryLow</code> : A flaw that is purely cosmetic and does not affect usage e.g., a typo/spacing/layout/color/font issues in the docs or the UI that doesn't affect usage.
+Only cosmetic problems should have this label.</li>
 <li><code class="hljs inline no-lang" v-pre>severity.Low</code> : A flaw that is unlikely to affect normal operations of the product. Appears only in very rare situations and causes a minor inconvenience only.</li>
 <li><code class="hljs inline no-lang" v-pre>severity.Medium</code> : A flaw that causes occasional inconvenience to some users but they can continue to use the product.</li>
 <li><code class="hljs inline no-lang" v-pre>severity.High</code> : A flaw that affects most users and causes major problems for users. i.e., makes the product almost unusable for most users.</li></ul>
@@ -460,11 +463,13 @@ If you are on Windows, use the DOS prompt or the PowerShell (not the WSL termina
 <p><strong>Type</strong> labels:</p>
 <ul>
 <li><code class="hljs inline no-lang" v-pre>type.FunctionalityBug</code>: A functionality does not work as specified/expected.</li>
-<li><code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>: Some functionality missing from a feature delivered in v1.4 in a way that the feature becomes less useful to the intended target user for <em>normal</em> usage. i.e., the feature is not 'complete'. In other words, an acceptance-testing bug that falls within the scope of v1.4 features. These issues are counted against the <em>product design</em> aspect of the project.</li>
+<li><code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>: Some functionality missing from a feature delivered in v1.4 in a way that the feature becomes less useful to the intended target user for <em>normal</em> usage. i.e., the feature is not 'complete'. In other words, an acceptance-testing bug that falls within the scope of v1.4 features. These issues are counted against the <em>product design</em> aspect of the project.<br>
+Features that work as specified by the UG but <em>should have been designed to work differently</em> (from the end-user's point of view) fall in this category too.</li>
 <li><code class="hljs inline no-lang" v-pre>type.DocumentationBug</code>: A flaw in the documentation <span class="dimmed">e.g., a missing step, a wrong instruction, typos</span></li></ul></box></div></div></box></div>
 <h5 id="pe-phase-1-part-ii-evaluating-documents-30-minutes"><span id="pe-phase-1-part-ii-evaluating-documents-30-minutes" class="anchor"></span><span class="badge badge-success">PE Phase 1 - Part II</span> <span class="text-success">Evaluating Documents [30 minutes]</span><a class="fa fa-anchor" href="#pe-phase-1-part-ii-evaluating-documents-30-minutes" onclick="event.stopPropagation()"></a></h5>
 <ul>
-<li><strong>This slot is for reporting documentation bugs only</strong>. You may report bugs related to the UG and the DG.</li>
+<li><strong>This slot is for reporting documentation bugs only</strong>. You may report bugs related to the UG and the DG.<br>
+Only the content of the UG/DG PDF files (not the online version) should be considered.</li>
 <li><strong>For each bug reported, cite evidence and justify.</strong> For example, if you think the explanation of a feature is too brief, explain what information is missing and why the omission hinders the reader.</li></ul>
 <div class="indented-level2">
 <panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → <strong>Possible UG Bugs</strong> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
@@ -725,9 +730,10 @@ For reference, the AB3 DG is <a href="https://se-education.org/addressbook-level
 <ul>
 <li><code class="hljs inline no-lang" v-pre>response.Accepted</code>: You accept it as a bug.</li>
 <li><code class="hljs inline no-lang" v-pre>response.NotInScope</code>: It is a valid issue but not something the team should be penalized for <span class="dimmed">e.g., it was not related to features delivered in v1.4</span>.</li>
-<li><code class="hljs inline no-lang" v-pre>response.Rejected</code>: What tester treated as a bug is in fact the expected behavior, or the tester was mistaken in some other way.</li>
+<li><code class="hljs inline no-lang" v-pre>response.Rejected</code>: What tester treated as a bug is in fact the <em>expected</em> and <em>correct</em> behavior (from the user's point of view), or the tester was mistaken in some other way.</li>
 <li><code class="hljs inline no-lang" v-pre>response.CannotReproduce</code>: You are unable to reproduce the behavior reported in the bug after multiple tries.</li>
-<li><code class="hljs inline no-lang" v-pre>response.IssueUnclear</code>: The issue description is not clear. Don't post comments asking the tester to give more info. The tester will not be able to see those comments because the bug reports are anonymous.</li></ul></box></div>
+<li><code class="hljs inline no-lang" v-pre>response.IssueUnclear</code>: The issue description is not clear. Don't post comments asking the tester to give more info. The tester will not be able to see those comments because the bug reports are anonymous.</li></ul>
+<p>Only the <code class="hljs inline no-lang" v-pre>response.Accepted</code> bugs are counted against the dev team. While <code class="hljs inline no-lang" v-pre>response.NotInScope</code> are not counted against the dev team, they can earn a small amount of consolation marks for the tester. The other three do not affect marks of either the dev team or the tester, except when calculating bonus marks for accuracy.</p></box></div>
 <ul>
 <li><strong>If you disagree with the original bug type assigned to the bug</strong>, you may change it to the correct type.</li></ul>
 <div class="indented" id="type-labels">
@@ -735,7 +741,8 @@ For reference, the AB3 DG is <a href="https://se-education.org/addressbook-level
 <p><strong>Type</strong> labels:</p>
 <ul>
 <li><code class="hljs inline no-lang" v-pre>type.FunctionalityBug</code>: A functionality does not work as specified/expected.</li>
-<li><code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>: Some functionality missing from a feature delivered in v1.4 in a way that the feature becomes less useful to the intended target user for <em>normal</em> usage. i.e., the feature is not 'complete'. In other words, an acceptance-testing bug that falls within the scope of v1.4 features. These issues are counted against the <em>product design</em> aspect of the project.</li>
+<li><code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>: Some functionality missing from a feature delivered in v1.4 in a way that the feature becomes less useful to the intended target user for <em>normal</em> usage. i.e., the feature is not 'complete'. In other words, an acceptance-testing bug that falls within the scope of v1.4 features. These issues are counted against the <em>product design</em> aspect of the project.<br>
+Features that work as specified by the UG but <em>should have been designed to work differently</em> (from the end-user's point of view) fall in this category too.</li>
 <li><code class="hljs inline no-lang" v-pre>type.DocumentationBug</code>: A flaw in the documentation <span class="dimmed">e.g., a missing step, a wrong instruction, typos</span></li></ul></box></div>
 <ul>
 <li><strong>If you disagree with the original severity assigned to the bug</strong>, you may change it to the correct level.</li></ul>
@@ -744,7 +751,8 @@ For reference, the AB3 DG is <a href="https://se-education.org/addressbook-level
 <box>
 <p><strong>Bug Severity</strong> labels:</p>
 <ul>
-<li><code class="hljs inline no-lang" v-pre>severity.VeryLow</code> : A flaw that is purely cosmetic and does not affect usage e.g., a typo/spacing/layout/color/font issues in the docs or the UI that doesn't affect usage.</li>
+<li><code class="hljs inline no-lang" v-pre>severity.VeryLow</code> : A flaw that is purely cosmetic and does not affect usage e.g., a typo/spacing/layout/color/font issues in the docs or the UI that doesn't affect usage.
+Only cosmetic problems should have this label.</li>
 <li><code class="hljs inline no-lang" v-pre>severity.Low</code> : A flaw that is unlikely to affect normal operations of the product. Appears only in very rare situations and causes a minor inconvenience only.</li>
 <li><code class="hljs inline no-lang" v-pre>severity.Medium</code> : A flaw that causes occasional inconvenience to some users but they can continue to use the product.</li>
 <li><code class="hljs inline no-lang" v-pre>severity.High</code> : A flaw that affects most users and causes major problems for users. i.e., makes the product almost unusable for most users.</li></ul>
@@ -752,26 +760,50 @@ For reference, the AB3 DG is <a href="https://se-education.org/addressbook-level
 <ul>
 <li><strong>If you need the teaching team's inputs when deciding on a bug</strong> <span class="dimmed">(e.g., if you are not sure if the UML notation is correct)</span>, post in the <a href="https://github.com/nus-tic4002-AY2021S2/forum/issues">forum</a>. Remember to <mark>quote the issue number shown in CATcher</mark> (it appears at the end of the issue title).</li></ul>
 <div class="indented-level2" id="additionalGuidelinesForBugTriaging">
-<box type="info"><template slot="_header"><p><strong>Some additional guidelines for bug triaging:</strong></p></template>
+<panel type="info" expanded id="guidelines-for-bug-triaging"><template slot="header"><h5 id="guidelines-for-bug-triaging"><span id="guidelines-for-bug-triaging" class="anchor"></span>Guidelines for bug triaging<a class="fa fa-anchor" href="#guidelines-for-bug-triaging" onclick="event.stopPropagation()"></a></h5></template>
+<div>
+<h5 id="general"><span id="general" class="anchor"></span>General:<a class="fa fa-anchor" href="#general" onclick="event.stopPropagation()"></a></h5>
 <ul>
-<li><strong>Broken links in UG/DG</strong>: Severity can be low or medium depending on how much inconvenience they cause to the reader.</li>
-<li><strong>UML notation variations</strong> caused by the diagramming tool: Can be rejected if not contradicting the standard notation (as given by the textbook) i.e., extra decorations that are not misleading.<br>
-Omitting optional notations is not a bug as long it doesn't hinder understanding.</li>
+<li><strong>If a bug report contains multiple bugs</strong> (i.e., despite instructions to the contrary, a tester included multiple bugs in a single bug report), you have to choose one bug and ignore the others. If there are valid bugs, choose from valid bugs. Among the choices available, choose the one with the highest severity (in your opinion). In your response, mention which bug you chose.</li>
 <li><strong>What bugs can be considered duplicates?</strong> It is up to the dev team to prove conclusively that a bug is a duplicate. If the proof is not convincing enough, they will be considered as 'not duplicates'. Only the following cases can be considered duplicates:
 <ul>
 <li>The exact same bug reported multiple times.</li>
 <li>Multiple buggy behaviors that are actually caused by the same defect and cannot be fixed independently.</li>
 <li>In diagrams, same error appearing multiple times <em>in the same diagram</em> (e.g., the <em>same</em> notation mistake appearing several times in the <em>same</em> diagram). However, errors across multiple diagrams should not be flagged as duplicates, unless it is the same diagram appearing in multiple places (i.e., the same image file used in multiple places).</li></ul></li>
-<li><strong>Minor typos and grammar errors</strong>: These are still considered as <code class="hljs inline no-lang" v-pre>severity.VeryLow</code> <code class="hljs inline no-lang" v-pre>type.DocumentationBug</code> bugs (even if it is in the actual UI) which carry a very tiny penalty.</li>
 <li><strong>How to prove that something is 'not in scope'</strong>: In general, features not-yet-implemented (and hence, not in scope) are the features that have a lower priority than the ones that have been implemented already. In addition, the following (at least one) can be used to prove that a feature was left out deliberately because it was <em>not in scope</em>:
 <ul>
 <li>The UG specifies it as not supported or coming in a future version.</li>
 <li>The user cannot attempt to use the missing feature or when the user does so, the software fails gracefully, possibly with a suitable error message i.e., the software should not crash.</li></ul></li>
-<li><strong>If a missing feature is essential for the app to be reasonably useful</strong>, its omission can be considered a <em>feature flaw</em> even if it can be proven as <em>not in scope</em> as given in the previous point.</li>
-<li><strong>If a bug report contains multiple bugs</strong> (i.e., despite instructions to the contrary, a tester included multiple bugs in a single bug report), you have to choose one bug and ignore the others. If there are valid bugs, choose from valid bugs. Among the choices available, choose the one with the highest severity (in your opinion). In your response, mention which bug you chose.</li>
-<li><strong>How to decide the severity of bugs related to <em>missing requirements</em></strong> (e.g., missing user stories)? Depends on the potential damage the omission can cause. Keep in mind that not documenting a requirement increases the risk of it not getting implemented in a timely manner (i.e., future developers will not know that feature needs to be implemented).</li>
-<li><s><strong>You can reject bugs that you <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., the current behavior is same as AB3 and you had no reason to change it because the feature applies similarly to your new product</span>inherited</span> from AB3.</strong></s> Even bugs inherited from AB3 are counted.
-</li></ul></box></div>
+<li><s><strong>You can reject bugs that you <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., the current behavior is same as AB3 and you had no reason to change it because the feature applies similarly to your new product</span>inherited</span> from AB3.</strong></s> Even bugs inherited from AB3 are counted.</li></ul>
+<h5 id="functionality"><span id="functionality" class="anchor"></span>Functionality:<a class="fa fa-anchor" href="#functionality" onclick="event.stopPropagation()"></a></h5>
+<ul>
+<li><strong>If a missing feature is essential for the app to be reasonably useful</strong>, its omission can be considered a <em>feature flaw</em> even if it can be proven as <em>not in scope</em> as given in an earlier point.<br>
+Similarly, if the feature is implemented to work in a certain way but it could have been implemented to work in a better way (from the end-user's point of view) without much additional effort, it should be accepted as a <code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>, and cannot be categorized as <code class="hljs inline no-lang" v-pre>response.NotInScope</code>.</li>
+<li><strong>Bugs related to duplicate detection</strong>: Duplicate detection (e.g., detecting of two persons in the address book are the same) is not trivial; often, detecting only the exact string/value matches is not enough. For example, <code class="hljs inline no-lang" v-pre>John Doe</code> and <code class="hljs inline no-lang" v-pre>john  doe</code> are likely to be the same person. Similarly, extra white space <span class="dimmed">(e.g., the user typed an extra space between the two names)</span> is unlikely to mean they are two different persons. Typically, it is best if you can give a warning in such <em>near match</em> cases so that the user can make the final decision. <br>
+Half-baked duplicate detection can qualify as <code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code> bugs. However, detecting more complex cases of potential duplicates can be considered as <code class="hljs inline no-lang" v-pre>NotInScope</code> especially if they are hard to implement and expected to be rare.</li>
+<li><strong>Problems caused by very long input values</strong>: When a user input is unusually long <span class="dimmed">e.g., a very long name, a very large number</span>, it can cause problems e.g., the UI layout can get messed up, some part of it might get cut off.
+<ul>
+<li>These can be considered cosmetic issues (i.e., <code class="hljs inline no-lang" v-pre>severity.VeryLow</code>) of <code class="hljs inline no-lang" v-pre>type.FunctionalityBug</code>. Some exceptions are below:
+<ul>
+<li>The problems can only happen unless in case of deliberate sabotage <span class="dimmed">(e.g., user entered a 30-digit telephone number)</span>, in which case it should be considered a bug.</li>
+<li>The problem can hinder the user <span class="dimmed">(e.g., not seeing the last part of a very long name might not hinder the user but it does hinder the user if only the first few characters of the name is shown)</span>, the severity can be <code class="hljs inline no-lang" v-pre>Low</code> or <code class="hljs inline no-lang" v-pre>Medium</code>.</li></ul></li>
+<li>It is also fine to restrict the size/length of inputs as long as the limits are reasonable. For example, limiting the phone number to 8 digits is not reasonable unless you are targeting users whose telephone numbers are not longer than 8 digits.</li></ul></li>
+<li><strong>Overzealous input validation</strong>: It is better to warn rather than to block when inputs are not compliant with the expected format, unless accepting such inputs can hinder the operations of the software. Allowing such flexibility can allow the user to use the software in ways you didn't even anticipate while overzealous rejection of inputs can annoy the user:<br>
+<span class="dimmed">Example 1: While your software allows only one phone number in input values, a user might want to input <code class="hljs inline no-lang" v-pre>1234 5678 (HP) 1111-3333 (Office)</code> -- blocking that input might not add any value but allowing it does.</span><br>
+<span class="dimmed">Example 2: A user might want to enter an appointment in the past, just for record keeping purposes.</span><br>
+However, it is fine (and recommended) to show a warning for such inputs to guard against the deviation being a mistake rather than intentional.<br>
+Overzealous input blocking can be considered a <code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code> bug.</li>
+<li><strong>Specificity of error message</strong>: Error messages can be correct but not specific enough <span class="dimmed">(e.g., it says the input is 'invalid' without giving the reason, or gives too many possible reasons without pointing out the specific reason)</span>. These cases can be considered <code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code> unless making it more specific will take a lot more effort, in which case there is a chance to argue it to be <code class="hljs inline no-lang" v-pre>response.NotInScope</code>.</li>
+<li><strong>Mismatch between the UG and the feature</strong>: If the feature behavior needs to be changed, it is either a <code class="hljs inline no-lang" v-pre>type.FunctionalityBug</code> or <code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>. But if it the UG that needs to be updated, it is a <code class="hljs inline no-lang" v-pre>type.DocumentationBug</code>.</li></ul>
+<h5 id="documentation"><span id="documentation" class="anchor"></span>Documentation:<a class="fa fa-anchor" href="#documentation" onclick="event.stopPropagation()"></a></h5>
+<ul>
+<li><strong>Broken links</strong>: Severity can be <code class="hljs inline no-lang" v-pre>Low</code> or <code class="hljs inline no-lang" v-pre>Medium</code> depending on how much inconvenience they cause to the reader.</li>
+<li><strong>Extra white space</strong> introduced by the PDF conversion: Not counted as bugs unless it hinders the reader. Cases such as a diagram being split between pages are considered bugs, because they hinder the reader.</li>
+<li><strong>UML notation variations</strong> caused by the diagramming tool: Can be rejected if not contradicting the standard notation (as given by the textbook) i.e., extra decorations that are not misleading.<br>
+Omitting optional notations is not a bug as long it doesn't hinder understanding.</li>
+<li><strong>Minor typos and grammar errors</strong>: These are still considered as <code class="hljs inline no-lang" v-pre>severity.VeryLow</code> <code class="hljs inline no-lang" v-pre>type.DocumentationBug</code> bugs (even if it is in the actual UI) which carry a very tiny penalty.</li>
+<li><strong>Severity of bugs related to <em>missing requirements</em></strong> (e.g., missing user stories)? Depends on the potential damage the omission can cause. Keep in mind that not documenting a requirement increases the risk of it not getting implemented in a timely manner (i.e., future developers will not know that feature needs to be implemented).</li>
+<li><strong>Unfulfilled NFRs</strong>: If the DG mentions non-functional requirements that are not met by the product, it can be a <code class="hljs inline no-lang" v-pre>severity.Low</code> <code class="hljs inline no-lang" v-pre>DocumentationBug</code> if the the NFR was unreasonable in the first place. Otherwise, it can be <code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code> bug.</li></ul></div></panel></div>
 <ul>
 <li><strong>Decide who should take responsibility for the bug</strong>. Use the <code class="hljs inline no-lang" v-pre>Assignees</code> field to assign the issue to that person(s). There is no need to actually fix the bug though. It's simply an indication/acceptance of responsibility. <strong>If there is no assignee, we will distribute the penalty for that bug (if any) equally among all team members</strong> <span class="dimmed">e.g., if the penalty is -0.4 and there are 4 members, each member will be penalized -0.1</span>.
 <ul>
@@ -779,7 +811,8 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <p></p>
 <ul>
 <li>
-<p>As far as possible, <mark><strong>choose the correct <code class="hljs inline no-lang" v-pre>type.*</code>, <code class="hljs inline no-lang" v-pre>severity.*</code>, <code class="hljs inline no-lang" v-pre>response.*</code>, assignees, and duplicate status even for bugs you are not accepting or marking as duplicates</strong></mark>. Reason: your <em>non-acceptance</em>  or duplication status may be rejected in a later phase, in which case we need to grade it as an accepted/non-duplicate bug.</p></li>
+<p>As far as possible, <mark><strong>choose the correct <code class="hljs inline no-lang" v-pre>type.*</code>, <code class="hljs inline no-lang" v-pre>severity.*</code>, <code class="hljs inline no-lang" v-pre>response.*</code>, assignees, and duplicate status even for bugs you are not accepting</strong></mark>. Reason: your <em>non-acceptance</em>  may be rejected in a later phase, in which case we need to grade it as an accepted bug.<br>
+<strong>If a bug's 'duplicate' status was rejected later</strong> <span class="dimmed">(i.e., the tester says it is not really a duplicate and the teaching team agrees with the tester)</span>, it will inherit the type/severity/assignees from the 'original' bug that it was claimed to be a duplicate of.</p></li>
 <li>
 <p><strong>Justify your response.</strong> For all of the following cases, <mark>you must add a comment justifying your stance</mark>. Testers will get to respond to all those cases and will be double-checked by the teaching team in later phases.</p>
 <ul>
@@ -826,26 +859,50 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <div class="indented-level2">
 <panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> PE → Phase 2 → Additional Guidelines for Bug Triaging</p></template>
 <div>
-<box type="info"><template slot="_header"><p><strong>Some additional guidelines for bug triaging:</strong></p></template>
+<panel type="info" expanded id="guidelines-for-bug-triaging-2"><template slot="header"><h5 id="guidelines-for-bug-triaging-2"><span id="guidelines-for-bug-triaging-2" class="anchor"></span>Guidelines for bug triaging<a class="fa fa-anchor" href="#guidelines-for-bug-triaging-2" onclick="event.stopPropagation()"></a></h5></template>
+<div>
+<h5 id="general-2"><span id="general-2" class="anchor"></span>General:<a class="fa fa-anchor" href="#general-2" onclick="event.stopPropagation()"></a></h5>
 <ul>
-<li><strong>Broken links in UG/DG</strong>: Severity can be low or medium depending on how much inconvenience they cause to the reader.</li>
-<li><strong>UML notation variations</strong> caused by the diagramming tool: Can be rejected if not contradicting the standard notation (as given by the textbook) i.e., extra decorations that are not misleading.<br>
-Omitting optional notations is not a bug as long it doesn't hinder understanding.</li>
+<li><strong>If a bug report contains multiple bugs</strong> (i.e., despite instructions to the contrary, a tester included multiple bugs in a single bug report), you have to choose one bug and ignore the others. If there are valid bugs, choose from valid bugs. Among the choices available, choose the one with the highest severity (in your opinion). In your response, mention which bug you chose.</li>
 <li><strong>What bugs can be considered duplicates?</strong> It is up to the dev team to prove conclusively that a bug is a duplicate. If the proof is not convincing enough, they will be considered as 'not duplicates'. Only the following cases can be considered duplicates:
 <ul>
 <li>The exact same bug reported multiple times.</li>
 <li>Multiple buggy behaviors that are actually caused by the same defect and cannot be fixed independently.</li>
 <li>In diagrams, same error appearing multiple times <em>in the same diagram</em> (e.g., the <em>same</em> notation mistake appearing several times in the <em>same</em> diagram). However, errors across multiple diagrams should not be flagged as duplicates, unless it is the same diagram appearing in multiple places (i.e., the same image file used in multiple places).</li></ul></li>
-<li><strong>Minor typos and grammar errors</strong>: These are still considered as <code class="hljs inline no-lang" v-pre>severity.VeryLow</code> <code class="hljs inline no-lang" v-pre>type.DocumentationBug</code> bugs (even if it is in the actual UI) which carry a very tiny penalty.</li>
 <li><strong>How to prove that something is 'not in scope'</strong>: In general, features not-yet-implemented (and hence, not in scope) are the features that have a lower priority than the ones that have been implemented already. In addition, the following (at least one) can be used to prove that a feature was left out deliberately because it was <em>not in scope</em>:
 <ul>
 <li>The UG specifies it as not supported or coming in a future version.</li>
 <li>The user cannot attempt to use the missing feature or when the user does so, the software fails gracefully, possibly with a suitable error message i.e., the software should not crash.</li></ul></li>
-<li><strong>If a missing feature is essential for the app to be reasonably useful</strong>, its omission can be considered a <em>feature flaw</em> even if it can be proven as <em>not in scope</em> as given in the previous point.</li>
-<li><strong>If a bug report contains multiple bugs</strong> (i.e., despite instructions to the contrary, a tester included multiple bugs in a single bug report), you have to choose one bug and ignore the others. If there are valid bugs, choose from valid bugs. Among the choices available, choose the one with the highest severity (in your opinion). In your response, mention which bug you chose.</li>
-<li><strong>How to decide the severity of bugs related to <em>missing requirements</em></strong> (e.g., missing user stories)? Depends on the potential damage the omission can cause. Keep in mind that not documenting a requirement increases the risk of it not getting implemented in a timely manner (i.e., future developers will not know that feature needs to be implemented).</li>
-<li><s><strong>You can reject bugs that you <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., the current behavior is same as AB3 and you had no reason to change it because the feature applies similarly to your new product</span>inherited</span> from AB3.</strong></s> Even bugs inherited from AB3 are counted.
-</li></ul></box></div></panel></div><p></p>
+<li><s><strong>You can reject bugs that you <span data-mb-component-type="tooltip" v-b-tooltip.hover.top.html="tooltipInnerContentGetter" class="trigger"><span data-mb-slot-name="_content">i.e., the current behavior is same as AB3 and you had no reason to change it because the feature applies similarly to your new product</span>inherited</span> from AB3.</strong></s> Even bugs inherited from AB3 are counted.</li></ul>
+<h5 id="functionality-2"><span id="functionality-2" class="anchor"></span>Functionality:<a class="fa fa-anchor" href="#functionality-2" onclick="event.stopPropagation()"></a></h5>
+<ul>
+<li><strong>If a missing feature is essential for the app to be reasonably useful</strong>, its omission can be considered a <em>feature flaw</em> even if it can be proven as <em>not in scope</em> as given in an earlier point.<br>
+Similarly, if the feature is implemented to work in a certain way but it could have been implemented to work in a better way (from the end-user's point of view) without much additional effort, it should be accepted as a <code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>, and cannot be categorized as <code class="hljs inline no-lang" v-pre>response.NotInScope</code>.</li>
+<li><strong>Bugs related to duplicate detection</strong>: Duplicate detection (e.g., detecting of two persons in the address book are the same) is not trivial; often, detecting only the exact string/value matches is not enough. For example, <code class="hljs inline no-lang" v-pre>John Doe</code> and <code class="hljs inline no-lang" v-pre>john  doe</code> are likely to be the same person. Similarly, extra white space <span class="dimmed">(e.g., the user typed an extra space between the two names)</span> is unlikely to mean they are two different persons. Typically, it is best if you can give a warning in such <em>near match</em> cases so that the user can make the final decision. <br>
+Half-baked duplicate detection can qualify as <code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code> bugs. However, detecting more complex cases of potential duplicates can be considered as <code class="hljs inline no-lang" v-pre>NotInScope</code> especially if they are hard to implement and expected to be rare.</li>
+<li><strong>Problems caused by very long input values</strong>: When a user input is unusually long <span class="dimmed">e.g., a very long name, a very large number</span>, it can cause problems e.g., the UI layout can get messed up, some part of it might get cut off.
+<ul>
+<li>These can be considered cosmetic issues (i.e., <code class="hljs inline no-lang" v-pre>severity.VeryLow</code>) of <code class="hljs inline no-lang" v-pre>type.FunctionalityBug</code>. Some exceptions are below:
+<ul>
+<li>The problems can only happen unless in case of deliberate sabotage <span class="dimmed">(e.g., user entered a 30-digit telephone number)</span>, in which case it should be considered a bug.</li>
+<li>The problem can hinder the user <span class="dimmed">(e.g., not seeing the last part of a very long name might not hinder the user but it does hinder the user if only the first few characters of the name is shown)</span>, the severity can be <code class="hljs inline no-lang" v-pre>Low</code> or <code class="hljs inline no-lang" v-pre>Medium</code>.</li></ul></li>
+<li>It is also fine to restrict the size/length of inputs as long as the limits are reasonable. For example, limiting the phone number to 8 digits is not reasonable unless you are targeting users whose telephone numbers are not longer than 8 digits.</li></ul></li>
+<li><strong>Overzealous input validation</strong>: It is better to warn rather than to block when inputs are not compliant with the expected format, unless accepting such inputs can hinder the operations of the software. Allowing such flexibility can allow the user to use the software in ways you didn't even anticipate while overzealous rejection of inputs can annoy the user:<br>
+<span class="dimmed">Example 1: While your software allows only one phone number in input values, a user might want to input <code class="hljs inline no-lang" v-pre>1234 5678 (HP) 1111-3333 (Office)</code> -- blocking that input might not add any value but allowing it does.</span><br>
+<span class="dimmed">Example 2: A user might want to enter an appointment in the past, just for record keeping purposes.</span><br>
+However, it is fine (and recommended) to show a warning for such inputs to guard against the deviation being a mistake rather than intentional.<br>
+Overzealous input blocking can be considered a <code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code> bug.</li>
+<li><strong>Specificity of error message</strong>: Error messages can be correct but not specific enough <span class="dimmed">(e.g., it says the input is 'invalid' without giving the reason, or gives too many possible reasons without pointing out the specific reason)</span>. These cases can be considered <code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code> unless making it more specific will take a lot more effort, in which case there is a chance to argue it to be <code class="hljs inline no-lang" v-pre>response.NotInScope</code>.</li>
+<li><strong>Mismatch between the UG and the feature</strong>: If the feature behavior needs to be changed, it is either a <code class="hljs inline no-lang" v-pre>type.FunctionalityBug</code> or <code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>. But if it the UG that needs to be updated, it is a <code class="hljs inline no-lang" v-pre>type.DocumentationBug</code>.</li></ul>
+<h5 id="documentation-2"><span id="documentation-2" class="anchor"></span>Documentation:<a class="fa fa-anchor" href="#documentation-2" onclick="event.stopPropagation()"></a></h5>
+<ul>
+<li><strong>Broken links</strong>: Severity can be <code class="hljs inline no-lang" v-pre>Low</code> or <code class="hljs inline no-lang" v-pre>Medium</code> depending on how much inconvenience they cause to the reader.</li>
+<li><strong>Extra white space</strong> introduced by the PDF conversion: Not counted as bugs unless it hinders the reader. Cases such as a diagram being split between pages are considered bugs, because they hinder the reader.</li>
+<li><strong>UML notation variations</strong> caused by the diagramming tool: Can be rejected if not contradicting the standard notation (as given by the textbook) i.e., extra decorations that are not misleading.<br>
+Omitting optional notations is not a bug as long it doesn't hinder understanding.</li>
+<li><strong>Minor typos and grammar errors</strong>: These are still considered as <code class="hljs inline no-lang" v-pre>severity.VeryLow</code> <code class="hljs inline no-lang" v-pre>type.DocumentationBug</code> bugs (even if it is in the actual UI) which carry a very tiny penalty.</li>
+<li><strong>Severity of bugs related to <em>missing requirements</em></strong> (e.g., missing user stories)? Depends on the potential damage the omission can cause. Keep in mind that not documenting a requirement increases the risk of it not getting implemented in a timely manner (i.e., future developers will not know that feature needs to be implemented).</li>
+<li><strong>Unfulfilled NFRs</strong>: If the DG mentions non-functional requirements that are not met by the product, it can be a <code class="hljs inline no-lang" v-pre>severity.Low</code> <code class="hljs inline no-lang" v-pre>DocumentationBug</code> if the the NFR was unreasonable in the first place. Otherwise, it can be <code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code> bug.</li></ul></div></panel></div></panel></div><p></p>
 <div class="indented-level2">
 <panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP Grading → Grading bugs found in the PE</p></template>
 <div>
@@ -925,7 +982,8 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <box>
 <p><strong>Bug Severity</strong> labels:</p>
 <ul>
-<li><code class="hljs inline no-lang" v-pre>severity.VeryLow</code> : A flaw that is purely cosmetic and does not affect usage e.g., a typo/spacing/layout/color/font issues in the docs or the UI that doesn't affect usage.</li>
+<li><code class="hljs inline no-lang" v-pre>severity.VeryLow</code> : A flaw that is purely cosmetic and does not affect usage e.g., a typo/spacing/layout/color/font issues in the docs or the UI that doesn't affect usage.
+Only cosmetic problems should have this label.</li>
 <li><code class="hljs inline no-lang" v-pre>severity.Low</code> : A flaw that is unlikely to affect normal operations of the product. Appears only in very rare situations and causes a minor inconvenience only.</li>
 <li><code class="hljs inline no-lang" v-pre>severity.Medium</code> : A flaw that causes occasional inconvenience to some users but they can continue to use the product.</li>
 <li><code class="hljs inline no-lang" v-pre>severity.High</code> : A flaw that affects most users and causes major problems for users. i.e., makes the product almost unusable for most users.</li></ul>
@@ -935,7 +993,8 @@ Omitting optional notations is not a bug as long it doesn't hinder understanding
 <p><strong>Type</strong> labels:</p>
 <ul>
 <li><code class="hljs inline no-lang" v-pre>type.FunctionalityBug</code>: A functionality does not work as specified/expected.</li>
-<li><code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>: Some functionality missing from a feature delivered in v1.4 in a way that the feature becomes less useful to the intended target user for <em>normal</em> usage. i.e., the feature is not 'complete'. In other words, an acceptance-testing bug that falls within the scope of v1.4 features. These issues are counted against the <em>product design</em> aspect of the project.</li>
+<li><code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>: Some functionality missing from a feature delivered in v1.4 in a way that the feature becomes less useful to the intended target user for <em>normal</em> usage. i.e., the feature is not 'complete'. In other words, an acceptance-testing bug that falls within the scope of v1.4 features. These issues are counted against the <em>product design</em> aspect of the project.<br>
+Features that work as specified by the UG but <em>should have been designed to work differently</em> (from the end-user's point of view) fall in this category too.</li>
 <li><code class="hljs inline no-lang" v-pre>type.DocumentationBug</code>: A flaw in the documentation <span class="dimmed">e.g., a missing step, a wrong instruction, typos</span></li></ul></box></div>
 <p></p></panel><p></p><p></p></div>
 <ul>
@@ -1159,7 +1218,8 @@ If you are on Windows, use the DOS prompt or the PowerShell (not the WSL termina
 <box>
 <p><strong>Bug Severity</strong> labels:</p>
 <ul>
-<li><code class="hljs inline no-lang" v-pre>severity.VeryLow</code> : A flaw that is purely cosmetic and does not affect usage e.g., a typo/spacing/layout/color/font issues in the docs or the UI that doesn't affect usage.</li>
+<li><code class="hljs inline no-lang" v-pre>severity.VeryLow</code> : A flaw that is purely cosmetic and does not affect usage e.g., a typo/spacing/layout/color/font issues in the docs or the UI that doesn't affect usage.
+Only cosmetic problems should have this label.</li>
 <li><code class="hljs inline no-lang" v-pre>severity.Low</code> : A flaw that is unlikely to affect normal operations of the product. Appears only in very rare situations and causes a minor inconvenience only.</li>
 <li><code class="hljs inline no-lang" v-pre>severity.Medium</code> : A flaw that causes occasional inconvenience to some users but they can continue to use the product.</li>
 <li><code class="hljs inline no-lang" v-pre>severity.High</code> : A flaw that affects most users and causes major problems for users. i.e., makes the product almost unusable for most users.</li></ul>
@@ -1172,7 +1232,8 @@ If you are on Windows, use the DOS prompt or the PowerShell (not the WSL termina
 <p><strong>Type</strong> labels:</p>
 <ul>
 <li><code class="hljs inline no-lang" v-pre>type.FunctionalityBug</code>: A functionality does not work as specified/expected.</li>
-<li><code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>: Some functionality missing from a feature delivered in v1.4 in a way that the feature becomes less useful to the intended target user for <em>normal</em> usage. i.e., the feature is not 'complete'. In other words, an acceptance-testing bug that falls within the scope of v1.4 features. These issues are counted against the <em>product design</em> aspect of the project.</li>
+<li><code class="hljs inline no-lang" v-pre>type.FeatureFlaw</code>: Some functionality missing from a feature delivered in v1.4 in a way that the feature becomes less useful to the intended target user for <em>normal</em> usage. i.e., the feature is not 'complete'. In other words, an acceptance-testing bug that falls within the scope of v1.4 features. These issues are counted against the <em>product design</em> aspect of the project.<br>
+Features that work as specified by the UG but <em>should have been designed to work differently</em> (from the end-user's point of view) fall in this category too.</li>
 <li><code class="hljs inline no-lang" v-pre>type.DocumentationBug</code>: A flaw in the documentation <span class="dimmed">e.g., a missing step, a wrong instruction, typos</span></li></ul></box></div></div></box></div>
 <b-modal id="modal:v1.3-ppp" hide-footer size="lg" modal-class="mb-zoom" ref="modal:v1.3-ppp" class="algolia-no-index"><template slot="modal-title">Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Project →</template>
   <div>
@@ -1292,7 +1353,7 @@ However, a product is allowed to have 'known limitations' <span class="dimmed">(
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Tue, 20 Apr 2021, 0:02:24 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Thu, 29 Apr 2021, 16:02:46 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>

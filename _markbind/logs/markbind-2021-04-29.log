@@ -1,0 +1,373 @@
+2021-04-29T04:55:10.527Z - info: Website generation (lazy) started at 12:55:02 PM
+2021-04-29T04:55:21.370Z - info: Building assets...
+2021-04-29T04:55:27.819Z - info: Assets built
+2021-04-29T04:55:27.820Z - info: Generating landing page...
+2021-04-29T04:55:29.146Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-04-29T04:55:29.794Z - info: Site data built
+2021-04-29T04:55:29.794Z - info: Website generation (lazy) complete! Total build time: 27.141s
+2021-04-29T04:55:30.712Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2021-04-29T04:55:30.713Z - info: Press CTRL+C to stop ...
+2021-04-29T04:59:56.731Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe as some of its dependencies were changed since the last visit
+2021-04-29T04:59:58.671Z - info: Site data built
+2021-04-29T04:59:58.671Z - info: Lazy website regeneration complete! Total build time: 1.941s
+2021-04-29T05:01:16.910Z - info: [1:01:16 PM] Reload for file add: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T05:01:23.165Z - info: Assets built
+2021-04-29T05:02:59.957Z - info: [1:02:59 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-29T05:02:59.994Z - info: [1:02:59 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T05:03:00.964Z - info: Rebuilding 1 pages
+2021-04-29T05:03:03.198Z - info: Site data built
+2021-04-29T05:03:03.199Z - info: Pages rebuilt
+2021-04-29T05:03:03.200Z - info: Website regeneration complete! Total build time: 2.241s
+2021-04-29T05:03:03.211Z - info: Assets built
+2021-04-29T05:04:00.163Z - info: [1:04:00 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-29T05:04:00.166Z - info: [1:04:00 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T05:04:01.176Z - info: Rebuilding 1 pages
+2021-04-29T05:04:03.001Z - info: Site data built
+2021-04-29T05:04:03.004Z - info: Pages rebuilt
+2021-04-29T05:04:03.005Z - info: Website regeneration complete! Total build time: 1.833s
+2021-04-29T05:04:22.832Z - info: [1:04:22 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T05:04:23.843Z - info: Rebuilding 1 pages
+2021-04-29T05:04:25.607Z - info: Site data built
+2021-04-29T05:04:25.607Z - info: Pages rebuilt
+2021-04-29T05:04:25.608Z - info: Website regeneration complete! Total build time: 1.77s
+2021-04-29T05:05:30.326Z - info: [1:05:30 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-29T05:05:30.338Z - info: [1:05:30 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T05:05:31.333Z - info: Rebuilding 1 pages
+2021-04-29T05:05:33.136Z - info: Site data built
+2021-04-29T05:05:33.137Z - info: Pages rebuilt
+2021-04-29T05:05:33.137Z - info: Website regeneration complete! Total build time: 1.808s
+2021-04-29T05:11:04.116Z - info: [1:11:04 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-29T05:11:05.155Z - info: Rebuilding 1 pages
+2021-04-29T05:11:06.744Z - info: Site data built
+2021-04-29T05:11:06.744Z - info: Pages rebuilt
+2021-04-29T05:11:06.745Z - info: Website regeneration complete! Total build time: 1.616s
+2021-04-29T05:11:17.110Z - info: [1:11:17 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-29T05:11:18.120Z - info: Rebuilding 1 pages
+2021-04-29T05:11:19.467Z - info: Site data built
+2021-04-29T05:11:19.468Z - info: Pages rebuilt
+2021-04-29T05:11:19.468Z - info: Website regeneration complete! Total build time: 1.352s
+2021-04-29T05:14:44.918Z - info: [1:14:44 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T05:14:45.928Z - info: Rebuilding 1 pages
+2021-04-29T05:14:47.383Z - info: Site data built
+2021-04-29T05:14:47.383Z - info: Pages rebuilt
+2021-04-29T05:14:47.383Z - info: Website regeneration complete! Total build time: 1.461s
+2021-04-29T05:15:10.658Z - info: [1:15:10 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T05:15:11.667Z - info: Rebuilding 1 pages
+2021-04-29T05:15:13.132Z - info: Site data built
+2021-04-29T05:15:13.135Z - info: Pages rebuilt
+2021-04-29T05:15:13.135Z - info: Website regeneration complete! Total build time: 1.471s
+2021-04-29T05:16:16.067Z - info: [1:16:16 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T05:16:17.072Z - info: Rebuilding 1 pages
+2021-04-29T05:16:18.480Z - info: Site data built
+2021-04-29T05:16:18.480Z - info: Pages rebuilt
+2021-04-29T05:16:18.481Z - info: Website regeneration complete! Total build time: 1.411s
+2021-04-29T05:16:59.501Z - info: [1:16:59 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T05:17:00.507Z - info: Rebuilding 1 pages
+2021-04-29T05:17:01.932Z - info: Site data built
+2021-04-29T05:17:01.932Z - info: Pages rebuilt
+2021-04-29T05:17:01.932Z - info: Website regeneration complete! Total build time: 1.428s
+2021-04-29T05:19:25.484Z - info: [1:19:25 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\appendixE-gitHub.md
+2021-04-29T05:19:26.487Z - info: Rebuilding 1 pages
+2021-04-29T05:19:27.765Z - info: Site data built
+2021-04-29T05:19:27.765Z - info: Pages rebuilt
+2021-04-29T05:19:27.765Z - info: Website regeneration complete! Total build time: 1.279s
+2021-04-29T05:23:44.764Z - info: [1:23:44 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-29T05:23:45.769Z - info: Rebuilding 1 pages
+2021-04-29T05:23:47.082Z - info: Site data built
+2021-04-29T05:23:47.082Z - info: Pages rebuilt
+2021-04-29T05:23:47.082Z - info: Website regeneration complete! Total build time: 1.316s
+2021-04-29T05:24:36.786Z - info: [1:24:36 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-29T05:24:37.791Z - info: Rebuilding 1 pages
+2021-04-29T05:24:39.096Z - info: Site data built
+2021-04-29T05:24:39.096Z - info: Pages rebuilt
+2021-04-29T05:24:39.097Z - info: Website regeneration complete! Total build time: 1.311s
+2021-04-29T05:42:23.858Z - info: [1:42:23 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T05:42:24.895Z - info: Rebuilding 1 pages
+2021-04-29T05:42:26.351Z - info: Site data built
+2021-04-29T05:42:26.351Z - info: Pages rebuilt
+2021-04-29T05:42:26.352Z - info: Website regeneration complete! Total build time: 1.482s
+2021-04-29T05:44:44.773Z - info: [1:44:44 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-29T05:44:45.782Z - info: Rebuilding 1 pages
+2021-04-29T05:44:47.089Z - info: Site data built
+2021-04-29T05:44:47.089Z - info: Pages rebuilt
+2021-04-29T05:44:47.089Z - info: Website regeneration complete! Total build time: 1.31s
+2021-04-29T05:52:43.481Z - info: [1:52:43 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-29T05:52:44.487Z - info: Rebuilding 1 pages
+2021-04-29T05:52:45.861Z - info: Site data built
+2021-04-29T05:52:45.861Z - info: Pages rebuilt
+2021-04-29T05:52:45.861Z - info: Website regeneration complete! Total build time: 1.377s
+2021-04-29T05:53:10.760Z - info: [1:53:10 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-29T05:53:11.770Z - info: Rebuilding 1 pages
+2021-04-29T05:53:13.210Z - info: Site data built
+2021-04-29T05:53:13.211Z - info: Pages rebuilt
+2021-04-29T05:53:13.211Z - info: Website regeneration complete! Total build time: 1.444s
+2021-04-29T05:53:46.445Z - info: [1:53:46 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-29T05:53:47.451Z - info: Rebuilding 1 pages
+2021-04-29T05:53:48.984Z - info: Site data built
+2021-04-29T05:53:48.984Z - info: Pages rebuilt
+2021-04-29T05:53:48.984Z - info: Website regeneration complete! Total build time: 1.535s
+2021-04-29T06:23:00.551Z - info: [2:23:00 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T06:23:01.566Z - info: Rebuilding 1 pages
+2021-04-29T06:23:03.062Z - info: Site data built
+2021-04-29T06:23:03.064Z - info: Pages rebuilt
+2021-04-29T06:23:03.066Z - info: Website regeneration complete! Total build time: 1.507s
+2021-04-29T06:27:04.722Z - info: [2:27:04 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T06:27:05.729Z - info: Rebuilding 1 pages
+2021-04-29T06:27:07.698Z - info: Site data built
+2021-04-29T06:27:07.698Z - info: Pages rebuilt
+2021-04-29T06:27:07.699Z - info: Website regeneration complete! Total build time: 1.972s
+2021-04-29T06:28:21.020Z - info: [2:28:21 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T06:28:22.030Z - info: Rebuilding 1 pages
+2021-04-29T06:28:24.214Z - info: Site data built
+2021-04-29T06:28:24.215Z - info: Pages rebuilt
+2021-04-29T06:28:24.215Z - info: Website regeneration complete! Total build time: 2.189s
+2021-04-29T06:30:02.655Z - info: [2:30:02 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T06:30:03.674Z - info: Rebuilding 1 pages
+2021-04-29T06:30:05.981Z - info: Site data built
+2021-04-29T06:30:05.982Z - info: Pages rebuilt
+2021-04-29T06:30:05.982Z - info: Website regeneration complete! Total build time: 2.312s
+2021-04-29T06:31:10.113Z - info: [2:31:10 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T06:31:11.129Z - info: Rebuilding 1 pages
+2021-04-29T06:31:13.419Z - info: Site data built
+2021-04-29T06:31:13.421Z - info: Pages rebuilt
+2021-04-29T06:31:13.422Z - info: Website regeneration complete! Total build time: 2.298s
+2021-04-29T06:34:27.914Z - info: [2:34:27 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T06:34:28.927Z - info: Rebuilding 1 pages
+2021-04-29T06:34:30.833Z - info: Site data built
+2021-04-29T06:34:30.834Z - info: Pages rebuilt
+2021-04-29T06:34:30.834Z - info: Website regeneration complete! Total build time: 1.912s
+2021-04-29T06:36:40.880Z - info: [2:36:40 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T06:36:41.888Z - info: Rebuilding 1 pages
+2021-04-29T06:36:43.781Z - info: Site data built
+2021-04-29T06:36:43.782Z - info: Pages rebuilt
+2021-04-29T06:36:43.782Z - info: Website regeneration complete! Total build time: 1.895s
+2021-04-29T06:38:47.354Z - info: [2:38:47 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T06:38:48.364Z - info: Rebuilding 1 pages
+2021-04-29T06:38:50.312Z - info: Site data built
+2021-04-29T06:38:50.314Z - info: Pages rebuilt
+2021-04-29T06:38:50.314Z - info: Website regeneration complete! Total build time: 1.954s
+2021-04-29T06:48:38.596Z - info: [2:48:38 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T06:48:39.609Z - info: Rebuilding 1 pages
+2021-04-29T06:48:41.578Z - info: Site data built
+2021-04-29T06:48:41.581Z - info: Pages rebuilt
+2021-04-29T06:48:41.581Z - info: Website regeneration complete! Total build time: 1.977s
+2021-04-29T06:57:48.815Z - info: [2:57:48 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T06:57:49.826Z - info: Rebuilding 1 pages
+2021-04-29T06:57:51.777Z - info: Site data built
+2021-04-29T06:57:51.780Z - info: Pages rebuilt
+2021-04-29T06:57:51.781Z - info: Website regeneration complete! Total build time: 1.96s
+2021-04-29T07:00:29.876Z - info: [3:00:29 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T07:00:30.884Z - info: Rebuilding 1 pages
+2021-04-29T07:00:32.857Z - info: Site data built
+2021-04-29T07:00:32.858Z - info: Pages rebuilt
+2021-04-29T07:00:32.859Z - info: Website regeneration complete! Total build time: 1.976s
+2021-04-29T07:00:37.401Z - info: [3:00:37 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T07:00:38.406Z - info: Rebuilding 1 pages
+2021-04-29T07:00:40.191Z - info: Site data built
+2021-04-29T07:00:40.191Z - info: Pages rebuilt
+2021-04-29T07:00:40.191Z - info: Website regeneration complete! Total build time: 1.788s
+2021-04-29T07:00:47.434Z - info: [3:00:47 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T07:00:48.448Z - info: Rebuilding 1 pages
+2021-04-29T07:00:50.253Z - info: Site data built
+2021-04-29T07:00:50.253Z - info: Pages rebuilt
+2021-04-29T07:00:50.253Z - info: Website regeneration complete! Total build time: 1.806s
+2021-04-29T07:00:56.142Z - info: [3:00:56 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T07:00:57.155Z - info: Rebuilding 1 pages
+2021-04-29T07:00:59.029Z - info: Site data built
+2021-04-29T07:00:59.029Z - info: Pages rebuilt
+2021-04-29T07:00:59.029Z - info: Website regeneration complete! Total build time: 1.878s
+2021-04-29T07:02:26.705Z - info: [3:02:26 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T07:02:27.710Z - info: Rebuilding 1 pages
+2021-04-29T07:02:29.839Z - info: Site data built
+2021-04-29T07:02:29.840Z - info: Pages rebuilt
+2021-04-29T07:02:29.840Z - info: Website regeneration complete! Total build time: 2.131s
+2021-04-29T07:03:21.825Z - info: [3:03:21 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T07:03:22.846Z - info: Rebuilding 1 pages
+2021-04-29T07:03:25.082Z - info: Site data built
+2021-04-29T07:03:25.083Z - info: Pages rebuilt
+2021-04-29T07:03:25.084Z - info: Website regeneration complete! Total build time: 2.24s
+2021-04-29T07:10:34.112Z - info: [3:10:34 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T07:10:35.122Z - info: Rebuilding 1 pages
+2021-04-29T07:10:37.151Z - info: Site data built
+2021-04-29T07:10:37.153Z - info: Pages rebuilt
+2021-04-29T07:10:37.154Z - info: Website regeneration complete! Total build time: 2.035s
+2021-04-29T07:12:16.507Z - info: [3:12:16 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T07:12:17.518Z - info: Rebuilding 1 pages
+2021-04-29T07:12:19.451Z - info: Site data built
+2021-04-29T07:12:19.452Z - info: Pages rebuilt
+2021-04-29T07:12:19.453Z - info: Website regeneration complete! Total build time: 1.939s
+2021-04-29T07:13:22.509Z - info: [3:13:22 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T07:13:23.521Z - info: Rebuilding 1 pages
+2021-04-29T07:13:25.429Z - info: Site data built
+2021-04-29T07:13:25.429Z - info: Pages rebuilt
+2021-04-29T07:13:25.430Z - info: Website regeneration complete! Total build time: 1.912s
+2021-04-29T07:14:33.020Z - info: [3:14:33 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-29T07:14:33.031Z - info: [3:14:33 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T07:14:34.031Z - info: Rebuilding 1 pages
+2021-04-29T07:14:35.914Z - info: Site data built
+2021-04-29T07:14:35.915Z - info: Pages rebuilt
+2021-04-29T07:14:35.916Z - info: Website regeneration complete! Total build time: 1.889s
+2021-04-29T07:15:32.165Z - info: [3:15:32 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-29T07:15:33.182Z - info: Rebuilding 1 pages
+2021-04-29T07:15:35.045Z - info: Site data built
+2021-04-29T07:15:35.045Z - info: Pages rebuilt
+2021-04-29T07:15:35.046Z - info: Website regeneration complete! Total build time: 1.869s
+2021-04-29T07:15:46.335Z - info: [3:15:46 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-29T07:15:47.347Z - info: Rebuilding 1 pages
+2021-04-29T07:15:49.224Z - info: Site data built
+2021-04-29T07:15:49.225Z - info: Pages rebuilt
+2021-04-29T07:15:49.225Z - info: Website regeneration complete! Total build time: 1.88s
+2021-04-29T07:16:15.656Z - info: [3:16:15 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-29T07:16:16.663Z - info: Rebuilding 1 pages
+2021-04-29T07:16:18.558Z - info: Site data built
+2021-04-29T07:16:18.559Z - info: Pages rebuilt
+2021-04-29T07:16:18.559Z - info: Website regeneration complete! Total build time: 1.899s
+2021-04-29T07:17:10.246Z - info: [3:17:10 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe.mbdf
+2021-04-29T07:17:10.271Z - info: [3:17:10 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T07:17:11.269Z - info: Rebuilding 1 pages
+2021-04-29T07:17:13.582Z - info: Site data built
+2021-04-29T07:17:13.583Z - info: Pages rebuilt
+2021-04-29T07:17:13.583Z - info: Website regeneration complete! Total build time: 2.318s
+2021-04-29T07:21:53.599Z - info: [3:21:53 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T07:21:54.606Z - info: Rebuilding 1 pages
+2021-04-29T07:21:56.253Z - info: Site data built
+2021-04-29T07:21:56.254Z - info: Pages rebuilt
+2021-04-29T07:21:56.254Z - info: Website regeneration complete! Total build time: 1.652s
+2021-04-29T07:24:47.415Z - info: [3:24:47 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T07:24:48.439Z - info: Rebuilding 1 pages
+2021-04-29T07:24:50.521Z - info: Site data built
+2021-04-29T07:24:50.522Z - info: Pages rebuilt
+2021-04-29T07:24:50.522Z - info: Website regeneration complete! Total build time: 2.086s
+2021-04-29T07:25:10.415Z - info: [3:25:10 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T07:25:11.421Z - info: Rebuilding 1 pages
+2021-04-29T07:25:13.063Z - info: Site data built
+2021-04-29T07:25:13.065Z - info: Pages rebuilt
+2021-04-29T07:25:13.065Z - info: Website regeneration complete! Total build time: 1.647s
+2021-04-29T07:26:51.869Z - info: [3:26:51 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T07:26:52.876Z - info: Rebuilding 1 pages
+2021-04-29T07:26:54.597Z - info: Site data built
+2021-04-29T07:26:54.598Z - info: Pages rebuilt
+2021-04-29T07:26:54.598Z - info: Website regeneration complete! Total build time: 1.725s
+2021-04-29T07:28:31.629Z - info: [3:28:31 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T07:28:32.636Z - info: Rebuilding 1 pages
+2021-04-29T07:28:34.108Z - info: Site data built
+2021-04-29T07:28:34.108Z - info: Pages rebuilt
+2021-04-29T07:28:34.109Z - info: Website regeneration complete! Total build time: 1.475s
+2021-04-29T07:30:22.680Z - info: [3:30:22 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T07:30:23.687Z - info: Rebuilding 1 pages
+2021-04-29T07:30:25.077Z - info: Site data built
+2021-04-29T07:30:25.077Z - info: Pages rebuilt
+2021-04-29T07:30:25.078Z - info: Website regeneration complete! Total build time: 1.394s
+2021-04-29T07:31:58.709Z - info: [3:31:58 PM] Reload for file change: C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe-bug-triaging-guidelines.mbdf
+2021-04-29T07:31:59.718Z - info: Rebuilding 1 pages
+2021-04-29T07:32:01.544Z - info: Site data built
+2021-04-29T07:32:01.544Z - info: Pages rebuilt
+2021-04-29T07:32:01.544Z - info: Website regeneration complete! Total build time: 1.83s
+2021-04-29T07:50:04.452Z - info: Website generation started at 3:49:58 PM
+2021-04-29T07:50:14.460Z - info: Building assets...
+2021-04-29T07:50:20.120Z - info: Assets built
+2021-04-29T07:50:20.120Z - info: Generating pages...
+2021-04-29T07:50:39.506Z - debug:  
+2021-04-29T07:50:39.507Z - debug:  
+2021-04-29T07:50:39.507Z - debug:  
+2021-04-29T07:50:39.508Z - debug:  
+2021-04-29T07:50:39.508Z - debug:  
+2021-04-29T07:50:39.509Z - debug:  
+2021-04-29T07:51:24.349Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/about/usage.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.353Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/softwareEngineering/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.355Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/oop/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.356Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/requirements/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.357Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/gatheringRequirements/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.358Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/specifyingRequirements/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.360Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/design/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.361Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designFundamentals/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.362Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/modeling/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.364Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/architecture/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.364Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designPatterns/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.365Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designApproaches/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.367Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/ides/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.368Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/codeQuality/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.369Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/refactoring/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.369Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/documentation/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.370Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/errorHandling/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.372Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/integration/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.373Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/reuse/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.374Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/qualityAssurance/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.376Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/testing/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.377Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/testCaseDesign/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.379Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/revisionControl/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.379Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/projectPlanning/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.380Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/teamwork/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.381Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/processModels/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.382Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/uml/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.382Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/intellij/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.383Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/gitAndGithub/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.384Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/principles/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.385Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/cppToJava/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.385Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/definitions.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.386Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/references.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.387Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/outcomes.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:51:24.387Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/print.html' found in file 'C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\index.md'
+2021-04-29T07:53:43.088Z - debug:  
+2021-04-29T07:54:00.694Z - debug:  
+2021-04-29T07:54:00.695Z - debug:  
+2021-04-29T07:54:13.365Z - info: Pages built
+2021-04-29T07:54:13.964Z - info: Site data built
+2021-04-29T07:54:13.964Z - info: Website generation complete! Total build time: 255.524s
+2021-04-29T07:54:13.964Z - info: Build success!
+2021-04-29T07:54:20.597Z - info: Deployed at https://nus-cs2103-ay2021s2.github.io/website!
+2021-04-29T08:00:00.042Z - info: Website generation (lazy) started at 3:59:53 PM
+2021-04-29T08:00:12.658Z - info: Building assets...
+2021-04-29T08:00:20.111Z - info: Assets built
+2021-04-29T08:00:20.111Z - info: Generating landing page...
+2021-04-29T08:00:21.672Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-04-29T08:00:22.336Z - info: Site data built
+2021-04-29T08:00:22.336Z - info: Website generation (lazy) complete! Total build time: 28.469s
+2021-04-29T08:00:23.574Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\_site" at http://127.0.0.1:8080
+2021-04-29T08:00:23.574Z - info: Press CTRL+C to stop ...
+2021-04-29T08:01:28.764Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\schedule\week13\admin as some of its dependencies were changed since the last visit
+2021-04-29T08:01:29.441Z - info: Site data built
+2021-04-29T08:01:29.442Z - info: Lazy website regeneration complete! Total build time: 0.68s
+2021-04-29T08:01:36.699Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\index as some of its dependencies were changed since the last visit
+2021-04-29T08:01:37.355Z - info: Site data built
+2021-04-29T08:01:37.355Z - info: Lazy website regeneration complete! Total build time: 0.657s
+2021-04-29T08:01:45.135Z - info: Building C:\repos\nus-cs2103-AY2021S1\cs2103-website\admin\tp-pe as some of its dependencies were changed since the last visit
+2021-04-29T08:01:46.920Z - info: Site data built
+2021-04-29T08:01:46.920Z - info: Lazy website regeneration complete! Total build time: 1.785s
+2021-04-29T08:02:27.282Z - info: Website generation started at 4:02:23 PM
+2021-04-29T08:02:38.449Z - info: Building assets...

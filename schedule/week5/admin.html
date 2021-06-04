@@ -4,7 +4,7 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 2.17.3">
+    <meta name="generator" content="MarkBind 2.18.1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TIC4002 - Week 5 - Admin Info</title>
     <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -21,6 +21,7 @@
 <body  data-spy="scroll" data-target="#page-nav" data-offset="100" >
 <div id="app">
     <header fixed>
+<div class="w-100 p-1 bg-warning text-center"><span><strong>This site is from a past semester! The current version will be <a href="http://www.comp.nus.edu.sg/~tic4002">here</a> when the new semester starts.</strong></span></div>
 <navbar placement="top" type="dark" class="temp-navbar">
 <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand"><span class="badge badge-pill badge-info">TIC4002 <small>2021 Jan-May</small></span></a>
   <div class="nav-link temp-dropdown-placeholder">**Schedule**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Schedule</strong></template>
@@ -75,7 +76,7 @@
     </dropdown>
   <li slot="right" class="nav-link">
     <form class="navbar-form">
-      <searchbar placeholder="Search" algolia menu-align-right></searchbar></form></li></navbar></header><div id="flex-body">
+      <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar></form></li></navbar></header><div id="flex-body">
         
 
 
@@ -257,13 +258,13 @@ Evaluate based on the User Guide and the actual product behavior.</p>
 <p><thumbnail circle background="#28a745" font-color="white" size="25"><strong>Q</strong></thumbnail> <strong>The team members' contribution to the product implementation (excluding UG, DG, and team-based tasks) is,</strong></p>
 <div>
 <panel type="seamless" class="algolia-no-index"><template slot="header"><p>Uses the <code class="hljs inline no-lang" v-pre>Equal Share +/- N%</code> scale for the answer</p></template>
-<ul radio-group="2ef43" class="radio-list">
-<li class="radio-list-item"><label><input class="radio-list-input" name="2ef43" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share</code> <span class="dimmed">i.e., if the team has 4 members, this person did 1/4 of the work</span></label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="2ef43" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share + 10%</code> <span class="dimmed">i.e., this person did about 10% more than an equal share (equal share x 1.10)</span></label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="2ef43" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share + 20%</code> <span class="dimmed">i.e., this person did about 20% more than an equal share (equal share x 1.20)</span></label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="2ef43" type="radio"> ...</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="2ef43" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share - 10%</code> <span class="dimmed">i.e., this person did about 10% less than an equal share (equal share x 0.90)</span></label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="2ef43" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share - 20%</code> <span class="dimmed">i.e., this person did about 20% less than an equal share (equal share x 0.80)</span></label></li></ul></panel></div></div></panel></div><p></p>
+<ul radio-group="214d0" class="radio-list">
+<li class="radio-list-item"><label><input class="radio-list-input" name="214d0" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share</code> <span class="dimmed">i.e., if the team has 4 members, this person did 1/4 of the work</span></label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="214d0" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share + 10%</code> <span class="dimmed">i.e., this person did about 10% more than an equal share (equal share x 1.10)</span></label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="214d0" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share + 20%</code> <span class="dimmed">i.e., this person did about 20% more than an equal share (equal share x 1.20)</span></label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="214d0" type="radio"> ...</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="214d0" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share - 10%</code> <span class="dimmed">i.e., this person did about 10% less than an equal share (equal share x 0.90)</span></label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="214d0" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share - 20%</code> <span class="dimmed">i.e., this person did about 20% less than an equal share (equal share x 0.80)</span></label></li></ul></panel></div></div></panel></div><p></p>
 <ul>
 <li>Baseline: If your team received a value higher than <code class="hljs inline no-lang" v-pre>10</code> in step 1 and the team agrees that you did roughly an equal share of implementation work, you should receive full marks for effort.</li></ul></div>
 
@@ -327,22 +328,22 @@ There is no requirement for a minimum coverage level. Note that in a production 
 <p><thumbnail circle background="#28a745" font-color="white" size="25"><strong>Q</strong></thumbnail> <strong>Compared to AddressBoook-Level3 (AB3), the overall quality of the UG you evaluated is,</strong><br>
 Evaluate based on fit-for-purpose, from the perspective of a target user.
 For reference, the AB3 UG is <a href="https://se-education.org/addressbook-level3/UserGuide.html">here</a>.<br></p>
-<ul radio-group="7acba" class="radio-list">
-<li class="radio-list-item"><label><input class="radio-list-input" name="7acba" type="radio">  Significantly lower</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="7acba" type="radio">  Slightly lower</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="7acba" type="radio">  Similar</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="7acba" type="radio">  Higher</label></li></ul></div></panel></div><p></p>
+<ul radio-group="e0ec3" class="radio-list">
+<li class="radio-list-item"><label><input class="radio-list-input" name="e0ec3" type="radio">  Significantly lower</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="e0ec3" type="radio">  Slightly lower</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="e0ec3" type="radio">  Similar</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="e0ec3" type="radio">  Higher</label></li></ul></div></panel></div><p></p>
 <div class="indented-level2">
 <panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> tP → PE → <mark>Grading Instructions for Developer Guide</mark> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
 <p><thumbnail circle background="#28a745" font-color="white" size="25"><strong>Q</strong></thumbnail> <strong>Compared to AB3, the overall quality of the DG you evaluated is,</strong><br>
 Evaluate based on fit-for-purpose from the perspective of a new team member trying to understand the product's internal design by reading the DG.
 For reference, the AB3 DG is <a href="https://se-education.org/addressbook-level3/DeveloperGuide.html">here</a>.<br></p>
-<ul radio-group="068c5" class="radio-list">
-<li class="radio-list-item"><label><input class="radio-list-input" name="068c5" type="radio">  Significantly lower</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="068c5" type="radio">  Slightly lower</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="068c5" type="radio">  Similar</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="068c5" type="radio">  Higher</label></li></ul></div></panel></div><p></p>
+<ul radio-group="28b4d" class="radio-list">
+<li class="radio-list-item"><label><input class="radio-list-input" name="28b4d" type="radio">  Significantly lower</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="28b4d" type="radio">  Slightly lower</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="28b4d" type="radio">  Similar</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="28b4d" type="radio">  Higher</label></li></ul></div></panel></div><p></p>
 <ul>
 <li>Step 2: Evaluate how much of that effort can be attributed to you. This is evaluated by team members, and tutors.</li></ul>
 <div class="indented-level2">
@@ -351,26 +352,26 @@ For reference, the AB3 DG is <a href="https://se-education.org/addressbook-level
 <p><thumbnail circle background="#28a745" font-color="white" size="25"><strong>Q</strong></thumbnail> <strong>The team members' contribution to the User Guide is,</strong></p>
 <span id="equalShareScale">
 <panel type="seamless" class="algolia-no-index"><template slot="header"><p>Uses the <code class="hljs inline no-lang" v-pre>Equal Share +/- N%</code> scale for the answer</p></template>
-<ul radio-group="186a5" class="radio-list">
-<li class="radio-list-item"><label><input class="radio-list-input" name="186a5" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share</code> <span class="dimmed">i.e., if the team has 4 members, this person did 1/4 of the work</span></label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="186a5" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share + 10%</code> <span class="dimmed">i.e., this person did about 10% more than an equal share (equal share x 1.10)</span></label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="186a5" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share + 20%</code> <span class="dimmed">i.e., this person did about 20% more than an equal share (equal share x 1.20)</span></label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="186a5" type="radio"> ...</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="186a5" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share - 10%</code> <span class="dimmed">i.e., this person did about 10% less than an equal share (equal share x 0.90)</span></label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="186a5" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share - 20%</code> <span class="dimmed">i.e., this person did about 20% less than an equal share (equal share x 0.80)</span></label></li></ul></panel></span></div></panel></div><p></p>
+<ul radio-group="5f32a" class="radio-list">
+<li class="radio-list-item"><label><input class="radio-list-input" name="5f32a" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share</code> <span class="dimmed">i.e., if the team has 4 members, this person did 1/4 of the work</span></label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="5f32a" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share + 10%</code> <span class="dimmed">i.e., this person did about 10% more than an equal share (equal share x 1.10)</span></label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="5f32a" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share + 20%</code> <span class="dimmed">i.e., this person did about 20% more than an equal share (equal share x 1.20)</span></label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="5f32a" type="radio"> ...</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="5f32a" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share - 10%</code> <span class="dimmed">i.e., this person did about 10% less than an equal share (equal share x 0.90)</span></label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="5f32a" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share - 20%</code> <span class="dimmed">i.e., this person did about 20% less than an equal share (equal share x 0.80)</span></label></li></ul></panel></span></div></panel></div><p></p>
 <div class="indented-level2">
 <panel type class="embedding algolia-no-index" minimized><template slot="header"><p>Admin <span><span aria-hidden="true" class="glyphicon glyphicon-log-in"></span></span> Peer Evaluations → <mark>Questions used for Evaluating the Contribution to the DG</mark> <span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></span></p></template>
 <div>
 <p><thumbnail circle background="#28a745" font-color="white" size="25"><strong>Q</strong></thumbnail> <strong>The team members' contribution to the Developer Guide is,</strong></p>
 <div>
 <panel type="seamless" class="algolia-no-index"><template slot="header"><p>Uses the <code class="hljs inline no-lang" v-pre>Equal Share +/- N%</code> scale for the answer</p></template>
-<ul radio-group="2ef43" class="radio-list">
-<li class="radio-list-item"><label><input class="radio-list-input" name="2ef43" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share</code> <span class="dimmed">i.e., if the team has 4 members, this person did 1/4 of the work</span></label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="2ef43" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share + 10%</code> <span class="dimmed">i.e., this person did about 10% more than an equal share (equal share x 1.10)</span></label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="2ef43" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share + 20%</code> <span class="dimmed">i.e., this person did about 20% more than an equal share (equal share x 1.20)</span></label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="2ef43" type="radio"> ...</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="2ef43" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share - 10%</code> <span class="dimmed">i.e., this person did about 10% less than an equal share (equal share x 0.90)</span></label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="2ef43" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share - 20%</code> <span class="dimmed">i.e., this person did about 20% less than an equal share (equal share x 0.80)</span></label></li></ul></panel></div></div></panel></div><p></p>
+<ul radio-group="214d0" class="radio-list">
+<li class="radio-list-item"><label><input class="radio-list-input" name="214d0" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share</code> <span class="dimmed">i.e., if the team has 4 members, this person did 1/4 of the work</span></label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="214d0" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share + 10%</code> <span class="dimmed">i.e., this person did about 10% more than an equal share (equal share x 1.10)</span></label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="214d0" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share + 20%</code> <span class="dimmed">i.e., this person did about 20% more than an equal share (equal share x 1.20)</span></label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="214d0" type="radio"> ...</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="214d0" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share - 10%</code> <span class="dimmed">i.e., this person did about 10% less than an equal share (equal share x 0.90)</span></label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="214d0" type="radio"> <code class="hljs inline no-lang" v-pre>Equal share - 20%</code> <span class="dimmed">i.e., this person did about 20% less than an equal share (equal share x 0.80)</span></label></li></ul></panel></div></div></panel></div><p></p>
 <ul>
 <li>In addition, UG and DG bugs you received in the PE will be considered for grading this component.</li></ul>
 <div class="indented-level2">
@@ -665,12 +666,12 @@ There is no requirement for a minimum coverage level. Note that in a production 
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Fri, 30 Apr 2021, 0:01:01 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.18.1</a>, generated on Fri, 4 Jun 2021, 23:57:20 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>
   const baseUrl = '/website'
-  MarkBind.setup()
+  MarkBind.setupWithSearch()
 </script>
     <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
     <script>

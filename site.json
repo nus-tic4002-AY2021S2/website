@@ -52,7 +52,7 @@
       "searchable": "no"
     }
   ],
-  "enableSearch": false,
+  "enableSearch": true,
   "headingIndexingLevel": 5,
   "plugins": ["filterTags", "algolia", "googleAnalytics"],
   "pluginsContext": {

@@ -4,7 +4,7 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 2.17.3">
+    <meta name="generator" content="MarkBind 2.18.1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TIC4002 - Test Case Design: Combining Test Inputs: Heuristic: Each valid input at least once in a positive test case</title>
     <link rel="stylesheet" href="../../../../markbind/css/bootstrap.min.css">
@@ -36,7 +36,7 @@
 <p>Consider the following scenario.</p>
 <box>
 <p>SUT:  <code class="hljs inline no-lang" v-pre>printLabel(String fruitName, int unitPrice)</code></p>
-<p><strong>Selected values for</strong> <code class="hljs inline no-lang" v-pre>fruitName</code> (invalid values are <ins>underlined</ins>):</p>
+<p><strong>Selected values for</strong> <code class="hljs inline no-lang" v-pre>fruitName</code> (invalid values are <span class="underline">underlined</span>):</p>
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
 <tr>
 <th>Values</th>
@@ -52,7 +52,7 @@
 <td>Cherry</td>
 <td>Label format is square</td></tr>
 <tr>
-<td><ins>Dog</ins></td>
+<td><span class="underline">Dog</span></td>
 <td>Not a valid fruit</td></tr></tbody></table></div><p><strong>Selected values for</strong> <code class="hljs inline no-lang" v-pre>unitPrice</code>:</p>
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
 <tr>
@@ -66,10 +66,10 @@
 <td>20</td>
 <td>Two digits</td></tr>
 <tr>
-<td><ins>0</ins></td>
+<td><span class="underline">0</span></td>
 <td>Invalid because 0 is not a valid price</td></tr>
 <tr>
-<td><ins>-1</ins></td>
+<td><span class="underline">-1</span></td>
 <td>Invalid because negative prices are not allowed</td></tr></tbody></table></div></box>
 <p>Suppose these are the test cases being considered.</p>
 <box>
@@ -93,12 +93,12 @@
 <tr>
 <td style="text-align:center">3</td>
 <td style="text-align:center">Cherry</td>
-<td style="text-align:center"><ins>0</ins></td>
+<td style="text-align:center"><span class="underline">0</span></td>
 <td style="text-align:center">Error message “invalid price”</td></tr>
 <tr>
 <td style="text-align:center">4</td>
-<td style="text-align:center"><ins>Dog</ins></td>
-<td style="text-align:center"><ins>-1</ins></td>
+<td style="text-align:center"><span class="underline">Dog</span></td>
+<td style="text-align:center"><span class="underline">-1</span></td>
 <td style="text-align:center">Error message “invalid fruit&quot;</td></tr></tbody></table></div></box>
 <p>It looks like the test cases were created using the <em>at least once</em> strategy. After running these tests, can you confirm that the square-format label printing is done correctly?</p>
 <ul>
@@ -132,12 +132,12 @@
 <tr>
 <td style="text-align:center">3</td>
 <td style="text-align:center">VV</td>
-<td style="text-align:center"><ins>0</ins></td>
+<td style="text-align:center"><span class="underline">0</span></td>
 <td style="text-align:center">Error message “invalid price”</td></tr>
 <tr>
 <td style="text-align:center">4</td>
-<td style="text-align:center"><ins>Dog</ins></td>
-<td style="text-align:center"><ins>-1</ins></td>
+<td style="text-align:center"><span class="underline">Dog</span></td>
+<td style="text-align:center"><span class="underline">-1</span></td>
 <td style="text-align:center">Error message “invalid fruit&quot;</td></tr></tbody></table></div><p>VV/IV = Any Invalid or Valid Value VV = Any Valid Value</p></div></box></div>
 <div></div></div></div></div></div></div>
 <i class="fa fa-arrow-circle-up fa-lg" id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true"></i></div>
@@ -147,7 +147,7 @@
 <script src="../../../../markbind/js/bootstrap-utility.min.js"></script>
 <script>
   const baseUrl = '/website'
-  MarkBind.setup()
+  MarkBind.setupWithSearch()
 </script>
     <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
     <script>

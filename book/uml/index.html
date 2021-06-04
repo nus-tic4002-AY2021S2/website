@@ -4,7 +4,7 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 2.17.3">
+    <meta name="generator" content="MarkBind 2.18.1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TIC4002 - UML</title>
     <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -218,7 +218,7 @@
 </span><span>
 </span><span>  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span>(<span class="hljs-params">self, model</span>):</span>
 </span><span>    self._engine = <span class="hljs-literal">None</span> <span class="hljs-comment"># type: Engine</span>
-</span><span>    self.__wheels = []  <span class="hljs-comment"># type: a list of Wheel objects</span>
+</span><span>    self.__wheels = []  <span class="hljs-comment"># type: a <span class="hljs-built_in">list</span> of Wheel objects</span>
 </span><span>    self.model = model  <span class="hljs-comment"># type: string</span>
 </span><span>
 </span><span>    <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">drive</span>(<span class="hljs-params">self, speed</span>):</span> <span class="hljs-comment"># speed is an int</span>
@@ -320,10 +320,10 @@
 <question>
 <img src="/website/book/uml/classDiagrams/associations/navigability/images/unitItem.png" height="100">
 <p></p>
-<ul radio-group="29fa9" class="radio-list">
-<li class="radio-list-item"><label><input class="radio-list-input" name="29fa9" type="radio"> a. A <code class="hljs inline no-lang" v-pre>Unit</code> object knows about the <code class="hljs inline no-lang" v-pre>Item</code> object it is linked to</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="29fa9" type="radio"> b. An <code class="hljs inline no-lang" v-pre>Item</code> object knows about the <code class="hljs inline no-lang" v-pre>Unit</code> object it is linked to</label></li>
-<li class="radio-list-item"><label><input class="radio-list-input" name="29fa9" type="radio"> c. Depends on the programming language</label></li></ul>
+<ul radio-group="2787d" class="radio-list">
+<li class="radio-list-item"><label><input class="radio-list-input" name="2787d" type="radio"> a. A <code class="hljs inline no-lang" v-pre>Unit</code> object knows about the <code class="hljs inline no-lang" v-pre>Item</code> object it is linked to</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="2787d" type="radio"> b. An <code class="hljs inline no-lang" v-pre>Item</code> object knows about the <code class="hljs inline no-lang" v-pre>Unit</code> object it is linked to</label></li>
+<li class="radio-list-item"><label><input class="radio-list-input" name="2787d" type="radio"> c. Depends on the programming language</label></li></ul>
 <div slot="answer" class="algolia-no-index">
 <p>(a)</p>
 <p>Explanation: The diagram indicates that the <code class="hljs inline no-lang" v-pre>Unit</code> object should know about the <code class="hljs inline no-lang" v-pre>Item</code> object. In the implementation, the <code class="hljs inline no-lang" v-pre>Unit</code> object will hold an <code class="hljs inline no-lang" v-pre>Item</code> object in one of its variables.</p></div></question></panel></div></panel></div></div></div></panel></div>
@@ -724,7 +724,7 @@ Similarly, an inheritance results in a dependency from the child class to the pa
 </span><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Item</span>:</span>
 </span><span>
 </span><span>  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span>(<span class="hljs-params">self</span>):</span>
-</span><span>    self.__previous_boxes = [] <span class="hljs-comment"># type: list of Box objects</span>
+</span><span>    self.__previous_boxes = [] <span class="hljs-comment"># type: <span class="hljs-built_in">list</span> of Box objects</span>
 </span><span>    self.__main_card = <span class="hljs-literal">None</span>    <span class="hljs-comment"># type: Car</span>
 </span><span>    self.__sub_card = <span class="hljs-literal">None</span>     <span class="hljs-comment"># type: Card</span>
 </span><span>
@@ -1072,8 +1072,8 @@ Similarly, an inheritance results in a dependency from the child class to the pa
 <pre><code class="hljs python" v-pre><span><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Car</span>:</span>
 </span><span>
 </span><span>  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__init__</span>(<span class="hljs-params">self, price, speed</span>):</span>
-</span><span>    self.__price = price <span class="hljs-comment"># type: float</span>
-</span><span>    self.__speed = speed <span class="hljs-comment"># type: int</span>
+</span><span>    self.__price = price <span class="hljs-comment"># type: <span class="hljs-built_in">float</span></span>
+</span><span>    self.__speed = speed <span class="hljs-comment"># type: <span class="hljs-built_in">int</span></span>
 </span><span>
 </span><span>
 </span><span><span class="hljs-comment"># somewhere else in the code</span>
@@ -1383,7 +1383,7 @@ Similarly, an inheritance results in a dependency from the child class to the pa
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>
   const baseUrl = '/website'
-  MarkBind.setup()
+  MarkBind.setupWithSearch()
 </script>
     <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
     <script>

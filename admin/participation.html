@@ -4,7 +4,7 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 2.17.3">
+    <meta name="generator" content="MarkBind 2.18.1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TIC4002 - Admin: Participation Marks</title>
     <link rel="stylesheet" href="../markbind/css/bootstrap.min.css">
@@ -20,6 +20,7 @@
 <body  data-spy="scroll" data-target="#page-nav" data-offset="100" >
 <div id="app">
     <header fixed>
+<div class="w-100 p-1 bg-warning text-center"><span><strong>This site is from a past semester! The current version will be <a href="http://www.comp.nus.edu.sg/~tic4002">here</a> when the new semester starts.</strong></span></div>
 <navbar placement="top" type="dark" class="temp-navbar">
 <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand"><span class="badge badge-pill badge-info">TIC4002 <small>2021 Jan-May</small></span></a>
   <div class="nav-link temp-dropdown-placeholder">**Schedule**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Schedule</strong></template>
@@ -74,7 +75,7 @@
     </dropdown>
   <li slot="right" class="nav-link">
     <form class="navbar-form">
-      <searchbar placeholder="Search" algolia menu-align-right></searchbar></form></li></navbar></header><div id="flex-body">
+      <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar></form></li></navbar></header><div id="flex-body">
         <nav id="site-nav" class="navbar navbar-light bg-transparent">
 <div class="border-right-grey nav-inner position-sticky slim-scroll">
 <ul class="site-nav-list site-nav-list-root">
@@ -229,7 +230,7 @@
 <p></p>
 <p><span class="badge badge-pill badge-secondary p-2"><big><big>Examples:</big></big></span></p>
 <ul>
-<li>Alicia earned 1/2, 3/5, <ins>2/5</ins>, 5/5, 5/5, 5/5, 5/5, 5/5, 5/5, 5/5, 4/5, 5/5 in the first 12 weeks. As she received at least half of the points in 11 of the weeks, she gets 5 participation marks. Bonus marks are not applicable as she has full marks already.</li>
+<li>Alicia earned 1/2, 3/5, <span class="underline">2/5</span>, 5/5, 5/5, 5/5, 5/5, 5/5, 5/5, 5/5, 4/5, 5/5 in the first 12 weeks. As she received at least half of the points in 11 of the weeks, she gets 5 participation marks. Bonus marks are not applicable as she has full marks already.</li>
 <li>Benjamin managed to get at least half of the participation points in 9 weeks only, which gives him 5-1 = 4 participation marks. But he participated in 10 lectures, and hence get a bonus mark to make it 5/5.</li>
 <li>Chun Ming met the participation points bar in 8 weeks only, giving him 5-2 = 3 marks. He lost 2 more marks because he received multiple negative ratings for two criteria, giving him 1/5 participation marks.</li></ul>
 <panel type="info" expanded no-close no-switch id="where-to-find-your-participation-marks-progress"><template slot="header"><h5 id="where-to-find-your-participation-marks-progress"><span id="where-to-find-your-participation-marks-progress" class="anchor"></span>Where to find your participation marks progress<a class="fa fa-anchor" href="#where-to-find-your-participation-marks-progress" onclick="event.stopPropagation()"></a></h5></template>
@@ -251,12 +252,12 @@
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Fri, 30 Apr 2021, 0:01:01 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.18.1</a>, generated on Fri, 4 Jun 2021, 23:57:20 GMT+8]</small></div></footer></div>
 </body>
 <script src="../markbind/js/bootstrap-utility.min.js"></script>
 <script>
   const baseUrl = '/website'
-  MarkBind.setup()
+  MarkBind.setupWithSearch()
 </script>
     <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
     <script>

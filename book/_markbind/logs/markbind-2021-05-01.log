@@ -1,0 +1,16 @@
+2021-05-01T04:32:39.863Z - info: Website generation started at 12:32:29 PM
+2021-05-01T04:33:04.884Z - info: Building assets...
+2021-05-01T04:33:13.034Z - info: Assets built
+2021-05-01T04:33:13.035Z - info: Generating pages...
+2021-05-01T04:33:34.792Z - debug:  
+2021-05-01T04:33:34.793Z - debug:  
+2021-05-01T04:33:34.793Z - debug:  
+2021-05-01T04:33:35.425Z - debug:  
+2021-05-01T04:33:35.425Z - debug:  
+2021-05-01T04:33:35.448Z - debug:  
+2021-05-01T04:35:41.543Z - info: Pages built
+2021-05-01T04:35:42.481Z - info: Site data built
+2021-05-01T04:35:42.481Z - info: Website generation complete! Total build time: 192.931s
+2021-05-01T04:35:43.739Z - info: Serving "C:\repos\nus-cs2103-AY2021S1\cs2103-website\book\_site" at http://127.0.0.1:8080
+2021-05-01T04:35:43.740Z - info: Press CTRL+C to stop ...
+2021-05-01T04:46:34.700Z - info: Deployed at https://se-edu.github.io/se-book!

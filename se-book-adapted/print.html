@@ -4,7 +4,7 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 2.17.3">
+    <meta name="generator" content="MarkBind 2.18.1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TIC4002 - Software Engineering for Self-Directed Learners [Printable Version for TIC4002]</title>
     <link rel="stylesheet" href="../markbind/css/bootstrap.min.css">
@@ -3308,16 +3308,16 @@ Note: The book <em>The Productive Programmer</em> (by Neal Ford) calls this the 
 </span><span>    print_banner()
 </span><span>
 </span><span>    <span class="hljs-comment"># print details</span>
-</span><span>    print(<span class="hljs-string">&quot;name:	&quot;</span> + name)
-</span><span>    print(<span class="hljs-string">&quot;amount	&quot;</span> + get_outstanding())
+</span><span>    <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;name:	&quot;</span> + name)
+</span><span>    <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;amount	&quot;</span> + get_outstanding())
 </span></code></pre><p><span><span aria-hidden="true" class="fas fa-arrow-down"></span></span></p>
 <pre><code class="hljs python" v-pre><span><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">print_owing</span>():</span>
 </span><span>    print_banner()
 </span><span>    print_details(get_outstanding())
 </span><span>
 </span><span><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">print_details</span>(<span class="hljs-params">amount</span>):</span>
-</span><span>    print(<span class="hljs-string">&quot;name:	&quot;</span> + name)
-</span><span>    print(<span class="hljs-string">&quot;amount	&quot;</span> + amount)
+</span><span>    <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;name:	&quot;</span> + name)
+</span><span>    <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;amount	&quot;</span> + amount)
 </span></code></pre></div></div></box>
 <p><span class="badge badge-pill badge-warning"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> Some IDEs have builtin support for basic refactorings such as automatically renaming a variable/method/class in all places it has been used.</p>
 <p><font color="red"><big><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign"></span></big></font> Refactoring, even if done with the aid of an IDE, may still result in regressions. Therefore, each small refactoring should be followed by regression testing.</p></div></div></div>
@@ -5211,7 +5211,7 @@ No specific boundary</p></td></tr>
 <p>Consider the following scenario.</p>
 <box>
 <p>SUT:  <code class="hljs inline no-lang" v-pre>printLabel(String fruitName, int unitPrice)</code></p>
-<p><strong>Selected values for</strong> <code class="hljs inline no-lang" v-pre>fruitName</code> (invalid values are <ins>underlined</ins>):</p>
+<p><strong>Selected values for</strong> <code class="hljs inline no-lang" v-pre>fruitName</code> (invalid values are <span class="underline">underlined</span>):</p>
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
 <tr>
 <th>Values</th>
@@ -5227,7 +5227,7 @@ No specific boundary</p></td></tr>
 <td>Cherry</td>
 <td>Label format is square</td></tr>
 <tr>
-<td><ins>Dog</ins></td>
+<td><span class="underline">Dog</span></td>
 <td>Not a valid fruit</td></tr></tbody></table></div><p><strong>Selected values for</strong> <code class="hljs inline no-lang" v-pre>unitPrice</code>:</p>
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
 <tr>
@@ -5241,10 +5241,10 @@ No specific boundary</p></td></tr>
 <td>20</td>
 <td>Two digits</td></tr>
 <tr>
-<td><ins>0</ins></td>
+<td><span class="underline">0</span></td>
 <td>Invalid because 0 is not a valid price</td></tr>
 <tr>
-<td><ins>-1</ins></td>
+<td><span class="underline">-1</span></td>
 <td>Invalid because negative prices are not allowed</td></tr></tbody></table></div></box>
 <p>Suppose these are the test cases being considered.</p>
 <box>
@@ -5268,12 +5268,12 @@ No specific boundary</p></td></tr>
 <tr>
 <td style="text-align:center">3</td>
 <td style="text-align:center">Cherry</td>
-<td style="text-align:center"><ins>0</ins></td>
+<td style="text-align:center"><span class="underline">0</span></td>
 <td style="text-align:center">Error message “invalid price”</td></tr>
 <tr>
 <td style="text-align:center">4</td>
-<td style="text-align:center"><ins>Dog</ins></td>
-<td style="text-align:center"><ins>-1</ins></td>
+<td style="text-align:center"><span class="underline">Dog</span></td>
+<td style="text-align:center"><span class="underline">-1</span></td>
 <td style="text-align:center">Error message “invalid fruit&quot;</td></tr></tbody></table></div></box>
 <p>It looks like the test cases were created using the <em>at least once</em> strategy. After running these tests, can you confirm that the square-format label printing is done correctly?</p>
 <ul>
@@ -5307,12 +5307,12 @@ No specific boundary</p></td></tr>
 <tr>
 <td style="text-align:center">3</td>
 <td style="text-align:center">VV</td>
-<td style="text-align:center"><ins>0</ins></td>
+<td style="text-align:center"><span class="underline">0</span></td>
 <td style="text-align:center">Error message “invalid price”</td></tr>
 <tr>
 <td style="text-align:center">4</td>
-<td style="text-align:center"><ins>Dog</ins></td>
-<td style="text-align:center"><ins>-1</ins></td>
+<td style="text-align:center"><span class="underline">Dog</span></td>
+<td style="text-align:center"><span class="underline">-1</span></td>
 <td style="text-align:center">Error message “invalid fruit&quot;</td></tr></tbody></table></div><p>VV/IV = Any Invalid or Valid Value VV = Any Valid Value</p></div></box></div></div></div>
 <div class="indented-less">
 <h4 id="heuristic-no-more-than-one-invalid-input-in-a-test-case"><span id="heuristic-no-more-than-one-invalid-input-in-a-test-case" class="anchor"></span>Heuristic: No More Than One Invalid Input In A Test Case <span class="badge badge-light"><small><small><font color="DodgerBlue"><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span><span aria-hidden="true" class="glyphicon glyphicon-star"></span></font><span aria-hidden="true" class="glyphicon glyphicon-star-empty"></span></small></small></span><a class="fa fa-anchor" href="#heuristic-no-more-than-one-invalid-input-in-a-test-case" onclick="event.stopPropagation()"></a></h4>
@@ -5346,12 +5346,12 @@ No specific boundary</p></td></tr>
 <tr>
 <td style="text-align:center">3</td>
 <td style="text-align:center">VV</td>
-<td style="text-align:center"><ins>0</ins></td>
+<td style="text-align:center"><span class="underline">0</span></td>
 <td style="text-align:center">Error message “invalid price”</td></tr>
 <tr>
 <td style="text-align:center">4</td>
-<td style="text-align:center"><ins>Dog</ins></td>
-<td style="text-align:center"><ins>-1</ins></td>
+<td style="text-align:center"><span class="underline">Dog</span></td>
+<td style="text-align:center"><span class="underline">-1</span></td>
 <td style="text-align:center">Error message “invalid fruit&quot;</td></tr></tbody></table></div><p>VV/IV = Any Invalid or Valid Value VV = Any Valid Value</p></div></b-modal>
 <p>After running these test cases, can you be sure that the error message “invalid price” is shown for negative prices?</p>
 <ul>
@@ -5384,16 +5384,16 @@ No specific boundary</p></td></tr>
 <tr>
 <td style="text-align:center">3</td>
 <td style="text-align:center">VV</td>
-<td style="text-align:center"><ins>0</ins></td>
+<td style="text-align:center"><span class="underline">0</span></td>
 <td style="text-align:center">Error message “invalid price”</td></tr>
 <tr>
 <td style="text-align:center">4</td>
 <td style="text-align:center">VV</td>
-<td style="text-align:center"><ins>-1</ins></td>
+<td style="text-align:center"><span class="underline">-1</span></td>
 <td style="text-align:center">Error message “invalid price&quot;</td></tr>
 <tr>
 <td style="text-align:center">4.1</td>
-<td style="text-align:center"><ins>Dog</ins></td>
+<td style="text-align:center"><span class="underline">Dog</span></td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">Error message “invalid fruit&quot;</td></tr></tbody></table></div><p>VV/IV = Any Invalid or Valid Value VV = Any Valid Value</p></box></div></div></div>
 <div class="indented-less">
@@ -5404,12 +5404,12 @@ No specific boundary</p></td></tr>
 <box>
 <ul>
 <li>SUT: <code class="hljs inline no-lang" v-pre>calculateGrade(participation, projectGrade, isAbsent, examScore)</code></li>
-<li>Values to test: invalid values are <ins>underlined</ins>
+<li>Values to test: invalid values are <span class="underline">underlined</span>
 <ul>
-<li>participation: 0, 1, 19, 20, <ins>21</ins>, <ins>22</ins></li>
+<li>participation: 0, 1, 19, 20, <span class="underline">21</span>, <span class="underline">22</span></li>
 <li>projectGrade: A, B, C, D, F</li>
 <li>isAbsent: true, false</li>
-<li>examScore: 0, 1, 69, 70, <ins>71</ins>, <ins>72</ins></li></ul></li></ul></box>
+<li>examScore: 0, 1, 69, 70, <span class="underline">71</span>, <span class="underline">72</span></li></ul></li></ul></box>
 <p>To get the first cut of test cases, let’s apply the <em>at least once</em> strategy.</p>
 <box>
 <p><strong>Test cases for calculateGrade V1</strong></p>
@@ -5452,17 +5452,17 @@ No specific boundary</p></td></tr>
 <td style="text-align:center">...</td></tr>
 <tr>
 <td style="text-align:center">5</td>
-<td style="text-align:center"><ins>21</ins></td>
+<td style="text-align:center"><span class="underline">21</span></td>
 <td style="text-align:center">F</td>
 <td style="text-align:center">VV/IV</td>
-<td style="text-align:center"><ins>71</ins></td>
+<td style="text-align:center"><span class="underline">71</span></td>
 <td style="text-align:center">Err Msg</td></tr>
 <tr>
 <td style="text-align:center">6</td>
-<td style="text-align:center"><ins>22</ins></td>
+<td style="text-align:center"><span class="underline">22</span></td>
 <td style="text-align:center">VV/IV</td>
 <td style="text-align:center">VV/IV</td>
-<td style="text-align:center"><ins>72</ins></td>
+<td style="text-align:center"><span class="underline">72</span></td>
 <td style="text-align:center">Err Msg</td></tr></tbody></table></div><p>VV/IV = Any Valid or Invalid Value, Err Msg = Error Message</p></box>
 <p>Next, let’s apply the <em>each valid input at least once in a positive test case</em> heuristic. Test case 5 has a valid value for <code class="hljs inline no-lang" v-pre>projectGrade=F</code> that doesn't appear in any other positive test case. Let's replace test case 5 with 5.1 and 5.2 to rectify that.</p>
 <box>
@@ -5513,17 +5513,17 @@ No specific boundary</p></td></tr>
 <td style="text-align:center">...</td></tr>
 <tr>
 <td style="text-align:center"><mark>5.2</mark></td>
-<td style="text-align:center"><ins>21</ins></td>
+<td style="text-align:center"><span class="underline">21</span></td>
 <td style="text-align:center">VV/IV</td>
 <td style="text-align:center">VV/IV</td>
-<td style="text-align:center"><ins>71</ins></td>
+<td style="text-align:center"><span class="underline">71</span></td>
 <td style="text-align:center">Err Msg</td></tr>
 <tr>
 <td style="text-align:center">6</td>
-<td style="text-align:center"><ins>22</ins></td>
+<td style="text-align:center"><span class="underline">22</span></td>
 <td style="text-align:center">VV/IV</td>
 <td style="text-align:center">VV/IV</td>
-<td style="text-align:center"><ins>72</ins></td>
+<td style="text-align:center"><span class="underline">72</span></td>
 <td style="text-align:center">Err Msg</td></tr></tbody></table></div><p>VV = Any Valid Value VV/IV = Any Valid or Invalid Value</p></box>
 <p>Next, you have to apply the <em>no more than one invalid input in a test case</em> heuristic. Test cases 5.2 and 6 don't follow that heuristic. Let's rectify the situation as follows:</p>
 <box>
@@ -5574,14 +5574,14 @@ No specific boundary</p></td></tr>
 <td style="text-align:center">...</td></tr>
 <tr>
 <td style="text-align:center">5.2</td>
-<td style="text-align:center"><ins>21</ins></td>
+<td style="text-align:center"><span class="underline">21</span></td>
 <td style="text-align:center"><mark>VV</mark></td>
 <td style="text-align:center"><mark>VV</mark></td>
 <td style="text-align:center"><mark>VV</mark></td>
 <td style="text-align:center">Err Msg</td></tr>
 <tr>
 <td style="text-align:center"><mark>5.3</mark></td>
-<td style="text-align:center"><ins>22</ins></td>
+<td style="text-align:center"><span class="underline">22</span></td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">VV</td>
@@ -5591,14 +5591,14 @@ No specific boundary</p></td></tr>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">VV</td>
-<td style="text-align:center"><ins>71</ins></td>
+<td style="text-align:center"><span class="underline">71</span></td>
 <td style="text-align:center">Err Msg</td></tr>
 <tr>
 <td style="text-align:center"><mark>6.2</mark></td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">VV</td>
-<td style="text-align:center"><ins>72</ins></td>
+<td style="text-align:center"><span class="underline">72</span></td>
 <td style="text-align:center">Err Msg</td></tr></tbody></table></div></box>
 <p>Next, you can assume that there is a dependency between the inputs <code class="hljs inline no-lang" v-pre>examScore</code> and <code class="hljs inline no-lang" v-pre>isAbsent</code> such that an absent student can only have <code class="hljs inline no-lang" v-pre>examScore=0</code>. To cater for the hidden invalid case arising from this, you can add a new test case where <code class="hljs inline no-lang" v-pre>isAbsent=true</code> and <code class="hljs inline no-lang" v-pre>examScore!=0</code>. In addition, test cases 3-6.2 should have <code class="hljs inline no-lang" v-pre>isAbsent=false</code> so that the input remains valid.</p>
 <box>
@@ -5649,14 +5649,14 @@ No specific boundary</p></td></tr>
 <td style="text-align:center">...</td></tr>
 <tr>
 <td style="text-align:center">5.2</td>
-<td style="text-align:center"><ins>21</ins></td>
+<td style="text-align:center"><span class="underline">21</span></td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center"><mark>false</mark></td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">Err Msg</td></tr>
 <tr>
 <td style="text-align:center">5.3</td>
-<td style="text-align:center"><ins>22</ins></td>
+<td style="text-align:center"><span class="underline">22</span></td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center"><mark>false</mark></td>
 <td style="text-align:center">VV</td>
@@ -5666,14 +5666,14 @@ No specific boundary</p></td></tr>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center"><mark>false</mark></td>
-<td style="text-align:center"><ins>71</ins></td>
+<td style="text-align:center"><span class="underline">71</span></td>
 <td style="text-align:center">Err Msg</td></tr>
 <tr>
 <td style="text-align:center">6.2</td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center"><mark>false</mark></td>
-<td style="text-align:center"><ins>72</ins></td>
+<td style="text-align:center"><span class="underline">72</span></td>
 <td style="text-align:center">Err Msg</td></tr>
 <tr>
 <td style="text-align:center"><mark>7</mark></td>
@@ -8530,12 +8530,12 @@ If that option is not available, post a message in the PR requesting the PR auth
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Fri, 30 Apr 2021, 0:01:01 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.18.1</a>, generated on Fri, 4 Jun 2021, 23:57:20 GMT+8]</small></div></footer></div>
 </body>
 <script src="../markbind/js/bootstrap-utility.min.js"></script>
 <script>
   const baseUrl = '/website'
-  MarkBind.setup()
+  MarkBind.setupWithSearch()
 </script>
     <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
     <script>

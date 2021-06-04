@@ -1,0 +1,1819 @@
+2021-06-04T14:50:05.034Z - info: Website generation (lazy) started at 10:50:00 pm
+2021-06-04T14:50:11.982Z - info: Building assets...
+2021-06-04T14:50:16.725Z - info: Assets built
+2021-06-04T14:50:16.726Z - info: Generating landing page...
+2021-06-04T14:50:17.607Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-06-04T14:50:18.674Z - info: Site data built
+2021-06-04T14:50:18.674Z - info: Website generation (lazy) complete! Total build time: 17.754s
+2021-06-04T14:50:19.642Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2021-06-04T14:50:19.642Z - info: Press CTRL+C to stop ...
+2021-06-04T14:51:06.220Z - info: [10:51:06 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\variables.md
+2021-06-04T14:51:07.342Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2021-06-04T14:51:07.347Z - info: Rebuilding 1 pages
+2021-06-04T14:51:07.872Z - info: Site data built
+2021-06-04T14:51:07.873Z - info: Pages rebuilt
+2021-06-04T14:51:07.873Z - info: Website regeneration complete! Total build time: 0.63s
+2021-06-04T14:52:15.724Z - info: Website generation (lazy) started at 10:52:13 pm
+2021-06-04T14:52:20.009Z - info: Building assets...
+2021-06-04T14:52:23.258Z - info: Assets built
+2021-06-04T14:52:23.258Z - info: Generating landing page...
+2021-06-04T14:52:23.844Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-06-04T14:52:24.355Z - info: Site data built
+2021-06-04T14:52:24.355Z - info: Website generation (lazy) complete! Total build time: 10.874s
+2021-06-04T14:52:25.092Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2021-06-04T14:52:25.092Z - info: Press CTRL+C to stop ...
+2021-06-04T14:53:20.418Z - info: [10:53:20 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T14:53:21.444Z - info: Rebuilding 1 pages
+2021-06-04T14:53:22.018Z - info: Site data built
+2021-06-04T14:53:22.019Z - info: Pages rebuilt
+2021-06-04T14:53:22.019Z - info: Website regeneration complete! Total build time: 0.578s
+2021-06-04T14:53:40.585Z - info: [10:53:40 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\variables.md
+2021-06-04T14:53:41.689Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2021-06-04T14:53:41.693Z - info: Rebuilding 1 pages
+2021-06-04T14:53:42.181Z - info: Site data built
+2021-06-04T14:53:42.183Z - info: Pages rebuilt
+2021-06-04T14:53:42.183Z - info: Website regeneration complete! Total build time: 0.585s
+2021-06-04T14:56:12.671Z - info: Website generation started at 10:56:10 pm
+2021-06-04T14:56:18.590Z - info: Building assets...
+2021-06-04T14:56:22.429Z - info: Assets built
+2021-06-04T14:56:22.429Z - info: Generating pages...
+2021-06-04T14:56:26.523Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.523Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.523Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.582Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.583Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.583Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.583Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.583Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.584Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.584Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.584Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.584Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.584Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.585Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.585Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.585Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.585Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.585Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.585Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.585Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.585Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.586Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.586Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.586Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.586Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.587Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.587Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.587Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.587Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.588Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.588Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.588Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.588Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.588Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.588Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.588Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.588Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.589Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.589Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:26.589Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T14:56:31.277Z - debug:  
+2021-06-04T14:56:31.278Z - debug:  
+2021-06-04T14:56:31.278Z - debug:  
+2021-06-04T14:56:31.278Z - debug:  
+2021-06-04T14:56:31.336Z - debug:  
+2021-06-04T14:56:32.740Z - debug:  
+2021-06-04T14:56:41.126Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.126Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.126Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.126Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.126Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.126Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.126Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.126Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.126Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.126Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.127Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.127Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.127Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.127Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.127Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.127Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.127Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.127Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.127Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.127Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.127Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.127Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.127Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.127Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.127Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.128Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.128Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.128Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.128Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.128Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.128Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.128Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.128Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.128Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.128Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.128Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.128Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.128Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.128Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.128Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.128Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T14:56:41.695Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.695Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.695Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.695Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.695Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.695Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.695Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.695Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.695Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.695Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.695Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.696Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.696Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.696Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.696Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.696Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.696Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.696Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.696Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.696Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.696Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.696Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.696Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.696Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.696Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T14:56:41.787Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.787Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.787Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.787Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.787Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.787Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.787Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.787Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.787Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.787Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.787Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.788Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.788Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.788Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.788Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.788Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.788Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.788Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.788Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.788Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.788Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.788Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.788Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.789Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.789Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.789Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.789Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.789Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.789Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.789Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.789Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.789Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.789Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.790Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.790Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.790Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.790Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.790Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.790Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.790Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.790Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T14:56:41.878Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\index.md
+2021-06-04T14:56:41.878Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\index.md
+2021-06-04T14:56:41.878Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\index.md
+2021-06-04T14:56:41.878Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\index.md
+2021-06-04T14:56:41.878Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\index.md
+2021-06-04T14:56:41.878Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\index.md
+2021-06-04T14:56:41.878Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\index.md
+2021-06-04T14:56:41.878Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\index.md
+2021-06-04T14:56:41.878Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\index.md
+2021-06-04T14:56:41.879Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\index.md
+2021-06-04T14:56:41.963Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicInvalid\index.md
+2021-06-04T14:56:41.963Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicInvalid\index.md
+2021-06-04T14:56:41.964Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicInvalid\index.md
+2021-06-04T14:56:41.964Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicInvalid\index.md
+2021-06-04T14:56:41.964Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicInvalid\index.md
+2021-06-04T14:56:41.964Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicInvalid\index.md
+2021-06-04T14:56:42.114Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\unit-inElsewhere-asFlat.md
+2021-06-04T14:56:42.114Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\unit-inElsewhere-asFlat.md
+2021-06-04T14:56:42.114Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\unit-inElsewhere-asFlat.md
+2021-06-04T14:56:42.114Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\unit-inElsewhere-asFlat.md
+2021-06-04T14:56:42.115Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\unit-inElsewhere-asFlat.md
+2021-06-04T14:56:42.115Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\unit-inElsewhere-asFlat.md
+2021-06-04T14:56:42.115Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\unit-inElsewhere-asFlat.md
+2021-06-04T14:56:42.115Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\unit-inElsewhere-asFlat.md
+2021-06-04T14:56:42.115Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\unit-inElsewhere-asFlat.md
+2021-06-04T14:56:42.115Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\unit-inElsewhere-asFlat.md
+2021-06-04T14:56:42.771Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\useCases\index.md
+2021-06-04T14:56:42.771Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\useCases\index.md
+2021-06-04T14:56:42.771Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\useCases\index.md
+2021-06-04T14:56:42.981Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\useCases\details\index.md
+2021-06-04T14:56:42.981Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\useCases\details\index.md
+2021-06-04T14:56:42.981Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\useCases\details\index.md
+2021-06-04T14:56:43.567Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\index.md
+2021-06-04T14:56:43.567Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\index.md
+2021-06-04T14:56:43.567Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\index.md
+2021-06-04T14:56:57.188Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/about/usage.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.189Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/softwareEngineering/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.189Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/oop/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.190Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/requirements/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.190Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/gatheringRequirements/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.191Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/specifyingRequirements/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.192Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/design/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.192Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designFundamentals/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.192Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/modeling/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.193Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/architecture/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.193Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designPatterns/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.194Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designApproaches/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.194Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/ides/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.195Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/codeQuality/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.195Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/refactoring/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.195Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/documentation/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.196Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/errorHandling/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.196Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/integration/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.197Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/reuse/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.197Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/qualityAssurance/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.198Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/testing/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.198Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/testCaseDesign/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.199Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/revisionControl/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.199Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/projectPlanning/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.200Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/teamwork/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.200Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/processModels/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.201Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/uml/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.201Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/intellij/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.201Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/gitAndGithub/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.202Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/principles/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.203Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/cppToJava/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.203Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/definitions.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.204Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/references.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.207Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/outcomes.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:56:57.208Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T14:57:17.586Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.587Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.587Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.587Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.587Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.587Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.587Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.588Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.588Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.588Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.588Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.588Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.588Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.588Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.588Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.588Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.588Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.589Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.589Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.589Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.589Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.589Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.589Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.589Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.589Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.589Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.589Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.589Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.589Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.590Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.590Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.590Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.590Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.590Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.590Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.590Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.590Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T14:57:17.894Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\specifyingRequirements-printable.md
+2021-06-04T14:57:17.895Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\specifyingRequirements-printable.md
+2021-06-04T14:57:17.895Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\specifyingRequirements-printable.md
+2021-06-04T14:57:23.510Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.510Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.510Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.511Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.511Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.511Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.511Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.511Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.511Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.511Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.511Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.511Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.511Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.511Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.511Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.511Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.511Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.512Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.512Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.512Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.512Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.512Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.512Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.512Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.512Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.512Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.512Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.512Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.512Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.512Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.512Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.512Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.512Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.513Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.513Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.513Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.513Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.513Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.513Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.513Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:23.513Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T14:57:24.564Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\specifyingRequirements.md
+2021-06-04T14:57:24.565Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\specifyingRequirements.md
+2021-06-04T14:57:24.565Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\specifyingRequirements.md
+2021-06-04T14:57:36.335Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\tutorial.md
+2021-06-04T14:57:36.336Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\tutorial.md
+2021-06-04T14:57:36.336Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\tutorial.md
+2021-06-04T14:57:36.336Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\tutorial.md
+2021-06-04T14:57:40.319Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week7\topics.md
+2021-06-04T14:57:40.320Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week7\topics.md
+2021-06-04T14:57:40.320Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week7\topics.md
+2021-06-04T14:57:49.883Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.884Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.884Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.884Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.884Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.884Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.884Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.884Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.884Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.884Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.884Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.884Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.884Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.885Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.885Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.885Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.885Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.885Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.885Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.885Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.885Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.885Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.885Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.885Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.885Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.885Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.885Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.885Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.885Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.886Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.886Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.886Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.886Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.886Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.886Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.886Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.886Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.886Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.886Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.886Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:49.886Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T14:57:56.705Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week5\project.md
+2021-06-04T14:57:58.788Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week4\project.md
+2021-06-04T14:58:12.531Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week1\admin.md
+2021-06-04T14:58:12.543Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week1\admin.md
+2021-06-04T14:58:17.430Z - debug:  
+2021-06-04T14:58:28.678Z - debug:  
+2021-06-04T14:58:28.678Z - debug:  
+2021-06-04T14:58:30.263Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\admin\participation.md
+2021-06-04T14:58:31.530Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\admin\ip-w5.md
+2021-06-04T14:58:31.966Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\admin\ip-w4.md
+2021-06-04T14:58:34.989Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\admin\gradeBreakdown.md
+2021-06-04T14:58:35.682Z - info: Pages built
+2021-06-04T14:58:36.468Z - info: Site data built
+2021-06-04T14:58:36.468Z - info: Website generation complete! Total build time: 146.023s
+2021-06-04T14:58:36.468Z - info: Build success!
+2021-06-04T14:58:49.516Z - info: Deployed at https://nus-cs2103-ay2021s2.github.io/website!
+2021-06-04T15:12:33.950Z - info: Website generation (lazy) started at 11:12:30 pm
+2021-06-04T15:12:38.905Z - info: Building assets...
+2021-06-04T15:12:42.926Z - info: Assets built
+2021-06-04T15:12:42.926Z - info: Generating landing page...
+2021-06-04T15:12:43.288Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/schedule/week14/index.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md'
+2021-06-04T15:12:43.833Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-06-04T15:12:44.570Z - info: Site data built
+2021-06-04T15:12:44.570Z - info: Website generation (lazy) complete! Total build time: 14.198s
+2021-06-04T15:12:45.327Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2021-06-04T15:12:45.327Z - info: Press CTRL+C to stop ...
+2021-06-04T15:13:49.335Z - info: [11:13:49 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:13:50.350Z - info: Rebuilding 1 pages
+2021-06-04T15:13:51.139Z - info: Site data built
+2021-06-04T15:13:51.140Z - info: Pages rebuilt
+2021-06-04T15:13:51.141Z - info: Website regeneration complete! Total build time: 0.791s
+2021-06-04T15:14:39.803Z - info: Website generation (lazy) started at 11:14:37 pm
+2021-06-04T15:14:44.710Z - info: Building assets...
+2021-06-04T15:14:48.614Z - info: Assets built
+2021-06-04T15:14:48.614Z - info: Generating landing page...
+2021-06-04T15:14:49.283Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-06-04T15:14:49.887Z - info: Site data built
+2021-06-04T15:14:49.887Z - info: Website generation (lazy) complete! Total build time: 12.107s
+2021-06-04T15:14:50.613Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2021-06-04T15:14:50.613Z - info: Press CTRL+C to stop ...
+2021-06-04T15:16:31.501Z - info: [11:16:31 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\variables.md
+2021-06-04T15:16:32.601Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2021-06-04T15:16:32.605Z - info: Rebuilding 1 pages
+2021-06-04T15:16:33.135Z - info: Site data built
+2021-06-04T15:16:33.135Z - info: Pages rebuilt
+2021-06-04T15:16:33.136Z - info: Website regeneration complete! Total build time: 0.622s
+2021-06-04T15:16:44.444Z - info: [11:16:44 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\variables.md
+2021-06-04T15:16:45.510Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2021-06-04T15:16:45.514Z - info: Rebuilding 1 pages
+2021-06-04T15:16:45.858Z - info: Site data built
+2021-06-04T15:16:45.860Z - info: Pages rebuilt
+2021-06-04T15:16:45.860Z - info: Website regeneration complete! Total build time: 0.404s
+2021-06-04T15:17:23.308Z - info: [11:17:23 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\index.md
+2021-06-04T15:17:24.325Z - info: Rebuilding 1 pages
+2021-06-04T15:17:24.351Z - info: Site data built
+2021-06-04T15:17:24.351Z - info: Pages rebuilt
+2021-06-04T15:17:24.351Z - info: Website regeneration complete! Total build time: 0.028s
+2021-06-04T15:17:26.951Z - info: [11:17:26 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\index.md
+2021-06-04T15:17:27.971Z - info: Rebuilding 1 pages
+2021-06-04T15:17:28.326Z - info: Site data built
+2021-06-04T15:17:28.327Z - info: Pages rebuilt
+2021-06-04T15:17:28.328Z - info: Website regeneration complete! Total build time: 0.358s
+2021-06-04T15:20:57.816Z - info: [11:20:57 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\common\admin.njk
+2021-06-04T15:20:58.827Z - info: Rebuilding 1 pages
+2021-06-04T15:20:59.382Z - info: Site data built
+2021-06-04T15:20:59.383Z - info: Pages rebuilt
+2021-06-04T15:20:59.383Z - info: Website regeneration complete! Total build time: 0.557s
+2021-06-04T15:21:13.893Z - info: [11:21:13 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\common\admin.njk
+2021-06-04T15:21:14.899Z - info: Rebuilding 1 pages
+2021-06-04T15:21:15.048Z - info: Site data built
+2021-06-04T15:21:15.048Z - info: Pages rebuilt
+2021-06-04T15:21:15.048Z - info: Website regeneration complete! Total build time: 0.15s
+2021-06-04T15:21:20.775Z - info: [11:21:20 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\common\admin.njk
+2021-06-04T15:21:21.790Z - info: Rebuilding 1 pages
+2021-06-04T15:21:22.195Z - info: Site data built
+2021-06-04T15:21:22.195Z - info: Pages rebuilt
+2021-06-04T15:21:22.196Z - info: Website regeneration complete! Total build time: 0.407s
+2021-06-04T15:22:49.579Z - info: [11:22:49 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\variables.md
+2021-06-04T15:22:50.671Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2021-06-04T15:22:50.673Z - info: Rebuilding 1 pages
+2021-06-04T15:22:51.156Z - info: Site data built
+2021-06-04T15:22:51.158Z - info: Pages rebuilt
+2021-06-04T15:22:51.158Z - info: Website regeneration complete! Total build time: 0.573s
+2021-06-04T15:23:49.706Z - info: [11:23:49 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\variables.md
+2021-06-04T15:23:50.792Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2021-06-04T15:23:50.794Z - info: Rebuilding 1 pages
+2021-06-04T15:23:51.239Z - info: Site data built
+2021-06-04T15:23:51.240Z - info: Pages rebuilt
+2021-06-04T15:23:51.240Z - info: Website regeneration complete! Total build time: 0.534s
+2021-06-04T15:24:11.469Z - info: [11:24:11 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\index.md
+2021-06-04T15:24:12.483Z - info: Rebuilding 1 pages
+2021-06-04T15:24:13.320Z - info: Site data built
+2021-06-04T15:24:13.320Z - info: Pages rebuilt
+2021-06-04T15:24:13.320Z - info: Website regeneration complete! Total build time: 0.839s
+2021-06-04T15:24:38.992Z - info: [11:24:38 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\index.md
+2021-06-04T15:24:40.008Z - info: Rebuilding 1 pages
+2021-06-04T15:24:40.540Z - info: Site data built
+2021-06-04T15:24:40.540Z - info: Pages rebuilt
+2021-06-04T15:24:40.540Z - info: Website regeneration complete! Total build time: 0.532s
+2021-06-04T15:25:11.858Z - info: [11:25:11 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\variables.md
+2021-06-04T15:25:12.969Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2021-06-04T15:25:12.971Z - info: Rebuilding 1 pages
+2021-06-04T15:25:13.752Z - info: Site data built
+2021-06-04T15:25:13.752Z - info: Pages rebuilt
+2021-06-04T15:25:13.752Z - info: Website regeneration complete! Total build time: 0.873s
+2021-06-04T15:25:23.313Z - info: [11:25:23 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\index.md
+2021-06-04T15:25:24.316Z - info: Rebuilding 1 pages
+2021-06-04T15:25:24.636Z - info: Site data built
+2021-06-04T15:25:24.637Z - info: Pages rebuilt
+2021-06-04T15:25:24.637Z - info: Website regeneration complete! Total build time: 0.321s
+2021-06-04T15:25:25.191Z - info: [11:25:25 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\variables.md
+2021-06-04T15:25:26.240Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2021-06-04T15:25:26.243Z - info: Rebuilding 1 pages
+2021-06-04T15:25:26.530Z - info: Site data built
+2021-06-04T15:25:26.531Z - info: Pages rebuilt
+2021-06-04T15:25:26.531Z - info: Website regeneration complete! Total build time: 0.338s
+2021-06-04T15:26:12.710Z - info: [11:26:12 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\index.md
+2021-06-04T15:26:13.726Z - info: Rebuilding 1 pages
+2021-06-04T15:26:14.058Z - info: Site data built
+2021-06-04T15:26:14.059Z - info: Pages rebuilt
+2021-06-04T15:26:14.059Z - info: Website regeneration complete! Total build time: 0.334s
+2021-06-04T15:26:15.630Z - info: [11:26:15 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\index.md
+2021-06-04T15:26:16.646Z - info: Rebuilding 1 pages
+2021-06-04T15:26:16.978Z - info: Site data built
+2021-06-04T15:26:16.978Z - info: Pages rebuilt
+2021-06-04T15:26:16.978Z - info: Website regeneration complete! Total build time: 0.333s
+2021-06-04T15:26:35.950Z - info: [11:26:35 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\common\admin.njk
+2021-06-04T15:26:36.955Z - info: Rebuilding 1 pages
+2021-06-04T15:26:37.230Z - info: Site data built
+2021-06-04T15:26:37.231Z - info: Pages rebuilt
+2021-06-04T15:26:37.231Z - info: Website regeneration complete! Total build time: 0.278s
+2021-06-04T15:26:43.045Z - info: [11:26:43 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\common\admin.njk
+2021-06-04T15:26:44.050Z - info: Rebuilding 1 pages
+2021-06-04T15:26:44.354Z - info: Site data built
+2021-06-04T15:26:44.355Z - info: Pages rebuilt
+2021-06-04T15:26:44.355Z - info: Website regeneration complete! Total build time: 0.307s
+2021-06-04T15:27:37.787Z - info: [11:27:37 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\common\admin.njk
+2021-06-04T15:27:38.798Z - info: Rebuilding 1 pages
+2021-06-04T15:27:39.297Z - info: Site data built
+2021-06-04T15:27:39.299Z - info: Pages rebuilt
+2021-06-04T15:27:39.299Z - info: Website regeneration complete! Total build time: 0.503s
+2021-06-04T15:27:43.280Z - info: [11:27:43 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\common\admin.njk
+2021-06-04T15:27:44.287Z - info: Rebuilding 1 pages
+2021-06-04T15:27:44.623Z - info: Site data built
+2021-06-04T15:27:44.624Z - info: Pages rebuilt
+2021-06-04T15:27:44.624Z - info: Website regeneration complete! Total build time: 0.339s
+2021-06-04T15:27:57.799Z - info: [11:27:57 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\common\admin.njk
+2021-06-04T15:27:58.815Z - info: Rebuilding 1 pages
+2021-06-04T15:27:59.011Z - info: Site data built
+2021-06-04T15:27:59.011Z - info: Pages rebuilt
+2021-06-04T15:27:59.011Z - info: Website regeneration complete! Total build time: 0.197s
+2021-06-04T15:28:03.200Z - info: [11:28:03 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\common\admin.njk
+2021-06-04T15:28:04.210Z - info: Rebuilding 1 pages
+2021-06-04T15:28:04.499Z - info: Site data built
+2021-06-04T15:28:04.499Z - info: Pages rebuilt
+2021-06-04T15:28:04.499Z - info: Website regeneration complete! Total build time: 0.29s
+2021-06-04T15:28:19.691Z - info: [11:28:19 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\common\admin.njk
+2021-06-04T15:28:20.705Z - info: Rebuilding 1 pages
+2021-06-04T15:28:21.214Z - info: Site data built
+2021-06-04T15:28:21.217Z - info: Pages rebuilt
+2021-06-04T15:28:21.217Z - info: Website regeneration complete! Total build time: 0.514s
+2021-06-04T15:28:26.076Z - info: [11:28:26 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\common\admin.njk
+2021-06-04T15:28:27.088Z - info: Rebuilding 1 pages
+2021-06-04T15:28:27.428Z - info: Site data built
+2021-06-04T15:28:27.431Z - info: Pages rebuilt
+2021-06-04T15:28:27.431Z - info: Website regeneration complete! Total build time: 0.344s
+2021-06-04T15:29:25.390Z - info: [11:29:25 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:29:26.405Z - info: Rebuilding 1 pages
+2021-06-04T15:29:26.954Z - info: Site data built
+2021-06-04T15:29:26.955Z - info: Pages rebuilt
+2021-06-04T15:29:26.956Z - info: Website regeneration complete! Total build time: 0.552s
+2021-06-04T15:29:34.976Z - info: [11:29:34 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:29:35.994Z - info: Rebuilding 1 pages
+2021-06-04T15:29:36.313Z - info: Site data built
+2021-06-04T15:29:36.313Z - info: Pages rebuilt
+2021-06-04T15:29:36.313Z - info: Website regeneration complete! Total build time: 0.32s
+2021-06-04T15:29:56.127Z - info: [11:29:56 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:29:57.140Z - info: Rebuilding 1 pages
+2021-06-04T15:29:57.647Z - info: Site data built
+2021-06-04T15:29:57.649Z - info: Pages rebuilt
+2021-06-04T15:29:57.649Z - info: Website regeneration complete! Total build time: 0.51s
+2021-06-04T15:30:03.777Z - info: [11:30:03 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:30:04.784Z - info: Rebuilding 1 pages
+2021-06-04T15:30:05.085Z - info: Site data built
+2021-06-04T15:30:05.085Z - info: Pages rebuilt
+2021-06-04T15:30:05.085Z - info: Website regeneration complete! Total build time: 0.303s
+2021-06-04T15:30:55.765Z - info: [11:30:55 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:30:56.777Z - info: Rebuilding 1 pages
+2021-06-04T15:30:57.310Z - info: Site data built
+2021-06-04T15:30:57.310Z - info: Pages rebuilt
+2021-06-04T15:30:57.311Z - info: Website regeneration complete! Total build time: 0.533s
+2021-06-04T15:31:01.267Z - info: [11:31:01 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:31:02.270Z - info: Rebuilding 1 pages
+2021-06-04T15:31:02.587Z - info: Site data built
+2021-06-04T15:31:02.587Z - info: Pages rebuilt
+2021-06-04T15:31:02.587Z - info: Website regeneration complete! Total build time: 0.318s
+2021-06-04T15:32:42.326Z - info: [11:32:42 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:32:43.340Z - info: Rebuilding 1 pages
+2021-06-04T15:32:43.865Z - info: Site data built
+2021-06-04T15:32:43.866Z - info: Pages rebuilt
+2021-06-04T15:32:43.866Z - info: Website regeneration complete! Total build time: 0.528s
+2021-06-04T15:32:56.970Z - info: [11:32:56 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:32:57.983Z - info: Rebuilding 1 pages
+2021-06-04T15:32:58.262Z - info: Site data built
+2021-06-04T15:32:58.263Z - info: Pages rebuilt
+2021-06-04T15:32:58.263Z - info: Website regeneration complete! Total build time: 0.281s
+2021-06-04T15:33:35.432Z - info: [11:33:35 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:33:36.447Z - info: Rebuilding 1 pages
+2021-06-04T15:33:36.785Z - info: Site data built
+2021-06-04T15:33:36.787Z - info: Pages rebuilt
+2021-06-04T15:33:36.787Z - info: Website regeneration complete! Total build time: 0.342s
+2021-06-04T15:33:44.161Z - info: [11:33:44 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:33:45.166Z - info: Rebuilding 1 pages
+2021-06-04T15:33:45.645Z - info: Site data built
+2021-06-04T15:33:45.645Z - info: Pages rebuilt
+2021-06-04T15:33:45.645Z - info: Website regeneration complete! Total build time: 0.481s
+2021-06-04T15:34:01.706Z - info: [11:34:01 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:34:02.716Z - info: Rebuilding 1 pages
+2021-06-04T15:34:03.254Z - info: Site data built
+2021-06-04T15:34:03.255Z - info: Pages rebuilt
+2021-06-04T15:34:03.256Z - info: Website regeneration complete! Total build time: 0.541s
+2021-06-04T15:34:14.003Z - info: [11:34:14 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:34:15.013Z - info: Rebuilding 1 pages
+2021-06-04T15:34:15.567Z - info: Site data built
+2021-06-04T15:34:15.570Z - info: Pages rebuilt
+2021-06-04T15:34:15.570Z - info: Website regeneration complete! Total build time: 0.558s
+2021-06-04T15:35:02.028Z - info: [11:35:02 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:35:03.039Z - info: Rebuilding 1 pages
+2021-06-04T15:35:03.704Z - info: Site data built
+2021-06-04T15:35:03.706Z - info: Pages rebuilt
+2021-06-04T15:35:03.706Z - info: Website regeneration complete! Total build time: 0.668s
+2021-06-04T15:35:31.188Z - info: [11:35:31 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:35:32.203Z - info: Rebuilding 1 pages
+2021-06-04T15:35:32.662Z - info: Site data built
+2021-06-04T15:35:32.663Z - info: Pages rebuilt
+2021-06-04T15:35:32.663Z - info: Website regeneration complete! Total build time: 0.462s
+2021-06-04T15:35:47.294Z - info: [11:35:47 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:35:48.294Z - info: Rebuilding 1 pages
+2021-06-04T15:35:48.571Z - info: Site data built
+2021-06-04T15:35:48.572Z - info: Pages rebuilt
+2021-06-04T15:35:48.572Z - info: Website regeneration complete! Total build time: 0.278s
+2021-06-04T15:43:07.794Z - info: Website generation (lazy) started at 11:43:06 pm
+2021-06-04T15:43:12.283Z - info: Building assets...
+2021-06-04T15:43:16.864Z - info: Assets built
+2021-06-04T15:43:16.864Z - info: Generating landing page...
+2021-06-04T15:43:17.541Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-06-04T15:43:18.091Z - info: Site data built
+2021-06-04T15:43:18.091Z - info: Website generation (lazy) complete! Total build time: 12.058s
+2021-06-04T15:43:18.856Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2021-06-04T15:43:18.857Z - info: Press CTRL+C to stop ...
+2021-06-04T15:43:57.411Z - info: [11:43:57 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:43:58.419Z - info: Rebuilding 1 pages
+2021-06-04T15:43:58.737Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/contents/topic1.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md'
+2021-06-04T15:43:58.737Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/contents/topic2.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md'
+2021-06-04T15:43:58.738Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/contents/topic3a.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md'
+2021-06-04T15:43:58.738Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/contents/topic3b.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md'
+2021-06-04T15:43:59.118Z - info: Site data built
+2021-06-04T15:43:59.119Z - info: Pages rebuilt
+2021-06-04T15:43:59.119Z - info: Website regeneration complete! Total build time: 0.702s
+2021-06-04T15:44:16.184Z - info: [11:44:16 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:44:17.195Z - info: Rebuilding 1 pages
+2021-06-04T15:44:17.435Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/contents/topic1.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md'
+2021-06-04T15:44:17.435Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/contents/topic2.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md'
+2021-06-04T15:44:17.436Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/contents/topic3a.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md'
+2021-06-04T15:44:17.437Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/contents/topic3b.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md'
+2021-06-04T15:44:17.883Z - info: Site data built
+2021-06-04T15:44:17.883Z - info: Pages rebuilt
+2021-06-04T15:44:17.883Z - info: Website regeneration complete! Total build time: 0.691s
+2021-06-04T15:45:08.718Z - info: [11:45:08 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:45:09.737Z - info: Rebuilding 1 pages
+2021-06-04T15:45:09.862Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/contents/topic1.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md'
+2021-06-04T15:45:09.863Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/contents/topic2.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md'
+2021-06-04T15:45:09.863Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/contents/topic3a.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md'
+2021-06-04T15:45:09.864Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/contents/topic3b.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md'
+2021-06-04T15:45:10.041Z - info: Site data built
+2021-06-04T15:45:10.042Z - info: Pages rebuilt
+2021-06-04T15:45:10.042Z - info: Website regeneration complete! Total build time: 0.306s
+2021-06-04T15:45:23.070Z - info: [11:45:23 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:45:24.082Z - info: Rebuilding 1 pages
+2021-06-04T15:45:24.327Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/contents/topic1.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md'
+2021-06-04T15:45:24.327Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/contents/topic2.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md'
+2021-06-04T15:45:24.328Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/contents/topic3a.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md'
+2021-06-04T15:45:24.329Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/contents/topic3b.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md'
+2021-06-04T15:45:24.620Z - info: Site data built
+2021-06-04T15:45:24.621Z - info: Pages rebuilt
+2021-06-04T15:45:24.621Z - info: Website regeneration complete! Total build time: 0.542s
+2021-06-04T15:45:40.967Z - info: [11:45:40 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\headers\header.md
+2021-06-04T15:45:41.969Z - info: Rebuilding 1 pages
+2021-06-04T15:45:42.359Z - info: Site data built
+2021-06-04T15:45:42.362Z - info: Pages rebuilt
+2021-06-04T15:45:42.362Z - info: Website regeneration complete! Total build time: 0.393s
+2021-06-04T15:46:21.792Z - info: [11:46:21 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\site.json
+2021-06-04T15:46:22.814Z - info: Assets built
+2021-06-04T15:46:50.817Z - info: Website generation (lazy) started at 11:46:49 pm
+2021-06-04T15:46:55.342Z - info: Building assets...
+2021-06-04T15:46:59.106Z - info: Assets built
+2021-06-04T15:46:59.107Z - info: Generating landing page...
+2021-06-04T15:46:59.794Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-06-04T15:47:00.452Z - info: Site data built
+2021-06-04T15:47:00.452Z - info: Website generation (lazy) complete! Total build time: 11.391s
+2021-06-04T15:47:01.150Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2021-06-04T15:47:01.151Z - info: Press CTRL+C to stop ...
+2021-06-04T15:48:54.323Z - info: [11:48:54 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_markbind\variables.md
+2021-06-04T15:48:55.468Z - warn: Rebuilding all pages as variables file was changed, or the --force-reload flag was set
+2021-06-04T15:48:55.472Z - info: Rebuilding 1 pages
+2021-06-04T15:48:56.114Z - info: Site data built
+2021-06-04T15:48:56.115Z - info: Pages rebuilt
+2021-06-04T15:48:56.115Z - info: Website regeneration complete! Total build time: 0.778s
+2021-06-04T15:50:24.379Z - info: Website generation started at 11:50:22 pm
+2021-06-04T15:50:29.150Z - info: Building assets...
+2021-06-04T15:50:33.824Z - info: Assets built
+2021-06-04T15:50:33.825Z - info: Generating pages...
+2021-06-04T15:50:37.882Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.883Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.883Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.945Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.945Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.946Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.946Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.946Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.946Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.946Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.947Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.947Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.947Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.947Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.947Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.948Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.948Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.948Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.948Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.949Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.949Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.949Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.949Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.949Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.950Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.950Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.950Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.951Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.951Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.951Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.951Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.951Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.951Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.952Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.952Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.952Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.952Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.952Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.952Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:37.952Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\print.md
+2021-06-04T15:50:42.423Z - debug:  
+2021-06-04T15:50:42.424Z - debug:  
+2021-06-04T15:50:42.424Z - debug:  
+2021-06-04T15:50:43.374Z - debug:  
+2021-06-04T15:50:43.375Z - debug:  
+2021-06-04T15:50:43.559Z - debug:  
+2021-06-04T15:50:51.945Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.946Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.946Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.946Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.946Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.946Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.946Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.946Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.946Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.946Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.946Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.947Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.947Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.947Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.947Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.947Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.947Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.947Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.947Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.947Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.947Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.947Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.947Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.947Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.947Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.947Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.948Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.948Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.948Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.948Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.948Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.948Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.948Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.948Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.948Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.948Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.948Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.948Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.948Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.948Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:51.948Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\index.md
+2021-06-04T15:50:52.507Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.508Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.508Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.508Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.508Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.508Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.508Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.508Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.508Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.508Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.509Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.509Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.509Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.509Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.509Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.509Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.509Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.509Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.509Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.509Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.509Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.509Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.509Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.509Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.510Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\mix\index.md
+2021-06-04T15:50:52.599Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.599Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.599Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.599Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.599Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.599Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.599Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.599Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.599Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.600Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.600Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.600Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.600Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.600Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.600Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.600Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.600Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.600Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.600Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.600Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.600Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.600Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.600Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.600Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.601Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.601Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.601Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.601Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.601Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.601Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.601Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.601Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.601Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.601Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.601Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.601Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.601Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.601Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.601Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.601Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.602Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\index.md
+2021-06-04T15:50:52.749Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\index.md
+2021-06-04T15:50:52.749Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\index.md
+2021-06-04T15:50:52.750Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\index.md
+2021-06-04T15:50:52.750Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\index.md
+2021-06-04T15:50:52.750Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\index.md
+2021-06-04T15:50:52.750Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\index.md
+2021-06-04T15:50:52.750Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\index.md
+2021-06-04T15:50:52.750Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\index.md
+2021-06-04T15:50:52.750Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\index.md
+2021-06-04T15:50:52.750Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\index.md
+2021-06-04T15:50:52.837Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicInvalid\index.md
+2021-06-04T15:50:52.837Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicInvalid\index.md
+2021-06-04T15:50:52.837Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicInvalid\index.md
+2021-06-04T15:50:52.837Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicInvalid\index.md
+2021-06-04T15:50:52.838Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicInvalid\index.md
+2021-06-04T15:50:52.838Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicInvalid\index.md
+2021-06-04T15:50:52.923Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\unit-inElsewhere-asFlat.md
+2021-06-04T15:50:52.923Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\unit-inElsewhere-asFlat.md
+2021-06-04T15:50:52.923Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\unit-inElsewhere-asFlat.md
+2021-06-04T15:50:52.923Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\unit-inElsewhere-asFlat.md
+2021-06-04T15:50:52.923Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\unit-inElsewhere-asFlat.md
+2021-06-04T15:50:52.923Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\unit-inElsewhere-asFlat.md
+2021-06-04T15:50:52.923Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\unit-inElsewhere-asFlat.md
+2021-06-04T15:50:52.924Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\unit-inElsewhere-asFlat.md
+2021-06-04T15:50:52.924Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\unit-inElsewhere-asFlat.md
+2021-06-04T15:50:52.924Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\combiningTestInputs\heuristicValid\unit-inElsewhere-asFlat.md
+2021-06-04T15:50:53.602Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\useCases\index.md
+2021-06-04T15:50:53.603Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\useCases\index.md
+2021-06-04T15:50:53.603Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\useCases\index.md
+2021-06-04T15:50:53.753Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\useCases\details\index.md
+2021-06-04T15:50:53.754Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\useCases\details\index.md
+2021-06-04T15:50:53.754Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\useCases\details\index.md
+2021-06-04T15:50:54.234Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\index.md
+2021-06-04T15:50:54.234Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\index.md
+2021-06-04T15:50:54.234Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\index.md
+2021-06-04T15:51:07.639Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/about/usage.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.640Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/softwareEngineering/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.641Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/oop/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.641Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/requirements/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.642Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/gatheringRequirements/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.642Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/specifyingRequirements/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.643Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/design/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.643Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designFundamentals/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.644Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/modeling/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.644Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/architecture/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.645Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designPatterns/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.645Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/designApproaches/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.646Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/ides/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.646Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/codeQuality/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.647Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/refactoring/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.647Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/documentation/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.647Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/errorHandling/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.648Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/integration/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.648Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/reuse/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.649Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/qualityAssurance/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.649Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/testing/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.650Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/testCaseDesign/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.650Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/revisionControl/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.651Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/projectPlanning/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.651Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/teamwork/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.652Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/processModels/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/uml/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/intellij/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.653Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/gitAndGithub/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.654Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/principles/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.655Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/cppToJava/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.655Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/definitions.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.656Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/references.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.656Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/outcomes.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:07.656Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/website/book/common/print.html' found in file 'C:\repos\nus-cs2103\cs2103-website-base\book\index.md'
+2021-06-04T15:51:28.482Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.483Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.483Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.483Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.483Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.483Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.483Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.483Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.484Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.484Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.484Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.484Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.484Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.484Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.484Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.484Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.484Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.484Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.484Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.485Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.485Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.485Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.485Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.485Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.485Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.485Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.485Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.485Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.485Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.485Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.485Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.486Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.486Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.486Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.486Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.486Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.486Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\testCaseDesign-printable.md
+2021-06-04T15:51:28.835Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\specifyingRequirements-printable.md
+2021-06-04T15:51:28.835Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\specifyingRequirements-printable.md
+2021-06-04T15:51:28.835Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters-printable\specifyingRequirements-printable.md
+2021-06-04T15:51:34.573Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.573Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.573Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.573Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.573Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.573Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.573Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.573Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.573Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.574Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.574Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.574Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.574Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.574Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.574Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.574Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.574Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.574Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.574Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.574Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.574Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.575Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.575Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.575Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.575Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.575Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.575Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.575Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.575Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.575Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.575Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.575Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.575Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.575Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.576Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.576Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.576Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.576Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.576Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.576Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:34.576Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md
+2021-06-04T15:51:35.719Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\specifyingRequirements.md
+2021-06-04T15:51:35.719Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\specifyingRequirements.md
+2021-06-04T15:51:35.719Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\specifyingRequirements.md
+2021-06-04T15:51:47.082Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\tutorial.md
+2021-06-04T15:51:47.083Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\tutorial.md
+2021-06-04T15:51:47.083Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\tutorial.md
+2021-06-04T15:51:47.083Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\tutorial.md
+2021-06-04T15:51:51.021Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week7\topics.md
+2021-06-04T15:51:51.021Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week7\topics.md
+2021-06-04T15:51:51.021Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week7\topics.md
+2021-06-04T15:52:00.777Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.779Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.779Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.780Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.780Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.780Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.781Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.781Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.781Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.782Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.782Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.782Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.783Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.783Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.783Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.783Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.783Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.783Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.784Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.784Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.784Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.784Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.784Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.784Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.784Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.784Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.784Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.784Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.784Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.784Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.784Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.784Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.784Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.785Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.785Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.785Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.785Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.785Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.785Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.785Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:00.785Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week11\topics.md
+2021-06-04T15:52:09.047Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week5\project.md
+2021-06-04T15:52:09.823Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week4\project.md
+2021-06-04T15:52:25.076Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week1\admin.md
+2021-06-04T15:52:25.082Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\schedule\week1\admin.md
+2021-06-04T15:52:29.740Z - debug:  
+2021-06-04T15:52:41.533Z - debug:  
+2021-06-04T15:52:41.533Z - debug:  
+2021-06-04T15:52:43.254Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\admin\participation.md
+2021-06-04T15:52:44.598Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\admin\ip-w5.md
+2021-06-04T15:52:45.662Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\admin\ip-w4.md
+2021-06-04T15:52:47.930Z - warn: "++" syntax for underlining will be deprecated in v3.0. Please use "!!".
+filePath: C:\repos\nus-cs2103\cs2103-website-base\admin\gradeBreakdown.md
+2021-06-04T15:52:48.716Z - info: Pages built
+2021-06-04T15:52:49.471Z - info: Site data built
+2021-06-04T15:52:49.472Z - info: Website generation complete! Total build time: 146.871s
+2021-06-04T15:52:49.472Z - info: Build success!
+2021-06-04T15:53:01.043Z - info: Deployed at https://nus-cs2103-ay2021s2.github.io/website!
+2021-06-04T15:56:30.618Z - info: Website generation (lazy) started at 11:56:26 pm
+2021-06-04T15:56:35.652Z - info: Building assets...
+2021-06-04T15:56:40.045Z - info: Assets built
+2021-06-04T15:56:40.045Z - info: Generating landing page...
+2021-06-04T15:56:40.770Z - info: Landing page built, other pages will be built as you navigate to them!
+2021-06-04T15:56:41.545Z - info: Site data built
+2021-06-04T15:56:41.545Z - info: Website generation (lazy) complete! Total build time: 14.66s
+2021-06-04T15:56:42.260Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2021-06-04T15:56:42.260Z - info: Press CTRL+C to stop ...
+2021-06-04T15:57:09.141Z - info: Website generation started at 11:57:07 pm
+2021-06-04T15:57:14.631Z - info: Building assets...

@@ -4,7 +4,7 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 2.17.3">
+    <meta name="generator" content="MarkBind 2.18.1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TIC4002 - Week 9 - Topics</title>
     <link rel="stylesheet" href="../../markbind/css/bootstrap.min.css">
@@ -21,6 +21,7 @@
 <body  data-spy="scroll" data-target="#page-nav" data-offset="100" >
 <div id="app">
     <header fixed>
+<div class="w-100 p-1 bg-warning text-center"><span><strong>This site is from a past semester! The current version will be <a href="http://www.comp.nus.edu.sg/~tic4002">here</a> when the new semester starts.</strong></span></div>
 <navbar placement="top" type="dark" class="temp-navbar">
 <a slot="brand" href="/website/index.html" title="Home" class="navbar-brand"><span class="badge badge-pill badge-info">TIC4002 <small>2021 Jan-May</small></span></a>
   <div class="nav-link temp-dropdown-placeholder">**Schedule**</div><dropdown class="nav-link temp-dropdown algolia-no-index"><template slot="_header"><strong>Schedule</strong></template>
@@ -75,7 +76,7 @@
     </dropdown>
   <li slot="right" class="nav-link">
     <form class="navbar-form">
-      <searchbar placeholder="Search" algolia menu-align-right></searchbar></form></li></navbar></header><div id="flex-body">
+      <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar></form></li></navbar></header><div id="flex-body">
         
 
 
@@ -914,7 +915,7 @@ No specific boundary</p></td></tr>
 <p>Consider the following scenario.</p>
 <box>
 <p>SUT:  <code class="hljs inline no-lang" v-pre>printLabel(String fruitName, int unitPrice)</code></p>
-<p><strong>Selected values for</strong> <code class="hljs inline no-lang" v-pre>fruitName</code> (invalid values are <ins>underlined</ins>):</p>
+<p><strong>Selected values for</strong> <code class="hljs inline no-lang" v-pre>fruitName</code> (invalid values are <span class="underline">underlined</span>):</p>
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
 <tr>
 <th>Values</th>
@@ -930,7 +931,7 @@ No specific boundary</p></td></tr>
 <td>Cherry</td>
 <td>Label format is square</td></tr>
 <tr>
-<td><ins>Dog</ins></td>
+<td><span class="underline">Dog</span></td>
 <td>Not a valid fruit</td></tr></tbody></table></div><p><strong>Selected values for</strong> <code class="hljs inline no-lang" v-pre>unitPrice</code>:</p>
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
 <tr>
@@ -944,10 +945,10 @@ No specific boundary</p></td></tr>
 <td>20</td>
 <td>Two digits</td></tr>
 <tr>
-<td><ins>0</ins></td>
+<td><span class="underline">0</span></td>
 <td>Invalid because 0 is not a valid price</td></tr>
 <tr>
-<td><ins>-1</ins></td>
+<td><span class="underline">-1</span></td>
 <td>Invalid because negative prices are not allowed</td></tr></tbody></table></div></box>
 <p>Suppose these are the test cases being considered.</p>
 <box>
@@ -971,12 +972,12 @@ No specific boundary</p></td></tr>
 <tr>
 <td style="text-align:center">3</td>
 <td style="text-align:center">Cherry</td>
-<td style="text-align:center"><ins>0</ins></td>
+<td style="text-align:center"><span class="underline">0</span></td>
 <td style="text-align:center">Error message “invalid price”</td></tr>
 <tr>
 <td style="text-align:center">4</td>
-<td style="text-align:center"><ins>Dog</ins></td>
-<td style="text-align:center"><ins>-1</ins></td>
+<td style="text-align:center"><span class="underline">Dog</span></td>
+<td style="text-align:center"><span class="underline">-1</span></td>
 <td style="text-align:center">Error message “invalid fruit&quot;</td></tr></tbody></table></div></box>
 <p>It looks like the test cases were created using the <em>at least once</em> strategy. After running these tests, can you confirm that the square-format label printing is done correctly?</p>
 <ul>
@@ -1010,12 +1011,12 @@ No specific boundary</p></td></tr>
 <tr>
 <td style="text-align:center">3</td>
 <td style="text-align:center">VV</td>
-<td style="text-align:center"><ins>0</ins></td>
+<td style="text-align:center"><span class="underline">0</span></td>
 <td style="text-align:center">Error message “invalid price”</td></tr>
 <tr>
 <td style="text-align:center">4</td>
-<td style="text-align:center"><ins>Dog</ins></td>
-<td style="text-align:center"><ins>-1</ins></td>
+<td style="text-align:center"><span class="underline">Dog</span></td>
+<td style="text-align:center"><span class="underline">-1</span></td>
 <td style="text-align:center">Error message “invalid fruit&quot;</td></tr></tbody></table></div><p>VV/IV = Any Invalid or Valid Value VV = Any Valid Value</p></div></box></div>
 <div></div></div></div></panel>
 <p></p>
@@ -1062,12 +1063,12 @@ No specific boundary</p></td></tr>
 <tr>
 <td style="text-align:center">3</td>
 <td style="text-align:center">VV</td>
-<td style="text-align:center"><ins>0</ins></td>
+<td style="text-align:center"><span class="underline">0</span></td>
 <td style="text-align:center">Error message “invalid price”</td></tr>
 <tr>
 <td style="text-align:center">4</td>
-<td style="text-align:center"><ins>Dog</ins></td>
-<td style="text-align:center"><ins>-1</ins></td>
+<td style="text-align:center"><span class="underline">Dog</span></td>
+<td style="text-align:center"><span class="underline">-1</span></td>
 <td style="text-align:center">Error message “invalid fruit&quot;</td></tr></tbody></table></div><p>VV/IV = Any Invalid or Valid Value VV = Any Valid Value</p></div></b-modal>
 <p>After running these test cases, can you be sure that the error message “invalid price” is shown for negative prices?</p>
 <ul>
@@ -1100,16 +1101,16 @@ No specific boundary</p></td></tr>
 <tr>
 <td style="text-align:center">3</td>
 <td style="text-align:center">VV</td>
-<td style="text-align:center"><ins>0</ins></td>
+<td style="text-align:center"><span class="underline">0</span></td>
 <td style="text-align:center">Error message “invalid price”</td></tr>
 <tr>
 <td style="text-align:center">4</td>
 <td style="text-align:center">VV</td>
-<td style="text-align:center"><ins>-1</ins></td>
+<td style="text-align:center"><span class="underline">-1</span></td>
 <td style="text-align:center">Error message “invalid price&quot;</td></tr>
 <tr>
 <td style="text-align:center">4.1</td>
-<td style="text-align:center"><ins>Dog</ins></td>
+<td style="text-align:center"><span class="underline">Dog</span></td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">Error message “invalid fruit&quot;</td></tr></tbody></table></div><p>VV/IV = Any Invalid or Valid Value VV = Any Valid Value</p></box></div>
 <div>
@@ -1144,12 +1145,12 @@ No specific boundary</p></td></tr>
 <box>
 <ul>
 <li>SUT: <code class="hljs inline no-lang" v-pre>calculateGrade(participation, projectGrade, isAbsent, examScore)</code></li>
-<li>Values to test: invalid values are <ins>underlined</ins>
+<li>Values to test: invalid values are <span class="underline">underlined</span>
 <ul>
-<li>participation: 0, 1, 19, 20, <ins>21</ins>, <ins>22</ins></li>
+<li>participation: 0, 1, 19, 20, <span class="underline">21</span>, <span class="underline">22</span></li>
 <li>projectGrade: A, B, C, D, F</li>
 <li>isAbsent: true, false</li>
-<li>examScore: 0, 1, 69, 70, <ins>71</ins>, <ins>72</ins></li></ul></li></ul></box>
+<li>examScore: 0, 1, 69, 70, <span class="underline">71</span>, <span class="underline">72</span></li></ul></li></ul></box>
 <p>To get the first cut of test cases, let’s apply the <em>at least once</em> strategy.</p>
 <box>
 <p><strong>Test cases for calculateGrade V1</strong></p>
@@ -1192,17 +1193,17 @@ No specific boundary</p></td></tr>
 <td style="text-align:center">...</td></tr>
 <tr>
 <td style="text-align:center">5</td>
-<td style="text-align:center"><ins>21</ins></td>
+<td style="text-align:center"><span class="underline">21</span></td>
 <td style="text-align:center">F</td>
 <td style="text-align:center">VV/IV</td>
-<td style="text-align:center"><ins>71</ins></td>
+<td style="text-align:center"><span class="underline">71</span></td>
 <td style="text-align:center">Err Msg</td></tr>
 <tr>
 <td style="text-align:center">6</td>
-<td style="text-align:center"><ins>22</ins></td>
+<td style="text-align:center"><span class="underline">22</span></td>
 <td style="text-align:center">VV/IV</td>
 <td style="text-align:center">VV/IV</td>
-<td style="text-align:center"><ins>72</ins></td>
+<td style="text-align:center"><span class="underline">72</span></td>
 <td style="text-align:center">Err Msg</td></tr></tbody></table></div><p>VV/IV = Any Valid or Invalid Value, Err Msg = Error Message</p></box>
 <p>Next, let’s apply the <em>each valid input at least once in a positive test case</em> heuristic. Test case 5 has a valid value for <code class="hljs inline no-lang" v-pre>projectGrade=F</code> that doesn't appear in any other positive test case. Let's replace test case 5 with 5.1 and 5.2 to rectify that.</p>
 <box>
@@ -1253,17 +1254,17 @@ No specific boundary</p></td></tr>
 <td style="text-align:center">...</td></tr>
 <tr>
 <td style="text-align:center"><mark>5.2</mark></td>
-<td style="text-align:center"><ins>21</ins></td>
+<td style="text-align:center"><span class="underline">21</span></td>
 <td style="text-align:center">VV/IV</td>
 <td style="text-align:center">VV/IV</td>
-<td style="text-align:center"><ins>71</ins></td>
+<td style="text-align:center"><span class="underline">71</span></td>
 <td style="text-align:center">Err Msg</td></tr>
 <tr>
 <td style="text-align:center">6</td>
-<td style="text-align:center"><ins>22</ins></td>
+<td style="text-align:center"><span class="underline">22</span></td>
 <td style="text-align:center">VV/IV</td>
 <td style="text-align:center">VV/IV</td>
-<td style="text-align:center"><ins>72</ins></td>
+<td style="text-align:center"><span class="underline">72</span></td>
 <td style="text-align:center">Err Msg</td></tr></tbody></table></div><p>VV = Any Valid Value VV/IV = Any Valid or Invalid Value</p></box>
 <p>Next, you have to apply the <em>no more than one invalid input in a test case</em> heuristic. Test cases 5.2 and 6 don't follow that heuristic. Let's rectify the situation as follows:</p>
 <box>
@@ -1314,14 +1315,14 @@ No specific boundary</p></td></tr>
 <td style="text-align:center">...</td></tr>
 <tr>
 <td style="text-align:center">5.2</td>
-<td style="text-align:center"><ins>21</ins></td>
+<td style="text-align:center"><span class="underline">21</span></td>
 <td style="text-align:center"><mark>VV</mark></td>
 <td style="text-align:center"><mark>VV</mark></td>
 <td style="text-align:center"><mark>VV</mark></td>
 <td style="text-align:center">Err Msg</td></tr>
 <tr>
 <td style="text-align:center"><mark>5.3</mark></td>
-<td style="text-align:center"><ins>22</ins></td>
+<td style="text-align:center"><span class="underline">22</span></td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">VV</td>
@@ -1331,14 +1332,14 @@ No specific boundary</p></td></tr>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">VV</td>
-<td style="text-align:center"><ins>71</ins></td>
+<td style="text-align:center"><span class="underline">71</span></td>
 <td style="text-align:center">Err Msg</td></tr>
 <tr>
 <td style="text-align:center"><mark>6.2</mark></td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">VV</td>
-<td style="text-align:center"><ins>72</ins></td>
+<td style="text-align:center"><span class="underline">72</span></td>
 <td style="text-align:center">Err Msg</td></tr></tbody></table></div></box>
 <p>Next, you can assume that there is a dependency between the inputs <code class="hljs inline no-lang" v-pre>examScore</code> and <code class="hljs inline no-lang" v-pre>isAbsent</code> such that an absent student can only have <code class="hljs inline no-lang" v-pre>examScore=0</code>. To cater for the hidden invalid case arising from this, you can add a new test case where <code class="hljs inline no-lang" v-pre>isAbsent=true</code> and <code class="hljs inline no-lang" v-pre>examScore!=0</code>. In addition, test cases 3-6.2 should have <code class="hljs inline no-lang" v-pre>isAbsent=false</code> so that the input remains valid.</p>
 <box>
@@ -1389,14 +1390,14 @@ No specific boundary</p></td></tr>
 <td style="text-align:center">...</td></tr>
 <tr>
 <td style="text-align:center">5.2</td>
-<td style="text-align:center"><ins>21</ins></td>
+<td style="text-align:center"><span class="underline">21</span></td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center"><mark>false</mark></td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">Err Msg</td></tr>
 <tr>
 <td style="text-align:center">5.3</td>
-<td style="text-align:center"><ins>22</ins></td>
+<td style="text-align:center"><span class="underline">22</span></td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center"><mark>false</mark></td>
 <td style="text-align:center">VV</td>
@@ -1406,14 +1407,14 @@ No specific boundary</p></td></tr>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center"><mark>false</mark></td>
-<td style="text-align:center"><ins>71</ins></td>
+<td style="text-align:center"><span class="underline">71</span></td>
 <td style="text-align:center">Err Msg</td></tr>
 <tr>
 <td style="text-align:center">6.2</td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center">VV</td>
 <td style="text-align:center"><mark>false</mark></td>
-<td style="text-align:center"><ins>72</ins></td>
+<td style="text-align:center"><span class="underline">72</span></td>
 <td style="text-align:center">Err Msg</td></tr>
 <tr>
 <td style="text-align:center"><mark>7</mark></td>
@@ -1441,7 +1442,7 @@ No specific boundary</p></td></tr>
 <div>
 <panel class="algolia-no-index"><template slot="header"><p><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span> Combine test inputs for the <code class="hljs inline no-lang" v-pre>consume</code> method</p></template>
 <question>
-<p>Apply heuristics for combining multiple test inputs to improve the E&amp;E of the following test cases, assuming all 6 values in the table need to be tested. <ins>Underlines</ins> indicate invalid values. Point out where the heuristics are contradicted and how to improve the test cases.</p>
+<p>Apply heuristics for combining multiple test inputs to improve the E&amp;E of the following test cases, assuming all 6 values in the table need to be tested. <span class="underline">Underlines</span> indicate invalid values. Point out where the heuristics are contradicted and how to improve the test cases.</p>
    <box>
 <p>SUT: <code class="hljs inline no-lang" v-pre>consume(food, drink)</code></p>
 <div class="table-responsive"><table class="markbind-table table table-bordered table-striped"><thead>
@@ -1457,11 +1458,11 @@ No specific boundary</p></td></tr>
 <tr>
 <td>TC2</td>
 <td>rice</td>
-<td><ins>lava</ins></td></tr>
+<td><span class="underline">lava</span></td></tr>
 <tr>
 <td>TC3</td>
-<td><ins>rock</ins></td>
-<td><ins>acid</ins></td></tr></tbody></table></div></box></question></panel></div></div></panel></div></div></div></div></panel>
+<td><span class="underline">rock</span></td>
+<td><span class="underline">acid</span></td></tr></tbody></table></div></box></question></panel></div></div></panel></div></div></div></div></panel>
 <p></p>
 <div class="indented">
 <div></div></div></div></panel>
@@ -1489,12 +1490,12 @@ No specific boundary</p></td></tr>
     <footer>
   
   <div class="text-center">
-    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.17.3</a>, generated on Fri, 30 Apr 2021, 0:01:01 GMT+8]</small></div></footer></div>
+    <small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 2.18.1</a>, generated on Fri, 4 Jun 2021, 23:57:20 GMT+8]</small></div></footer></div>
 </body>
 <script src="../../markbind/js/bootstrap-utility.min.js"></script>
 <script>
   const baseUrl = '/website'
-  MarkBind.setup()
+  MarkBind.setupWithSearch()
 </script>
     <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
     <script>
